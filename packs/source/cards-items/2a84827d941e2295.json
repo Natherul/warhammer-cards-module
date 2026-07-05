@@ -1,0 +1,103 @@
+{
+  "name": "Desire of Chaos",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Desire of Chaos",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 2,Slaanesh",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With the gentlest caress, you inspire perfection. Muscles spasm ecstatically under the skin of your ally making him nimble, powerful, and eager to find pleasure in the kill</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Spasms wrack your ally with pain. The target suffers 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this card is recharging, the target removes  from all checks based on physical characteristics</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Desire of Chaos",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 2,Slaanesh",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With the gentlest caress, you inspire perfection. Muscles spasm ecstatically under the skin of your ally making him nimble, powerful, and eager to find pleasure in the kill</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target suffers 2 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Spasms wrack your ally with pain. The target suffers 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this card is recharging, the target removes  from all checks based on physical characteristics</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2a84827d941e2295",
+  "_key": "!items!2a84827d941e2295"
+}

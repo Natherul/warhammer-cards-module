@@ -1,0 +1,101 @@
+{
+  "name": "Curse of Undeath",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Curse of Undeath",
+      "type": "spell",
+      "traits": "Necromancy,Rank 2",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>4 Power, Living target within medium range. If you are engaged with an enemy add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You sap the target's life essence, doing 2+ <b>Intelligence</b> damage and ignore the target's armour soak value</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and ignore the target's <b>Toughness</b></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer half the damage you inflict on your target as wounds (round down)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Curse of Undeath",
+      "type": "spell",
+      "traits": "Necromancy,Rank 2",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>4 Power, Living target within medium range. If you are engaged with an enemy add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You sap the target's life essence, doing 3+ <b>Intelligence</b> damage and ignore the target's armour soak value</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 2 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer half the damage you inflict on your target as wounds (round down)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eb6c7c3f58179781",
+  "_key": "!items!eb6c7c3f58179781"
+}

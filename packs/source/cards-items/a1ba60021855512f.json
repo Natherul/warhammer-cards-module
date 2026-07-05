@@ -1,0 +1,106 @@
+{
+  "name": "Compose Yourself",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Compose Yourself",
+      "type": "support",
+      "traits": "Social,Duel of Wits",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You take a moment to steady yourself and regain a bit of self-esteem. Recover 1 shame</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but recover 2 shame instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You take a deep breath and the answer comes to you! Gain  on your next <i>Social</i> action check</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Compose Yourself",
+      "type": "support",
+      "traits": "Social,Duel of Wits",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You take a moment to own up to and accept the sting of humiliation. Recover 1 shame</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but recover 2 shame instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your ability to shake off the sharp pang of indignity inspires your allies to do the same. All allies engaged with you recover 1 shame</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a1ba60021855512f",
+  "_key": "!items!a1ba60021855512f"
+}

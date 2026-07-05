@@ -1,0 +1,63 @@
+{
+  "name": "Not Done Yet",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Not Done Yet",
+      "type": "support",
+      "traits": "Epic,Reaction",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Toughness 4+, Willpower 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Not Done Yet",
+      "type": "support",
+      "traits": "Epic,Reaction",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Toughness 4+, Willpower 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6b8a2f93e70c8a4d",
+  "_key": "!items!6b8a2f93e70c8a4d"
+}

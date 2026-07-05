@@ -1,0 +1,97 @@
+{
+  "name": "Flight of the Phoenix",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flight of the Phoenix",
+      "type": "ranged",
+      "traits": "Way of the Sword",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or greatsword equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Perform a free manoeuvre after completing this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flight of the Phoenix",
+      "type": "ranged",
+      "traits": "Way of the Sword",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Perform a free manoeuvre after completing this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0483a6c5178e3df5",
+  "_key": "!items!0483a6c5178e3df5"
+}

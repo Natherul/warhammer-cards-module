@@ -1,0 +1,113 @@
+{
+  "name": "Feel for the Moment",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Feel for the Moment",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>Intuition trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are able to accurately deduce exactly what is expected of you in the current social situation: who to greet first, whether to approve or disapprove of a public figure, and so on. While this card is recharging, during your <i>Beginning of Turn Phase</i> you may remove 1 track token from one of your currently recharging <i>Social</i> action cards</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove a tracking token from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are too focused on the task at hand. You gain the <i>Overwhelmed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this action completely recharges, recover 1 stress or shame</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feel for the Moment",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>Intuition trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are able to accurately deduce exactly what is expected of you in the current social situation: who to greet first, whether to approve or disapprove of a public figure, and so on. While this card is recharging, during your <i>Beginning of Turn Phase</i> you may remove 1 track token from one of your currently recharging <i>Social</i> action cards</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 2 tracking tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are too focused on the task at hand. You gain the <i>Overwhelmed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this action completely recharges, recover 1 stress or shame</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "898e225ef1c09d27",
+  "_key": "!items!898e225ef1c09d27"
+}

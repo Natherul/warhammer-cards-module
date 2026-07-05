@@ -1,0 +1,109 @@
+{
+  "name": "Cornered Frenzy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cornered Frenzy",
+      "type": "melee",
+      "traits": "Chaos,Khorne",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Highest Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with at least two opponents</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts -2 damage on 2 opponents you are engaged with</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but -1 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies engaged with you suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cornered Frenzy",
+      "type": "melee",
+      "traits": "Chaos,Khorne",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Highest Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with at least two opponents</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts -2 damage on 2 opponents you are engaged with</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but -1 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies engaged with you suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies engaged with you suffer 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally within close range suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7ca057958b252562",
+  "_key": "!items!7ca057958b252562"
+}

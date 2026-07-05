@@ -1,0 +1,14 @@
+{
+  "name": "Weapon Expert",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you perform an attack with a weapon you have a specialization in, you may trigger that weapon's <i>Critical Rating</i> as often as you like. If you also have Mastery in a skill you use to perform the attack, it's <i>Critical Rating</i> is improved (reduced) by 1.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5fb01b008f63bedd",
+  "_key": "!items!5fb01b008f63bedd"
+}

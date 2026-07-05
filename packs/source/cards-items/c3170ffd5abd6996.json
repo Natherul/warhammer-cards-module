@@ -1,0 +1,14 @@
+{
+  "name": "Necromancy",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you cast a <i>Necromancy</i> spell you may spend 1 additional power. If you do, you cause <i>Fear 1</i> (or your <i>Fear</i> rating is increased by 1) until the start of your next turn.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c3170ffd5abd6996",
+  "_key": "!items!c3170ffd5abd6996"
+}

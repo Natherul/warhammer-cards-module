@@ -1,0 +1,14 @@
+{
+  "name": "Impulsive",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust to add  K  K  to a <i>Social</i> action. While this card is recharging, each time you suffer stress, suffer 1 additional stress</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d947353983a96946",
+  "_key": "!items!d947353983a96946"
+}

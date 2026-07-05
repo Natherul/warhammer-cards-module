@@ -1,0 +1,101 @@
+{
+  "name": "Social Drinking",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Social Drinking",
+      "type": "support",
+      "traits": "Ongoing,Social,Drunken",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>An ample supply of beer or spirits. <i>GOOD</i> beer and spirits</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You offer around a refreshing beverage, instantly creating an atmosphere of conviviality for man and dwarf alike</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and influence one target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all dwarfs in the area recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Overindulgence! Make an <b>Average</b> (<b>2d</b>) <b>Resilience</b> (<b>To</b>) <b>check</b> to gain the <i>Intoxicated</i> condition until you sleep it off</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Social Drinking",
+      "type": "support",
+      "traits": "Social,Drunken",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>An ample supply of beer or spirits. Your target must accept a drink, and you must drink with him</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Plying your target with drink, you Influence him</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you spread the goodwill and cheer liberally about. Everyone drinking with you gains  to <b>Charm</b> checks until the beer runs out</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target must make an <b>Average</b> (<b>2d</b>) <b>Resilience</b> (<b>To</b>) <b>check</b> to gain the <i>Intoxicated</i> condition until you sleep it off</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Overindulgence! Make an <b>Average</b> (<b>2d</b>) <b>Resilience</b> (<b>To</b>) <b>check</b> to gain the <i>Intoxicated</i> condition until you sleep it off</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0039c4988b825965",
+  "_key": "!items!0039c4988b825965"
+}

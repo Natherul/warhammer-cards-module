@@ -1,0 +1,14 @@
+{
+  "name": "Keen Eyes",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain  K  to <b>Observation</b> checks where vision is relevant</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7bb688f597113b79",
+  "_key": "!items!7bb688f597113b79"
+}

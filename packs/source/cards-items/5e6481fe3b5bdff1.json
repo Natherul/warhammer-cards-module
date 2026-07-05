@@ -1,0 +1,101 @@
+{
+  "name": "I am the Hammer",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "I am the Hammer",
+      "type": "melee",
+      "traits": "Basic,Sigmar",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, hammer or greathammer equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You imbue your weapon with the power of Sigmar, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You smite the infidel! As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You lose 1 <i>Aggression</i> die from your dice budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "I am the Hammer",
+      "type": "melee",
+      "traits": "Basic,Sigmar",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Magnus Gottschalk; Engaged with target, melee weapons equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lector Gottschalk imbues his weapon with the power of Sigmar, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>He lays waste to the infidel! The attack inflicts +2 damage, critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker loses 1 <i>Aggression</i> die from his dice budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5e6481fe3b5bdff1",
+  "_key": "!items!5e6481fe3b5bdff1"
+}

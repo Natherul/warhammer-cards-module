@@ -1,0 +1,83 @@
+{
+  "name": "Advanced Parry",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Advanced Parry",
+      "type": "support",
+      "traits": "Active Defence,Epic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Strength 4+, melee weapon equipped, Weapon Skill mastery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If the incoming attack misses, the attacker suffers 1 wound per  (minimum 1, maximum 4). <b>Advanced Parry</b> replaces <b>Improved Parry</b> in your action deck and counts as <b>Parry</b> for all effects that reference it</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add two recharge tokens to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Advanced Parry",
+      "type": "support",
+      "traits": "Active Defence,Epic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Strength 4+, melee weapon equipped, Weapon Skill mastery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If the incoming attack misses, the attacker suffers 1 wound per  (minimum 1, maximum 4). <b>Advanced Parry</b> replaces <b>Improved Parry</b> in your action deck and counts as <b>Parry</b> for all effects that reference it</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add two recharge tokens to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ac0016cb265a4d7e",
+  "_key": "!items!ac0016cb265a4d7e"
+}

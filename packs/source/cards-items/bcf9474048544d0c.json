@@ -1,0 +1,73 @@
+{
+  "name": "Master the Seasons",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Master the Seasons",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Jade order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>9 power, must be outdoors</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Master the Seasons",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Jade order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>9 power, must be outdoors</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "bcf9474048544d0c",
+  "_key": "!items!bcf9474048544d0c"
+}

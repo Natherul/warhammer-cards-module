@@ -1,0 +1,91 @@
+{
+  "name": "Charismatic Presence",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Charismatic Presence",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 2,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Ally within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target's Fear Rating is increased by 1 (to a maximum of 3) while this card is recharging. If the target has no current Fear Rating, he gains <i>Fear 1</i>. Subjects experience your Fear effect as a awe-inspiring presence, too majestic to be real</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your target's Fear Rating is increased by 2 (to a maximum of 3) while this card is recharging. If the target has no current Fear Rating he gains <i>Fear 2</i></p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gains a Terror Rating instead of a Fear Rating</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Charismatic Presence",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 2,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Ally within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target's Fear Rating is increased by 1 (to a maximum of 3) while this card is recharging. If the target has no current Fear Rating, he gains <i>Fear 1</i>. Subjects experience your Fear effect as a awe-inspiring presence, too majestic to be real</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your target's Fear Rating is increased by 2 (to a maximum of 3) while this card is recharging. If the target has no current Fear Rating he gains <i>Fear 2</i></p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gains a Terror Rating instead of a Fear Rating</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "99b7b2b8209d8ba9",
+  "_key": "!items!99b7b2b8209d8ba9"
+}

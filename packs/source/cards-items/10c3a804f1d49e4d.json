@@ -1,0 +1,93 @@
+{
+  "name": "Ulric's Strength",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Ulric's Strength",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Ulric",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, <b>Strength</b> 3+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Ulric's Strength",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Ulric",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, <b>Strength</b> 3+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "10c3a804f1d49e4d",
+  "_key": "!items!10c3a804f1d49e4d"
+}

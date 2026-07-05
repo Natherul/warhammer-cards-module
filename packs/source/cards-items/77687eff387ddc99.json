@@ -1,0 +1,105 @@
+{
+  "name": "Hammer of Purity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Hammer of Purity",
+      "type": "blessing",
+      "traits": "Rank 4,Sigmar",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>4 favour without needing to Curry Favour. Hammer or great hammer equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and hit the target for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Double the bonus damage from corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Hammer of Purity",
+      "type": "blessing",
+      "traits": "Rank 4,Sigmar",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>4 favour without needing to Curry Favour. Hammer or great hammer equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All the bonus damage from Corruption is critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "77687eff387ddc99",
+  "_key": "!items!77687eff387ddc99"
+}

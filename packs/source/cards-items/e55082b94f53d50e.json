@@ -1,0 +1,63 @@
+{
+  "name": "Omen of the Comet",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Omen of the Comet",
+      "type": "blessing",
+      "traits": "Epic,Reaction,Sigmar,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>You must have exhausted your personal supply of fortune points and have just failed a check of <b>Daunting</b> (<b>4d</b>) difficulty or higher</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Omen of the Comet",
+      "type": "blessing",
+      "traits": "Epic,Reaction,Sigmar,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>You must have exhausted your personal supply of fortune points and have just failed a check of <b>Daunting</b> (<b>4d</b>) difficulty or higher</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e55082b94f53d50e",
+  "_key": "!items!e55082b94f53d50e"
+}

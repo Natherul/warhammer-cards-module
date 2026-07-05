@@ -1,0 +1,101 @@
+{
+  "name": "Throw Into The Wall",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Throw Into The Wall",
+      "type": "melee",
+      "traits": "Monstrous",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, you are larger than your opponent, <b>Strength 6+</b></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pick up the target you are engaged with and throw them at the nearest solid object for 10+ <b>Strength</b> damage. The target is now engaged with this new object</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but you hit for critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Target gains the <i>Exposed</i> condition</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a <i>Melee Strike</i> basic action against you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Throw Into The Wall",
+      "type": "melee",
+      "traits": "Monstrous",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, you are larger than your opponent, <b>Strength 6+</b></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pick up the target you are engaged with and throw them at the nearest solid object for 8+ <b>Strength</b> damage. The target is now engaged with this new object</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 12+ <b>Strength</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Target gains the <i>Staggered</i> condition</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a <i>Melee Strike</i> basic action against you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5fe7b1cb773529ed",
+  "_key": "!items!5fe7b1cb773529ed"
+}

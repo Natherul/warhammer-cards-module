@@ -1,0 +1,63 @@
+{
+  "name": "Dwarf Stubbornness",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dwarf Stubbornness",
+      "type": "support",
+      "traits": "Reaction,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Dwarf only. <b>Willpower</b> 4+ or <b>Discipline</b> trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dwarf Stubbornness",
+      "type": "support",
+      "traits": "Reaction,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Dwarf only. <b>Willpower</b> 4+ or <b>Discipline</b> trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "64a7ec6a8240b0c2",
+  "_key": "!items!64a7ec6a8240b0c2"
+}

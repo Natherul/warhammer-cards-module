@@ -1,0 +1,113 @@
+{
+  "name": "Sear",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sear",
+      "type": "spell",
+      "traits": "Rank 1,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>4 power. Target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hurl a handful of crackling flames at your target, striking him for 4+ <b>Intelligence</b> damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power after casting this spell</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sear",
+      "type": "spell",
+      "traits": "Rank 1,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>4 power. target within medium range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hurl a handful of crackling flames at your target, striking him for 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit the target for 5+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You hit the target for 7 + <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power after casting this spell</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8283854d49ab3e38",
+  "_key": "!items!8283854d49ab3e38"
+}

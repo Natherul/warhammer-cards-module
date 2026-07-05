@@ -1,0 +1,105 @@
+{
+  "name": "Infected Blades",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Infected Blades",
+      "type": "melee",
+      "traits": "Basic,Cultist,Nurgle",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Fraternity of the Second Flesh\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Chaos cultist jabs his filth-encrusted blade towards his enemy. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target suffers 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Weakened</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Infected Blades",
+      "type": "melee",
+      "traits": "Basic,Cultist,Nurgle",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You jab your filth-encrusted blade towards his enemy. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Weakened</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "db3b1316261c06a5",
+  "_key": "!items!db3b1316261c06a5"
+}

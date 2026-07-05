@@ -1,0 +1,101 @@
+{
+  "name": "Mask of Aramar",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mask of Aramar",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>2 Power\r\n<br/>Engaged with a shadow, not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>As you step into the shadow, tufts of darkness enshroud you further, concealing your form. While this card is recharging, enemies must add  to <b>Observation</b> checks to spot you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, enemies must add  to <b>Observation</b> checks to spot you, instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The whisps of shadows attempting to envelope you writhe swollen and constrictive, and you suffer 1 corruption</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Breath of Aramar",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence (WP)",
+      "requirements": "<p>3 Power\r\n<br/>Within close range of target. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Opening your mouth, a swarm of shadowy gnats flies forth, enshrouding the target's face in darkness. The target gains the <i>Blinded</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Oh-no! If you close your mouth now you'll swallow thousands of gnats! So many appear that all creatures, including you, in close range gain the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "55a7af4e079bf6df",
+  "_key": "!items!55a7af4e079bf6df"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Final Stroke of the Master",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Final Stroke of the Master",
+      "type": "melee",
+      "traits": "Way of the Sword",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>At least 1 other <i>Way of the Sword</i> card recharging, sword or greatsword equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage and this card recharges immediately</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for normal damage, +1 damage for every recharge token on each of your other <i>Way of the Sword</i> cards</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Draw 3 critical wounds. Choose 1 to apply to the target as a critical; apply the others as normal damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Final Stroke of the Master",
+      "type": "melee",
+      "traits": "Way of the Sword",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>As least 1 other <i>Way of the Sword</i> card recharging, sword or greatsword equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for normal damage, +1 damage for every recharge token on each of your other <i>Way of the Sword</i> cards</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d68ac4d615e0a661",
+  "_key": "!items!d68ac4d615e0a661"
+}

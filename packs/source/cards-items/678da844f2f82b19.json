@@ -1,0 +1,14 @@
+{
+  "name": "Azyr, Lore of the Heavens, Celestial Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you perform a <i>Celestial Order Spell</i> action, you may spend 1 additional power to add  K  to your check to cast that spell</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "678da844f2f82b19",
+  "_key": "!items!678da844f2f82b19"
+}

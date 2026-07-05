@@ -1,0 +1,73 @@
+{
+  "name": "Trickster's Luck",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Trickster's Luck",
+      "type": "blessing",
+      "traits": "Rank 4,Reaction,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 favour. Play when a hero rolls <span class=\"wfrp-font comet\">F</span> on any check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> When a hero rolls  on any check, you may spend 2 favour and play this card to add 1 fortune point to the party fortune pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Trickster's Luck",
+      "type": "blessing",
+      "traits": "Rank 4,Reaction,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 favour. Play when a hero rolls <span class=\"wfrp-font comet\">F</span> on any check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> When a hero rolls  on any check, you may spend 2 favour and play this card to add 1 fortune point to the party fortune pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ddf43b8b8cfc103f",
+  "_key": "!items!ddf43b8b8cfc103f"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Light of Truth",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Light of Truth",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Light Order",
+      "rechargeRating": 9,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power\r\n<br/>You must light a candle, lantern, or other light source as you cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Whenever a falsehood is spoken within this spell's radius of effect, you also suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Light of Truth",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Light Order",
+      "rechargeRating": 9,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power\r\n<br/>You must light a candle, lantern, or other light source as you cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the effect extends out to long range instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Whenever a falsehood is spoken within this spell's radius of effect, you also suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ea2f1cb0603f18cf",
+  "_key": "!items!ea2f1cb0603f18cf"
+}

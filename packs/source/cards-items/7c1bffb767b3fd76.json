@@ -1,0 +1,63 @@
+{
+  "name": "Counterspell",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Counterspell",
+      "type": "spell",
+      "traits": "Basic,Petty Magic,Rank 0,Reaction",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Willpower 3+, sufficient power (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Counterspell",
+      "type": "spell",
+      "traits": "Basic,Petty Magic,Rank 0,Reaction",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Willpower 3+, sufficient power (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7c1bffb767b3fd76",
+  "_key": "!items!7c1bffb767b3fd76"
+}

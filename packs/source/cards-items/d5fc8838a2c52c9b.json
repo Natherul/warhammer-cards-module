@@ -1,0 +1,81 @@
+{
+  "name": "The Sleep of Morr",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Sleep of Morr",
+      "type": "support",
+      "traits": "Ongoing,Rank 3,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>4 favour, +1 favour per character in target engagement within medium range. Must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the living targets with fatigue (or wounds if they do not track fatigue) in excess of their <b>Willpower</b> fall into a normal slumber. Undead targets with wounds in excess of their <b>Willpower</b> are destroyed</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Sleep of Morr",
+      "type": "support",
+      "traits": "Ongoing,Rank 3,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>4 favour, +1 favour per character in target engagement within medium range. Must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the living targets with fatigue (or wounds if they do not track fatigue) in excess of their <b>Willpower</b> fall into a normal slumber. Undead targets with wounds in excess of their <b>Willpower</b> are destroyed</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d5fc8838a2c52c9b",
+  "_key": "!items!d5fc8838a2c52c9b"
+}

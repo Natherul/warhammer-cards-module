@@ -1,0 +1,101 @@
+{
+  "name": "Strafing Talon Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Strafing Talon Strike",
+      "type": "melee",
+      "traits": "Daemonic",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Furies\r\n<br/>Not engaged with target, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fury swoops down upon the target, tearing at it with its vicious claws. The  attack inflicts normal damage, and the target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts normal damage, and the target suffers fatigue and stress equal to the number of critical wounds he is currently suffering from</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fury suffers 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Strafing Talon Strike",
+      "type": "melee",
+      "traits": "Daemonic",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>You must be able to fly, not be engaged with the target, and be within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You swoop down upon the target, tearing at it with vicious claws or other weapons. The attack inflicts normal damage, and the target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts normal damage, and the target suffers fatigue and stress equal to the number of critical wounds he is currently suffering from</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If the target's <b>Toughness</b> is currently fatigued, he suffers wounds equal to the amount of fatigue he has in excess of his <b>Toughness</b> score</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fury suffers 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f6fcf3b0851a71e1",
+  "_key": "!items!f6fcf3b0851a71e1"
+}

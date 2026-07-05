@@ -1,0 +1,14 @@
+{
+  "name": "Azyr, Astromancer, Celestial Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you perform a <i>Celestial Order Spell</i> action, you may exhaust this card to move the top-most hero marker on the initiative track up two spaces. You must act using this marker next turn.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fbeb228920e84942",
+  "_key": "!items!fbeb228920e84942"
+}

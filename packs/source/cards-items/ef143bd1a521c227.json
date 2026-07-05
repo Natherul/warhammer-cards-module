@@ -1,0 +1,111 @@
+{
+  "name": "Impersonate",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Impersonate",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>Must have at least passing familiarity with the subject of your imitation</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You change your voice and mannerisms to match that of your subject</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your imitation is unkind. If the subject of your imitation observes you \"getting in character\", he suffers 1 stress and may react very poorly</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your likeness is uncanny. Gain  on any <i>Guile</i> checks when your imitation is an advantage while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Impersonate",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel)",
+      "requirements": "<p>Must have at least passing familiarity with the subject of your imitation</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You change your voice and mannerisms to match a specific person</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but your likeness is uncanny. You gain a  instead of a</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Perform one free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your imitation is embarrassing. All allies within close range suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>\"Who are you again?\" If the check failed, add  on all <i>Guile</i> checks until the end of the Act</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ef143bd1a521c227",
+  "_key": "!items!ef143bd1a521c227"
+}

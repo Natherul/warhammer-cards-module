@@ -1,0 +1,107 @@
+{
+  "name": "Death's Messenger",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Death's Messenger",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Amethyst Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cause <i>Fear 2</i> instead</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cause <i>Terror</i> instead, but cannot do so selectively - you affect all creatures that see you, friend and foe alike</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Death's Messenger",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Amethyst Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cause <i>Fear 2</i> instead</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>An enemy within close range suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cause <i>Terror</i> instead, but cannot do so selectively - you affect all creatures that see you, friend and foe alike</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "61da022678e84acd",
+  "_key": "!items!61da022678e84acd"
+}

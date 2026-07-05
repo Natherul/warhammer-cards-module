@@ -1,0 +1,98 @@
+{
+  "name": "Mork's Know Wotz",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mork's Know Wotz",
+      "type": "spell",
+      "traits": "Rank 1,Shaman,WAAAGH!",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mork's Know Wotz",
+      "type": "spell",
+      "traits": "Rank 1,Shaman,WAAAGH!",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Perplexed</i> condition while the spell is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Allies within medium range may replace 1 extra  die with a  die while this spell is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "373067f5aacada51",
+  "_key": "!items!373067f5aacada51"
+}

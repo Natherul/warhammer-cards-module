@@ -1,0 +1,119 @@
+{
+  "name": "Curse of Decay",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Curse of Decay",
+      "type": "blessing",
+      "traits": "Cultist,Ongoing,Nurgle",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP) vs Target Resilience (To)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and each character within close range of the target is also affected</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>When this blessing recharges completely, each character (other than the followers of Nurgle) affected by the disease suffers fatigue equal to the disease's severity</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer fatigue equal to the highest severity amongst diseases afflicting you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Curse of Decay",
+      "type": "blessing",
+      "traits": "Cultist,Ongoing,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP) vs Highest Target Resilience (To)",
+      "requirements": "<p>Targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but draw 2 diseases and choose 1 to apply. Discard the other</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>When this blessing recharges completely, each character (other than the followers of Nurgle) affected by the disease suffers fatigue equal to the disease's severity</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer fatigue equal to the highest severity amongst diseases afflicting you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8bff82e0c45c4b29",
+  "_key": "!items!8bff82e0c45c4b29"
+}

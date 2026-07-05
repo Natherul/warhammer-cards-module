@@ -1,0 +1,101 @@
+{
+  "name": "Cut Throat",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Cutthroat.jpg",
+  "system": {
+    "conservative": {
+      "name": "Cut Throat",
+      "type": "melee",
+      "traits": "NPC",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>One-handed melee weapon equipped. Target within close range. reduce difficulty by <span class=\"wfrp-font challenge\">L</span> if the target is unaware of you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you ignore the target's armour soak value for this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You inflict extra damage equal to your <i>Agility</i> rating</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cut Throat",
+      "type": "melee",
+      "traits": "NPC",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>One-handed melee weapon equipped. Target within close range. Reduce difficulty by <span class=\"wfrp-font challenge\">L</span> if the target is unaware of you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you ignore the target's armour soak value for this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+3 damage</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You inflict extra damage equal to your <i>Agility</i> rating</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "47923d7f92b7d50f",
+  "_key": "!items!47923d7f92b7d50f"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Shrug it Off",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shrug it Off",
+      "type": "support",
+      "traits": "Reaction,Slayer",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Toughness</b> 4+, must possess the Troll Slayer career ability card</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shrug it Off",
+      "type": "support",
+      "traits": "Reaction,Slayer",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Toughness</b> 4+, must possess the Troll Slayer career ability card</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ead287c3bf7af799",
+  "_key": "!items!ead287c3bf7af799"
+}

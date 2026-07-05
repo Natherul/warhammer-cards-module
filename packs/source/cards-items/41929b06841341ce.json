@@ -1,0 +1,109 @@
+{
+  "name": "The Penumbral Pendulum",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Penumbral Pendulum",
+      "type": "spell",
+      "traits": "Rank 4,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power\r\n<br/>If you swing a silver pendulum as you cast this spell, reduce its difficulty modifier by <span class=\"wfrp-font challenge\">L</span></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pendulum strikes for 6+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus additional damage equal to your character rank</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Reveal 3 critical wounds and assign each one to a different target in the pendulum's path</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Penumbral Pendulum",
+      "type": "spell",
+      "traits": "Rank 4,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power\r\n<br/>If you swing a silver pendulum as you cast this spell, reduce its difficulty modifier by <span class=\"wfrp-font challenge\">L</span></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pendulum strikes for 5+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your pendulum strikes for 7+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your pendulum strikes for 8+ <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "41929b06841341ce",
+  "_key": "!items!41929b06841341ce"
+}

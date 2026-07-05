@@ -1,0 +1,102 @@
+{
+  "name": "Conundrum",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Conundrum",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Education (Int) vs Target Intuition (Int)",
+      "requirements": "<p>Target can hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may add 1 recharge token to any of your target's currently-recharging abilities (except <i>Ongoing</i> abilities). If he has no abilities recharging, place on recharge token on one of his <i>Active Defence</i> abilities</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>An ally may add or subtract 1 recharge token from one of his currently recharging abilities</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Conundrum",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Education (Int) vs Target Intuition (Int)",
+      "requirements": "<p>Target can hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may add 1 recharge token to any of your target's currently-recharging abilities (except <i>Ongoing</i> abilities). If he has no abilities recharging, place on recharge token on one of his <i>Active Defence</i> abilities</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but place 2 recharge tokens instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Repeat the effect for a different target who can hear and understand you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The GM may add or subtract 1 recharge token from any of your cards</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2d705f28c2dd1f1a",
+  "_key": "!items!2d705f28c2dd1f1a"
+}

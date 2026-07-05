@@ -1,0 +1,101 @@
+{
+  "name": "Thundering Shot",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Thundering Shot",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Black powder weapon, disengaged from target. If the target is trained in <i>Discipline</i>, add <span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack causes <i>Fear 1</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Rattled</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Thundering Shot",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Black powder weapon, disengaged from target. If the target is trained in Discipline, add <span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This attack has <i>Fear 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d63cf3b65488b8fc",
+  "_key": "!items!d63cf3b65488b8fc"
+}

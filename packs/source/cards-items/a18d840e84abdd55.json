@@ -1,0 +1,83 @@
+{
+  "name": "Doppelganger",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Doppelganger",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>If you are trained in Skulduggery, add <span class=\"wfrp-font expertise\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the appearance of another humanoid creature, at least as large as a goblin but no larger than an orc. This change in form is only an illusion, and does not confer any change to characteristics or equipment. Anyone passing an <b>Observation</b> (<b>Int</b>) <b>check</b> opposed by your <b>Spellcraft</b> (<b>Int</b>) sees through the disguise. This spell lasts until the end of the encounter or until you dismiss it, at which point it recharges.</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your disguise contains some sort of subtle but profound flaw, such as an odd number of fingers or clothing that on closer inspection is merely fanciful colored nude skin. You cannot dismiss it until the end of the current encounter.</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Doppelganger",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>If you are trained in Skulduggery, add <span class=\"wfrp-font expertise\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the appearance of another humanoid creature, at least as large as a goblin but no larger than an orc. This change in form is only an illusion, and does not confer any change to characteristics or equipment. Anyone passing an <b>Observation</b> (<b>Int</b>) <b>check</b> opposed by your <b>Spellcraft</b> (<b>Int</b>) sees through the disguise. This spell lasts until the end of the encounter or until you dismiss it, at which point it recharges.</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your disguise contains some sort of subtle but profound flaw, such as an odd number of fingers or clothing that on closer inspection is merely fanciful colored nude skin. You cannot dismiss it until the end of the current encounter.</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a18d840e84abdd55",
+  "_key": "!items!a18d840e84abdd55"
+}

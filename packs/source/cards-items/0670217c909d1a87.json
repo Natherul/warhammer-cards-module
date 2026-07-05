@@ -1,0 +1,111 @@
+{
+  "name": "Golden Skin of Balthazar Gelt",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Golden Skin of Balthazar Gelt",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Gold Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you may choose a <i>Gold Order</i> spell in your hand and place 3 recharge tokens on it. If that spell has an <i>Ongoing</i> effect, you are considered the spell's target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may choose one of your <i>Gold Order</i> spells either in your hand or recharging, and place 2 recharge tokens on it</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Golden Skin of Balthazar Gelt",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Gold Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add up to 3 recharge tokens to this card. You may choose how many additional recharge tokens to add</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer -1 Agility while the spell recharges</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may choose a <i>Gold Order</i> spell, either in your hand or recharging, and place 2 recharge tokens on it. If that spell has an <i>Ongoing</i> effect, you are considered the spell's target</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0670217c909d1a87",
+  "_key": "!items!0670217c909d1a87"
+}

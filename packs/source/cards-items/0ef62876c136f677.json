@@ -1,0 +1,14 @@
+{
+  "name": "Charismatic",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you spend fortune points on a <b>Fellowship</b> check, the check gains:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0ef62876c136f677",
+  "_key": "!items!0ef62876c136f677"
+}

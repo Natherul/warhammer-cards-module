@@ -1,0 +1,93 @@
+{
+  "name": "Trade Deaths",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Trade Deaths",
+      "type": "blessing",
+      "traits": "Epic,Reaction,Morr,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>Target creature within close range dies. If you have Invocation mastery, you may instead choose a target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target does not die. The creature within long range that is currently closest to death (as determined by the GM), other than the target, dies instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are the character who dies in lieu of the target</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You choose which creature dies in lieu of the target. (Unless you trigger the  effect below)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Trade Deaths",
+      "type": "blessing",
+      "traits": "Epic,Reaction,Morr,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>Target creature within close range dies. If you have Invocation mastery, you may instead choose a target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target does not die. The creature within long range that is currently closest to death (as determined by the GM), other than the target, dies instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are the character who dies in lieu of the target</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You choose which creature dies in lieu of the target. (Unless you trigger the  effect below)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d973e8f84a831a4b",
+  "_key": "!items!d973e8f84a831a4b"
+}

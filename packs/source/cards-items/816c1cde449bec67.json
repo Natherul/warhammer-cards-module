@@ -1,0 +1,83 @@
+{
+  "name": "Pyrokinesis",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Pyrokinesis",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power, target fire within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fire doubles in size! You must make an <b>Average</b> (<b>2d</b>) <b>Discipline</b> check to move or control it</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Pyrokinesis",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power, target fire within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fire doubles in size! You must make an <b>Average</b> (<b>2d</b>) <b>Discipline</b> check to move or control it</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "816c1cde449bec67",
+  "_key": "!items!816c1cde449bec67"
+}

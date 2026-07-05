@@ -1,0 +1,119 @@
+{
+  "name": "Leprous Blow",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Leprous Blow",
+      "type": "melee",
+      "traits": "Daemonic,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Plaguebearers\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The plague bearer strikes its target, its blade dripping with contagious disease. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target must succeed at a <i>Disease 1</i> check or is infected by a disease with the <i>Contact, Filth</i>, or <i>Wound</i> traits</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker loses 1 <i>Aggression</i> die from its budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Leprous Blow",
+      "type": "melee",
+      "traits": "Daemonic,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target; must be suffering from a disease or be servant of Nurgle</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You strike the target with your disease ridden weapon for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target must succeed at a <i>Disease 2</i> check or is infected by a disease with the <i>Contact, Filth</i>, or <i>Wound</i> traits</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6932e5a1b9006053",
+  "_key": "!items!6932e5a1b9006053"
+}

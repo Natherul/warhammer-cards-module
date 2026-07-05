@@ -1,0 +1,73 @@
+{
+  "name": "Quickcasting",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Quickcasting",
+      "type": "spell",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>This special ability is available to all wizards and does not need to be acquired specially</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Normally, a character can only perform the action listed on one action card during his turn. However, spellcasters can attempt to both <b>Channel Power</b> and cast a spell on the same turn, if they are willing to accept more risk. For a character to cast a spell during the same turn the character channels, the player must add an extra  to the check to cast the spell</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Quickcasting",
+      "type": "spell",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>This special ability is available to all wizards and does not need to be acquired specially</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Normally, a character can only perform the action listed on one action card during his turn. However, spellcasters can attempt to both <b>Channel Power</b> and cast a spell on the same turn, if they are willing to accept more risk. For a character to cast a spell during the same turn the character channels, the player must add an extra  to the check to cast the spell</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "28f3c48f9c9a3473",
+  "_key": "!items!28f3c48f9c9a3473"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Order of the Fiery Heart",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your maximum fortune points is increased by 1 and you receive 1 extra fortune point at the beginning of each session</span>\n</p>",
+    "type": "Oath",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "59176aba6fdcd634",
+  "_key": "!items!59176aba6fdcd634"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "The Secret Words of Aqshy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Secret Words of Aqshy",
+      "type": "spell",
+      "traits": "Rank 1,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power. Target within close range. You cannot target yourself. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Exhaling a waft of Aqshy at the target, you imbue him with some of that Wind's passion and vigour. The target gains the <i>Invigorated</i> or <i>Inspired</i> condition (your choice) for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but both conditions</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The duration of any conditions granted by this spell is increased to 4 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Secret Words of Aqshy",
+      "type": "spell",
+      "traits": "Rank 1,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>4 power. Target within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Exhaling a waft of Aqshy at the target, you imbue him with some of that Wind's rage and power. The target gains the <i>Demoralised</i> or <i>Staggered</i> condition (your choice) for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but both conditions</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all allies within medium range suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The duration of any conditions granted by this spell is increased to 4 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1791cafb5bc7dce8",
+  "_key": "!items!1791cafb5bc7dce8"
+}

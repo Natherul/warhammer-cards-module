@@ -1,0 +1,111 @@
+{
+  "name": "Fluster",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fluster",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target must be within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, allies add  to all <i>Social</i> and <i>Support</i> actions performed against the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress or 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, add  to any <i>Social</i> or <i>Support</i> actions you perform</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fluster",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target must be within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, allies add  to all <i>Melee Attack</i> and <i>Ranged Attack</i> actions performed against the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and <i>Melee Attack</i> and <i>Ranged Attack</i> actions inflict +1 damage against the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, add  to all <i>Melee Attack</i> and <i>Ranged Attack</i> actions you perform</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "bdb07fdca50c6f69",
+  "_key": "!items!bdb07fdca50c6f69"
+}

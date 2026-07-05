@@ -1,0 +1,101 @@
+{
+  "name": "Unstoppable Rush",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Unstoppable Rush",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Not engaged with an enemy, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You crash into the target, inflicting -2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately take a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may disengage for free</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Unstoppable Rush",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Not engaged with an enemy, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You crash into the target, inflicting -2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately take a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may disengage for free</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "559c1a90542813a8",
+  "_key": "!items!559c1a90542813a8"
+}

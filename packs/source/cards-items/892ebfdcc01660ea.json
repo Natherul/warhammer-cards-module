@@ -1,0 +1,107 @@
+{
+  "name": "Roiling Skies",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Roiling Skies",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>You must be exposed to the open sky</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your <b>Intelligence</b> is considered to be 1 point higher for purposes of the opposed check</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each flying creature suffers  to its check to remain aloft</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>You and everyone within medium range of you suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Only enemies are effected by this spell</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Roiling Skies",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Athletics (St)",
+      "requirements": "<p>6 power\r\n<br/>Flying target within extreme range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You throw your hands into the air and twist, causing the winds to rage and howl. The target is forced from the sky. If he was at close range from the ground, he suffers 1 wound; at medium range, 2 wounds; at long range, 3 wounds; at extreme range, 4 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The landing is especially violent. The target suffers an additional wound and is prone, he will have to spend a manouevre to stand up</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and everyone within medium range of you suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 wound inflicted by this spell is critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "892ebfdcc01660ea",
+  "_key": "!items!892ebfdcc01660ea"
+}

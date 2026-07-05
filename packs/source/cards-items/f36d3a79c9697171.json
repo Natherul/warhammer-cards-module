@@ -1,0 +1,121 @@
+{
+  "name": "Rend the Flesh",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Rend the Flesh",
+      "type": "melee",
+      "traits": "Monstrous",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target; must have the Regeneration special ability</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You scrabble your horrifying claws across the victim's flesh, but don't get a good purchase. The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts normal damage, and the target suffers 2 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 die from your <i>Aggression</i> budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately retaliate with a <i>Basic Melee Attack</i> after the attacker completes this action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Rend the Flesh",
+      "type": "melee",
+      "traits": "Monstrous",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: River Troll, Stone Troll\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The troll rakes its terrible claws across the flesh of its intended victim. The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts normal damage, and the target suffers 2 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The troll suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately retaliate with a <i>Basic Melee Attack</i> after the attacker completes this action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The troll recovers 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f36d3a79c9697171",
+  "_key": "!items!f36d3a79c9697171"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Chanty of the Still Sea",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Chanty of the Still Sea",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Manann",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>3 or more favour, must be able to sing or play an instrument; targets all enemies in 1 engagement within medium range not engaged with you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain  to your next <b>Fellowship</b> check against the target(s)</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next <b>Fellowship</b> check gains</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Chanty of the Wild Waves",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Manann",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 or more favour, must be able to sing or play an instrument</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add an additional  to the blessing's effect</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "75c1197f80e79af6",
+  "_key": "!items!75c1197f80e79af6"
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Orion's Gambol",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Orion's Gambol",
+      "type": "melee",
+      "traits": "Ritual Dance",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag) vs Target Defence",
+      "requirements": "<p>Coordination trained, at least 1 <i>Ritual Dance</i> or <i>Melee Attack</i> recharging, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for +1 damage and may immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may add or remove 1 recharge token from one of your <i>Ritual Dances</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After this action resolves, you revert to neutral stance</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately adjust your stance to 2 spaces deep into Reckless</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Orion's Gambol",
+      "type": "melee",
+      "traits": "Ritual Dance",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag) vs Target Defence",
+      "requirements": "<p>Coordination trained, at least 1 <i>Ritual Dance</i> or <i>Melee Attack</i> recharging, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for +2 damage, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may add or remove 1 recharge token from one of your <i>Ritual Dances</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After this action resolves, you revert to neutral stance</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately adjust your stance to 2 spaces deep into Conservative</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2aa43aed20acb7fb",
+  "_key": "!items!2aa43aed20acb7fb"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Path of the Autumn Wind",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Path of the Autumn Wind",
+      "type": "melee",
+      "traits": "Ongoing,Way of the Sword",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage. Each time a recharge token is removed from this card, you may remove 1 recharge token from 1 of your <i>Active Defences</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may remove a recharge token from this card after resolving this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may add 2 recharge tokens to any of your <i>Way of the Sword</i> cards currently recharging (including this one)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Path of the Autumn Wind",
+      "type": "melee",
+      "traits": "Ongoing,Way of the Sword",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage. Each time a recharge token is removed from this card, you may remove 1 recharge token from 1 of your <i>Active Defences</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may remove a recharge token from this card after resolving this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may add 2 recharge tokens to any of your <i>Way of the Sword</i> cards currently recharging (including this one)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4185d0068302d2cf",
+  "_key": "!items!4185d0068302d2cf"
+}

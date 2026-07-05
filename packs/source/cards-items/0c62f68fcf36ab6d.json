@@ -1,0 +1,125 @@
+{
+  "name": "Da' Big Smash!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Da' Big Smash!",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, Strength 5+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You smash through the target's defences and strike for +1 damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +1 damage, +2 critical, and +1 damage per ally sacrificed to this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack causes <i>Fear 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Terrified they might be next, a number of henchmen equal to the number of henchmen just sacrificed turn tail and flee</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You methodically sacrifice lesser minions to set up the target for a final, crippling blow. Each ally you sacrifice is automatically killed, but reduces the difficulty modifier of this attack by . Each henchman ally sacrificed instead adds  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Da' Big Smash!",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Orcs\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The brutish orc carves through the engagement, heedless of friend or foe. The attack inflicts +2 damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 damage for each goblin or snotting killed to empower this attack</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 damage for each goblin or snotling killed to empower this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack causes <i>Fear 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All greenskins in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> The GM may choose to kill any number of snotlings or goblins in the current engagement as the orc hacks through it. For each goblin killed, reduce the difficulty modifier by . For each snotling killed, add  to the attack check</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0c62f68fcf36ab6d",
+  "_key": "!items!0c62f68fcf36ab6d"
+}

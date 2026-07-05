@@ -1,0 +1,115 @@
+{
+  "name": "Duelist's Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Duelist's Strike",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with the target and not engaged with any other characters</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move your engagement to another location within close range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next attack roll this act</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>As long as you remain engaged with the target and only the target, you add  to <i>Melee Attacks</i>. This effect is cumulative should you roll a  on a future <b>Duelist's Strike</b> as well</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Duelist's Strike",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with the target and not engaged with any other characters</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move your engagement to another location within close range</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to your next attack roll this act</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage and reduce the target's soak value by 2 against this attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b6c9b581a014e41c",
+  "_key": "!items!b6c9b581a014e41c"
+}

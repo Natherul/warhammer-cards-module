@@ -1,0 +1,83 @@
+{
+  "name": "Second Shadow",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Second Shadow",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Target must be in shadow and within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You can't cast this spell on the same target again for at least a week</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Second Shadow",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Target must be in shadow and within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You can't cast this spell on the same target again for at least a week</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dd7b349398c8322b",
+  "_key": "!items!dd7b349398c8322b"
+}

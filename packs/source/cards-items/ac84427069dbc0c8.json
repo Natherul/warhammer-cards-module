@@ -1,0 +1,116 @@
+{
+  "name": "Choking Shadows",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Choking Shadows",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Target in shadows, within close range of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Shadows within close range of you choke and smother your target, strangling and tearing him for 3+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 5+ <b>Intelligence</b> instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you are not in shadows, suffer 1 stress. If you are in shadows, suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gains the <i>Blinded</i> condition for 2 turns</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Choking Shadows",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Target in shadows, within close range of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Shadows within close range of you choke and smother your target, strangling and tearing him for 2+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you hit 2 targets for 3+ <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All characters, friend or foe, in shadows within close range are affected (except you)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies in shadows within close range are affected</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ac84427069dbc0c8",
+  "_key": "!items!ac84427069dbc0c8"
+}

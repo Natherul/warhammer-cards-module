@@ -1,0 +1,115 @@
+{
+  "name": "Run-Run!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Run-Run!",
+      "type": "support",
+      "traits": "Rally,Skaven",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>Must be equipped with smoke bomb or similar device</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hurl a smoke bomb at your feet and dash into cover. Affected enemies cannot see or target you with their next action</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the next <b>Observation</b> check that targets you this act gains</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain  to your next <b>Stealth</b> (<b>Ag</b>) check</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain 1 <i>Aggression</i> and 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You lose 1 <i>Aggression</i> die and 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Run-Run!",
+      "type": "support",
+      "traits": "Skaven",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>Used By: Skaven<br/>Must be equipped with a smoke bomb</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The skaven hurls a smoke bomb at its feet and dashes into cover. Affected enemies cannot see or target the skaven with their next action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The skaven gains  to your next <b>Stealth</b> (<b>Ag</b>) check</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The skaven gains 1 <i>Aggression</i> and 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The skaven loses 1 <i>Aggression</i> die and 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The skaven suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e98daf987dd7c710",
+  "_key": "!items!e98daf987dd7c710"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "False Image",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "False Image",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Anyone attempting to see through your illusion must pass an <b>Average</b> (<b>2d</b>) <b>Observation</b> (<b>Int</b>) <b>check</b></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but the <b>Observation</b> (<b>Int</b>) <b>check</b> is <b>Hard</b> (<b>3d</b>)</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but the <b>Observation</b> (<b>Int</b>) <b>check</b> is <b>Daunting</b> (<b>4d</b>)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next <i>Grey Order</i> spell gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your image has a tactile component and can endure being touched!</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "False Image",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Anyone attempting to see through your illusion must pass an <b>Average</b> (<b>2d</b>) <b>Observation</b> (<b>Int</b>) <b>check</b></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but the <b>Observation</b> (<b>Int</b>) <b>check</b> is <b>Hard</b> (<b>3d</b>)</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but the <b>Observation</b> (<b>Int</b>) <b>check</b> is <b>Daunting</b> (<b>4d</b>)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next <i>Grey Order</i> spell gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your image has a tactile component and can endure being touched!</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "203c0bc1ba28a206",
+  "_key": "!items!203c0bc1ba28a206"
+}

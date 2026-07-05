@@ -1,0 +1,111 @@
+{
+  "name": "Nurgle's Kiss",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Nurgle's Kiss",
+      "type": "spell",
+      "traits": "Chaos,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon the power of Nurgle to infect your target with nauseating disease. The target must make a <i>Disease 2</i> check</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 fatigue, plus an amount of fatigue equal to the highest severity amongst critical wounds, diseases, symptoms, insanities, and mutations affecting him</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Nurgle's Kiss",
+      "type": "spell",
+      "traits": "Chaos,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>Used By: Chaos Sorcerer, Doktor Festus\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The sorcerer summons the power of Nurgle to infect his target with nauseating disease. The target suffers 1 fatigue, plus an amount of fatigue equal to the highest severity amongst critical wounds, diseases, symptoms, insanities, and mutations affecting him</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and then the target makes a <i>Disease 2</i> check</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "48dbdafee0f85d55",
+  "_key": "!items!48dbdafee0f85d55"
+}

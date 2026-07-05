@@ -1,0 +1,101 @@
+{
+  "name": "Battle Howl",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Battle Howl",
+      "type": "blessing",
+      "traits": "Rank 1,Ulric",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>3 favour, <b>Strength</b> 3+, target engagement within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You let loose a fearsome howl. Each opponent in the engagement gains the <i>Demoralised</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 3 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy in the engagement gains the <i>Freezing</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally in the engagement suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Battle Howl",
+      "type": "blessing",
+      "traits": "Rank 1,Ulric",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>3 favour, <b>Strength</b> 3+, target engagement within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You let loose a fearsome howl. Each opponent in the engagement suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 stress instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each time you remove a recharge token from this card, each enemy engaged with you suffers 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Allies within close range suffers 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a0554d0f3748c9b0",
+  "_key": "!items!a0554d0f3748c9b0"
+}

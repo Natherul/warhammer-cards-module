@@ -1,0 +1,107 @@
+{
+  "name": "Favoured Son",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Favoured Son",
+      "type": "support",
+      "traits": "Chaos,Slaanesh",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You primp and preen. Place any 2 dice from the pool onto this card preserving the rolled face of each. At any time, when you <i>or an enemy within close range</i> makes a check that includes a die of a type you have on this card, you may take the die on this card and place it in the results pool instead of rolling that particular die. Both dice can be spent on the same check, or used on different checks. This card doesn't recharge until both dice are spent</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain the <i>Exposed</i> condition</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place 1 less die from the pool onto this card</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If the check was successful, place 1 extra die from the pool onto this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Favoured Son",
+      "type": "support",
+      "traits": "Chaos,Slaanesh",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You primp and preen. Place any 2 dice from the pool onto this card preserving the rolled face of each. At any time, when you make a check that includes a die of a type you have on this card, you may take the die on this card and place it in the results pool instead of rolling that particular die. Both dice can be spent on the same check, or used on different checks. This card doesn't recharge until both dice are spent</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you gain the <i>Inspired</i> condition while this card recharges</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain the <i>Exposed</i> condition</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue for each die placed on this card</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If the check was successful, place 1 extra die from the pool onto this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4515882c828276a4",
+  "_key": "!items!4515882c828276a4"
+}

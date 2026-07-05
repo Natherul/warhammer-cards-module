@@ -1,0 +1,101 @@
+{
+  "name": "Shielding Winds of Aqshy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shielding Winds of Aqshy",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Regain 1 power after casting this spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power after casting this spell</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shielding Winds of Aqshy",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Regain 2 power after casting this spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power after casting this spell</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "543ce9c7fc6ea469",
+  "_key": "!items!543ce9c7fc6ea469"
+}

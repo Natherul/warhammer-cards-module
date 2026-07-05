@@ -1,0 +1,93 @@
+{
+  "name": "Bamboozle",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bamboozle",
+      "type": "blessing",
+      "traits": "Rank 3,Ranald",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>5 favour, target within medium range and able to hear and understand you speak</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You trick the target into performing the action of your choice on its next turn. The target cannot be convinced to attack, fatigue, or otherwise harm himself, but might be duped into putting himself into harm's way or harming someone else</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If you have <b>Guile</b> trained, add  to the dice pool for each rank of training. When you invoke this blessing, you describe what effect you want it to have and the GM may modify the dice pool based on how dangerous or contrary to the target's nature the desired action is. Actions that are clearly self-harmful or flagrantly against the subject's nature will add at least  to the dice pool</p>"
+          }
+        ],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target can't take the next action it is eligible for</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bamboozle",
+      "type": "blessing",
+      "traits": "Rank 3,Ranald",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>5 favour, target within medium range and able to hear and understand you speak</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You trick the target into performing the action of your choice on its next turn. The target cannot be convinced to attack, fatigue, or otherwise harm himself, but might be duped into putting himself into harm's way or harming someone else</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If you have <b>Guile</b> trained, add  to the dice pool for each rank of training. When you invoke this blessing, you describe what effect you want it to have and the GM may modify the dice pool based on how dangerous or contrary to the target's nature the desired action is. Actions that are clearly self-harmful or flagrantly against the subject's nature will add at least  to the dice pool</p>"
+          }
+        ],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target must act the next time it is able to do so</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a515331f990c3451",
+  "_key": "!items!a515331f990c3451"
+}

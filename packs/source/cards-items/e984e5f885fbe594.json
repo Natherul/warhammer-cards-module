@@ -1,0 +1,118 @@
+{
+  "name": "Half-Dead",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Half-Dead",
+      "type": "melee",
+      "traits": "Skaven,Undead",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Defence",
+      "requirements": "<p>Target within close range, you must be \"dead\" or incapacitated by damage, fatigue, or stress</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target gains the <i>Exposed</i> condition for 3 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The action causes <i>Fear 2</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may not act on the topmost NPC initiative marker next turn, unless it is the only initiative marker, in addition to the regular  effects</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Half-Dead",
+      "type": "melee",
+      "traits": "Skaven,Undead",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Defence",
+      "requirements": "<p>Target within close range, you must be \"dead\" or incapacitated by damage, fatigue. or stress</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The action causes <i>Fear 2</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound after resolving this action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>-2 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e984e5f885fbe594",
+  "_key": "!items!e984e5f885fbe594"
+}

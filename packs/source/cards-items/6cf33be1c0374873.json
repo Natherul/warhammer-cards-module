@@ -1,0 +1,106 @@
+{
+  "name": "Angel of Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Angel of Death",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Summoning,Morr",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>8 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon an angel of death, which appears within medium range of you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your allies are immune to the angel of death's <i>Fear</i> or <i>Terror</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may immediately remove a recharge token from this card when the blessing is invoked</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and your allies within medium range each suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The angel of death causes <i>Terror</i> instead</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Angel of Death",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Summoning,Morr",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>8 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon an angel of death, which appears within medium range of you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and each time you remove a recharge token from this card, all character engaged with the angel of death suffer 1 stress</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and your allies within medium range each suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The angel of death causes <i>Terror</i> instead</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6cf33be1c0374873",
+  "_key": "!items!6cf33be1c0374873"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Fervant Belief",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Leadership</b> and <b>Piety</b> checks gain  K </span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c271844f892ebdf7",
+  "_key": "!items!c271844f892ebdf7"
+}

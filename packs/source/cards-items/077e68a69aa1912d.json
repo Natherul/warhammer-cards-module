@@ -1,0 +1,125 @@
+{
+  "name": "Divine Distraction",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Divine Distraction",
+      "type": "blessing",
+      "traits": "Rank 2,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour, target within medium range and not engaged with one of your allies. If you are engaged with the target, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target becomes confused and gains the <i>Perplexed</i> condition for 2 rounds. He may not perform a maneouvre to engage an enemy during his next turn</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and if not engaged with enemies the target can only <b>Assess the Situation</b> on his next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target does not gain a free manoeuvre on his next turn</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and lose 1 favour immediately</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>What's going on? All allies within close range gain the <i>Perplexed</i> condition while this blessing is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies with lower <b>Willpower</b> than the target within close range are also affected</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Divine Distraction",
+      "type": "blessing",
+      "traits": "Rank 2,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour, target within medium range and not engaged with one of your allies. If you are engaged with the target, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target becomes confused and gains the <i>Perplexed</i> condition for 2 rounds. He may not perform a maneouvre to engage an enemy during his next turn</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and if not engaged with enemies the target can only <b>Assess the Situation</b> on his next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and lose 1 favour immediately</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>What's going on? All allies within close range gain the <i>Perplexed</i> condition while this blessing is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies with lower <b>Willpower</b> than the target within close range are also affected</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "077e68a69aa1912d",
+  "_key": "!items!077e68a69aa1912d"
+}

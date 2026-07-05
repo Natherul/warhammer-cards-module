@@ -1,0 +1,105 @@
+{
+  "name": "Steed of Shadows",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Steed of Shadows",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A winged shape of shadow carries you away, lifting you up and depositing you somewhere within medium range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are veiled from sight until the start of your next turn</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Steed of Shadows",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A winged shape of shadow carries you away, lifting you up and depositing you somewhere within medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but long range instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>When you arrive at your destination, you may perform a free manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7b6363e370da13a7",
+  "_key": "!items!7b6363e370da13a7"
+}

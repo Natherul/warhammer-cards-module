@@ -1,0 +1,63 @@
+{
+  "name": "Dodge",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Dodge.jpg",
+  "system": {
+    "conservative": {
+      "name": "Dodge",
+      "type": "support",
+      "traits": "Active Defence,Basic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Agility 3+, not encumbered</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dodge",
+      "type": "support",
+      "traits": "Active Defence,Basic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Agility 3+, not encumbered</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b01b83048682460e",
+  "_key": "!items!b01b83048682460e"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Quality Work",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Quality Work",
+      "type": "support",
+      "traits": "Ongoing,NPC",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Varies",
+      "requirements": "<p>Used By: Specialist<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The specialist shows why he is the master of his chosen craft. The action resolves successfully</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, the specialist may choose to re-roll one , as well, by removing 1 recharge token</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The specialist suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this action</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Quality Work",
+      "type": "support",
+      "traits": "Ongoing,Rally,NPC",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Special",
+      "requirements": "<p>You may require the tools of your trade or reference materials, according to the situation</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You use the action successfully</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above,  and add  to all checks with the chosen skill while this action is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "77a0aeb03d762c46",
+  "_key": "!items!77a0aeb03d762c46"
+}

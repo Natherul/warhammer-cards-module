@@ -1,0 +1,107 @@
+{
+  "name": "Knockback Shot",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Knockback Shot",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Resilience (To)",
+      "requirements": "<p>Ranged weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for -2 damage. The target moves back 1 range increment, either from engaged to close range, or from close range to medium range</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target does not receive a free manoeuvre on his next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may choose where the target moves</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Knockback Shot",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Resilience (To)",
+      "requirements": "<p>Ranged weapon equipped, close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for -2 damage. The target moves back 1 range increment, either from engaged to close range, or from close range to medium range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may choose where the target moves</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f554560d28c0c8e2",
+  "_key": "!items!f554560d28c0c8e2"
+}

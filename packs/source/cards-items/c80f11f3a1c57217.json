@@ -1,0 +1,63 @@
+{
+  "name": "Resist the Lure",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Resist the Lure",
+      "type": "support",
+      "traits": "Active Defence,Social",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Willpower 3+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Resist the Lure",
+      "type": "support",
+      "traits": "Active Defence,Social",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Willpower 3+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c80f11f3a1c57217",
+  "_key": "!items!c80f11f3a1c57217"
+}

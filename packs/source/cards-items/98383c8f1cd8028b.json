@@ -1,0 +1,116 @@
+{
+  "name": "Beat Back",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Beat Back",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target must immediately disengage from you</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from 1 of your cards</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All members of your party may remove 1 recharge token from 1 of their cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 extra recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Sluggish</i> condition for 3 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Beat Back",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from 1 of your cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 extra recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to one of your currently recharging <i>Active Defences</i></p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Sluggish</i> condition for 3 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "98383c8f1cd8028b",
+  "_key": "!items!98383c8f1cd8028b"
+}

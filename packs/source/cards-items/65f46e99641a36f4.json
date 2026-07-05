@@ -1,0 +1,101 @@
+{
+  "name": "Fourth Portent of Amul",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fourth Portent of Amul",
+      "type": "spell",
+      "traits": "Rank 4,Celestial Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You see a grand opportunity in the near future. Place any 1 die from your dice pool on this card, being careful to preserve its rolled face. This action card does not recharge while that die is on it. when an ally within medium range makes a check that includes a die of that type in its dice pool, he may take the die from this card and place it directly into his results pool in addition to rolling that particular die</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may add a second die from your pool to this card. This card doesn't recharge until both dice are spent. Both dice can be spent on the same check or used on different checks</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>For each spell you have recharging with \"<b>Portent of Amul</b>\" in its name, add 1 fortune point to the party fortune pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fourth Portent of Amul",
+      "type": "spell",
+      "traits": "Rank 4,Celestial Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You see a grand opportunity in the near future. Place any 1 die from your dice pool on this card, being careful to preserve its rolled face. This action card does not recharge while that die is on it. when an ally within medium range makes a check that includes a die of that type in its dice pool, he may take the die from this card and place it directly into his results pool in addition to rolling that particular die</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may add a second die from your pool to this card. This card doesn't recharge until both dice are spent. Both dice can be spent on the same check or used on different checks</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>For each spell you have recharging with \"<b>Portent of Amul</b>\" in its name, add 1 fortune point to the party fortune pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "65f46e99641a36f4",
+  "_key": "!items!65f46e99641a36f4"
+}

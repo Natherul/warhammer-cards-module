@@ -1,0 +1,101 @@
+{
+  "name": "Crime of the Century",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Crime of the Century",
+      "type": "blessing",
+      "traits": "Epic,Ranald,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>8 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Name one attribute, such as a characteristic, fatigue, stress, health (wounds), mental health (insanity), purity (corruption), or fortune points. You \"steal\" one of that attribute from your target. This lasts until the end of the encounter</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 attributes instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the blessing's effect ends, you lose 1 of that attribute until the next sunset</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you stole fatigue, stress, health, or purity, It is permanent.</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Crime of the Century",
+      "type": "blessing",
+      "traits": "Epic,Ranald,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>8 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Name one attribute, such as a characteristic, fatigue, stress, health (wounds), mental health (insanity), purity (corruption), or fortune points. You \"steal\" one of that attribute from your target. This lasts until the end of the encounter</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but \"steal\" 2 of that attribute from your target instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the blessing's effect ends, you lose 1 of that attribute until the next sunset</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you stole fatigue, stress, health, or purity, It is permanent.</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e85bbf7caedc0590",
+  "_key": "!items!e85bbf7caedc0590"
+}

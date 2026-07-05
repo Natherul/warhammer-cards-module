@@ -1,0 +1,93 @@
+{
+  "name": "Sleep of Rhya",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sleep of Rhya",
+      "type": "blessing",
+      "traits": "Rank 2,Rhya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour. <br/>You invoke this blessing as you settle in to sleep for the night. It recharges at sunrise</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The mother goddess comforts you as you slumber. If you sleep through the night without being disturbed, you and all allies who sleep within close range of you recover 1 additional normal wound and may add  to your Recovery checks</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets recover 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You wake up with 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wakefulness of Taal",
+      "type": "blessing",
+      "traits": "Rank 2,Taal",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour. <br/>You invoke this blessing as you settle in to sleep for the night. It recharges at sunrise</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Taal the hunter makes you vigilant while you rest. While you slumber, you and all your sleeping allies within close range may add  to your <b>Observation</b> and <b>Discipline</b> checks. If a successful check awakens you, you lose the bonus until you return to sleep</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets recover 1 stress or 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If awakened during the night, all targets wake up with 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1797692d6f31ec9a",
+  "_key": "!items!1797692d6f31ec9a"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Trial & Error",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Trial & Error",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> You tap into the wind of <i>Chamon</i>, finding the most reliable way to succeed at your endeavors. While this spell is recharging,  you roll count as , in addition to their effects as</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>During the next round's initiative, you may not choose the topmost hero marker to resolve your turn, unless you are the only available PC</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dire Need",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> You tap into hidden reserves of energy. While this spell is recharging,  you roll count as , in addition to their effects as</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>During the next round's initiative, you must choose the topmost hero marker to resolve your turn, or suffer 1 stress and 1 fatigue</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c4c3fcb2efccc54f",
+  "_key": "!items!c4c3fcb2efccc54f"
+}

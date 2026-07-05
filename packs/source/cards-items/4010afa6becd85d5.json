@@ -1,0 +1,63 @@
+{
+  "name": "No, Master! No!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "No, Master! No!",
+      "type": "support",
+      "traits": "Familiar,Reaction",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 Power\r\n<br/>Engaged with familiar. You have just been struck by an attack, spell, or blessing that targets your defense</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "No, Master! No!",
+      "type": "support",
+      "traits": "Familiar,Reaction",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 Power\r\n<br/>Engaged with familiar. You have just been struck by an attack, spell, or blessing that targets your defense</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4010afa6becd85d5",
+  "_key": "!items!4010afa6becd85d5"
+}

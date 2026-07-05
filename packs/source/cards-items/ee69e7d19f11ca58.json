@@ -1,0 +1,109 @@
+{
+  "name": "Benediction",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Benediction",
+      "type": "blessing",
+      "traits": "Basic,Minor,Ongoing,Rank 0,NPC",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Used By: Priest\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The priest offers a quick prayer to his god, beseeching his patron's favor. The action resolves successfully</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 1 recharge token to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Benediction",
+      "type": "blessing",
+      "traits": "Basic,Minor,Ongoing,Rank 0,NPC",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Used By: Priest</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You offer a quick prayer to your god, beseeching your patron's favor. The action resolves successfully</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from any of your currently recharging actions</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ee69e7d19f11ca58",
+  "_key": "!items!ee69e7d19f11ca58"
+}

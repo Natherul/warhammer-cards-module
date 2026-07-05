@@ -1,0 +1,101 @@
+{
+  "name": "Formal Diplomacy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Formal Diplomacy",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target can hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You influence the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You influence the target and add  to all <i>Social</i> actions as long as this card is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>One ally who can hear you and understand you adds  to the next <i>Social</i> action he performs during this encounter</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  the next time you or any ally who can hear you and understand you attempts a <i>Social</i> action during this encounter</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Informal Carousing",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>You must spend 5 coins of a denomination equivalent to your target's social tier</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You influence your target and gain the <i>Inspired</i> condition until the end of the encounter</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>This action costs 2 fewer coins</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "763cd44ddabd5069",
+  "_key": "!items!763cd44ddabd5069"
+}

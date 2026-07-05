@@ -1,0 +1,98 @@
+{
+  "name": "Gehenna's Golden Golem",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gehenna's Golden Golem",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Summoning,Gold Order",
+      "rechargeRating": 12,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 power\r\n<br/>You toss a golden coin into the air as part of casting this spell - the coin is consumed</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A massive golden golem appears engaged with you. It moves with you and protects you while this spell is recharging. Each time you suffer damage, you may remove any amount of recharge tokens from this card to increase your soak value by the same amount as the golem interposes itself between you and danger</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this spell is recharging, your <b>Defence</b> value is increased by your depth in the <i>Conservative</i> stance</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gehenna's Golden Golem",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Summoning,Gold Order",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 power\r\n<br/>You toss a golden coin into the air as part of casting this spell - the coin is consumed</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A massive golden golem appears engaged with you. It moves with you and protects you while this spell is recharging. Each time you suffer damage, you may remove any amount of recharge tokens from this card to increase your soak value by the same amount as the golem interposes itself between you and danger</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may remove 4 recharge tokens from this card to allow your golem to make a <i>Melee Strike</i>  attack with <b>Strength</b> equal to your <b>Intelligence</b> and a <i>Damage Rating</i> of 6. Do this only on your turn and only once per round</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "800138b7b038eaf1",
+  "_key": "!items!800138b7b038eaf1"
+}

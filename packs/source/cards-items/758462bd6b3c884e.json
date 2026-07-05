@@ -1,0 +1,101 @@
+{
+  "name": "Aaah- Call Him Off!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Aaah- Call Him Off!",
+      "type": "melee",
+      "traits": "Ongoing,Pet",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel) vs Target Defence",
+      "requirements": "<p>Target with medium range, pet engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet hits the target for 3+ <b>Fellowship</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus while this card is recharging and your pet is engaged with the target, the target must suffer 1 fatigue to manoeuvre. If the target attempts to disengage, your pet may move freely with him to remain engaged</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your pet loses 1 <i>Obedience</i></p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Aaah- Call Him Off!",
+      "type": "melee",
+      "traits": "Pet",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel) vs Target Defence",
+      "requirements": "<p>Target within close range, pet engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet hits the target for 4+ <b>Fellowship</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and ignore the target's armour soak value for this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your pet loses 1 <i>Obedience</i></p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "758462bd6b3c884e",
+  "_key": "!items!758462bd6b3c884e"
+}

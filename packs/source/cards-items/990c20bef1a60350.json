@@ -1,0 +1,103 @@
+{
+  "name": "Stern Prayer",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Stern Prayer",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Verena",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. You may target any number of characters within medium range who can hear you speak. For each target beyond the first, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your targets each suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your targets gain the <i>Perplexed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Stern Prayer",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Verena",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. You may target any number of characters within medium range who can hear you speak. For each target beyond the first, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your targets each suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your targets gain the <i>Perplexed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "990c20bef1a60350",
+  "_key": "!items!990c20bef1a60350"
+}

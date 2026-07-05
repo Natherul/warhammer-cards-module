@@ -1,0 +1,121 @@
+{
+  "name": "Sneaky Git",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sneaky Git",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>Melee weapon, engaged with target and at least 1 ally</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You creep up behind the target and stick 'im in his gizzard and hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit the target for +1 damage per <i>Cunning</i> dice you have access to</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Ignore the target's armour soak value for this attack</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately remove 1 recharge token from one of his currently recharging cards</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You inflict extra damage equal to your <i>Agility</i> rating</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Warpath",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, you must have just entered the target's engagement this round</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +2 damage, and inflict 1 wound on all characters in the engagement (except you)</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus you may suffer 1 fatigue to engage another target in another engagement within close range of you that you have not yet engaged this turn. Repeat the Warpath attack and add  to the dice pool. If you trigger this result again, you will add further  to the pool</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All green skins in the engagement (including you) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemy characters engaged with the target suffer 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "22a2c6d879497bf2",
+  "_key": "!items!22a2c6d879497bf2"
+}

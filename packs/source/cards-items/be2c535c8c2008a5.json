@@ -1,0 +1,105 @@
+{
+  "name": "Call For Aid",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Call For Aid",
+      "type": "blessing",
+      "traits": "Rank 1,Shallya",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, close range to the target. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose yourself or an ally within close range. Remove 1 tracking token from a brief condition that character is suffering</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may recover 1 stress or 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>If this action was successful, the condition may instead be removed entirely</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress. Then, if your target was an ally, the condition is moved from your target to you. (It retains the same number of tracking tokens, less any removed by this blessing)</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Call For Aid",
+      "type": "blessing",
+      "traits": "Rank 1,Shallya",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, close range to the target. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose an ally within close range who is suffering from a brief condition. Move that condition from the ally to you (it retains the same number of tracking tokens)</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus you may move 1 more condition from the same or a different target within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may recover 1 stress or 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>If this action was successful, the condition may instead be removed entirely</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "be2c535c8c2008a5",
+  "_key": "!items!be2c535c8c2008a5"
+}

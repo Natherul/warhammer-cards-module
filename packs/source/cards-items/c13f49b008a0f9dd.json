@@ -1,0 +1,117 @@
+{
+  "name": "Gaze of Nagash",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gaze of Nagash",
+      "type": "spell",
+      "traits": "Necromancy,Rank 2",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 Power\r\n<br/>Target within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Bolts of Dark Magic leap from your eyes, striking the target for 4+ <b>Intelligence</b> damage, ignoring the soak value of the target's armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 6+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an undead creature within close range recovers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gaze of Nagash",
+      "type": "spell",
+      "traits": "Necromancy,Rank 2",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 Power\r\n<br/>Target within close range. I you are engaged with an enemy. add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Bolts of Dark Magic leap from your eyes, striking the target for 4+ <b>Intelligence</b> damage, ignoring the soak value of the target's armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 8+ <b>Intelligence</b> damage instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but 8+ <b>Intelligence</b> + <b>Willpower</b> instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c13f49b008a0f9dd",
+  "_key": "!items!c13f49b008a0f9dd"
+}

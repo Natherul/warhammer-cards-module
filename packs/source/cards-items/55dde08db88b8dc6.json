@@ -1,0 +1,107 @@
+{
+  "name": "Soothe",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Soothe",
+      "type": "blessing",
+      "traits": "Rank 1,Shallya",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour. Friendly target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You call for aid from your deity. The target may discard 1 Condition currently affecting him <i>(other than Nurgle's Rot)</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Immediately lose 1 favour</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you target a character other than yourself, you gain the Condition removed by this blessing</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Soothe",
+      "type": "blessing",
+      "traits": "Rank 1,Shallya",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>4 favour. Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Shallya's soothing presence settles around your foe. Discard 1 of his current Conditions of your choice <i>(other than Nurgle's Rot)</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target recovers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may gain the condition discarded by this blessing</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "55dde08db88b8dc6",
+  "_key": "!items!55dde08db88b8dc6"
+}

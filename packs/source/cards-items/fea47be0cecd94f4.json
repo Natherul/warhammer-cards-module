@@ -1,0 +1,113 @@
+{
+  "name": "Summer's Heat",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Summer's Heat",
+      "type": "spell",
+      "traits": "Rank 1,Jade order,Summer",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>3 power\r\n<br/>target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blazing heat of the summer sun saps your target's energy. He gains the <i>Sluggish</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 5 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Increase the duration of the <i>Sluggish</i> condition by 1 round</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Summer's Heat",
+      "type": "spell",
+      "traits": "Rank 1,Jade order,Summer",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>3 power\r\n<br/>target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blazing heat of the summer sun saps your target's energy. He gains the <i>Sluggish</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 4 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may affect a second target within close range of the first</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and any allies within close range of you suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fea47be0cecd94f4",
+  "_key": "!items!fea47be0cecd94f4"
+}

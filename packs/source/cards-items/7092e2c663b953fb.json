@@ -1,0 +1,101 @@
+{
+  "name": "Clear Skies",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Clear Skies",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power. You must be exposed to the open sky</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The weather clears above your head. You may now study the night sky, regardless of the weather, for about the next hour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The effect is stronger still, inclement weather calms within close range of you, canceling all penalties associated with it. If that inclement weather is the result of a spell or blessing, you must perform a <b>Spellcraft</b> (<b>Int</b>) check vs. the caster's <b>Discipline</b> (<b>WP</b>) to calm it; if you fail, the penalties are unaffected (but you may still study the night sky)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next <i>Celestial Order</i> spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Clear Skies",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power. You must be exposed to the open sky</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The weather clears above your head. You may now study the night sky, regardless of the weather, for about the next hour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The effect is stronger still, inclement weather calms within close range of you, canceling all penalties associated with it. If that inclement weather is the result of a spell or blessing, you must perform a <b>Spellcraft</b> (<b>Int</b>) check vs. the caster's <b>Discipline</b> (<b>WP</b>) to calm it; if you fail, the penalties are unaffected (but you may still study the night sky)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next <i>Celestial Order</i> spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7092e2c663b953fb",
+  "_key": "!items!7092e2c663b953fb"
+}

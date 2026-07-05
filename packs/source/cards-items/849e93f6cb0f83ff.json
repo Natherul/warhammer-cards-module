@@ -1,0 +1,110 @@
+{
+  "name": "Wave of Anger",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wave of Anger",
+      "type": "blessing",
+      "traits": "Rank 1,Manann",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Resilience (To)",
+      "requirements": "<p>5 favour, target within medium range. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon a great wave that smashes into the target and then suddenly dissipates, knocking him over and leaving him prone. The target suffers 2 + <b>Willpower</b> damage, ignoring armor soak value</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Sluggish</i> condition for 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Sluggish</i> condition for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wave of Anger",
+      "type": "blessing",
+      "traits": "Rank 1,Manann",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Resilience (To)",
+      "requirements": "<p>5 favour, target within medium range. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon a great wave that smashes into the target and then suddenly dissipates, knocking him over and leaving him prone. The target suffers 2 + <b>Willpower</b> damage, ignoring armor soak value</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Sluggish</i> condition for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are knocked prone by your own wave</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "849e93f6cb0f83ff",
+  "_key": "!items!849e93f6cb0f83ff"
+}

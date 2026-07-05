@@ -1,0 +1,101 @@
+{
+  "name": "Threading the Needle",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Threading the Needle",
+      "type": "ranged",
+      "traits": "Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, not engaged with target. At least 1 ally must be engaged with the target. If you perform the prepare manoeuvre, remove <span class=\"wfrp-font misfortune\">K</span> from your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus you deal +1 damage for each ally in the engagement up to a maximum bonus equal to your <b>Agility</b></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 ally engaged with the target may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target may perform a manoeuvre after this action resolves</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Threading the Needle",
+      "type": "ranged",
+      "traits": "Teamwork",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, not engaged with target. At least 1 ally must be engaged with the target. If you perform the prepare monaoeuvre, remove <span class=\"wfrp-font misfortune\">K</span> from your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 ally engaged with the target may add  to his next <i>Melee Attack</i> or <i>Ranged Attack</i> against that target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target may perform a manoeuvre after this action resolves</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c19cf4a85babb123",
+  "_key": "!items!c19cf4a85babb123"
+}

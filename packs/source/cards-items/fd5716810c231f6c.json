@@ -1,0 +1,114 @@
+{
+  "name": "Mending Paw",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mending Paw",
+      "type": "blessing",
+      "traits": "Rank 1,Rhya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>6 favour, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 2 normal wounds</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>The target recovers 3 normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Rending Claw",
+      "type": "blessing",
+      "traits": "Rank 1,Taal",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Resilience (To)",
+      "requirements": "<p>6 favour, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A spectral beast's claw rends the target for 2 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 wounds instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 5 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fd5716810c231f6c",
+  "_key": "!items!fd5716810c231f6c"
+}

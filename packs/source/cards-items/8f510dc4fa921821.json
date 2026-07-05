@@ -1,0 +1,14 @@
+{
+  "name": "Adaptable",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When using <i>Reckless Dice</i> to perform a check based on <b>Intelligence</b>, you do not suffer stress unless you roll more than one  {Exertion}  result</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8f510dc4fa921821",
+  "_key": "!items!8f510dc4fa921821"
+}

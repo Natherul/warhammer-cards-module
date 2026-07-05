@@ -1,0 +1,106 @@
+{
+  "name": "Curse of the Albatross",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Curse of the Albatross",
+      "type": "blessing",
+      "traits": "Rank 4,Manann",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 Favour, target within long range. Target must have broken one of Manann's many and ever-changing strictures, which certainly includes offending or attacking a priest of Manann</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is cursed by Manann. He gains the <i>Ill-Fortuned</i> condition for 4 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers stress equal to your depth in the Conservative stance</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Ill-Fortuned</i> condition for 2 rounds; Manann is a fickle god indeed!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The duration of each condition affecting the target is increased by 1</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Curse of the Albatross",
+      "type": "blessing",
+      "traits": "Rank 4,Manann",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>6 Favour, target(s) within long range. The target(s) must have broken one of Manann's many strictures, which certainly includes offending or attacking a priest of Manann</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target(s) are cursed by Manann. They gain the <i>Ill-Fortuned</i> condition for 4 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target(s) suffer stress equal to your depth in the Reckless stance</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>As long as the target suffers from the <i>Ill-Fortuned</i> condition, he also reduces all of his characteristics by 1</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All characters, friend and foe, within long range suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The duration of each condition affecting the target is increased by 1</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "951a9eeff6b23074",
+  "_key": "!items!951a9eeff6b23074"
+}

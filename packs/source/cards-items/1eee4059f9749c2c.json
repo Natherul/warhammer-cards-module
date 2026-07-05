@@ -1,0 +1,111 @@
+{
+  "name": "Shining Example",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shining Example",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Sigmar",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>6 favour. You must be able to move and speak freely</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the blessing's effects also apply to <i>Disease</i> checks and checks to resist corruption</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all allies within medium range recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this blessing recharges completely, all characters who had been protected by it must re-check against the last effect that this blessing protected them from</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain  to all checks that this blessing affects. In addition, any of your allies may spend fortune points on such checks on your behalf</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shining Example",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Sigmar",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>6 favour. You must be able to move and speak freely</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the blessing's effects also apply to <i>Disease</i> checks and checks to resist corruption</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within long range suffer 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this blessing recharges completely, all characters who had been protected by it must re-check against the last effect that this blessing protected them from</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each time you pass a check that this blessing affects, you and all allies within long range recover 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1eee4059f9749c2c",
+  "_key": "!items!1eee4059f9749c2c"
+}

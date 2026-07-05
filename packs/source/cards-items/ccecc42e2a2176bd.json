@@ -1,0 +1,103 @@
+{
+  "name": "Velvet Parlance",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Velvet Parlance",
+      "type": "support",
+      "traits": "Chaos,Slaanesh,NPC",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>Add <span class=\"wfrp-font challenge\">L</span> to your dice pool if you are engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Place a number of  on this card equal to the net  successes from the check. These dice are added to your <i>Cunning</i> budget and should be spent first. This card doesn't recharge until there are no dice left on this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Any dice on this card can be used for either <i>Cunning</i> or <i>Aggression</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>For every die you place on this card suffer 1 fatigue or stress (your choice)</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to the results pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Velvet Parlance",
+      "type": "support",
+      "traits": "Chaos,Slaanesh,NPC",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>Add <span class=\"wfrp-font challenge\">L</span> to your dice pool if you are engage with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Place a number of  on this card equal to the net  successes from the check. These dice are added to your <i>Cunning</i> budget and should be spent first. This card doesn't recharge until there are no dice left on this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Any dice on this card can be used for either <i>Cunning</i> or <i>Aggression</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>For every die you place on this card suffer 1 fatigue or stress (your choice)</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to the results pool</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ccecc42e2a2176bd",
+  "_key": "!items!ccecc42e2a2176bd"
+}

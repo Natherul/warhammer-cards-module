@@ -1,0 +1,106 @@
+{
+  "name": "Revel in Corruption",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Revel in Corruption",
+      "type": "melee",
+      "traits": "Cultist,Ruinous Power",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target. You must be a mutant or totally corrupted by Chaos</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You flail about with your mutated appendages, striking the target for normal damage, plus damage equal to the mutation's severity</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and one of the wounds inflicted is a critical with severity equal to the mutation (keep revealing wounds until you find one that fits)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer wounds equal to the mutation's severity</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target must make an <b>Average</b> (<b>2d</b>) <b>Resilience</b> (<b>To</b>) or <b>Discipline</b> (<b>WP</b>) check, his choice. If he fails, he gains the mutation</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Revel in Corruption",
+      "type": "melee",
+      "traits": "Cultist,Ruinous Power",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Cult Mutant\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Cult Mutant is driven to a terrifying frenzy. The target is struck for normal damage and suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts normal damage, and the target suffers fatigue and stress equal to the number of critical wounds he is currently suffering</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack gains <i>Fear 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a free manoeuvre after this action is resolved</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately retaliate with a <i>Basic Melee Attack</i> after the attacker completes this action</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "281e4acbee145b89",
+  "_key": "!items!281e4acbee145b89"
+}

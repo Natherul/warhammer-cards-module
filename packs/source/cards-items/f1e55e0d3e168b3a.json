@@ -1,0 +1,101 @@
+{
+  "name": "Improved Guarded Position",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Improved Guarded Position",
+      "type": "support",
+      "traits": "Defence",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Discipline trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Until the start of your next turn, add  to any <i>Melee Attack</i> or <i>Ranged Attack</i> actions targeting you or any allies in the same engagement as you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Until the start of your next turn, add  to an <i>Melee Attack</i> or <i>Ranged Attack</i> actions that target you or any allies in the same engagement as you</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Up to two allies in the same engagement as you may remove one recharge token from any of their currently recharging cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Improved Guarded Position",
+      "type": "support",
+      "traits": "Defence",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Discipline trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Until the start of your next turn, add  to any <i>Melee Attack</i> or <i>Ranged Attack</i> actions targeting you or any allies in the same engagement as you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Until the start of your next turn, add  to an <i>Melee Attack</i> or <i>Ranged Attack</i> actions that target you or any allies in the same engagement as you</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Up to two allies in the same engagement as you may remove one recharge token from any of their currently recharging cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f1e55e0d3e168b3a",
+  "_key": "!items!f1e55e0d3e168b3a"
+}

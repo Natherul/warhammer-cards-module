@@ -1,0 +1,14 @@
+{
+  "name": "Relentless Pursuit",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you defeat the last enemy in your engagement, you may immediately perform a free manouevre.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7ad1555864ca1270",
+  "_key": "!items!7ad1555864ca1270"
+}

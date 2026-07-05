@@ -1,0 +1,109 @@
+{
+  "name": "Smoke & Mirrors",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Smoke & Mirrors",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure doubles of pure shadowstuff</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> Several copies of you stand nearby, all identical in every respect, making it very difficulty to hit the real you. While this action is recharging, all actions that target you add  to their results pool. Each time an action targeting you fails, remove 1 recharge token from this card</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Smoke & Mirrors",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure doubles of pure shadowstuff</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> Several copies of you stand nearby, all identical in every respect, making it very difficulty to hit the real you. While this action is recharging, all actions that target you add  to their results pool. Each time an action targeting you fails, remove 1 recharge token from this card</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "aebb487a9e05429e",
+  "_key": "!items!aebb487a9e05429e"
+}

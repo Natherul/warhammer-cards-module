@@ -1,0 +1,101 @@
+{
+  "name": "Weapon Mastery",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Weapon Mastery",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Myrmidia",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour, sword or spear equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While is blessing is recharging, add  to your dice pool when attacking with a sword or spear</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Weapon Mastery",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Myrmidia",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour, sword or spear equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While is blessing is recharging, add  to your dice pool when attacking with a sword or spear</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e246d40e79f94c50",
+  "_key": "!items!e246d40e79f94c50"
+}

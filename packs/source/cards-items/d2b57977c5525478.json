@@ -1,0 +1,14 @@
+{
+  "name": "Instinctive",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to <b>Intuition</b> checks</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d2b57977c5525478",
+  "_key": "!items!d2b57977c5525478"
+}

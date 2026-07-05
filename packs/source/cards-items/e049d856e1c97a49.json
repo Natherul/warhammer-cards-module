@@ -1,0 +1,129 @@
+{
+  "name": "Wolfpack Attack",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wolfpack Attack",
+      "type": "melee",
+      "traits": "Epic,Teamwork",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target and at least 1 ally capable of making a melee attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage, using <b>Fellowship</b> rather than <b>Strength</b> to determine damage. One of your engaged allies may immediately perform a <b>Melee Strike</b> action against the same target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and this attack gains +<b>Strength</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The next attack that targets your target gains</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all engaged allies suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>For every <i>Teamwork</i> card you or your party members have recharging, this attack deals +1 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wolfpack Attack",
+      "type": "melee",
+      "traits": "Epic,Teamwork",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target and at least 1 ally capable of making a melee attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage. One of your engaged allies may immediately perform a <b>Melee Strike</b> action against the same target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and this attack deals +<b>Fellowship</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The next attack that targets your target gains</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all engaged allies suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>For every <i>Teamwork</i> card you or your party members have recharging, this attack deals +1 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e049d856e1c97a49",
+  "_key": "!items!e049d856e1c97a49"
+}

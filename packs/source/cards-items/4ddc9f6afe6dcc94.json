@@ -1,0 +1,119 @@
+{
+  "name": "Face of Rhya",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Face of Rhya",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Rhya",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Guile (Fel)",
+      "requirements": "<p>4 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but also add  to your social interactions with all characters</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and the target each recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all characters within medium range recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the party tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This blessing recharges at sunrise</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Face of Taal",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Taal",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>4 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you also add  to your Intimidate checks with all characters</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemy characters within medium range suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the party tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This blessing recharges at sunrise</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4ddc9f6afe6dcc94",
+  "_key": "!items!4ddc9f6afe6dcc94"
+}

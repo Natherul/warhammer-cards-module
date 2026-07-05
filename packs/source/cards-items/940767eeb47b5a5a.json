@@ -1,0 +1,106 @@
+{
+  "name": "My Will Be Done",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "My Will Be Done",
+      "type": "spell",
+      "traits": "Necromancy,Ongoing",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Int)",
+      "requirements": "<p>8 Power<br/>Target allies within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, each ally within medium range of you gains the <i>Inspired</i> condition until this action recharges</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "My Will Be Done",
+      "type": "spell",
+      "traits": "Necromancy",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 Power<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You force your target to immediately perform a <b>Melee Strike</b> against any character engaged with him (your choice)</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, each enemy engaged with the target suffers 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy within close range of your target gains the <i>Demoralised</i> condition while this action is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may force your target to immediately perform a <b>Melee Strike</b> against another character engaged with him (your choice)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "940767eeb47b5a5a",
+  "_key": "!items!940767eeb47b5a5a"
+}

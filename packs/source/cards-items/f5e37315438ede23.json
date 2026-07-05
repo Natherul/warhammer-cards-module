@@ -1,0 +1,111 @@
+{
+  "name": "Quick-Quick, Kill-Kill!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Quick-Quick, Kill-Kill!",
+      "type": "ranged",
+      "traits": "Skaven",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Used by: Gutter Runner\r\n<br/>Ranged weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The sneaky gutter runner unleashes a quick ranged attack, hoping to catch its target off-guard. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, the GM may add 1 recharge token to any one of the target's actions</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker may immediately perform a manoeuvre after this action is completed</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may immediately perform a manoeuvre after the attacker completes this action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker may immediately make a <i>Basic Ranged Attack</i> after this action is completed</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Quick-Quick, Kill-Kill!",
+      "type": "ranged",
+      "traits": "Skaven",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You unleash a quick ranged attack, hoping to catch its target off-guard. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, the GM may add 1 recharge token to any one of the target's actions</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may immediately perform a manoeuvre after you complete this action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately make a <i>Basic Ranged Attack</i> after this action is completed</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f5e37315438ede23",
+  "_key": "!items!f5e37315438ede23"
+}

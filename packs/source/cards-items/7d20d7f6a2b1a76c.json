@@ -1,0 +1,101 @@
+{
+  "name": "Find Weakness",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Find Weakness",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int) vs Target Guile (Fel)",
+      "requirements": "<p>Within medium range of target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, ignore the difficulty modifier for subsequent <i>Melee Attack</i> or <i>Ranged Attack</i> actions against the observed foe. Remove 1 recharge token from this card for each  ignored</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, add  to any actions performed against any target other than your observed target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Find Weakness",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int) vs Target Guile (Fel)",
+      "requirements": "<p>Within medium range of target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, reduce your target's soak value by 2 for subsequent <i>Melee Attack</i> or <i>Ranged Attack</i> actions against him. Remove 1 recharge token from this card each time you critically wound an opponent</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, add  to any actions performed against any target other than your observed target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7d20d7f6a2b1a76c",
+  "_key": "!items!7d20d7f6a2b1a76c"
+}

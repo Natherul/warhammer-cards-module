@@ -1,0 +1,111 @@
+{
+  "name": "Devastating Swing",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Devastating Swing",
+      "type": "melee",
+      "traits": "Basic,Monstrous",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Strength 6+. Must be engaged with the target. If you have a weapon equipped or an enormous appendage, you may be within close range.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You take a wide swing at your opponents, flattening your target and causing others to scatter. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may hurl your target to a new location within close range, where he lands prone</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If armed with a weapon, your enormous strength shatters it into splinters</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies engaged with you are knocked back, disengaging automatically</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Devastating Swing",
+      "type": "melee",
+      "traits": "Basic,Monstrous",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Giants, Trolls\r\n<br/>Engaged with target, or within close range if melee weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The towering creature takes a wide swing at its opponents, flattening its target and causing others to scatter. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers from the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker loses his weapon, throwing it a close distance away from himself</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All characters engaged with the target suffer 1 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "49382cb122092db4",
+  "_key": "!items!49382cb122092db4"
+}

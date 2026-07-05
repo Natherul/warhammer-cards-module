@@ -1,0 +1,97 @@
+{
+  "name": "Cat's Reflexes",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cat's Reflexes",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Ranald",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, if you fall as a result of a failed <b>Coordination</b> or <b>Athletics</b> check you may expend fortune point to reduce wounds, critical wounds, and fatigue suffered equal to the fortune spent</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cat's Reflexes",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "",
+      "requirements": "<p>5 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you gain an extra free manoeuvre each turn while this card is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, add an extra  to the dice pool when you <b>Dodge</b></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "31bfc1effe0d0c61",
+  "_key": "!items!31bfc1effe0d0c61"
+}

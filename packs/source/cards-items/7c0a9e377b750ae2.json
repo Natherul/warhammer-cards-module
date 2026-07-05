@@ -1,0 +1,111 @@
+{
+  "name": "Mine's Bigger",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mine's Bigger",
+      "type": "support",
+      "traits": "Zweihander",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Defence (WP)",
+      "requirements": "<p>Melee weapon equipped; target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You brandish your weapon and threaten your target, who suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The next time you hit the target with a <i>Melee Attack</i>, you deal +3 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mine's Bigger",
+      "type": "support",
+      "traits": "Zweihander",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Melee weapon equipped; target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You brandish your weapon and threaten your target, who suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Rattled</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7c0a9e377b750ae2",
+  "_key": "!items!7c0a9e377b750ae2"
+}

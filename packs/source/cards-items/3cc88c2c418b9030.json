@@ -1,0 +1,63 @@
+{
+  "name": "Keen Senses",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Keen Senses",
+      "type": "spell",
+      "traits": "Rank 1,Reaction,Amber Order,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>1 or more power (as detailed below). Must be in beastform and making a skill check where keen senses are relevant</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Keen Senses",
+      "type": "spell",
+      "traits": "Rank 1,Reaction,Amber Order,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>1 or more power (as detailed below). Must be in beastform and making a skill check where keen senses are relevant</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3cc88c2c418b9030",
+  "_key": "!items!3cc88c2c418b9030"
+}

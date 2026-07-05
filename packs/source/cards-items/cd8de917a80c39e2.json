@@ -1,0 +1,91 @@
+{
+  "name": "Hunter's Moon",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Hunter's Moon",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Amber Order,Beastform",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) Special",
+      "requirements": "<p>5 power. When you cast this spell, you howl at the moon (at least 1 moon must be in the sky)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell, which affects <b>Stealth</b> and <b>Observation</b> checks</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus <b>Nature Lore</b> and <b>Intuition</b></p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the targets spend fortune points to enhance the affected checks, they add  to their dice pools instead of</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Hunter's Moon",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Amber Order,Beastform",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) Special",
+      "requirements": "<p>5 power. When you cast this spell, you howl at the moon (at least 1 moon must be in the sky)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell, which affects <b>Stealth</b> and <b>Observation</b> checks</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus <b>Observation</b> and <b>Ballistic Skill</b></p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the targets spend fortune points to enhance the affected checks, they add  to their dice pools instead of</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cd8de917a80c39e2",
+  "_key": "!items!cd8de917a80c39e2"
+}

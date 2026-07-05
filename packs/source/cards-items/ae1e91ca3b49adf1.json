@@ -1,0 +1,129 @@
+{
+  "name": "Eviscerator",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Eviscerator",
+      "type": "melee",
+      "traits": "Chaos,Monstrous",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon, engaged with target, target must have rolled a Chaos Star <span class=\"wfrp-font chaos\">G</span> during his most recent turn</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage, and the attack has a <i>Pierce</i> rating equal to the number of <i>Aggression dice</i> used on this attack</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical. The target gains the <i>Overwhelmed</i> condition until he receives medical aid</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue and 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target falls prone</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition for 1 round</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target can make an immediate attack against you. You cannot use any <i>Active Defences</i> against this attack</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If your target is KO'd by this attack, convert an additional wound into a critical wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Skulls For The Skull Throne!",
+      "type": "melee",
+      "traits": "Chaos,Monstrous",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon, engaged with target, target must have rolled a Chaos Star <span class=\"wfrp-font chaos\">G</span> during his most recent turn</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but ignore the target's Soak Value</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You inflict an amount of extra damage equal to the number of Aggression dice you used on this attack</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target can make an immediate attack against you. You cannot use any <i>Active Defences</i> against this attack</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If your target is KO'd by this attack, convert an additional wound into a critical wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ae1e91ca3b49adf1",
+  "_key": "!items!ae1e91ca3b49adf1"
+}

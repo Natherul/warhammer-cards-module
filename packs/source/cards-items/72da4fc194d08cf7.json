@@ -1,0 +1,63 @@
+{
+  "name": "Dying Breath",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dying Breath",
+      "type": "blessing",
+      "traits": "Epic,Reaction,Shallya,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when you die. Target within medium range (you may not target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dying Breath",
+      "type": "blessing",
+      "traits": "Epic,Reaction,Shallya,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when you die. Target within medium range (you may not target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "72da4fc194d08cf7",
+  "_key": "!items!72da4fc194d08cf7"
+}

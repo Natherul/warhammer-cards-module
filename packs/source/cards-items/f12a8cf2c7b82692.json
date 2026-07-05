@@ -1,0 +1,14 @@
+{
+  "name": "Pious",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain  K  to <b>Fellowship</b> checks or <i>Social</i> actions targeting a priest or devoutly religious character</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f12a8cf2c7b82692",
+  "_key": "!items!f12a8cf2c7b82692"
+}

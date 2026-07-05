@@ -1,0 +1,101 @@
+{
+  "name": "Coordinated Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Coordinated Strike",
+      "type": "melee",
+      "traits": "Support,Teamwork",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Leadership trained, you and a coordinating ally both equipped with melee weapons and both engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target using your weapon's damage rating but the coordinating ally's <b>Strength</b> to determine damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The coordinating ally may immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the coordinating ally each suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Coordinated Strike",
+      "type": "melee",
+      "traits": "Support,Teamwork",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Leadership trained, you and a coordinating ally both equipped with melee weapons and both engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit using your own <b>Strength</b> but the coordinating ally's weapon damage and critical ratings to determine damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and with enough boons, you can activate the critical ratings of both weapons</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add the coordinating ally's <b>Strength</b> to the damage inflicted</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all allies in this engagement suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1b3e435c0c45d439",
+  "_key": "!items!1b3e435c0c45d439"
+}

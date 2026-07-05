@@ -1,0 +1,14 @@
+{
+  "name": "Strength in Numbers",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>While you are within close range of at least 2 allies, add  K  to <b>Discipline</b> checks and  K  to <b>Leadership</b> checks</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9114058cb66c3b64",
+  "_key": "!items!9114058cb66c3b64"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Relentless Approach",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After rolling a <b>Strength</b>, <b>Toughness</b>, or <b>Agility</b> check, exhaust this card to reroll all  K  and  K  in the current dice pool</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5e6bbcd11b4cba26",
+  "_key": "!items!5e6bbcd11b4cba26"
+}

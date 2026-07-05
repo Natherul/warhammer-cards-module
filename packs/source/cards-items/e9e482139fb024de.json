@@ -1,0 +1,111 @@
+{
+  "name": "Law of Form",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Law of Form",
+      "type": "spell",
+      "traits": "Rank 1,Gold Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power\r\n<br/>Target object no larger than you within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You reach out with your magic and improve the form of the target item. It becomes stronger than steel and it's durability improves. Attempts to break the item suffer . The spell's effects last until the end of the episode</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the item becomes a superior example of its type</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>A numerical trait of the item, such as soak value or <i>Pierce</i> rating, improves by 1 until the end of the episode. You may trigger this effect multiple times. Each time it affects a new trait</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The item becomes truly unbreakable until the end of the act</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Law of Form",
+      "type": "spell",
+      "traits": "Rank 1,Gold Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power\r\n<br/>Target object no larger than you within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You reach out with your magic and improve the form of the target item. It becomes stronger than steel and it's durability improves. Attempts to break the item suffer . The spell's effects last until the end of the episode</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the item becomes a superior example of its type</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>A numerical trait of the item, such as soak value or <i>Pierce</i> rating, improves by 1 until the end of the episode. You may trigger this effect multiple times. Each time it affects a new trait</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The item becomes unbreakable, unbendable, and much heavier, increasing its Encumbrance value by 2 for each</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e9e482139fb024de",
+  "_key": "!items!e9e482139fb024de"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Aethyric Conduit",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you recover or lose power during your end of turn step due to not being at equilibrium, you recover or lose 1 additional power (unless this would take you past equilibrium)</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6159d4e8971d6d1a",
+  "_key": "!items!6159d4e8971d6d1a"
+}

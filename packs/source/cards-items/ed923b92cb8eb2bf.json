@@ -1,0 +1,63 @@
+{
+  "name": "Morr's Benediction",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Morr's Benediction",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Morr,Benediction",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when a creature within close range dies</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Morr's Benediction",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Morr,Benediction",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when a creature within close range dies</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ed923b92cb8eb2bf",
+  "_key": "!items!ed923b92cb8eb2bf"
+}

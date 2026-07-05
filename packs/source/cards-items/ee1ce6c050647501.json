@@ -1,0 +1,111 @@
+{
+  "name": "Enlightenment",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Enlightenment",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Light Order,Rank 5",
+      "rechargeRating": 9,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 power\r\n<br/>You must perform a prepare manoeuvre before you cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you and all allies within medium range recover normal wounds equal to your character rank</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all allies within medium range recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies within medium range suffer wounds equal to your character rank</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Enlightenment",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Light Order,Rank 5",
+      "rechargeRating": 9,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 power\r\n<br/>You must perform a prepare manoeuvre before you cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and all effects of this spell extend to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all allies within medium range recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies within medium range suffer wounds equal to your character rank</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ee1ce6c050647501",
+  "_key": "!items!ee1ce6c050647501"
+}

@@ -1,0 +1,129 @@
+{
+  "name": "Good Witch Hunter",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Good Witch Hunter",
+      "type": "support",
+      "traits": "Social,Teamwork",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target can see and hear you, ally has recently performed an <b>Intimidate</b> check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You act sympathetically towards the target, being both supportive and understanding. Influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and an ally adds  to the next <b>Intimidate</b> check against the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the party tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are a little too supportive. Your target gains the <i>Inspired</i> condition while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gains the <i>Perplexed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bad Witch Hunter",
+      "type": "support",
+      "traits": "Social,Teamwork",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Target can see and hear you, ally has recently performed a <b>Charm</b> check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You act aggressively towards the target making blatant accusations and threats. Influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and an ally adds  to the next <i>Charm</i> check against the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the party tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are a little too aggressive. Suffer 2 fatigue</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gains the <i>Perplexed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6ca7b77725ef98e4",
+  "_key": "!items!6ca7b77725ef98e4"
+}

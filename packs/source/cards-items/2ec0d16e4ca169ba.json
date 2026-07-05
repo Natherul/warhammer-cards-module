@@ -1,0 +1,14 @@
+{
+  "name": "Connected",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to add  K  K  to you dice pool when using a <i>Social</i> action</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2ec0d16e4ca169ba",
+  "_key": "!items!2ec0d16e4ca169ba"
+}

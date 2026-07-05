@@ -1,0 +1,102 @@
+{
+  "name": "Fault of Form",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fault of Form",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Special",
+      "requirements": "<p>4 power\r\n<br/>Target object no larger than you within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the item becomes poor quality until this card recharges</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>A numerical trait of the item such as its soak value or damage rating, worsens by 1 while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fault of Form",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Special",
+      "requirements": "<p>4 power\r\n<br/>Target object no larger than you within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The spell affects another item of the GM's choice within close range</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The item breaks entirely, unless it is magical. This spell recharges immediately</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ac356a4c6a63bba7",
+  "_key": "!items!ac356a4c6a63bba7"
+}

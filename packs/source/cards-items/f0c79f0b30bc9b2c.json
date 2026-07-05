@@ -1,0 +1,111 @@
+{
+  "name": "Final Caress",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Final Caress",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Ag) vs Target Discipline (WP)",
+      "requirements": "<p>You must be engaged with your target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your touch causes the target to reel in excruciating pain. You deal normal damage plus damage equal to the number of fatigue the target suffers from</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and your touch invades the target's mind as well, inflicting additional damage equal to the number of stress the target suffers from</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You share in the delicate pleasure of the pain you cause. Suffer damage equal to the number of insanities your target suffers from</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers from 1 fatigue, 1 stress, and +2 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Final Caress",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Ag) vs Target Discipline (WP)",
+      "requirements": "<p>You must be engaged with your target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your touch causes the target to reel in excruciating pain. You deal normal damage plus damage equal to the number of fatigue and stress the target suffers from</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the attack inflicts critical damage if any of the target's mental characteristics are distressed or physical characteristics are fatigued</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You share in the delicate pleasure of the pain you cause. Suffer damage equal to the number of insanities your target suffers from</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+3 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f0c79f0b30bc9b2c",
+  "_key": "!items!f0c79f0b30bc9b2c"
+}

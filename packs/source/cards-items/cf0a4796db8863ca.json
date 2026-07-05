@@ -1,0 +1,63 @@
+{
+  "name": "Kindleflame",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Kindleflame",
+      "type": "spell",
+      "traits": "Ongoing,Rank 2,Reaction,Bright Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 power. You must have just inflicted 1 or more damage to your target by means of a <i>Bright Order</i> spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Kindleflame",
+      "type": "spell",
+      "traits": "Ongoing,Rank 2,Reaction,Bright Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 power. You must have just inflicted 1 or more damage to your target by means of a <i>Bright Order</i> spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cf0a4796db8863ca",
+  "_key": "!items!cf0a4796db8863ca"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Gregarious",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to <b>Charm</b> checks</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "21e9c5a78768749f",
+  "_key": "!items!21e9c5a78768749f"
+}

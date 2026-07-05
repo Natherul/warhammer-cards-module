@@ -1,0 +1,119 @@
+{
+  "name": "Greater Healing",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Greater Healing",
+      "type": "blessing",
+      "traits": "Rank 4,Shallya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>8 favour. Engaged with target. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers normal wounds equal to your <b>Willpower</b></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers normal wounds equal to your <b>Willpower</b> +1</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target recovers normal wounds equal to your <b>Willpower</b> +2</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Turn 1 of your target's critical wounds with a severity no greater than your <b>Willpower</b> facedown</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target immediately recovers normal wounds equal to your <b>Fellowship</b></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The healing does not apply until the end of the round in which this blessing is resolved. If the target is killed in the interim, the blessing is wasted. This is in addition to the regular  effects</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Greater Healing",
+      "type": "blessing",
+      "traits": "Rank 4,Shallya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>8 favour. Engaged with target. If you are engaged with an enemy add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers normal wounds equal to your <b>Willpower</b> +1</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers normal wounds equal to your <b>Willpower</b> +2</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target recovers normal wounds equal to your <b>Willpower</b> +3</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>This blessing affects a second target in the same engagement</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target immediately recovers normal wounds equal to your <b>Fellowship</b></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound, in addition to the regular  effects</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "411be232da0d1207",
+  "_key": "!items!411be232da0d1207"
+}

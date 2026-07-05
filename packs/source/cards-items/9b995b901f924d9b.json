@@ -1,0 +1,14 @@
+{
+  "name": "Silver Tongue",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span><b>Fellowship</b> checks add  {Dboon}  to the results pool if at least  {Dsucc}  {Dsucc}  {Dsucc}  are generated</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9b995b901f924d9b",
+  "_key": "!items!9b995b901f924d9b"
+}

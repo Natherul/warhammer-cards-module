@@ -1,0 +1,111 @@
+{
+  "name": "Hand of Dust",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Hand of Dust",
+      "type": "spell",
+      "traits": "Necromancy,Rank 1",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>2 Power, Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The necromancer's touch rots wood and leather, corrodes metal, or withers flesh, reducing the quality of an item touched to poor. If the target is a creature, it takes 4+ <b>Strength</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 6+ <b>Strength</b> instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The soak value of target armour, damage rating of target weapon, or other relevant statistic is reduced by 1, permanently. This can affect an item worn or carried by the target of the GM's choice</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A non-magical, non-living object is completely destroyed</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Hand of Dust",
+      "type": "spell",
+      "traits": "Necromancy,Rank 1",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>2 Power, Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The necromancer's touch rots wood and leather, corrodes metal, or withers flesh, reducing the quality of an item touched to poor. If the target is a creature, it takes 4+ <b>Strength</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 6+ <b>Strength</b> instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The soak value of target armour, damage rating of target weapon, or other relevant statistic is reduced by 1, permanently. This can affect an item worn or carried by the target of the GM's choice</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A non-magical, non-living object is completely destroyed</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2de6f2cc832afa56",
+  "_key": "!items!2de6f2cc832afa56"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Law of Logic",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Law of Logic",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power\r\n<br/>Must perform the prepare manoeuvre before using this action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 less recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You can confer your bonus to any ally within medium range, instead of you</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card, in addition to the normal  effects</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Law of Logic",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power\r\n<br/>Must perform the prepare manoeuvre before using this action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 less recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You can confer your bonus to any ally within long range, instead of you</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0618303eaed9b002",
+  "_key": "!items!0618303eaed9b002"
+}

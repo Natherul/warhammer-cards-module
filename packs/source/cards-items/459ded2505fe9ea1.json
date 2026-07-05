@@ -1,0 +1,101 @@
+{
+  "name": "Winter's Frost",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Winter's Frost",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Jade order,Winter",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>target engagement or area within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cast the spell and each creature in the area of effect suffers 1 wound from cold</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Winter's Frost",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Jade order,Winter",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>target engagement or area within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A burst of cold ice inflicts 1 wound on each creature in the target engagement</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the ground grows icy and slick. While this spell is recharging, anyone attempting to move within the affected area or engagement must pass an <b>Easy</b> (<b>1d</b>) <b>Coordination</b> check or fall prone instead of moving</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "459ded2505fe9ea1",
+  "_key": "!items!459ded2505fe9ea1"
+}

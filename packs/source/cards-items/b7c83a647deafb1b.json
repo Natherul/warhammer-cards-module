@@ -1,0 +1,101 @@
+{
+  "name": "Soothing Voice",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Soothing Voice",
+      "type": "blessing",
+      "traits": "Rank 1,Social,Shallya",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour, the ability to speak. Your targets must hear you, but need not understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You speak calmly and softly. Each living creature that can hear you recovers 1 stress and will generally perceive you more favorably. If appropriate, this may influence the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus while this card is recharging, living creatures that can hear and understand you add  to their dice pools for any hostile action that include you as a target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move your Party Tension meter 1 space to the left</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move your Party Tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Soothing Voice",
+      "type": "blessing",
+      "traits": "Rank 1,Social,Shallya",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour, the ability to speak. Your targets must hear you, but need not understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You speak calmly and softly. Each living creature that can hear you recovers 1 stress and will generally perceive you more favorably. If appropriate, this may influence the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus while this card is recharging, living creatures that can hear and understand you add  to their dice pools for any hostile action that include you as a target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move your Party Tension meter 1 space to the left</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move your Party Tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b7c83a647deafb1b",
+  "_key": "!items!b7c83a647deafb1b"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Well-Traveled",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You gain  K  to <b>Charm</b>, <b>Education</b>, and <b>Folklore</b> checks pertaining to exotic people and places\r\n<br></br>Exhaust this card to ignore a penalty on a <i>Social</i> action based on cultural differences.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b25780782cf28347",
+  "_key": "!items!b25780782cf28347"
+}

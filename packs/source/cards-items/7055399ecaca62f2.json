@@ -1,0 +1,106 @@
+{
+  "name": "Dismissive Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dismissive Strike",
+      "type": "melee",
+      "traits": "Basic,Chaos",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for -1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you may force the target to move to anywhere within close range of you. You may immediately perform a manoeuvre for free</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target falls prone and must spend a manoeuvre to stand up</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue per  rolled</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mauling Blow",
+      "type": "melee",
+      "traits": "Basic,Chaos",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon or talons, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack gains the Vicious quality</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target of the attack may immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7055399ecaca62f2",
+  "_key": "!items!7055399ecaca62f2"
+}

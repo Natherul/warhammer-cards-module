@@ -1,0 +1,135 @@
+{
+  "name": "Axe of Khorne Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Axe of Khorne Strike",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Axe of Khorne equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack hits for +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may disengage for free</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Axe of Khorne Strike",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Axe of Khorne equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack hits for +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may disengage for free</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e637d92ff5f985fd",
+  "_key": "!items!e637d92ff5f985fd"
+}

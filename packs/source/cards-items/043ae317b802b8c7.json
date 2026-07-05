@@ -1,0 +1,93 @@
+{
+  "name": "Cure Mutation",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cure Mutation",
+      "type": "blessing",
+      "traits": "Rank 4,Shallya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Mutation Severity",
+      "requirements": "<p>9 favour, engaged with target, target suffering from at least one mutation</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Shallya's divine mercy is made manifest and the target's flesh re-knits itself to mend the mutation. The mutation is cured permanently, but the process is excruciating for both you and the target. You suffer fatigue and stress equal to the mutation's severity. The target's wound threshold is reduced by the mutation's severity permanently</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 corruption</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's wound threshold is reduced by 1 less (to a minimum of 1)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cure Mutation",
+      "type": "blessing",
+      "traits": "Rank 4,Shallya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Mutation Severity",
+      "requirements": "<p>9 favour, engaged with target, target suffering from at least one mutation</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Shallya's divine mercy is made manifest and the target's flesh re-knits itself to mend the mutation. The mutation is cured permanently, but the process is excruciating for both you and the target. You suffer fatigue and stress equal to the mutation's severity. The target's wound threshold is reduced by the mutation's severity permanently</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 corruption</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's wound threshold is reduced by 1 less (to a minimum of 1)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "043ae317b802b8c7",
+  "_key": "!items!043ae317b802b8c7"
+}

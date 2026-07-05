@@ -1,0 +1,14 @@
+{
+  "name": "Aqshy, Lore of Fire, Bright Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you perform a <i>Bright Order Spell</i> action that deals damage, for each 1 additional power you spend you may increase the damage caused by that <i>Spell</i> action by 1.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f6111b17cd6e96ae",
+  "_key": "!items!f6111b17cd6e96ae"
+}

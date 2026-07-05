@@ -1,0 +1,91 @@
+{
+  "name": "Sleep of Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sleep of Death",
+      "type": "blessing",
+      "traits": "Rank 4,Morr",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour, must perform the prepare moaneuvre.... and get your body into a safe place!</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fall asleep, a sleep so deep and profound that you will appear dead to all but the most careful observer (any checks to determine whether you're alive are opposed by your Invocation). When the blessing recharges you may choose to wake up, or to continue sleeping until a later time. When you wake up, make a Recovery check if you've slept for the night</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and recover all fatigue and all stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  on the Recovery check</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sleep of Death",
+      "type": "blessing",
+      "traits": "Rank 4,Morr",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour, must perform the prepare manoeuvre.... and get your body into a safe place!</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fall asleep, a sleep so deep and profound that you will appear dead to all but the most careful observer (any checks to determine whether you're alive are opposed by your Invocation). When the blessing recharges you may choose to wake up, or to continue sleeping until a later time. When you wake up, make a Recovery check if you've slept for the night</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may affect a number of willing targets equal to your character rank</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  on the Recovery check</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "594015db354b04a9",
+  "_key": "!items!594015db354b04a9"
+}

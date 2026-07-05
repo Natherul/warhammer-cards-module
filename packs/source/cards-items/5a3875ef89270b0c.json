@@ -1,0 +1,111 @@
+{
+  "name": "I Thought We Were Friends",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "I Thought We Were Friends",
+      "type": "support",
+      "traits": "Ongoing,Social,Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Intuition (Int)",
+      "requirements": "<p>Target must be within close range wand be able to see or hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, the target adds  to any <i>Social</i> or <i>Support</i> actions he performs within close range of you</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 stress or 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "I Thought We Were Friends",
+      "type": "support",
+      "traits": "Ongoing,Social,Support",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Intuition (Int)",
+      "requirements": "<p>Target must be within medium range and be able to see or hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, the target adds  to any <i>Melee Attack</i> or  <i>Ranged Attack</i> actions that include you as a target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The penalty applies to actions that include you or any allies within close range of your as the target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5a3875ef89270b0c",
+  "_key": "!items!5a3875ef89270b0c"
+}

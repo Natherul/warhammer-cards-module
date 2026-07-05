@@ -1,0 +1,113 @@
+{
+  "name": "Dangerous When Cornered",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dangerous When Cornered",
+      "type": "melee",
+      "traits": "Bestial,Swarm",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Swarms<br/>Engaged with 2 or more enemies</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the swarm senses it is surrounded, it struggles furiously to escape. The more enemies it is facing, the more vicious its attacks become. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts critical damage, and the attacker may immediately perform a manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All engaged enemies suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>All engaged enemies suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker may immediately disengage for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker gains the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dangerous When Cornered",
+      "type": "melee",
+      "traits": "Bestial",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Boar, Giant Wolf<br/>Engaged with 2 or more enemies</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the creature senses it is surrounded, it struggles furiously to escape. The more enemies it is facing, the more vicious it becomes. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts critical damage, and the attacker may immediately perform a manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All engaged enemies suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker may immediately move from engaged to close range without suffering any fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker gains the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "048523b265cd1809",
+  "_key": "!items!048523b265cd1809"
+}

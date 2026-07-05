@@ -1,0 +1,119 @@
+{
+  "name": "Daemonbane",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Daemonbane",
+      "type": "spell",
+      "traits": "Rank 3,Light Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>6 Power\r\n<br/>Target daemon within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Brilliant white light sears the target for 5 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 7 wounds instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 10 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+ <b>Willpower</b> damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 wounds, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Daemonbane",
+      "type": "spell",
+      "traits": "Rank 3,Light Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>6 Power\r\n<br/>Target daemon within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A brilliant flash of light attempts to banish the daemon back to the Realm of Chaos. You hit the target for 6+ <b>Willpower</b> damage, and the target uses <b>Willpower</b> rather than <b>Toughness</b> to reduce damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 8+ <b>Willpower</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+ <b>Fellowship</b> damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+3 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "aa953114c2c67ab5",
+  "_key": "!items!aa953114c2c67ab5"
+}

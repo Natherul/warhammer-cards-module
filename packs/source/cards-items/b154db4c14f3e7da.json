@@ -1,0 +1,63 @@
+{
+  "name": "Carefully-Chosen Words",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Carefully-Chosen Words",
+      "type": "support",
+      "traits": "Epic,Social,Enhance",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Charm, Guile, or Leadership Mastery. Enhances a <i>Social</i> action that uses one of those skills you have Mastery in.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Carefully-Chosen Words",
+      "type": "support",
+      "traits": "Epic,Social,Enhance",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Guile, Intimidate, or Skullduggery Mastery. Enhances a <i>Social</i> action that uses one of these skills you have Mastery in</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b154db4c14f3e7da",
+  "_key": "!items!b154db4c14f3e7da"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Burning Gaze",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Burning Gaze",
+      "type": "spell",
+      "traits": "Rank 1,Light Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence (WP)",
+      "requirements": "<p>4 Power\r\n<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your gaze focuses radiant power on the target and hits him for 5+ <b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above and the target gains the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The duration of the <i>Blinded</i> condition is increased by 1</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Burning Gaze",
+      "type": "spell",
+      "traits": "Rank 1,Light Order",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>4 Power\r\n<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your gaze focuses radiant power on the target and hits him for 4+ <b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 6+ <b>Willpower</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Blinded</i> condition for 1 round</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "318c7b04504d6833",
+  "_key": "!items!318c7b04504d6833"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "I've Seen Worse...",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to add  K  K  to any <b>Willpower</b> check</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c4c3ec44354cb054",
+  "_key": "!items!c4c3ec44354cb054"
+}

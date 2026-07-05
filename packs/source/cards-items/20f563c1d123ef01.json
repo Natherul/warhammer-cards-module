@@ -1,0 +1,14 @@
+{
+  "name": "Wealthy",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You gain  K  to non-combat checks that target those of a lower social tier than you. Such checks gain: \r\n\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results pool</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "20f563c1d123ef01",
+  "_key": "!items!20f563c1d123ef01"
+}

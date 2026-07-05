@@ -1,0 +1,14 @@
+{
+  "name": "Ulgu, Illusionist, Grey Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After you perform a <i>Grey Order Spell</i> action, you may exhaust this card to step through shadows and appear anywhere within close range.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "542c807d9bb9bba7",
+  "_key": "!items!542c807d9bb9bba7"
+}

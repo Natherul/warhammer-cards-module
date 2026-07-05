@@ -1,0 +1,111 @@
+{
+  "name": "Cloud of Gnats",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cloud of Gnats",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Shaman",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cast the spell and all enemies engaged with you gain the <i>Blinded</i> condition for 1 round</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The bloodsucking insects heal you of 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The insects bite you, too! Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The buzzing gnats fly into your mouth, nose, and eyes. Gain the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cloud of Gnats",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Shaman",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "",
+      "requirements": "<p>5 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cast the spell and all enemies engaged with you suffer 2 wounds (ignoring <b>Toughness</b> and armour soak value)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies engaged with you suffer 1 wound (ignoring <b>Toughness</b> and soak)</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The insects bite you, too! Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The buzzing gnats fly into your mouth, nose, and eyes. Gain the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "95efb77977d0bf09",
+  "_key": "!items!95efb77977d0bf09"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Armoured in Speed",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you use an <i>Active Defence</i> against an attack, your armour soak value against that attack becomes equal to your character rank (regardless of what armour you are wearing).</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7a49cf87454cf036",
+  "_key": "!items!7a49cf87454cf036"
+}

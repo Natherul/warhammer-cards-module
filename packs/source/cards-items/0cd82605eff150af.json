@@ -1,0 +1,101 @@
+{
+  "name": "Omen",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Omen",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Celestial Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power, a clear view of the stars or a suitable divining instrument (deck of cards, dice, etc.)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Omen",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Celestial Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power, a clear view of the stars or a suitable divining instrument (deck of cards, dice, etc.)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0cd82605eff150af",
+  "_key": "!items!0cd82605eff150af"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Aethyric Attunement",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Channeling</b>, <b>Piety</b>, <b>Observation</b>, <b>Folklore</b>, and <b>Intuition</b> checks gain  K  when magic is involved</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e7b94a0b822f9a23",
+  "_key": "!items!e7b94a0b822f9a23"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Gift of Life",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gift of Life",
+      "type": "spell",
+      "traits": "Rank 1,Jade order,Spring",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Injury Level",
+      "requirements": "<p>4 Power\r\n<br/>engaged with target. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><i>Ghyran</i> flows through the target, who recovers 1 normal wound and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 critical wound with a severity of 3 or less</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gift of Life",
+      "type": "spell",
+      "traits": "Rank 1,Jade order,Spring",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Injury Level",
+      "requirements": "<p>4 Power\r\n<br/>engaged with target. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><i>Ghyran</i> flows through the target, who recovers 1 normal wound and 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 critical wound with a severity of 3 or less</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2a937db52e60a907",
+  "_key": "!items!2a937db52e60a907"
+}

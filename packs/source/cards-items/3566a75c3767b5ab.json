@@ -1,0 +1,103 @@
+{
+  "name": "Feel No Pain",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Feel No Pain",
+      "type": "support",
+      "traits": "Drunken",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Critical Severity",
+      "requirements": "<p>Must be intoxicated. Play when you suffer a non-Severe Injury critical wound</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Fortified by good spirits, you don't even notice the injury! Ignore the ill effects of the injury until you sober up (use a tracking token to mark it as ignored)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer stress equal to the critical wound severity</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 wound! Hic!</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feel No Pain",
+      "type": "support",
+      "traits": "Drunken",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Critical Severity",
+      "requirements": "<p>Must be Intoxicated. Play when you suffer a non-Severe Injury critical wound</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Fortified by good spirits, you don't even notice the injury! Ignore the ill effects of the injury until you sober up (use a tracking token to mark it as ignored)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer stress equal to the critical wound severity</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 wound! Hic!</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3566a75c3767b5ab",
+  "_key": "!items!3566a75c3767b5ab"
+}

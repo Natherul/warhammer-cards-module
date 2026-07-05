@@ -1,0 +1,63 @@
+{
+  "name": "Shadow's Coil",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shadow's Coil",
+      "type": "support",
+      "traits": "Active Defence,Ritual Dance",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>One or more <i>Ritual Dance</i> cards recharging</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shadow's Coil",
+      "type": "support",
+      "traits": "Active Defence,Ritual Dance",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>One or more <i>Ritual Dance</i> cards recharging</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1f72b05112452ca5",
+  "_key": "!items!1f72b05112452ca5"
+}

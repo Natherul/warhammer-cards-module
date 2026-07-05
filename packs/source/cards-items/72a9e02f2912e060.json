@@ -1,0 +1,111 @@
+{
+  "name": "The Price of Knowledge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Price of Knowledge",
+      "type": "support",
+      "traits": "Cultist,Ruinous Power,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Defence (WP)",
+      "requirements": "<p>Used By: Cult of the Broken Wheel\r\n<br/>Within close range of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Cult members use their unfathomable insights to confuse, rattle, and impair their opponents. The target moves 1 space towards a neutral stance, and whenever a recharge token is removed from this power, the GM places it on one of the target's actions</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a manoeuvre after the attacker completes this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Price of Knowledge",
+      "type": "support",
+      "traits": "Cultist,Ruinous Power,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Defence (WP)",
+      "requirements": "<p>Within close range of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You use your unfathomable insights to confuse, rattle, and impair your opponents. The target moves 1 space towards a neutral stance, and whenever a recharge token is removed from this power, the GM places it on one of the target's actions</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, add 2 additional recharge tokens on this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a manoeuvre after the attacker completes this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately remove 1 recharge token from one of his cards</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "72a9e02f2912e060",
+  "_key": "!items!72a9e02f2912e060"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "The Hunter's Eye",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Hunter's Eye",
+      "type": "support",
+      "traits": "Ongoing,Teamwork,Hunter's Eye",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int)",
+      "requirements": "<p>Target within long range; you must be able to clearly see and study the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully spot your target's weakness</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from any <i>Hunter's Eye</i> action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Hunter's Eye",
+      "type": "support",
+      "traits": "Ongoing,Teamwork,Hunter's Eye",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int)",
+      "requirements": "<p>Target within long range; you must be able to clearly see and study the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully spot your target's weakness</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from any <i>Hunter's Eye</i> action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6eead0934efdf06f",
+  "_key": "!items!6eead0934efdf06f"
+}

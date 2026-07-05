@@ -1,0 +1,111 @@
+{
+  "name": "Tooth & Nail",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Tooth & Nail",
+      "type": "melee",
+      "traits": "Pet",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target and with pet, 1 <i>Obedience</i>.  If you are trained in Weapon Skill, reduce the difficulty modifier by <span class=\"wfrp-font challenge\">L</span></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for normal damage + <b>Fellowship</b></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or your pet may perform 1 manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet loses 1 <i>Obedience</i></p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may spend up to 2 <i>Obedience</i>. +2 damage for each <i>Obedience</i> spent in this way</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Tooth & Nail",
+      "type": "melee",
+      "traits": "Pet",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target and with pet, 1 <i>Obedience</i> If you are trained in Weapon Skill, add <span class=\"wfrp-font fortune\">K</span><span class=\"wfrp-font fortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for normal damage and hit another target in the same engagement for 3+ <b>Fellowship</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or your pet may perform 1 manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet loses 1 <i>Obedience</i></p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical to all targets hit by this attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "34d0186204a9bd02",
+  "_key": "!items!34d0186204a9bd02"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Flanking Manoeuvre",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When in an engagement with at least 1 ally, you and your allies add  K  to <i>Melee Attack</i> dice pools against the engaged foes</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8bd54ae6c0a9272f",
+  "_key": "!items!8bd54ae6c0a9272f"
+}

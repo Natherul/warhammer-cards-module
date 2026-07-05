@@ -1,0 +1,125 @@
+{
+  "name": "Flickering Fire of Tzeentch",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flickering Fire of Tzeentch",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>3 Power; Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Flickering multicoloured flames burst from your fingertips, streaking to the target and burning him for 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage, in addition to normal  effects</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flickering Fire of Tzeentch",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>3 Power; Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Flickering multicoloured flames burst from your fingertips, streaking to the target and burning him for 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Draw a miscast card. It affects everyone within close range, friend or foe</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage and the target suffers 1 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1feedd827c4238bf",
+  "_key": "!items!1feedd827c4238bf"
+}

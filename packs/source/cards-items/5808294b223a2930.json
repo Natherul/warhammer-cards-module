@@ -1,0 +1,111 @@
+{
+  "name": "Breaking the Wheel",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Breaking the Wheel",
+      "type": "spell",
+      "traits": "Cultist,Tzeentch",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Defence",
+      "requirements": "<p>Used By: Broken wheel Leader\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Broken Wheel Leader invokes Tzeentch to corrupt his enemies. One random normal wound affecting the target becomes a critical wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target suffers corruption equal to the critical wound's severity rating</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies engaged with the Broken Wheel Leader suffer 1 corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All members of the Cult of the Broken Wheel in close range (including the attacker) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Breaking the Wheel",
+      "type": "spell",
+      "traits": "Cultist,Tzeentch",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Defence",
+      "requirements": "<p>Target(s) within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke Tzeentch to corrupt your enemies. One random normal wound affecting the target becomes a critical wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers corruption equal to the critical wound's severity rating</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies engaged with you suffer 1 corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All allies within close range (including you) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5808294b223a2930",
+  "_key": "!items!5808294b223a2930"
+}

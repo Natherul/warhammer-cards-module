@@ -1,0 +1,83 @@
+{
+  "name": "Oath of the Stone",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Oath of the Stone",
+      "type": "support",
+      "traits": "Ongoing,Rally",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Dwarf only.\r\n<br/>An item or terrain feature of some cultural and personal significance, such as an ancestor's name or a specially-prepared oathstone, which you must stay engaged with</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You swear a solemn oath to defend the honor of your ancestors, as represented by an oath stone or other suitable object</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your dwarf allies within medium range gain the <i>Inspired</i> condition while you defend your oathstone</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Oath of the Stone",
+      "type": "support",
+      "traits": "Ongoing,Rally",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Dwarf only.\r\n<br/>An item or terrain feature of some cultural and personal significance, such as an ancestor's tomb or a specially-prepared oathstone, which you must stay engaged with</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You swear a solemn oath to defend the honor of your ancestors, as represented by an oath stone or other suitable object</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your dwarf allies within medium range gain the <i>Inspired</i> condition while you defend your oathstone</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "130b7260a28bffaf",
+  "_key": "!items!130b7260a28bffaf"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Shyish, Spiriter, Amethyst Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After casting one of your <i>Amethyst Order</i> spells, you may exhaust this card to kill one henchman within close range of you or deal 2 wounds to all enemies engaged with you.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "baa7fb4a20b76e3b",
+  "_key": "!items!baa7fb4a20b76e3b"
+}

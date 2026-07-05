@@ -1,0 +1,93 @@
+{
+  "name": "Field Repairs",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Field Repairs",
+      "type": "support",
+      "traits": "Engineer,Ongoing,Rally",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Int)",
+      "requirements": "<p>Tools at hand, engaged with target. You must perform the prepare manoeuvre before performing this action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You improvise a repair on a damaged device, building feature, or other item. It's not proper, but desperate times...</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A single numerical trait of the item is improved by 1 while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You can't rush these things! The improvements will not come into effect until the start of your next turn, in addition to the normal  effects</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Field Repairs",
+      "type": "support",
+      "traits": "Engineer,Ongoing,Rally",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Int)",
+      "requirements": "<p>Tools at hand, engaged with target. You must perform the prepare manoeuvre before performing this action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You improvise a repair on a damaged device, building feature, or other item. It's not proper, but desperate times...</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A single numerical trait of the item is improved by 1 while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Rush a miracle worker and you get a rotten miracle. Remove 1 recharge token from this card</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ec6b9ed391481f56",
+  "_key": "!items!ec6b9ed391481f56"
+}

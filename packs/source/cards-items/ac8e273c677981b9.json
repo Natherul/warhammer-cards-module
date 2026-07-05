@@ -1,0 +1,14 @@
+{
+  "name": "Taal, God of Nature & Wild Places",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain  K  to <b>Invocation</b> and <b>Piety</b> checks while in a forest or the wilderness</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ac8e273c677981b9",
+  "_key": "!items!ac8e273c677981b9"
+}

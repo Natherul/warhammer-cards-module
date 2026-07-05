@@ -1,0 +1,109 @@
+{
+  "name": "Bar the Doors of Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bar the Doors of Death",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour. You must perform a brief ritual creating a holy focus (a shrine, an incense brazier, etc.) for the blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing, and the effect extends out to close range from the focus</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The blessing extends to medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The blessing extends to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each ally within the area of effect recovers 1 stress or 1 fatigue (his choice)</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>There's a flaw in the blessing. A necromancer may ignore this blessing if he can beat you in a <b>Discipline</b> (<b>WP</b>) <b>vs</b>. <b>Discipline</b> (<b>WP</b>) <b>check</b>. If he fails this check, he cannot try again</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bar the Doors of Death",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour. You must perform a brief ritual creating a holy focus (a shrine, an incense brazier, etc.) for the blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing, and the effect extends out to close range from the focus</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The blessing extends to medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The blessing extends to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each ally within the area of effect recovers 1 stress or 1 fatigue (his choice)</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>There's a flaw in the blessing. A necromancer may ignore this blessing if he can beat you in a <b>Discipline</b> (<b>WP</b>) <b>vs</b>. <b>Discipline</b> (<b>WP</b>) <b>check</b>. If he fails this check, he cannot try again</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d21e3cf914ec9685",
+  "_key": "!items!d21e3cf914ec9685"
+}

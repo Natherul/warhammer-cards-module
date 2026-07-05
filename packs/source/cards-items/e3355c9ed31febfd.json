@@ -1,0 +1,97 @@
+{
+  "name": "Path of Falling Water",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Path of Falling Water",
+      "type": "melee",
+      "traits": "Ongoing,Way of the Sword",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You move to engaged with the target, hit him for -2 damage, and then disengage and end somewhere within close range. While this card is recharging, your <i>Way of the Sword</i> actions gain</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>One of your <i>Active Defences</i> recharges completely</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Path of Falling Water",
+      "type": "melee",
+      "traits": "Ongoing,Way of the Sword",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You move to engaged with the target, hit him for -1 damage, and then disengage and end somewhere within close range. While this card is recharging, your <i>Way of the Sword</i> actions gain</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e3355c9ed31febfd",
+  "_key": "!items!e3355c9ed31febfd"
+}

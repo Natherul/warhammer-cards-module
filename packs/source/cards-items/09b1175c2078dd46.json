@@ -1,0 +1,103 @@
+{
+  "name": "\"Reverse\" Engineering",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "\"Reverse\" Engineering",
+      "type": "support",
+      "traits": "Engineer",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Int) vs Special",
+      "requirements": "<p>Tools at hand, engaged with target. You must perform the prepare manoeuvre before performing the action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You expose shoddy workmanship for what it is with a few well-placed knocks from a spanner. The target item gains the <i>Damaged</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your joy in finding flaws in the work of others knows no bounds. Recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You manage to filch an important part. The item can't be repaired until the part is recovered or a new one acquired</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "\"Reverse\" Engineering",
+      "type": "support",
+      "traits": "Engineer",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Int) vs Special",
+      "requirements": "<p>Tools at hand, engaged with target. You must perform the prepare manoeuvre before performing the action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You expose shoddy workmanship for what it is with a few well-placed knocks from a spanner. The target item gains the <i>Damaged</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The device's owner or creator, if present, suffers 1 stress as you smash something dear to his heart</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You manage to filch an important part. The item can't be repaired until the part is recovered or a new one acquired</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "09b1175c2078dd46",
+  "_key": "!items!09b1175c2078dd46"
+}

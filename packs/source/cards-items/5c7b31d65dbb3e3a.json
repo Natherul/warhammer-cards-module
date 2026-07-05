@@ -1,0 +1,127 @@
+{
+  "name": "Soulfire",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Soulfire",
+      "type": "blessing",
+      "traits": "Epic,Sigmar,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>12 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You erupt with a burning, holy light that flares forth from your position like an explosion. All enemies within medium range are struck for <b>Fellowship</b> + <b>Willpower</b> + 4 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but <b>Fellowship</b> + <b>Willpower</b> + 8 damage instead</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>As above, but <b>Fellowship</b> + <b>Willpower</b> + 12 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all allies within medium range recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all characters (friend and foe) within medium range suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All allies within medium range recover 1 wound, or 1 critical wound with a severity no greater than the number of  generated on this check</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Soulfire",
+      "type": "blessing",
+      "traits": "Epic,Sigmar,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>12 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You erupt with a burning, holy light that flares forth from your position like an explosion. All enemies within medium range are struck for <b>Fellowship</b> + <b>Willpower</b> + 4 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but <b>Fellowship</b> + <b>Willpower</b> + 8 damage instead</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>As above, but <b>Fellowship</b> + <b>Willpower</b> + 12 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+3 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all characters (friend and foe) within medium range suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The effect extends out to long range</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +2 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5c7b31d65dbb3e3a",
+  "_key": "!items!5c7b31d65dbb3e3a"
+}

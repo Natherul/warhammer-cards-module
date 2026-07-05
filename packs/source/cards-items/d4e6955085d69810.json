@@ -1,0 +1,101 @@
+{
+  "name": "Saga of Gazul",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Saga of Gazul",
+      "type": "support",
+      "traits": "Ongoing,Ancestor,Saga",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You begin chanting the Saga of Gazul, tempering yourself against fear and terror</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you recover 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your dwarf allies within Medium range recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Saga of Gazul",
+      "type": "support",
+      "traits": "Ongoing,Ancestor,Saga",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You begin chanting the Saga of Gazul, tempering yourself against fear and terror</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you recover 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your dwarf allies within Medium range recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d4e6955085d69810",
+  "_key": "!items!d4e6955085d69810"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Benediction of Shallya",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Benediction of Shallya",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Shallya,Benediction",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>An ally within medium range is injured as described below</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Benediction of Shallya",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Shallya,Benediction",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>An ally within medium range is injured as described below</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "401d54623301b916",
+  "_key": "!items!401d54623301b916"
+}

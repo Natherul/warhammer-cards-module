@@ -1,0 +1,14 @@
+{
+  "name": "Untouchable",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You may suffer 1 fatigue to use the <b>Parry</b> active defense against a <i>Ranged Attack</i></span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "281e67203ca773ec",
+  "_key": "!items!281e67203ca773ec"
+}

@@ -1,0 +1,133 @@
+{
+  "name": "Peerless Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Peerless Strike",
+      "type": "melee",
+      "traits": "Chaos,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Ag) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With the kind of practiced precision that can only come from obsessive training, you hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but +2 damage instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +4 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Ignore your target's armour soak value for this attack</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may disengage for free after your attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Peerless Strike",
+      "type": "melee",
+      "traits": "Chaos,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Ag) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With a kind of practiced precision that can only come from obsessive training, you hit the target for +4 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target gains the <i>Staggered</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore the target's armour soak value for this attack</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may disengage for free after your attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e760a4dcfc03be98",
+  "_key": "!items!e760a4dcfc03be98"
+}

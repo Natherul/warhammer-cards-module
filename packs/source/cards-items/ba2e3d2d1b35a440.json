@@ -1,0 +1,116 @@
+{
+  "name": "Profane Rites",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Profane Rites",
+      "type": "melee",
+      "traits": "Cultist",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, equipped with a sharp weapon (preferably a sacrificial dagger!)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cut strange and worrisome sigils into the target's skin, dealing normal damage. The target gains a temporary insanity with the <i>Chaos</i> or <i>Trauma</i> trait</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack gains <i>Pierce 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All cultists in close range (including the attacker) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 tracking token to the insanity</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Profane Rites",
+      "type": "melee",
+      "traits": "Cultist",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Cult Follower, Cult Leader\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker infuses his assault with the power granted by his abhorrent faith. The attack inflicts critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target is afflicted by an insanity with the <i>Chaos</i> or <i>Trauma</i> trait until the end of the current act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack gains <i>Pierce 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All cultists in close range (including the attacker) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ba2e3d2d1b35a440",
+  "_key": "!items!ba2e3d2d1b35a440"
+}

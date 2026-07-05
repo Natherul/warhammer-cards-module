@@ -1,0 +1,110 @@
+{
+  "name": "Do You Know Who I Am?",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Do You Know Who I Am?",
+      "type": "support",
+      "traits": "Ongoing,Social,NPC",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>Used By: Nobles\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The noble converses with the target, flaunting his station and superior birth. While this card is recharging, the noble gains  to all <b>Fellowship-based</b> skill checks</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, the noble gains  to all <b>Fellowship-based</b> skill checks</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, the noble benefits from the <i>Invigorated</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The noble suffers from the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Do You Know Who I Am?",
+      "type": "support",
+      "traits": "Ongoing,Social,NPC",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>You must have real or perceived social status and an audience to impress with it</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the effect</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but your bonus is increased to</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>When you are targeted by <b>Charm</b>, <b>Guile</b>, or <b>Intimidate</b> check that fails, you may remove a recharge token from this action to have the active character suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2bbf75ce93a6d1ce",
+  "_key": "!items!2bbf75ce93a6d1ce"
+}

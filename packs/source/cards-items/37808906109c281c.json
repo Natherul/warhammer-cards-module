@@ -1,0 +1,125 @@
+{
+  "name": "Kick & Bite",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Kick & Bite",
+      "type": "melee",
+      "traits": "Mounted",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ride (Ag) vs Target Defence",
+      "requirements": "<p>Mounted, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your mount lashes out, hitting the target for damage equal to your mount's <b>Strength</b> + 4</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above and you may immediately make a <i>Basic Melee Action</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your mount loses 1 wind</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You fall off your mount!</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All attacks against the target deal +1 damage until your next turn</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Kick & Bite",
+      "type": "melee",
+      "traits": "Mounted",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ride (Ag) vs Target Defence",
+      "requirements": "<p>Mounted, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your mount lashes out, hitting the target for damage equal to your mount's <b>Strength</b> + 4</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your mount loses 1 wind</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your mount loses 1 wind</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "37808906109c281c",
+  "_key": "!items!37808906109c281c"
+}

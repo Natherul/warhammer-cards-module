@@ -1,0 +1,111 @@
+{
+  "name": "Unconventional Application",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Unconventional Application",
+      "type": "melee",
+      "traits": "Engineer",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target. As part of this action, you grab one of your inventions and smash it over your opponent's head, damaging it</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus you deal additional damage equal to the number of modifications on the Invention</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Crash tinkle! Your Invention is not just damaged, it is destroyed. You'll have to rebuild it</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Sproing smash! Something breaks just the right way; ignore your target's soak value against this attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Unconventional Application",
+      "type": "melee",
+      "traits": "Engineer",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target. As part of this action, you grab 1 of your inventions and smash it over your opponent's head, damaging it</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus you deal additional damage equal to the number of modifications on the Invention</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Deal additional damage equal to your ranks of training in <b>Dwarf Engineering</b></p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Crash tinkle! Your Invention is not just damaged, it is destroyed. You'll have to rebuild it</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Reveal criticals until you reveal 1 with severity equal to the total modifications on the Invention. Apply that critical wound to the target, discard the rest</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "74e578224742a784",
+  "_key": "!items!74e578224742a784"
+}

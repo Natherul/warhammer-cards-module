@@ -1,0 +1,14 @@
+{
+  "name": "Shallya, Mother of Healing",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you invoke a blessing that recovers at least 1 wound, exhaust this card to have the target recover additional normal wounds equal to the rank of the blessing invoked.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b5a484efe9807d17",
+  "_key": "!items!b5a484efe9807d17"
+}

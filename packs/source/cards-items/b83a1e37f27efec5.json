@@ -1,0 +1,14 @@
+{
+  "name": "University Education",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Education</b> or <b>Folklore</b> checks gain:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results pool</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b83a1e37f27efec5",
+  "_key": "!items!b83a1e37f27efec5"
+}

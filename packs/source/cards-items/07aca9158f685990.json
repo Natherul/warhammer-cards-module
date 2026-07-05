@@ -1,0 +1,14 @@
+{
+  "name": "Morr, The Reaper",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card as a manoeuvre. While this card is recharging, the wound threshold of all characters within close range, including your own, is reduced by 1.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "07aca9158f685990",
+  "_key": "!items!07aca9158f685990"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "The Waking Wood",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Waking Wood",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Rhya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour, targets trees and bushes within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You invoke the blessing and may immediately perform a free <b>Guarded Position</b> action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy engaged with the affected trees suffers 1 stress and 1 fatigue as the boughs flail at them</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If you have <b>Nature Lore</b> trained, reduce the difficulty modifier by</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Waking Wood",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Taal",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour, targets trees and bushes within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You invoke the blessing and may immediately perform a free <b>Melee Strike</b> action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy engaged with the affected trees suffers 1 stress and 1 fatigue as the boughs flail at them</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each ally engaged with the affected trees suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If you have <b>Nature Lore</b> trained reduce the difficulty modifier by</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9d65ac1dac3ce9bd",
+  "_key": "!items!9d65ac1dac3ce9bd"
+}

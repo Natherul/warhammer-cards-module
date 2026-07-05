@@ -1,0 +1,107 @@
+{
+  "name": "Malicious Seduction",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Malicious Seduction",
+      "type": "support",
+      "traits": "Chaos,Ongoing,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel)",
+      "requirements": "<p>Target must be within medium range and able to see you clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your allure draws in the target and he forgets about the other threats around him</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your allure draws out the raw mania of your target. He gains the <i>Invigorated</i> condition while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> While this card recharges, your target removes  from the dice pool when targeting you with an attack, and all of your allies remove  from the dice pool when targeting him with an attack</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Malicious Seduction",
+      "type": "support",
+      "traits": "Chaos,Ongoing,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target must be within medium range and able to see you clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your allure draws in the target and he forgets about the other threats around him</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target may not recover stress or fatigue while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> While this card recharges, your target removes  from the dice pool when targeting you with an attack, and all of your allies remove  from the dice pool when targeting him with an attack</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3bbd056f124cf849",
+  "_key": "!items!3bbd056f124cf849"
+}

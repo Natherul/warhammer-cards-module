@@ -1,0 +1,73 @@
+{
+  "name": "Wolf's Cunning",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wolf's Cunning",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Ulric",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 available favour, <b>Strength</b> 3+, <b>Agility</b> 3+. Must be hidden from the enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Special:</b> If you and your allies are hidden from the enemy when you roll initiative at the beginning of an encounter, you may spend 4 favour to play this card. When you and all allies within close range who are hidden from the enemy roll for initiative, you may add  to you and your allies' dice pools, and your initiative checks gain:\r\n<br/> Add  to the results pool</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wolf's Cunning",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Ulric",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 available favour, <b>Strength</b> 3+, <b>Agility</b> 3+. Must be hidden from the enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> If you and your allies are hidden from the enemy when you roll initiative at the beginning of an encounter, you may spend 4 favour to play this card. When you and all allies within close range who are hidden from the enemy roll for initiative, you may add  to you and your allies' dice pools, and your initiative checks gain:\r\n<br/> You are <i>Invigorated</i> for 2 rounds</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "16c0b15d82494604",
+  "_key": "!items!16c0b15d82494604"
+}

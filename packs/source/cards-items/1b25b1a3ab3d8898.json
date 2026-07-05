@@ -1,0 +1,119 @@
+{
+  "name": "We Must Work Together!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "We Must Work Together!",
+      "type": "support",
+      "traits": "Support,Teamwork",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>Leadership trained, ally engaged with you. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target ally may remove 2 recharge tokens from a <i>Teamwork</i> action card</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target ally may immediately recharge a <i>Teamwork</i> action card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add or remove 1 recharge token from this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies engaged with you gain the <i>Inspired</i> condition while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies engaged with you gain the <i>Demoralised</i> condition while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You have the entire situation under control. You may move the lowest PC tracking token on the initiative track up 1 space</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "We Must Work Together!",
+      "type": "support",
+      "traits": "Support,Teamwork",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>Leadership trained, ally engaged with you. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target ally may remove 2 recharge tokens from a <i>Teamwork</i> action card</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target ally may immediately recharge a <i>Teamwork</i> action card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add or remove 1 recharge token from this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies engaged with you gain the <i>Inspired</i> condition while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each ally engaged with you may choose to suffer 1 fatigue in order to move a hero token up 1 space on the initiative track. Each token can be moved only once with this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1b25b1a3ab3d8898",
+  "_key": "!items!1b25b1a3ab3d8898"
+}

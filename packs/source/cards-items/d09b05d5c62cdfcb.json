@@ -1,0 +1,14 @@
+{
+  "name": "Diestro Training",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>While armed with a single fencing weapon, or a fencing weapon and dagger, gain +1 <b>Defence</b>.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d09b05d5c62cdfcb",
+  "_key": "!items!d09b05d5c62cdfcb"
+}

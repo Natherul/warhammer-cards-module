@@ -1,0 +1,111 @@
+{
+  "name": "Bolster",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bolster",
+      "type": "support",
+      "traits": "Ongoing,Social,Support,Duel of Wits",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You bolster your target, helping him to temporarily shrug off the string of shame</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target recovers 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target may immediately adjust his stance 1 space in either direction</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, enemies add  to all checks that include your target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bolster",
+      "type": "support",
+      "traits": "Ongoing,Social,Support,Duel of Wits",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You bolster your target, helping him to temporarily shrug off the string of shame</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but the target's shame threshold is increased by 2 instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target may immediately adjust his stance 1 space in either direction</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, enemies add  to all checks that include your target</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4185cda7d96dd5ad",
+  "_key": "!items!4185cda7d96dd5ad"
+}

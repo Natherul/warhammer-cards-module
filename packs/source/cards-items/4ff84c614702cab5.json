@@ -1,0 +1,125 @@
+{
+  "name": "Benediction of Health",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Benediction of Health",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Shallya",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour per ally to be protected, all targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the severity of all diseases and symptoms within medium range is reduced by 1 while this blessing is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets recover 1 normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 target may ignore 1 diseases while this blessing is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Add  to your dice pool for each target to be protected by this blessing</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Benediction of Health",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Shallya",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour per ally to be protected, all targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and all followers of Nurgle within medium range suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets recover 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 target may ignore 1 diseases while this blessing is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Add  to your dice pool for each target to be protected by this blessing</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4ff84c614702cab5",
+  "_key": "!items!4ff84c614702cab5"
+}

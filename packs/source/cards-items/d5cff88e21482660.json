@@ -1,0 +1,120 @@
+{
+  "name": "Fatebreaker",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fatebreaker",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You focus your master's inscrutable powers into a formidable attack, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target's stance is moved one space toward a neutral stance</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers stress equal to its stance depth</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move the target's activation token so that it is at an extreme end of its stance track (your choice of which). Then the target suffers fatigue equal to its depth in that stance</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fatebreaker",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Greater Servants of Tzeentch\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Tzeentch's servant focuses it's master's inscrutable powers into a formidable attack, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts critical damage, and the target's stance is moved one space toward a neutral stance</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers stress equal to its stance depth</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d5cff88e21482660",
+  "_key": "!items!d5cff88e21482660"
+}

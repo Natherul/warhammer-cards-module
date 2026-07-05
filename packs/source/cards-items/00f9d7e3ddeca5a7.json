@@ -1,0 +1,14 @@
+{
+  "name": "Push It 'Til You Drop",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you score a hit with a <i>Melee Attack</i>, you may convert one of your regular wounds to a critical wound. Deal extra damage on that attack equal to that critical's severity.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "00f9d7e3ddeca5a7",
+  "_key": "!items!00f9d7e3ddeca5a7"
+}

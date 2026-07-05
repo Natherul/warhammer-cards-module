@@ -1,0 +1,115 @@
+{
+  "name": "Chink in the Armour",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Chink in the Armour",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for -2 damage, ignoring the target's armour Soak Value</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for normal damage, ignoring the target's armour Soak Value</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 3 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Chink in the Armour",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for -1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 3 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore your target's Soak Value for this attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9d13e1b69bd97745",
+  "_key": "!items!9d13e1b69bd97745"
+}

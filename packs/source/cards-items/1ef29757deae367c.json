@@ -1,0 +1,110 @@
+{
+  "name": "Nurgle's Blessing",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Nurgle's Blessing",
+      "type": "blessing",
+      "traits": "Cultist,Ongoing,Nurgle",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>Used By: Plague Leader\r\n<br/>Must perform a prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blessing is invoked and the Archbacillus' chant inures his followers to pain and suffering. While this blessing is recharging, all followers of Nurgle within long range gain +1 <b>Toughness</b></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The Archbacillus suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Nurgle's Blessing",
+      "type": "blessing",
+      "traits": "Cultist,Ongoing,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>Must perform a prepare manoeuvre before invoking this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within medium range suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>This effect extends out to long range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Everyone within medium range, friend or foe, suffers 1 wound (you included)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1ef29757deae367c",
+  "_key": "!items!1ef29757deae367c"
+}

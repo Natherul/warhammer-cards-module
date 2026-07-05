@@ -1,0 +1,14 @@
+{
+  "name": "Power of Faith",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to use <b>Willpower</b> rather than <b>Intelligence</b> for a skill check. The check gains: \r\n\r\n<br></br> {Dbane}  Add  B  to the results pool</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "53b23ec7f7861668",
+  "_key": "!items!53b23ec7f7861668"
+}

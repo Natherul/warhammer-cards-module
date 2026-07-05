@@ -1,0 +1,93 @@
+{
+  "name": "Deathsight",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Deathsight",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Amethyst Order",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  to your next <i>Amethyst Order</i> spell that targets a creature you see with <b>Deathsight</b></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 2 stress and lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Deathsight",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Amethyst Order",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Observation (Int)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain +1 damage to your next damage-dealing spell or attack that targets a creature you see with <b>Deathsight</b></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress and lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a40e67c3a12e7acf",
+  "_key": "!items!a40e67c3a12e7acf"
+}

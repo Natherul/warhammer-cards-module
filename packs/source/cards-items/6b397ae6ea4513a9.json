@@ -1,0 +1,105 @@
+{
+  "name": "Bonecruncher Assault",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bonecruncher Assault",
+      "type": "melee",
+      "traits": "Epic,Ogre",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon in each hand, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit with your primary weapon for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit with your primary weapon for +2 damage, and you also hit with your secondary weapon for normal damage. Determine damage and apply the target's <b>Toughness</b> and Soak separately for each weapon</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage with your primary weapon</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bonecruncher Assault",
+      "type": "melee",
+      "traits": "Epic,Ogre",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon in each hand, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit with your primary weapon for +2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical, and you also hit with your secondary weapon for normal damage. Determine damage and apply the target's <b>Toughness</b> and Soak separately for each weapon</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical with your primary weapon</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage with each weapon</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit a second target in the same engagement with your primary weapon for normal damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6b397ae6ea4513a9",
+  "_key": "!items!6b397ae6ea4513a9"
+}

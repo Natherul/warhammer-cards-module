@@ -1,0 +1,14 @@
+{
+  "name": "Shadow Stalker",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to <b>Stealth</b> checks</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "097443e91b14b8c9",
+  "_key": "!items!097443e91b14b8c9"
+}

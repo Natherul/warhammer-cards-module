@@ -1,0 +1,111 @@
+{
+  "name": "Feathered Frenzy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Feathered Frenzy",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You bite, peck, and slash at your opponent for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts normal damage plus additional damage equal to the target's stance depth</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You lose 1 die from your <i>Aggression</i> budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feathered Frenzy",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Feathered & Coloured Fiends, Bobo\r\n<br/> Engaged with Target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>In a blur of sharp beaks, brightly coloured feathers, and slashing claws, the fiend lashes out at its target, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts normal damage plus additional damage equal to the target's stance depth</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 die to the attacker's <i>Aggression</i> budget</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Subtract 1 die from the attacker's <i>Aggression</i> budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5c944af2135eb270",
+  "_key": "!items!5c944af2135eb270"
+}

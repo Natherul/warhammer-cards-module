@@ -1,0 +1,112 @@
+{
+  "name": "Flesh Puppet",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flesh Puppet",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 3,Slaanesh",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>9 Power\r\n<br/>Target living creature within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You seize control of the target making him your puppet</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but add or remove 1 recharge token to this card</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this card recharges, you choose 1 temporary insanity on the target (if any) to become permanent</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flesh Puppet",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 3,Slaanesh",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>9 Power\r\n<br/>Target living creature within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You seize control of the target making him your puppet</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this card recharges, you choose 1 temporary insanity on the target (if any) to become permanent</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fb12aba10528fb57",
+  "_key": "!items!fb12aba10528fb57"
+}

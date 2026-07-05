@@ -1,0 +1,14 @@
+{
+  "name": "Exploit a Weakness",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to your attack if the target is critically wounded</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8e1b6e09fb3d073f",
+  "_key": "!items!8e1b6e09fb3d073f"
+}

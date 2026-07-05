@@ -1,0 +1,123 @@
+{
+  "name": "Empowered Raise Dead",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Empowered Raise Dead",
+      "type": "spell",
+      "traits": "Necromancy,Rank 3",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 Power\r\n<br/>Long-dead corpses within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You raise 1 skeleton</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You raise 3 skeletons</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You raise 6 skeletons</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If this action is successful, you raise an additional skeleton</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>This effect extends out to long range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The skeletons are raised with no aggression dice</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>A crypt ghoul approaches, called by your magic</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Empowered Raise Dead",
+      "type": "spell",
+      "traits": "Necromancy,Rank 3",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 Power\r\n<br/>Freshly-dead corpses within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You raise 1 zombie</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You raise 3 zombies</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You raise 7 zombies</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may also affect long-dead corpses, raising them as skeletons</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The zombies are completely uncontrolled. They may attack you, or anyone in view</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each time a creature dies within medium range while this spell is recharging, remove 1 recharge counter from this card and gain 1 power</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e3cd9c68c15843f8",
+  "_key": "!items!e3cd9c68c15843f8"
+}

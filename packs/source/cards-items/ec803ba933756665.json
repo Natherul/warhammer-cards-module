@@ -1,0 +1,106 @@
+{
+  "name": "Fires of Faith",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fires of Faith",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Sigmar",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. You must have a torch, brazier, or other source of fire close at hand</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> The fire represents the strength of your holy zeal. While this blessing is recharging, you gain  to Intimidate checks</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>A character within close range suffers 1 stress or recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer  to <b>Charm</b> checks while this blessing is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fires of Faith",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Sigmar",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favor. Target can see and hear you clearly. You must have a torch, brazier, or other source of fire close at hand</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your threatening and intimidating prayers to Sigmar influence the target as if you'd successfully used the Intimidate skill</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an ally within close range recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 wound and gains the <i>Cowed</i> or <i>Rattled</i> condition (your choice) for 3 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ec803ba933756665",
+  "_key": "!items!ec803ba933756665"
+}

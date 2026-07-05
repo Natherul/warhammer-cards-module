@@ -1,0 +1,120 @@
+{
+  "name": "Swarm 'Em!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swarm 'Em!",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Snotlings, Goblings<br/>Multiple Greenskins must be engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is struck for normal damage, +1 damage for every 3 Greenskins in the engagement</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is struck for critical damage, +1 damage for every 2 Greenskins in the engagement</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage for every 3 Greenskins in the engagement</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may remove 1 recharge token from any of his currently recharging cards</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All snotlings and goblins in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swarm 'Em!",
+      "type": "melee",
+      "traits": "Greenskin,Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>You and at least one ally must be engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You make your numbers count, cackling and jabbing and swarming your foe. You hit for normal damage, +1 damage for every 3 allies in the engagement</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for normal damage, + 1 damage for every 2 allies in the engagement</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your swarm drags the target prone</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage per 2 allies in the engagement</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may remove 1 recharge token from any of his currently recharging cards</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 henchman in the engagement dies</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+6 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e41459635fa89454",
+  "_key": "!items!e41459635fa89454"
+}

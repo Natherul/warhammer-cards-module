@@ -1,0 +1,102 @@
+{
+  "name": "Scrutinise",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Scrutinise",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int) vs Target Guile (Fel)",
+      "requirements": "<p>You must be able to see and hear the target clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You learn one significant fact about the target, for example its highest characteristic, most potent attack or action, or a relevant story detail at the GM's discretion</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, add  to all your actions against the same target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gleans a similar insight into you and adds  to all checks that target you while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain valuable insights into the target. While this card is recharging, you may perform 1 free manoeuvre immediately after the target's turn</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Scrutinise",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int) vs Target Guile (Fel)",
+      "requirements": "<p>You must be able to see and hear the targets clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You learn one significant fact about the target, for example its highest characteristic, most potent attack or action, or a relevant story detail at the GM's discretion</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus you may immediately attempt a <i>Social</i> action against the target. Add  to your dice pool for that action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gleans a similar insight into you and adds  to all checks that target you while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain valuable insights into the target. While this card is recharging, you many perform a manoeuvre each time the target does</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a684a80e69a11276",
+  "_key": "!items!a684a80e69a11276"
+}

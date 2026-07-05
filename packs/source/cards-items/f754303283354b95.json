@@ -1,0 +1,116 @@
+{
+  "name": "Whirlwind Onslaught",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Whirlwind Onslaught",
+      "type": "melee",
+      "traits": "Chaos,Ongoing",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee Weapon, Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You spin your blade in a wheel of blurring steel and hit the target for the normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You strike yourself with your own weapon for normal damage!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Run Amok",
+      "type": "melee",
+      "traits": "Chaos",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with 2 or more opponents</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target and another character in the engagement for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you deal +1 critical to each character you strike</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit another character of the GM's choosing in the engagement</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue. You gain the <i>Exposed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound per enemy in the engagement</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You must target the opponent with the highest Defence. All opponents in the engagement may use <i>Active Defences</i> against this attack. While this card is recharging, you inflict +1 damage for every  you roll while making an attack. You may not use <i>Active Defences</i> while this card is recharging</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f754303283354b95",
+  "_key": "!items!f754303283354b95"
+}

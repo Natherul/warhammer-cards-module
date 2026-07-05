@@ -1,0 +1,73 @@
+{
+  "name": "Improved Dodge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Improved Dodge",
+      "type": "support",
+      "traits": "Active Defence,Advanced",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Agility 4+, not encumbered, Coordination trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, or a <i>Spell</i> or <i>Blessing</i> that targets your defence, add two recharge actions to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Improved Dodge",
+      "type": "support",
+      "traits": "Active Defence,Advanced",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Agility 4+, not encumbered, Coordination trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, or a <i>Spell</i> or <i>Blessing</i> that targets your defence, add two recharge actions to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f9d930ae2a2fa040",
+  "_key": "!items!f9d930ae2a2fa040"
+}

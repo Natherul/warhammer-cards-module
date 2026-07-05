@@ -1,0 +1,101 @@
+{
+  "name": "Path of the Summer Gale",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Path of the Summer Gale",
+      "type": "melee",
+      "traits": "Ongoing,Way of the Sword",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You move to engaged with the target and hit him for normal damage. While this card is recharging, your <i>Way of the Sword</i> actions deal bonus damage equal to your depth in the Conservative stance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 1 recharge token to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Path of the Summer Gale",
+      "type": "melee",
+      "traits": "Ongoing,Way of the Sword",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Sword or Greatsword equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You move to engaged with the target and hit him for normal damage. While this card is recharging, your <i>Way of the Sword</i> actions deal 2 bonus damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +2 damage and add 1 recharge token to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+3 Damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "91c7e20581529d04",
+  "_key": "!items!91c7e20581529d04"
+}

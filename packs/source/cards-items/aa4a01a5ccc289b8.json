@@ -1,0 +1,120 @@
+{
+  "name": "Flame Breath",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flame Breath",
+      "type": "ranged",
+      "traits": "Dragon,Fire",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You blast your target with fiery breath and hit for <b>Toughness</b> + 3 damage with <i>Pierce 2</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but <b>Toughness</b> + 5 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Place 1 fewer recharge tokens on this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your enemies engaged with the target also suffer this attack's damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flame Breath",
+      "type": "ranged",
+      "traits": "Dragon,Fire",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You blast your target with fiery breath and hit for <b>Toughness</b> + 4 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but <b>Toughness</b> + 6 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "aa4a01a5ccc289b8",
+  "_key": "!items!aa4a01a5ccc289b8"
+}

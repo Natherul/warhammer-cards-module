@@ -1,0 +1,63 @@
+{
+  "name": "Quit Yer Yappin'",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Quit Yer Yappin'",
+      "type": "spell",
+      "traits": "Shaman,WAAAGH!",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Willpower 3+, sufficient power (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Quit Yer Yappin'",
+      "type": "spell",
+      "traits": "Shaman,WAAAGH!",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Willpower 3+, sufficient power (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "095b94550579fce5",
+  "_key": "!items!095b94550579fce5"
+}

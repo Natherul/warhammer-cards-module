@@ -1,0 +1,101 @@
+{
+  "name": "Sigmar's Wroth",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sigmar's Wroth",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Sigmar",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 1 recharge token to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If a character affected by this blessing suffers 1 or more critical wounds, his next <i>Melee Attack</i> gains +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sigmar's Wroth",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Sigmar",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 Favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and each affected character may immediately work himself into a zealous frenzy, suffering from 1 to 3 wounds at his option</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If a character affected by this blessing suffers 1 or more critical wounds, his next <i>Melee Attack</i> gains +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9af1165fd8dcf3fd",
+  "_key": "!items!9af1165fd8dcf3fd"
+}

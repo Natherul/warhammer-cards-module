@@ -1,0 +1,116 @@
+{
+  "name": "Defy Undeath",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Defy Undeath",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Morr",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>7 favour. You must perform the prepare manoeuvre before invoking this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You invoke the blessing and undead within close range may not engage you or come closer to you until your next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All allies within medium range may recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Place 1 less recharge token on this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Undead within close range suffer 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> A chanted prayer to Morr weakens the undead in the area. While this card is recharging, undead within close range of you suffer  to all checks, undead within medium range of you suffer  to all checks, and undead within long range suffer  to all checks (these effects are not cumulative)</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Defy Undeath",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Morr",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>7 favour. You must perform the prepare manoeuvre before invoking this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You invoke the blessing and may remove a Recharge token immediately</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All undead within close range gain the <i>Demoralized</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All allies within close range suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This blessing inflicts 2 wounds each time a Recharge token is removed, rather than 1</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "64ccab090dc8ed24",
+  "_key": "!items!64ccab090dc8ed24"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Cascading Fire Cloak",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cascading Fire Cloak",
+      "type": "spell",
+      "traits": "Rank 1,Reaction,Bright Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 power. Engaged with target. Target must have just hit you with a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cascading Fire Cloak",
+      "type": "spell",
+      "traits": "Rank 1,Reaction,Bright Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 power. Engaged with target. Target must have just hit you with a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6c4cf51e64e38ce1",
+  "_key": "!items!6c4cf51e64e38ce1"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Inhibiting Attack",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Inhibiting Attack",
+      "type": "melee",
+      "traits": "Swarm",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your ceaseless attack inhibit your enemy's actions. You hit for -2 damage and add 1 recharge token to up to two of the target's recharging actions</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Inhibiting Attack",
+      "type": "melee",
+      "traits": "Swarm",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your ceaseless attacks inhibit your enemy's actions. You hit for -2 damage and the target gains the <i>Demoralised</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b889f63d986c2950",
+  "_key": "!items!b889f63d986c2950"
+}

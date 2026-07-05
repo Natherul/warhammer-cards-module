@@ -1,0 +1,14 @@
+{
+  "name": "Piston Assist",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Modifies your <b>Weapon Skill</b> (<b>St</b>) checks.</span>\n</p>",
+    "type": "Invention",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7aca0d1f4f650bcf",
+  "_key": "!items!7aca0d1f4f650bcf"
+}

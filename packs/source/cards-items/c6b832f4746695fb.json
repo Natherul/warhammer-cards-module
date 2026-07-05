@@ -1,0 +1,110 @@
+{
+  "name": "Ranald's Getaway",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Ranald's Getaway",
+      "type": "support",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Highest Target Observation (Int)",
+      "requirements": "<p>Engaged with target(s)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You trick your target into averting his attention just long enough for you to slip away. Disengage from the target and perform a free movement manoeuvre. If you end this movement engaged to something that provides sufficient cover, you may hide. Your target may make an <b>Observation</b> check with a difficulty equal to your ranks in <b>Stealth</b> to detect your location</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you can perform 2 movement manoeuvres for free</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue for each movement manoeuvre you perform this turn</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Ranald's Getaway",
+      "type": "support",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Highest Target Observation (Int)",
+      "requirements": "<p>Engaged with target(s)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You trick your target into averting his attention just long enough for you to slip away. Disengage from the target and perform a free movement manoeuvre.</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you can perform 2 movement manoeuvres for free</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but you can perform 3 movement manoeuvres for free</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue for each movement manoeuvre you perform this turn</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c6b832f4746695fb",
+  "_key": "!items!c6b832f4746695fb"
+}

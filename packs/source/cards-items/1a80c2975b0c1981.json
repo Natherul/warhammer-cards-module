@@ -1,0 +1,14 @@
+{
+  "name": "Optical Lens",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Modifies your <b>Observation</b> (<b>Int</b>) checks.</span>\n</p>",
+    "type": "Invention",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1a80c2975b0c1981",
+  "_key": "!items!1a80c2975b0c1981"
+}

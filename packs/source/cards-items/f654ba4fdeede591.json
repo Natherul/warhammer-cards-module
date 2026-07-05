@@ -1,0 +1,93 @@
+{
+  "name": "Waking Dream",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Waking Dream",
+      "type": "blessing",
+      "traits": "Rank 4,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. You must brandish a raven's feather as you invoke the blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 4,
+            "description": "<p><b>Effect:</b> The line between reality and dream blurs around you. While this card is recharging, all actions performed by an ally within medium range of you gain the following effects:\r\n<br/>Swap places with another character within medium range\r\n<br/>Add  to the results pool of this check\r\n<br/>Adjust your stance by any amount\r\n<br/>Flip 1 of your critical wound cards or recover 1 normal wound</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, each time an ally within medium range rolls at least one , add 1 recharge token to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Waking Nightmare",
+      "type": "blessing",
+      "traits": "Rank 4,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. You must brandish a raven's feather as you invoke the blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 4,
+            "description": "<p><b>Effect:</b> The line between reality and nightmare blurs around you. While this card is recharging, all actions performed by an enemy within medium range of you gain the following effects:\r\n<br/>Suffer 1 additional fatigue when performing manoeuvres until the end of your next turn\r\n<br/>add  to the results pool of this check\r\n<br/> Adjust your stance to neutral\r\n<br/>Suffer 1 critical wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, each time an enemy within medium range rolls at least one , add 1 recharge token to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f654ba4fdeede591",
+  "_key": "!items!f654ba4fdeede591"
+}

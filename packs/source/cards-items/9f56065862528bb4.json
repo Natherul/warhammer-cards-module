@@ -1,0 +1,98 @@
+{
+  "name": "Eyes of the Owl",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Eyes of the Owl",
+      "type": "blessing",
+      "traits": "Rank 1,Verena",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Verena blesses you with increased powers of perception. For the rest of the encounter you may add  to <b>Observation</b> checks</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain <i>Night Vision</i> until the end of the encounter, and may reduce penalties due to darkness by up to</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You eyes become overly sensitive to light. If you are exposed to bright light, suffer 1 stress. This effect lasts until the end of the encounter</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Eyes of the Owl",
+      "type": "blessing",
+      "traits": "Rank 1,Verena",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Verena blesses you with increased powers of perception. For the rest of the encounter you may add  to <b>Observation</b> checks</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain <i>Night Vision</i> until the end of the encounter, and may reduce penalties due to darkness by up to</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9f56065862528bb4",
+  "_key": "!items!9f56065862528bb4"
+}

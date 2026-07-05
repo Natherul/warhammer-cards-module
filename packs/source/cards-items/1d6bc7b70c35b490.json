@@ -1,0 +1,114 @@
+{
+  "name": "Harmonic Convergence",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Harmonic Convergence",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A nimbus of blue light flares from your outstretched hand, then fades. You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from a <i>Celestial Order</i> spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> Events simply work out in favor of you and your allies. While this spell is recharging, any member of your party may remove a recharge token from this card to remove  to the results pool of any of his checks. He may do this only once per check</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Harmonic Convergence",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A nimbus of blue light flares from your outstretched hand, then fades. You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> Events simply work out in favor of you and your allies. While this spell is recharging, any member of your party may remove a recharge token from this card to add  to the results pool of any of his checks. He may do this only once per check</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from a <i>Celestial Order</i> spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Anyone, friend or foe, can trigger this spell's effect (but your enemies suffer 1 stress each time they do it)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1d6bc7b70c35b490",
+  "_key": "!items!1d6bc7b70c35b490"
+}

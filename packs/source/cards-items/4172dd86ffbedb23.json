@@ -1,0 +1,99 @@
+{
+  "name": "Shared Pain",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shared Pain",
+      "type": "blessing",
+      "traits": "Rank 4,Shallya",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. Engaged with target. You may not have a weapon in your hand (aside from a walking stick)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose fatigue, stress, normal wounds, corruption, critical wounds, insanities, diseases, or mutations. If you chose fatigue, stress, normal wounds, or corruption, the target recovers from up to X of that effect and you suffer the same amount. If you chose critical wounds, insanities, diseases, or mutations, the target recovers from one of the total severity no greater than X and you suffer the same</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but make 2 choices</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>As above, but make 3 choices</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You must use the highest possible  line and cannot choose to recover less than X or an effect with a severity less than X unless you have no other options</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shared Pain",
+      "type": "blessing",
+      "traits": "Rank 4,Shallya",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. Engaged with target. You may not have a weapon in your hand (aside from a walking stick)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose fatigue, stress, normal wounds, corruption, critical wounds, insanities, diseases, or mutations. If you chose fatigue, stress, normal wounds, or corruption, the target recovers from up to X of that effect and you suffer the same amount. If you chose critical wounds, insanities, diseases, or mutations, the target recovers from one of the total severity no greater than X and you suffer the same</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but make 2 choices</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>As above, but make 3 choices</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You must use the highest possible  line and cannot choose to recover less than X or an effect with a severity less than X unless you have no other options</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4172dd86ffbedb23",
+  "_key": "!items!4172dd86ffbedb23"
+}

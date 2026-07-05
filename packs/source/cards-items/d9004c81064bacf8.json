@@ -1,0 +1,124 @@
+{
+  "name": "Bellow of Rage",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bellow of Rage",
+      "type": "support",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Highest Target Discipline (WP)",
+      "requirements": "<p>You may target any number of characters within close range who can hear you. For each target beyond the first, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target(s) gain the <i>Demoralised</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target(s) suffer 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target(s) gain the <i>Cowed</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target(s) suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target(s) are <i>Demoralised</i> for 5 rounds instead of 3</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bellow of Rage",
+      "type": "support",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Highest Target Discipline (WP)",
+      "requirements": "<p>You may target any number of characters within close range who can hear you. For each target beyond the first, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target(s) gain the <i>Demoralised</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target(s) suffer 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target(s) gain the <i>Rattled</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target(s) suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A mortal ally within close range suffers from the <i>Rattled</i> condition for 3 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target(s) are <i>Demoralised</i> for 5 rounds instead of 3</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d9004c81064bacf8",
+  "_key": "!items!d9004c81064bacf8"
+}

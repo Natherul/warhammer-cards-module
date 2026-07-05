@@ -1,0 +1,63 @@
+{
+  "name": "Lifebloom",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Lifebloom",
+      "type": "spell",
+      "traits": "Rank 4,Reaction,Jade order,Spring",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 power, play after successfully casting a <i>Jade Order</i> spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Lifebloom",
+      "type": "spell",
+      "traits": "Rank 4,Reaction,Jade order,Spring",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 power, play after successfully casting a <i>Jade Order</i> spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fce3cb5fc045220a",
+  "_key": "!items!fce3cb5fc045220a"
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Mob Justice",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mob Justice",
+      "type": "melee",
+      "traits": "Teamwork,NPC",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target and at least 1 ally</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You band together to tackle a formidable opponent. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts +1 damage, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is knocked prone</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Turn 1 of the target's wounds face up per ally in the engagement. Choose 1 to apply as a critical, then turn the rest face down</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mob Justice",
+      "type": "melee",
+      "traits": "NPC",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Townsfolk<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The townsfolk band together and tackle a more formidable opponent. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts +2 damage, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All townsfolk in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "974ad6d457c0b64e",
+  "_key": "!items!974ad6d457c0b64e"
+}

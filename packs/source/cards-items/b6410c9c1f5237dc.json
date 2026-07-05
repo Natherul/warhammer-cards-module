@@ -1,0 +1,105 @@
+{
+  "name": "Curtain of Flame",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Curtain of Flame",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Summoning,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 power. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure the curtain; both endpoints must be within close range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You conjure the curtain; both endpoints must be within medium range</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You conjure the curtain; both endpoints must be within long range</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may freely see through and pass through your curtain at no penalty</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You conjure a curtain of flames and smoke that is roughly ten feet tall and \"hangs\" in a straight line between you and any two points as described below. The curtain effectively blocks line of sight and adds at least  to any checks that target anything on the far side. Any creature that passed through the curtain suffers wounds equal to your character rank. This curtain won't set fire to the floor or any walls that it is \"anchored\" to, but otherwise any combustible materials nearby may ignite</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Curtain of Flame",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Summoning,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>12 power. If you are engaged with an enemy add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure the curtain; both endpoints must be within close range</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You conjure the curtain; both endpoints must be within medium range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each time an enemy suffers 1 or more wounds from this spell, roll . On a  result, one of those wounds is critical</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You conjure a curtain of flames and smoke that is roughly ten feet tall and \"hangs\" in a straight line between you and any two points as described below. The curtain effectively blocks line of sight and adds at least  to any checks that target anything on the far side. Any creature that passed through the curtain suffers wounds equal to your character rank. This curtain won't set fire to the floor or any walls that it is \"anchored\" to, but otherwise any combustible materials nearby may ignite</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b6410c9c1f5237dc",
+  "_key": "!items!b6410c9c1f5237dc"
+}

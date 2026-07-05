@@ -1,0 +1,63 @@
+{
+  "name": "Mother's Mercy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mother's Mercy",
+      "type": "blessing",
+      "traits": "Rank 2,Reaction,Rhya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Sufficient favour (see below), an ally within close range suffers wounds</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Hunter's Fury",
+      "type": "blessing",
+      "traits": "Rank 2,Reaction,Taal",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Sufficient favour (see below), an ally within close range takes damage</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ecf99da16bfb5ad3",
+  "_key": "!items!ecf99da16bfb5ad3"
+}

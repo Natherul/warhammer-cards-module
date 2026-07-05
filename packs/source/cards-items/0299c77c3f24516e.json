@@ -1,0 +1,103 @@
+{
+  "name": "First Portent of Amul",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "First Portent of Amul",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place any one die from your dice pool on this card, being careful to preserve its rolled face. This action card does not recharge while that die is on it. When a member of your party within medium range makes a check that includes a die of that type in its dice pool, he may take the die on this card and place it in his results pool instead of rolling that particular die</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may add a second die from the dice pool to this card. This card doesn't recharge until both dice are spent. Both dice can be spent on the same check, or used on different checks</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "First Portent of Amul",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place any one die from your dice pool on this card, being careful to preserve its rolled face. This action card does not recharge while that die is on it. When a member of your party within medium range makes a check that includes a die of that type in its dice pool, he may take the die on this card and place it in his results pool instead of rolling that particular die</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your next action gains</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0299c77c3f24516e",
+  "_key": "!items!0299c77c3f24516e"
+}

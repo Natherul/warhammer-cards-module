@@ -1,0 +1,122 @@
+{
+  "name": "Scourge Lash",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Scourge Lash",
+      "type": "ranged",
+      "traits": "Beastman,Epic",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (St) vs Target Defence",
+      "requirements": "<p>Equipped with the Scourge, not engaged with an enemy, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may choose to have the target gain the <i>Entangled</i> condition until freed. This action cannot recharge while the target is <i>Entangled</i>. You may release the target as a manoeuvre, or the target can free himself (or an ally can free him) with an <b>Average (2d) Athletics</b> or <b>Coordination check</b> as an action. This check gains \" Suffer 1 wound\"</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>-2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Every enemy within close range of the target is hit for -2 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Scourge Lash",
+      "type": "ranged",
+      "traits": "Beastman,Epic",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (St) vs Target Defence",
+      "requirements": "<p>Equipped with the Scourge, not engaged with an enemy, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit the target for +3 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit the target for +5 damage and he gains the <i>Blinded</i> condition until the end of the act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally within close range suffers 2 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may not use a <i>Reaction</i> in response to this attack and the soak value of his shield is ignored. If an <i>Active Defence</i> was used against this attack, add 2 recharge tokens to that <i>Active Defence</i></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fe9d1038925f0d51",
+  "_key": "!items!fe9d1038925f0d51"
+}

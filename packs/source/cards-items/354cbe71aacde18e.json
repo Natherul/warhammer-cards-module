@@ -1,0 +1,123 @@
+{
+  "name": "Unravel Reality",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Unravel Reality",
+      "type": "spell",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress as the lines between real and unreal blur</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers stress equal to the target's stance depth</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and the target gains 1 temporary insanity with the <i>Supernatural</i> or <i>Chaos</i> trait</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target must make an <b>Average</b> (<b>2d</b>) <b>Resilience check</b> to resist corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may remove 1 recharge token from any of his currently recharging cards</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 <i>non-Basic</i> action card from the target's action deck. He can't use that action until the end of the encounter, so badly has his grasp on reality faltered</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Unravel Reality",
+      "type": "spell",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Discipline (WP)",
+      "requirements": "<p>Used By: Coloured Fiends, Bobo\r\n<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers stress equal to the target's stance depth</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 temporary insanity with the <i>Supernatural</i> or <i>Chaos</i> trait</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target must make a <b>Hard</b> (<b>3d</b>) <b>Resilience check</b> to avoid gaining corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may remove 1 recharge token from any of his currently recharging cards</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The fiend loses 1 die from its <i>Cunning</i> budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fiend loses 1 die from its <i>Cunning</i> budget</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "354cbe71aacde18e",
+  "_key": "!items!354cbe71aacde18e"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Moment of Doubt",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Moment of Doubt",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour. Target within medium range. You may not have a weapon in hand (aside from a walking stick)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your peaceful manner causes the target to doubt himself. The next time the target performs an attack action during this encounter, add  to the difficulty of the check</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the target each recover 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Moment of Doubt",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour. Target within medium range. You may not have a weapon in hand (aside from a walking stick)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your peaceful manner causes the target to doubt himself. Each time the target fails a check during the rest of this encounter, he suffers 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers  to his next check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "302affb01c1caea2",
+  "_key": "!items!302affb01c1caea2"
+}

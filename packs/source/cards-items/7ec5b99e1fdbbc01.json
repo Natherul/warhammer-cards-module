@@ -1,0 +1,14 @@
+{
+  "name": "Genius",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card when making any basic skill check to use <b>Intelligence</b> instead of the characteristic normally associated with that skill. Add  B  to the difficulty of the check.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7ec5b99e1fdbbc01",
+  "_key": "!items!7ec5b99e1fdbbc01"
+}

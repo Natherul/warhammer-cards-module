@@ -1,0 +1,105 @@
+{
+  "name": "Headlong Charge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Headlong Charge",
+      "type": "melee",
+      "traits": "Bestial",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Boar\r\n<br/>Not currently engaged with target, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts +2 damage, critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The beast gains +1 soak value until its next turn</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The beast gains +1 soak value until its next turn</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The next attack to target the beast gains</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Headlong Charge",
+      "type": "melee",
+      "traits": "Bestial",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Boar\r\n<br/>Not currently engaged with target, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts +2 damage, critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers from the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker suffers the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fed229407a45f49e",
+  "_key": "!items!fed229407a45f49e"
+}

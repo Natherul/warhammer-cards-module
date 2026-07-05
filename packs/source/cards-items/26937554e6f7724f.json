@@ -1,0 +1,63 @@
+{
+  "name": "Minor Blessing",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Minor Blessing",
+      "type": "blessing",
+      "traits": "Basic,Minor,Rank 0,Reaction",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>2 favour\r\n<br/>not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Minor Blessing",
+      "type": "blessing",
+      "traits": "Basic,Minor,Rank 0,Reaction",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>2 favour\r\n<br/>not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "26937554e6f7724f",
+  "_key": "!items!26937554e6f7724f"
+}

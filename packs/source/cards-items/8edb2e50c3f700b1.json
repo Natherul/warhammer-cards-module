@@ -1,0 +1,115 @@
+{
+  "name": "Mindfire",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mindfire",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Tzeentch",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Target within medium range. The target must be suffering from either a permanent or temporary insanity</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You set the target's mind afire with the cackling laughter and tempting whispers of the Great Deceiver. The target suffers a number of wounds equal to the highest severity amongst insanities he is suffering from</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the target suffers wounds equal to the severity sum of all insanities he is suffering from instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add a tracking token to each temporary insanity the target suffers from</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Deal critical wounds from the wound deck equal to the number of insanities the target is suffering from. Apply the critical wound(s) with the highest severity and discard the rest</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mindfire",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Tzeentch",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Target within medium range. The target must be suffering from either a permanent or temporary insanity</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You set the target's mind afire with the cackling laughter and tempting whispers of the Great Deceiver. The target suffers a number of wounds equal to the highest severity amongst insanities he is suffering from</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the target suffers fatigue equal to the severity sum of all insanities he is suffering from instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 3 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Deal critical wounds from the wound deck equal to the number of insanities the target is suffering from. Apply the critical wound(s) with the highest severity and discard the rest</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8edb2e50c3f700b1",
+  "_key": "!items!8edb2e50c3f700b1"
+}

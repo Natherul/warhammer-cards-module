@@ -1,0 +1,102 @@
+{
+  "name": "Fool's Gold",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fool's Gold",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>1 power per silver coin affected\r\n<br/>2 power per brass coin affected\r\n<br/>All coins must be within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain  on any <i>Charm</i> or <i>Guile</i> checks that involve the enchanted coins</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the spell ends, the coins become lead instead of reverting to their original metal!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fool's Gold",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Gold Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>1 power per silver coin affected\r\n<br/>2 power per brass coin affected\r\n<br/>All coins must be within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 power or affect 1 extra coin</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 2 power or affect 2 extra coins</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the spell ends, the coins become lead instead of reverting to their original metal!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d55cb47e7f6cade3",
+  "_key": "!items!d55cb47e7f6cade3"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Fetch, Boy!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fetch, Boy!",
+      "type": "support",
+      "traits": "Pet",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel) vs Target Coordination (Ag)",
+      "requirements": "<p>Target within medium range, pet within medium range, pet within close range of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet moves to the target item, which may be held or worn by a character, and takes it. Your pet is now holding the item</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and your pet may perform a manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet recovers 1 <i>Obedience</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet loses 1 <i>Obedience</i></p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fetch, Boy!",
+      "type": "support",
+      "traits": "Pet",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel) vs Target Coordination (Ag)",
+      "requirements": "<p>Target within medium range of you and your pet, pet within medium range of you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet moves to the target item, which may be held or worn by a character, and takes it. Your pet is now holding the item</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and your pet brings the item directly to you</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet recovers 1 <i>Obedience</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet loses 1 <i>Obedience</i></p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ba31409735083e05",
+  "_key": "!items!ba31409735083e05"
+}

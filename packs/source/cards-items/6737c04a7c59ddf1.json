@@ -1,0 +1,111 @@
+{
+  "name": "Cure Disease",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cure Disease",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>6 favour, must be engaged with target and perform a prepare manoeuvre. May only  attempt this blessing once per disease</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A symptom of the target disease is cured. If the disease has no symptoms, it is cured</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 symptoms instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 3 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain a disease that shares at least one trait with the target disease</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cure Disease",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>6 favour, must be engaged with target and perform a prepare manoeuvre. May only attempt this blessing once per disease</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A symptom of the target disease is cured. If the disease has no symptoms, it is cured</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 symptoms instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 3 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain a disease that shares at least one trait with the target disease</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6737c04a7c59ddf1",
+  "_key": "!items!6737c04a7c59ddf1"
+}

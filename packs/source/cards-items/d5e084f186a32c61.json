@@ -1,0 +1,102 @@
+{
+  "name": "Relentless Horde",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Relentless Horde",
+      "type": "support",
+      "traits": "Swarm",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "(To)",
+      "requirements": "<p>Not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pull back from the fray to recover your strength. You recover 1 wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You recover 1 wound and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 wound</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Relentless Horde",
+      "type": "support",
+      "traits": "Swarm",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "(To)",
+      "requirements": "<p>Not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pull back from the fray to recover your strength. You recover 1 wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d5e084f186a32c61",
+  "_key": "!items!d5e084f186a32c61"
+}

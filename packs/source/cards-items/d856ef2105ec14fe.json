@@ -1,0 +1,63 @@
+{
+  "name": "The Grand Deception",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Grand Deception",
+      "type": "spell",
+      "traits": "Daemonic,Reaction,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Attacked by an enemy within medium range; see below</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Grand Deception",
+      "type": "spell",
+      "traits": "Daemonic,Reaction,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Used By: The Changeling\r\n<br/>Attacked by an enemy within medium range; see below</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d856ef2105ec14fe",
+  "_key": "!items!d856ef2105ec14fe"
+}

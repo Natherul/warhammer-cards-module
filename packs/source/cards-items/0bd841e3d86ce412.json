@@ -1,0 +1,93 @@
+{
+  "name": "Transmutation of Lead",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Transmutation of Lead",
+      "type": "spell",
+      "traits": "Rank 2,Gold Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) Special",
+      "requirements": "<p>5 power\r\n<br/>Target metal item within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You transmute the target item into lead. The exact details of such a transmutation can vary, but in general it doubles the item's encumbrance value, reduces quality to poor. It reduces a weapon's <i>Damage Rating</i> by 1 or armor's Soak and Defence by 1 each. It also makes the item much more malleable and prone to damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You can transmute the item back to its original material as a manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Transmutation of Lead",
+      "type": "spell",
+      "traits": "Rank 2,Gold Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) Special",
+      "requirements": "<p>5 power\r\n<br/>Target metal item within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You transmute the target item into lead. The exact details of such a transmutation can vary, but in general it doubles the item's encumbrance value, reduces quality to poor. It reduces a weapon's <i>Defence Rating</i> by 1 or armor's Soak and Defence by 1 each. It also makes the item much more malleable and prone to damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You can transmute the item back to its original material as a manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0bd841e3d86ce412",
+  "_key": "!items!0bd841e3d86ce412"
+}

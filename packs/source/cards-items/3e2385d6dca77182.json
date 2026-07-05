@@ -1,0 +1,14 @@
+{
+  "name": "Bite and Shake",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>While your pet is engaged with an enemy, <i>Melee Attack</i> and <i>Ranged Attack</i> actions from you and your allies that target the enemy gain  K </span>\n</p>",
+    "type": "Trick",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3e2385d6dca77182",
+  "_key": "!items!3e2385d6dca77182"
+}

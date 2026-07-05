@@ -1,0 +1,93 @@
+{
+  "name": "All That Glitters...",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "All That Glitters...",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Intuition (Int)",
+      "requirements": "<p>5 favour, engaged with target, you must donate 1 of your most valuable coins to the needy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the target each recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you receive coins as part of this business deal, receive 1 extra coin of the highest value</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "All That Glitters...",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Intuition (Int)",
+      "requirements": "<p>5 favour, engaged with target, you must donate 1 of your most valuable coins to the needy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the target each recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you receive coins as part of this business deal, receive 1 extra coin of the highest value</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6100ba073fe9e9aa",
+  "_key": "!items!6100ba073fe9e9aa"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Grasp of the Oberslecht",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Grasp of the Oberslecht",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Shaman",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power, Caster must be in a forested, swampy, or marshy environment</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You cast the spell and 1 enemy within close range gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You do not gain a free manoeuvre on your next turn</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Grasp of the Oberslecht",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Shaman",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power, Caster must be in a forested, swampy, or marshy environment</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You cast the spell and all enemies within close range gain the <i>Staggered</i> condition for 1 round</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You do not gain a free manoeuvre on your next turn</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c0c82d3bc9bcd87c",
+  "_key": "!items!c0c82d3bc9bcd87c"
+}

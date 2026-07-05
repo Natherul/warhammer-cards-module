@@ -1,0 +1,68 @@
+{
+  "name": "Leaf Fall",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Leaf Fall",
+      "type": "spell",
+      "traits": "Rank 2,Reaction,Jade order,Autumn",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 power\r\n<br/>must be outdoors or within close range of leafy plants</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Leaf Fall",
+      "type": "spell",
+      "traits": "Rank 2,Reaction,Jade order,Autumn",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 power\r\n<br/>must be outdoors or within close range of leafy plants</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> A flurry of autumn leaves surrounds you or your ally, hiding you from view. When you or an ally within close range of you are targeted by a <i>Ranged Attack</i> or an <b>Observation</b> (<b>Int</b>) check or other skill check to detect you, you may spend 3 power and place 4 recharge tokens on this card to add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "12d00258de70eadb",
+  "_key": "!items!12d00258de70eadb"
+}

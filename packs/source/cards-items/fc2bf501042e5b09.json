@@ -1,0 +1,129 @@
+{
+  "name": "Ghostly Howl",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Ghostly Howl",
+      "type": "ranged",
+      "traits": "Supernatural,Tomb Banshee",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You emit an eerie, mournful howl that brings dread and injury to the hearts of men. All enemies within close range must make an <b>Average (2d) Discipline (WP) check</b> or suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If this attack is successful, the targets suffer an additional wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The <b>Discipline (WP) check</b> is instead <b>Hard (3d)</b></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 wound inflicted by this action is a critical wound (your choice)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Ghostly Howl",
+      "type": "ranged",
+      "traits": "Supernatural,Tomb Banshee",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You emit an eerie, mournful howl that brings dread and injury to the hearts of men. All enemies within close range must make an <b>Average (2d) Discipline (WP) check</b> or suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If this attack is successful, the targets suffer an additional wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>If this attack is successful, enemies within medium range are affected</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If this attack is successful, the targets suffer an additional 2 wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fc2bf501042e5b09",
+  "_key": "!items!fc2bf501042e5b09"
+}

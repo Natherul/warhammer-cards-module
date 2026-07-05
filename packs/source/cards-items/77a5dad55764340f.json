@@ -1,0 +1,14 @@
+{
+  "name": "Ghyran, Elementalist, Jade Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <i>Spring</i> or <i>Summer</i> spells gain: <br></br> {Dboon}  {Dboon}  Gain 2 power\r\n<br></br>Your <i>Autumn</i> or <i>Winter</i> spells gain: <br></br> {Dboon}  {Dboon}  You may choose to have a target within medium range suffer 1 stress and 1 fatigue.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "77a5dad55764340f",
+  "_key": "!items!77a5dad55764340f"
+}

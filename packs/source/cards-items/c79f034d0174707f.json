@@ -1,0 +1,73 @@
+{
+  "name": "Bodyguard",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Bodyguard.jpg",
+  "system": {
+    "conservative": {
+      "name": "Bodyguard",
+      "type": "support",
+      "traits": "Active Defence,Teamwork",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Must have at least 1 <i>Advanced Active Defence</i> action card</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After an engaged ally has been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add 2 recharge tokens to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bodyguard",
+      "type": "support",
+      "traits": "Active Defence,Teamwork",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Must have at least 1 <i>Advanced Active Defence</i> action card</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After an engaged ally has been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add 2 recharge tokens to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c79f034d0174707f",
+  "_key": "!items!c79f034d0174707f"
+}

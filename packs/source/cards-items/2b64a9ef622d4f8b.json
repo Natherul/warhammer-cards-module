@@ -1,0 +1,114 @@
+{
+  "name": "Volley of Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Volley of Death",
+      "type": "ranged",
+      "traits": "Dark Elf",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Highest Target Defence",
+      "requirements": "<p>Repeater weapon equipped, magazine at least half full, not engaged with an enemy. Target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pepper the engagement with a volley of fire, hitting one target for normal damage and inflicting 1 stress on each enemy in the engagement</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical to the primary target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage to the primary target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 enemy in the engagement suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You empty your magazine</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Volley of Death",
+      "type": "ranged",
+      "traits": "Dark Elf",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Highest Target Defence",
+      "requirements": "<p>Repeater weapon equipped, magazine at least half full, not engaged with an enemy. Target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pepper the engagement with shots, hitting each character in the engagement for -1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +1 damage instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but +3 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each character in the engagement suffers 1 stress or 1 fatigue (your choice)</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You empty your magazine</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your volley affects only character you choose to affect</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2b64a9ef622d4f8b",
+  "_key": "!items!2b64a9ef622d4f8b"
+}

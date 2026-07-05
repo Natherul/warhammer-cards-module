@@ -1,0 +1,101 @@
+{
+  "name": "Blessing of Health",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Blessing of Health",
+      "type": "blessing",
+      "traits": "Basic,Minor,Rank 0",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>2 favour\r\n<br/>engaged with target (you may target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke a soothing prayer. The target recovers 2 stress or 2 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 stress or 3 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may recover both stress and fatigue instead of one or the other</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If the target recovered stress, you suffer 1 fatigue. If the target recovered fatigue, you suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Blessing of Health",
+      "type": "blessing",
+      "traits": "Basic,Minor,Rank 0",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>2 favour\r\n<br/>engaged with target (you may target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke a soothing prayer. The target recovers 2 stress or 2 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 stress or 3 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may recover both stress and fatigue instead of one or the other</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If the target recovered stress, you suffer 1 fatigue. If the target recovered fatigue, you suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5932f67af83e4a89",
+  "_key": "!items!5932f67af83e4a89"
+}

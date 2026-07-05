@@ -1,0 +1,101 @@
+{
+  "name": "Deathly Presence",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Deathly Presence",
+      "type": "support",
+      "traits": "Ongoing,Undead",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Used By: Stichelm's Skeleton, Lazarus Mourn; Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A chill wind seems to blow through the area. The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers 2 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains an Insanity with the <i>Supernatural</i> or <i>Trauma</i> trait</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All PC's within close range may remove 1 recharge token from 1 of their action cards</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Deathly Presence",
+      "type": "support",
+      "traits": "Ongoing,Undead",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range. you must have a <i>Fear</i> or <i>Terror</i> rating</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A chill wind seems to blow through the area. The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers 2 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains an Insanity with the <i>Supernatural</i> or <i>Trauma</i> trait</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All PC's within close range may remove 1 recharge token from 1 of their action cards</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "24789e11fbfc0e24",
+  "_key": "!items!24789e11fbfc0e24"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Clear Seeing",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Clear Seeing",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Celestial Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Starlight settles about your eyes and you see more clearly. You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This spell also applies to <b>Ballistic Skill</b> and <b>Intuition</b> checks</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Clear Seeing",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Celestial Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Starlight settles about your target's eyes and he sees more clearly. You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>This spell affects a second target in the same engagement as the first</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This spell also applies to <b>Ballistic Skill</b> and <b>Intuition</b> checks</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cddf24e25d677bee",
+  "_key": "!items!cddf24e25d677bee"
+}

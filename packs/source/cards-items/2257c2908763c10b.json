@@ -1,0 +1,116 @@
+{
+  "name": "A Bone to Pick",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "A Bone to Pick",
+      "type": "melee",
+      "traits": "Basic,Undead",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Skeletons\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The skeletal creature lunges at its victim. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a free manoeuvre after this action is resolved</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker may immediately attempt a <i>Basic Melee Attack</i> after completing this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "A Bone to Pick",
+      "type": "melee",
+      "traits": "Basic,Undead",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You lunge at the target and hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack causes <i>Fear 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a free manoeuvre after this action is resolved</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and 1 ally in the engagement each suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately attempt a <i>Basic Melee Attack</i> after completing this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2257c2908763c10b",
+  "_key": "!items!2257c2908763c10b"
+}

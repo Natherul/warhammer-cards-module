@@ -1,0 +1,81 @@
+{
+  "name": "Enforce the Law",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Enforce the Law",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Verena",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour, must be within target jurisdiction. To invoke this blessing, you must have a complete listing of all laws of the target jurisdiction in written format and must read all of it</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you have managed to internalize the laws. If you are about to break a law, the GM must warn you so that you can choose to do something else instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Enforce the Law",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Verena",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour, must be within target jurisdiction. To invoke this blessing, you must have a complete listing of all laws in the target jurisdiction in written format and must read all of it</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you can spot the characteristic flinch of a lawbreaker suffering Verena's punishment - you know if anyone in your line of sight suffers the penalty of this blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "bee526638b284375",
+  "_key": "!items!bee526638b284375"
+}

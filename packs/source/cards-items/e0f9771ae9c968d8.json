@@ -1,0 +1,114 @@
+{
+  "name": "Avalanche",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Avalanche",
+      "type": "spell",
+      "traits": "Rank 2,Jade order,Winter",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Must be either outdoors or within long range of a quantity of snow or ice</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A location or area within medium range of you is buried under an avalanche of snow and ice</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and all creatures in that area suffer 2 fatigue, 2 stress, and 2 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may exclude up to 2 creatures in the area from being affected by the avalanche</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The avalanche is out of control! It spreads far beyond the desired area</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Avalanche",
+      "type": "spell",
+      "traits": "Rank 2,Jade order,Winter",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Must be either outdoors or within long range of a quantity of snow or ice</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A location or area within medium range of you is buried under an avalanche of snow and ice, knocking all creatures in that area prone and striking them for 2+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 4+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each creature in the avalanche gains the <i>Sluggish</i> condition until this spell recharges</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You may exclude up to 2 creatures in the area from being affected by the avalanche</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The avalanche is out of control! It spreads far beyond the desired area</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The entire area is chilled by snow and ice. For the duration of the encounter, you may treat the current season as winter</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e0f9771ae9c968d8",
+  "_key": "!items!e0f9771ae9c968d8"
+}

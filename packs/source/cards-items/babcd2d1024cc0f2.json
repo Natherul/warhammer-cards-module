@@ -1,0 +1,119 @@
+{
+  "name": "X Marks the Spot",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "X Marks the Spot",
+      "type": "blessing",
+      "traits": "Rank 1,Ranald",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour. You must have a clear description or image of the object you are trying to find, or an item linked to it in some way on your person</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ranald guides you to a particular item, giving you a broad impression of where the item may be found (such as which city or, if you're in the proper city, which building)</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but more specific (such as the floor of a tall building, or which room)</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but exact location</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You learn an extra detail about the item such as whether it's guarded or moving</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You must have it! Until the next sunrise, add  to your dice pool for any check that doesn't help you get the item</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "X Marks the Spot",
+      "type": "blessing",
+      "traits": "Rank 1,Ranald",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour. You must have a clear description or image of the object you are trying to find, or an item linked to it in some way on your person</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ranald guides you to a particular item, giving you a broad impression of where the item may be found (such as which city or, if you're in the proper city, which building)</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but more specific (such as the floor of a tall building, or which room)</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but exact location</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to non-combat skill checks made to help you get the item</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You must have it! Until the next sunrise, add  to your dice pool for any check that doesn't help you get the item</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "babcd2d1024cc0f2",
+  "_key": "!items!babcd2d1024cc0f2"
+}

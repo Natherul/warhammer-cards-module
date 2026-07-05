@@ -1,0 +1,111 @@
+{
+  "name": "The Final Judgement",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Final Judgement",
+      "type": "melee",
+      "traits": "Judgement",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Special (Spc) vs Target Defence",
+      "requirements": "<p>Melee weapon or one-handed ranged weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage, +1 damage for each <i>Judgement</i> card you have recharging</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and if you have at least 2 <i>Judgement</i> cards recharging, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>After this action resolves, you may choose one of your other recharging <i>Judgement</i> actions and recharge it completely</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Final Judgement",
+      "type": "melee",
+      "traits": "Judgement",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Special (Spc) vs Target Defence",
+      "requirements": "<p>Melee weapon or one-handed ranged weapon equipped; engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 damage per recharge token on any of your <i>Judgement</i> cards (including this one)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from one of your recharging <i>Judgement</i> cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain a temporary insanity</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage, +2 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "52f3a0bb3102d18e",
+  "_key": "!items!52f3a0bb3102d18e"
+}

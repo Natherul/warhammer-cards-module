@@ -1,0 +1,107 @@
+{
+  "name": "Teller of Tales",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Teller of Tales",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Folklore (Fel)",
+      "requirements": "<p>Your subjects must be able to see and hear you; the story takes several minutes to tell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You tell a classic folk story pertinent to the current situation and tailored to your current audience. If appropriate, you influence your audience, and if not you at least keep them amused and interested in your for as long as the story lasts</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and while pursuing goals along parallel lines to your story your audience gains the <i>Inspired</i> condition for the remainder of the act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your audience recovers 1 stress each</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Maybe a bad choice of subject material. Increase party tension by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Teller of Tales",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Folklore (Fel)",
+      "requirements": "<p>Your subjects must be able to see and hear you; the story takes several minutes to tell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summarise a classic folk story, adapting it to fit the current situation and audience. If appropriate, you influence your audience, or at least keep them amused and interested for as long as the story lasts</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your audience recovers 1 stress each</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Maybe a bad choice of subject material. Increase party tension by 1</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>\"What did you just say?\" Your audience gains the <i>Demoralised</i> condition for the remainder of the act</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While pursuing goals that parallel your story your audience gains the <i>Inspired</i> condition for the remainder of the act</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "74f25c48ad06ddb4",
+  "_key": "!items!74f25c48ad06ddb4"
+}

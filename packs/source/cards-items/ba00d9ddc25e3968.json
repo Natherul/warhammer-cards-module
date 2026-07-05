@@ -1,0 +1,119 @@
+{
+  "name": "Tide of Years",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Tide of Years",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Amethyst Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>6 power, target within medium range. Target must be living, mortal creature (i.e. not daemonic, undead or another ageless creature)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above and add 1 recharge token to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>While this card is recharging, the target adds  to his dice pool for all actions</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are affected by this spell as well as the target</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Tide of Years",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Amethyst Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>6 power, target within medium range. Target must be a living, mortal creature (i.e. not daemonic, undead, or another ageless creature</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>While this card is recharging, the target adds  to his dice pool for all actions</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are affected by this spell as well as the target</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ba00d9ddc25e3968",
+  "_key": "!items!ba00d9ddc25e3968"
+}

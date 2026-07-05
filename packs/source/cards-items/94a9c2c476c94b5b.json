@@ -1,0 +1,93 @@
+{
+  "name": "Villainous Monologue",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Villainous Monologue",
+      "type": "support",
+      "traits": "Rally,Social,NPC",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>You may target any number of characters who can see you and hear you speak</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 stress, 1 fatigue, and gains the <i>Demoralised</i> condition until the next rally step</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 <i>Cunning</i> dice to the budget of allies within medium range</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Targets gain a free manouevre</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Villainous Monologue",
+      "type": "support",
+      "traits": "Rally,Social,NPC",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>You may target any number of characters who can see you and hear you speak</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 stress, 1 fatigue, and gains the <i>Demoralised</i> condition until the next rally step</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 <i>Aggression</i> dice to the budget of allies within medium range</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "94a9c2c476c94b5b",
+  "_key": "!items!94a9c2c476c94b5b"
+}

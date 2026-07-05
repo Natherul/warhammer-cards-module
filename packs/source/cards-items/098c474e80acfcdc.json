@@ -1,0 +1,127 @@
+{
+  "name": "Soul Drain",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Soul Drain",
+      "type": "spell",
+      "traits": "Dark Magic,Rank 2",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>6 Power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 2 fatigue</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>The target suffers 3 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers <b>Intelligence</b> fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Rather than recovering fatigue, you may recover normal wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Soul Drain",
+      "type": "spell",
+      "traits": "Dark Magic,Rank 2",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>6 Power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit the target for 6 + <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You hit the target for 7 + <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "098c474e80acfcdc",
+  "_key": "!items!098c474e80acfcdc"
+}

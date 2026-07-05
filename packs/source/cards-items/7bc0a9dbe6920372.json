@@ -1,0 +1,73 @@
+{
+  "name": "Do It Now!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Do It Now!",
+      "type": "support",
+      "traits": "Reaction,Teamwork",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Leadership trained, an ally within medium range has just completed his turn</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Do It Now!",
+      "type": "support",
+      "traits": "Teamwork",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (Fel)",
+      "requirements": "<p>Intimidate trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move the last hero token in the initiative order up one space on the initiative track</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Party tension increases by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7bc0a9dbe6920372",
+  "_key": "!items!7bc0a9dbe6920372"
+}

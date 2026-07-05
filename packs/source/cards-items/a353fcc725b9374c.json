@@ -1,0 +1,14 @@
+{
+  "name": "Clear Minded",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Actions using <b>Willpower</b> checks gain:\r\n<br></br> {Dboon}  Recover 1 stress</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a353fcc725b9374c",
+  "_key": "!items!a353fcc725b9374c"
+}

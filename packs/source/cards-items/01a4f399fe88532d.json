@@ -1,0 +1,14 @@
+{
+  "name": "Knights Griffon",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You may spend 1 fortune point to recover 1 stress and 1 fatigue</span>\n</p>",
+    "type": "Oath",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "01a4f399fe88532d",
+  "_key": "!items!01a4f399fe88532d"
+}

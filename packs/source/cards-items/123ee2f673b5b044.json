@@ -1,0 +1,105 @@
+{
+  "name": "Destroy Magic",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Destroy Magic",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Tzeentch",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Target within close range. The target must be under the effects of a spell with the <i>Ongoing</i> trait, a brief condition granted by a spell or a similar effect</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 magic effect affecting the target is cancelled</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>2 magic effects affecting the target are cancelled</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>All magic effects affecting the target are cancelled</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The caster of any magic effects cancelled by this spell suffers 1 stress and adds 2 recharge tokens to those spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress per effect cancelled</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Destroy Magic",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Tzeentch",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>Target within medium range. The target must be under the effects of a spell with the <i>Ongoing</i> trait, a brief condition granted by a spell, or a similar effect</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 magic effect affecting the target is cancelled</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the caster of that effect suffers 1 stress and adds 2 recharge tokens to the spell that generated the effect</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The caster of any magic effects cancelled by this spell suffers 1 stress and adds 2 recharge tokens to those spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "123ee2f673b5b044",
+  "_key": "!items!123ee2f673b5b044"
+}

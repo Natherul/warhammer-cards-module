@@ -1,0 +1,93 @@
+{
+  "name": "The Subtle Magick",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Subtle Magick",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You mask your own powers. Until the end of the encounter, your <i>Grey Order</i> magic becomes difficult to detect. Apart from a spell's function (such as the darkness caused by a spell to cause darkness), there is no obvious indication that you have cast a spell at all. Furthermore, you are not required to make gestures or chant mystic words to cast your spells and when you use the <b>Channel Power</b> action there is no obvious cue that you are holding magical power</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose all your power</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Anyone using Magical Sight to see if you are a wizard must pass a <b>Hard (3d) check</b> to notice your magical aura until the end of the encounter</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Subtle Magick",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag)",
+      "requirements": "<p>3 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You mask your own powers. Until the end of the encounter, your <i>Grey Order</i> magic becomes difficult to detect. Apart from a spell's function (such as the darkness caused by a spell to cause darkness), there is no obvious indication that you have cast a spell at all. Furthermore, you are not required to make gestures or chant mystic words to cast your spells and when you use the <b>Channel Power</b> action there is no obvious cue that you are holding magical power</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose all your power</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Anyone using Magical Sight to see if you are a wizard must pass a <b>Hard (3d) check</b> to notice your magical aura until the end of the encounter</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2c7a5911dedfc7b2",
+  "_key": "!items!2c7a5911dedfc7b2"
+}

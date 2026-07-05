@@ -1,0 +1,111 @@
+{
+  "name": "Prey's Scent",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Prey's Scent",
+      "type": "blessing",
+      "traits": "Rank 1,Ulric",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, Strength 3+. You cannot follow any trail older than 1 week</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pick up your quarry's scent and gain a clear impression of the direction be has gone</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and until the next moonrise, you keep a memory of the subject's scent. You add  to the dice pool to further attempts to find or follow your quarry. (You can only hold one quarry's scent at a time)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You learn a piece of information about your quarry that can be conveyed through scent, such as his race or gender, how recently he passed by, or whether he was wounded or ill</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Something smells bad! Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If the trail you are following is more than a day old, add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Prey's Scent",
+      "type": "blessing",
+      "traits": "Rank 1,Ulric",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, Strength 3+. You cannot follow any trail older than 1 week</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pick up your quarry's scent and gain a clear impression of the direction be has gone</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and until the next moonrise, you keep a memory of the subject's scent. You add  to the dice pool to further attempts to find or follow your quarry. (You can only hold one quarry's scent at a time)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If and when you catch up to your quarry, you gain the <i>Invigorated</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Something smells bad! Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If the trail you are following is more than a day old, add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4d54a84b23c345ea",
+  "_key": "!items!4d54a84b23c345ea"
+}

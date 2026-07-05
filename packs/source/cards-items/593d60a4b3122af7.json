@@ -1,0 +1,102 @@
+{
+  "name": "Perfect Gift",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Perfect Gift",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>A few hours of shopping in a commercial district of the target's social tier. You spend 5 coins of the target's social tier, then present the gift to the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You find an appropriate gift, one that will certainly endear you to the target. You influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you and the target recover 1 stress - truly, giving is its own reward!</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>It's the thought that counts, and your thought shows. Gain  to your next <i>Social</i> action against the target</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You find the perfect gift, but it exceeds your budget. You may spend another 5 coins; if you do, you influence the target again and gain  on your next attempt to influence the target</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Perfect Gift",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel)",
+      "requirements": "<p>A few hours of shopping in the commercial district of the target's social tier. You spend 5 coins of the target's social tier, then present the gift to the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You find an appropriate gift, one that will certainly endear you to the target. You influence the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>It's the thought that counts, and your thought shows. Gain  to your next <i>Social</i> action against the target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You match the target's tastes perfectly... and get him something he already has. Gain  to your next <i>Social</i> action against the target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>What luck! Your thoughtful generosity is observed by more than just the target; you may influence a second target of the GM's choice</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "593d60a4b3122af7",
+  "_key": "!items!593d60a4b3122af7"
+}

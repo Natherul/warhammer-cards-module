@@ -1,0 +1,106 @@
+{
+  "name": "Shield Bind",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shield Bind",
+      "type": "melee",
+      "traits": "Ongoing,Bulwark",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Shield equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You apply the shield bind</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your shield hits the target for 4+ <b>Toughness</b> damage</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> By pressing your shield against the target's body, you bind his lungs and control his movements. While this action is recharging, your target adds  to attack rolls that target you and you add  to attacks that target him. If the target disengages from you his turn immediately ends and this action recharges completely</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shield Bash",
+      "type": "melee",
+      "traits": "Bulwark",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Shield equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for 3+<b>Strength</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to any cards the target has recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to 1 of your target's action cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to your <b>Block</b> action card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Deal additional damage equal to your <b>Toughness</b></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "77ae2f116d8e2e6d",
+  "_key": "!items!77ae2f116d8e2e6d"
+}

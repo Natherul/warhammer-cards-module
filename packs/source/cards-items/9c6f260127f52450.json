@@ -1,0 +1,14 @@
+{
+  "name": "Aqshy, Pyromancer, Bright Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you perform a <i>Bright Order Spell</i> action that deals damage, you may exhaust this card to have the action gain +1 critical.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9c6f260127f52450",
+  "_key": "!items!9c6f260127f52450"
+}

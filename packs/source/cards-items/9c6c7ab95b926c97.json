@@ -1,0 +1,103 @@
+{
+  "name": "Form of the Black Raven",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Form of the Black Raven",
+      "type": "spell",
+      "traits": "Rally,Rank 2,Amber Order,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int)",
+      "requirements": "<p>7 power, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the form of a raven. Place the <b>Raven Beastform</b> card on your character sheet - you can only use the physical characteristics of skills shown on the card. While in beastform, you can only use spells with the <i>Beastform</i> trait. You resume human form when you are knocked unconscious or killed, or when the act ends or you voluntarily end the spell as a manoeuvre. In any case, this card will not recharge until the end of the act.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may heal 1 normal wound as you change form</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your animal instincts take over. You add  to all mental checks except <b>Observation</b> and <b>Intuition</b> while in beastform</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Form of the Crow",
+      "type": "spell",
+      "traits": "Rally,Rank 2,Amber Order,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int)",
+      "requirements": "<p>7 power, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the form of a crow. Place the <b>Crow Beastform</b> card on your character sheet - you can only use the physical characteristics of skills shown on the card. While in beastform, you can only use spells with the <i>Beastform</i> trait. You resume human form when you are knocked unconscious or killed, or when the act ends or you voluntarily end the spell as a manoeuvre. In any case, this card will not recharge until the end of the act.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may perform a free manoeuvre as you change form</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your animal instincts take over. You add  to all mental checks except <b>Observation</b> and <b>Intuition</b> while in beastform</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9c6c7ab95b926c97",
+  "_key": "!items!9c6c7ab95b926c97"
+}

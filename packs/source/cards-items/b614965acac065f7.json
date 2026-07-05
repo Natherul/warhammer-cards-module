@@ -1,0 +1,115 @@
+{
+  "name": "The Fear of Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Fear of Death",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Morr",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour. You must brandish a human bone as you invoke the blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the aspect of Morr the Reaper, a grim specter of death</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above. One creature within close range gains <i>Frightened</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your allies within medium range each recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your allies within medium range suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your <i>Fear</i> rating is increased by 1</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Fear of Death",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Morr",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour. You must brandish a human bone as you invoke the blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the aspect of Morr the Reaper, a grim specter of death</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above. One creature within close range gains <i>Frightened</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within close range suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>All enemies within medium range suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your allies within medium range suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your <i>Fear</i> rating is increased by 1</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b614965acac065f7",
+  "_key": "!items!b614965acac065f7"
+}

@@ -1,0 +1,153 @@
+{
+  "name": "Bolt of Aqshy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bolt of Aqshy",
+      "type": "spell",
+      "traits": "Rank 3,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline",
+      "requirements": "<p>6 power, target within close range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A bolt of crimson flame flies from your hand or staff and strikes the target for 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 6+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A fiery backlash strikes you for 1 wound per  generated (minimum 1)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+3 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bolt of Aqshy",
+      "type": "spell",
+      "traits": "Rank 3,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>6 power, target within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A bolt of crimson flame flies from your hand or staff and strikes the target for 5+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 7+ <b>Intelligence</b> damage instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 9+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+ <b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+ <b>Fellowship</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A fiery backlash strikes you for 1 wound per  generated (minimum 1)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Draw 3 critical wounds and choose 1 to apply to the target. Apply the other 2 facedown as normal wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0a0229ae86406937",
+  "_key": "!items!0a0229ae86406937"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Stench of Nurgle",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Stench of Nurgle",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Nurgle",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may spend up to 3 additional power. For each power you spend, add 1 recharge token to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Followers of Nurgle within close range recover 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Followers of Nurgle within close range recover 1 stress or 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Stench of Nurgle",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Nurgle",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but up to medium range instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within close range suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within close range suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 disease until the end of the act</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "97da80b8c2f9a322",
+  "_key": "!items!97da80b8c2f9a322"
+}

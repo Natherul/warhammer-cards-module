@@ -1,0 +1,14 @@
+{
+  "name": "Up Close and Personal",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you make a <i>Melee Attack</i> against a target you are engaged with and they attempt to use the <b>Dodge</b> <i>Active Defence</i>, if your attack still hits, add 1 additional recharge token to their <b>Dodge</b> action</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c306918f957686a9",
+  "_key": "!items!c306918f957686a9"
+}

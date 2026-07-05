@@ -1,0 +1,14 @@
+{
+  "name": "Varena, Goddess of Learning & Justice",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You may attach a <b>Focus</b> talent to your <i>Faith</i> card as if it were a talent socket on your career sheet. While an active talent is socketed here, gain  K  to <b>Education</b> checks</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fb6cf4e18d41188c",
+  "_key": "!items!fb6cf4e18d41188c"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Dream Weaver",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dream Weaver",
+      "type": "blessing",
+      "traits": "Rank 3,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>5 favour. As part of invoking this blessing, you fall asleep and remain so for at least 6 hours. You must have a connection to the target, such as a portrait, true name, or personal item</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You enter into the dreaming mind of a mortal creature anywhere in the world. While in that mortal's dream, you may interact with him almost as if speaking face-to-face, although the entire experience is more surreal and less literal. You may use applicable social skills such as <b>Charm</b> or <b>Guile</b> to ask questions or influence the dreamer</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain  to checks to influence the dreamer</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When you wake up, suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover no fatigue, stress, or wounds for sleeping overnight</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dream Weaver",
+      "type": "blessing",
+      "traits": "Rank 3,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>5 favour. As part of invoking this blessing, you fall asleep and remain so for at least 6 hours. You must have a connection to the target, such as a portrait, true name, or personal item</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You enter into the dreaming mind of a mortal creature anywhere in the world. While in that mortal's dream, you may interact with him almost as if speaking face-to-face, although the entire experience is more surreal and less literal. You may use applicable social skills such as <b>Charm</b> or <b>Guile</b> to ask questions or influence the dreamer</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain  to checks to influence the dreamer</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When you wake up, suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover no fatigue, stress, or wounds for sleeping overnight</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ea91a89677763920",
+  "_key": "!items!ea91a89677763920"
+}

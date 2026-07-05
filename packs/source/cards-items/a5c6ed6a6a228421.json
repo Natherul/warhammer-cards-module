@@ -1,0 +1,119 @@
+{
+  "name": "Gift of Chaos",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gift of Chaos",
+      "type": "spell",
+      "traits": "Chaos,Rank 3,Tzeentch",
+      "rechargeRating": 9,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>9 Power\r\n<br/>Human target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's flesh ripples, twists, and boils with a painful series of (thankfully temporary) mutations. The target draws a mutation, suffers fatigue equal to its severity, and is affected by the mutation while this spell is recharging</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the mutation is permanent! The target's corruption is reduced by the mutation's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add or remove 1 recharge token to any of your <i>Tzeentch</i> spells</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may draw 3 mutations and choose 1 to apply, instead</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You draw and apply a mutation to yourself. It lasts as long as the mutation inflicted on your target</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gift of Chaos",
+      "type": "spell",
+      "traits": "Chaos,Rank 3,Tzeentch",
+      "rechargeRating": 9,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>9 Power\r\n<br/>Human target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's flesh ripples, twists, and boils with a painful series of (thankfully temporary) mutations. The target draws a mutation, suffers fatigue equal to its severity, and is affected by the mutation while this spell is recharging</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the mutation is permanent! The target's corruption is reduced by the mutation's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add or remove 1 recharge token to any of your <i>Tzeentch</i> spells</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers stress equal to the fatigue he suffers</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You draw and apply a mutation to yourself. It lasts as long as the mutation inflicted on your target</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a5c6ed6a6a228421",
+  "_key": "!items!a5c6ed6a6a228421"
+}

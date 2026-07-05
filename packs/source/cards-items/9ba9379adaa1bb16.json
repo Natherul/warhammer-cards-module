@@ -1,0 +1,99 @@
+{
+  "name": "Summon Creatures of the Night",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Summon Creatures of the Night",
+      "type": "support",
+      "traits": "Epic,Supernatural,Undead",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>Add <span class=\"wfrp-font challenge\">L</span> to your dice pool if you are engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon 1 giant wolf</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You summon either 2 giant wolves or 1 bat swarm</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You summon either 3 giant wolves or 2 bat swarms</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All creatures summoned by this action can move a long range from you</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Summon Creatures of the Night",
+      "type": "support",
+      "traits": "Epic,Supernatural,Undead",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>Add <span class=\"wfrp-font challenge\">L</span> to your dice pool if you are engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You summon 1 giant wolf</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You summon either 2 giant wolves or 1 bat swarm</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You summon either 3 giant wolves or 2 bat swarms</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All creatures summoned by this action can move a long range from you</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9ba9379adaa1bb16",
+  "_key": "!items!9ba9379adaa1bb16"
+}

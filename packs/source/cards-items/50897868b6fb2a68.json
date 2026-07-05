@@ -1,0 +1,106 @@
+{
+  "name": "Gerroff Me!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gerroff Me!",
+      "type": "spell",
+      "traits": "Shaman,WAAAGH!",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each enemy engaged with the shaman suffer 1 fatigue an the shaman is moved to a location within close range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and each engaged enemy is knocked prone</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The shaman may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Greenskins in close range suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gerroff Me!",
+      "type": "spell",
+      "traits": "Shaman,WAAAGH!",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each enemy engaged with the shaman suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and each enemy is knocked back to close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The shaman may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Greenskins in close range suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each enemy engaged with the shaman suffers 1 critical wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "50897868b6fb2a68",
+  "_key": "!items!50897868b6fb2a68"
+}

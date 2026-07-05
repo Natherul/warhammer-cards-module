@@ -1,0 +1,14 @@
+{
+  "name": "Ambitious",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You may spend a fortune point to convert one additional characteristic die into a stance die</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "53afb82dec65ca95",
+  "_key": "!items!53afb82dec65ca95"
+}

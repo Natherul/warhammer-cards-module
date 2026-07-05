@@ -1,0 +1,14 @@
+{
+  "name": "Nip at the Heels",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Enemies engaged with your pet do not get a free manoeuvre on their turns. Your <b>Animal Training</b> (<b>Fel</b>) checks gain:\r\n<br></br> {Dbane}  {Dbane}  Your pet loses 1 <b>Obedience</b></span>\n</p>",
+    "type": "Trick",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3ec70934cb5d7d04",
+  "_key": "!items!3ec70934cb5d7d04"
+}

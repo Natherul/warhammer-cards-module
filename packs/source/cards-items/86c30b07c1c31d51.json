@@ -1,0 +1,63 @@
+{
+  "name": "Burning Blood",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Burning Blood",
+      "type": "spell",
+      "traits": "Rank 2,Reaction,Bright Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Sufficient power (see below), an enemy within close range suffers a critical wound</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Burning Blood",
+      "type": "spell",
+      "traits": "Rank 2,Reaction,Bright Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Sufficient power (see below), an enemy within close range suffers a critical wound</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "86c30b07c1c31d51",
+  "_key": "!items!86c30b07c1c31d51"
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Mork Wants Ya!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mork Wants Ya!",
+      "type": "spell",
+      "traits": "Rank 1,Shaman,WAAAGH!",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>Target within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A great green fist appears and grasps the target, crushing him for 3+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3+ <b>Intelligence</b> + <b>Fellowship</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add a recharge token to all of the targets currently recharging abilities</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mork Wants Ya!",
+      "type": "spell",
+      "traits": "Rank 1,Shaman,WAAAGH!",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>Target within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A great green fist appears and grasps the target, crushing him for 5+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 5+ <b>Intelligence</b> + <b>Fellowship</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may not perform any manoeuvres while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add a recharge token to all of the targets currently recharging abilities</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>This attack ignores the soak value of the target's armour</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5e05f2298c823429",
+  "_key": "!items!5e05f2298c823429"
+}

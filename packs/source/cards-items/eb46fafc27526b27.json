@@ -1,0 +1,111 @@
+{
+  "name": "Stream of Corruption",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Stream of Corruption",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Nurgle",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 Power\r\n<br/>Target engagement within close range. Your mouth must be uncovered</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You vomit a stream of maggots, bile, and other filth all over the target engagement. All creatures in that engagement are hit for <b>Toughness + Willpower</b> damage, ignoring soak value of armour</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each character that suffers at least 1 wound from this attack must make a <i>Disease 2</i> check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target gains 1 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Stream of Corruption",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Nurgle",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 Power\r\n<br/>Target engagement within close range. Your mouth must be uncovered</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You vomit a stream of maggots, bile, and other filth all over the target engagement. All creatures in that engagement are hit for <b>Toughness + Willpower</b> damage, ignoring soak value of armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +4 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each character that suffers at least 1 wound from this attack must make a <i>Disease 2</i> check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target gains 1 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eb46fafc27526b27",
+  "_key": "!items!eb46fafc27526b27"
+}

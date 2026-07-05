@@ -1,0 +1,63 @@
+{
+  "name": "Block",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Block.jpg",
+  "system": {
+    "conservative": {
+      "name": "Block",
+      "type": "support",
+      "traits": "Active Defence,Basic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Toughness 3+, shield equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Block",
+      "type": "support",
+      "traits": "Active Defence,Basic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Toughness 3+, shield equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e1e4c8c9ccd9fc39",
+  "_key": "!items!e1e4c8c9ccd9fc39"
+}

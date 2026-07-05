@@ -1,0 +1,97 @@
+{
+  "name": "Fear Me!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fear Me!",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Defence (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You scare your target as noted above. If appropriate, you may influence the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers  to actions that target you while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the party friction meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fear Me!",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You scare your target as noted above. If appropriate, you may influence the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain <i>Fear 2</i> instead</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move the party friction meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4584e0e6325987f0",
+  "_key": "!items!4584e0e6325987f0"
+}

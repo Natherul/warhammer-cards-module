@@ -1,0 +1,111 @@
+{
+  "name": "Duty Before Dishonour",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Duty Before Dishonour",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Ulric",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour, <b>Strength</b> 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and any allies within long range of you add  to <b>Discipline</b> checks while this blessing is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all allies within long range recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Name an ally within close range. That ally, inspired by your example, adds  to the dice pool of his next action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Duty Before Dishonour",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Ulric",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour, <b>Strength</b> 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and any allies within long range of you add  to <b>Discipline</b> checks while this blessing is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this blessing recharges, you and all allies within long range gain the <i>Invigorated</i> condition while engaged with an enemy</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this blessing recharges, you and all allies within medium range gain the <i>Ill-fortuned</i> condition while not engaged with an enemy, you cowards!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Name an ally within close range. That ally, inspired by your example, adds  to the dice pool of his next action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e5e2b34423454ac7",
+  "_key": "!items!e5e2b34423454ac7"
+}

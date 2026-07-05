@@ -1,0 +1,14 @@
+{
+  "name": "Fast-Talker",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  K  to your initiative checks for all social encounters.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e5d0c1b9088992d1",
+  "_key": "!items!e5d0c1b9088992d1"
+}

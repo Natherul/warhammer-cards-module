@@ -1,0 +1,87 @@
+{
+  "name": "Berzerker Rage!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Berzerker Rage!",
+      "type": "support",
+      "traits": "",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Immediately adjust your stance to 1 space deep in Reckless</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Berzerker Rage!",
+      "type": "support",
+      "traits": "Ongoing",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You enter a rage as described above</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you may adjust your stance 1 space deeper into Reckless</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, your <b>Strength</b> and <b>Toughness</b> characteristics are treated as 1 higher for any checks you make using them</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When this card recharges, suffer 2 fatigue</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7205f6453200ceaa",
+  "_key": "!items!7205f6453200ceaa"
+}

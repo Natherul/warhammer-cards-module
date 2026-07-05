@@ -1,0 +1,83 @@
+{
+  "name": "Perfect Mimicry",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Perfect Mimicry",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Grey Order,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power\r\n<br/>The subject chosen must be an intelligent being (not an animal) no larger than an orc nor smaller than a halfling, and you must have firsthand knowledge of the subject</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You exactly duplicate 1 particular person, down to the smallest detail. As long as the spell lasts, you must use the subjects physical characteristics and gain access to all of the subject's skills, talents, and actions. You look and sound exactly like the subject and your disguise is completely impenetrable to normal means of detection. If you ever come face-to-face with the subject of your spell, the spell ends. Furthermore, all of your actions gain \" Add 1 tracking token to this card,\" and when there are 3 tracking tokens on it the spell ends</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Perfect Mimicry",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Grey Order,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power\r\n<br/>The subject chosen must be an intelligent being (not an animal) no larger than an orc nor smaller than a halfling, and you must have firsthand knowledge of the subject</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You exactly duplicate 1 particular person, down to the smallest detail. As long as the spell lasts, you must use the subjects physical characteristics and gain access to all of the subject's skills, talents, and actions. You look and sound exactly like the subject and your disguise is completely impenetrable to normal means of detection. If you ever come face-to-face with the subject of your spell, the spell ends. Furthermore, all of your actions gain \" Add 1 tracking token to this card,\" and when there are 3 tracking tokens on it the spell ends</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "584265c415d2e23b",
+  "_key": "!items!584265c415d2e23b"
+}

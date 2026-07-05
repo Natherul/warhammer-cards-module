@@ -1,0 +1,120 @@
+{
+  "name": "Knife in the Crowd",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Knife in the Crowd",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>One-handed melee weapon equipped. Engaged with target and at least three other characters. You are hidden from the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for critical damage and fatigue equal to the critical wound's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fade back into the crowd and are hidden once again</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-2 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Knife in the Crowd</b> immediately refreshes</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Knife in the Crowd",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Stealth (Ag) vs Target Observation (Int)",
+      "requirements": "<p>One-handed melee weapon equipped. Engaged with target and at least three other characters. You are hidden from the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for critical damage and fatigue equal to the critical wound's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You fade back into the crowd and are hidden once again</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-2 damage</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Knife in the Crowd</b> immediately refreshes</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0cc878c3e6a58df9",
+  "_key": "!items!0cc878c3e6a58df9"
+}

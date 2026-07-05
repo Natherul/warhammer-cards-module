@@ -1,0 +1,101 @@
+{
+  "name": "Minor Ward",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Minor Ward",
+      "type": "blessing",
+      "traits": "Basic,Minor,Ongoing,Rank 0",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour\r\n<br/>target within close range (you may target yourself). Add <span class=\"wfrp-font challenge\">L</span> to your dice pool if you are engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blessing is invoked.</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The blessing is invoked, and add 1 Recharge token to it</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may recover 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Minor Ward",
+      "type": "blessing",
+      "traits": "Basic,Minor,Ongoing,Rank 0",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour\r\n<br/>target within close range (you may target yourself). Add <span class=\"wfrp-font challenge\">L</span> to your dice pool if you are engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blessing is invoked.</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The blessing is invoked, and add 1 Recharge token to it</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may recover 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "af37da43104c6664",
+  "_key": "!items!af37da43104c6664"
+}

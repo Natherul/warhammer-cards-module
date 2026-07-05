@@ -1,0 +1,93 @@
+{
+  "name": "Clarity of Eagles",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Clarity of Eagles",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Myrmidia",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>6 favour. Targets a battle happening right now within about 100 miles</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You look down upon a battle, watching it unfold</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You can whisper advice to commanders or warriors participating in the battle. Whenever such a character performs an action, you may remove 1 recharge token from this blessing to add  or  to that action's dice pool</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this blessing is recharging, you can no longer see with your own eyes or hear with your own ears</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Clarity of Eagles",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Myrmidia",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>6 favour. Targets a battle happening right now within about 100 miles</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You look down upon a battle, watching it unfold</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You can whisper advice to commanders or warriors participating in the battle. Whenever such a character performs an action, you may remove 1 recharge token from this blessing to add  or  to that action's dice pool</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this blessing is recharging, you can no longer see with your own eyes or hear with your own ears</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "133c6af4149ef74f",
+  "_key": "!items!133c6af4149ef74f"
+}

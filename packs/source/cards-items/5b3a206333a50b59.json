@@ -1,0 +1,96 @@
+{
+  "name": "The Final Transmutation",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Final Transmutation",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Gold Order,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>12 power\r\n<br/>Engaged with target base metal. This spell takes about an hour to cast</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You produce up to 8 ounces of gold (enough to make 10 gold coins)</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You produce up to 1 pound of gold (enough to make about 20 gold coins)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The gold is flawed and tarnished; impure. You can hope no one noticed the difference, or you can use traditional smelting to remove the impurities and recoup about 75% of the gold transmuted</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Final Transmutation",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Gold Order,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>10 power\r\n<br/>Target within medium range. You throw a gold coin at the target when you cast this spell; the gold coin is consumed</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and the target becomes a statue</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are affected in exactly the same way as the target</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If the target dies while affected by this spell, he'll never turn back to flesh and blood, but remain gold forever</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5b3a206333a50b59",
+  "_key": "!items!5b3a206333a50b59"
+}

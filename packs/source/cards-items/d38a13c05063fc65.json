@@ -1,0 +1,83 @@
+{
+  "name": "Imperator Rex",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Imperator Rex",
+      "type": "support",
+      "traits": "Support,Noble",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p><b>Must be the Emperor.</b>\n<br/>Targets within extreme range.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Every character loyal to the Empire within range gains the following condition or ability for 2 rounds (conditions and abilities are cumulative):\r\n<br/>Extreme Range: <i>Inspired</i> condition\r\n<br/>Long Range: <i>Energised</i> condition\r\n<br/>Medium Range: <i>Invigorated</i> condition\r\n<br/>Close Range: +1 defence value\r\n<br/>Engaged: +1 soak value</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The conditions and abilities granted by <b>Imperator Rex</b> last 3 rounds instead</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Imperator Rex",
+      "type": "support",
+      "traits": "Support,Noble",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p><b>Must be the Emperor.</b>\n<br/>Targets within extreme range.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Every character loyal to the Empire within range gains the following condition or ability for 2 rounds (conditions and abilities are cumulative):\r\n<br/>Extreme Range: <i>Inspired</i> condition\r\n<br/>Long Range: <i>Energised</i> condition\r\n<br/>Medium Range: <i>Invigorated</i> condition\r\n<br/>Close Range: +1 defence value\r\n<br/>Engaged: +1 soak value</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The conditions and abilities granted by <b>Imperator Rex</b> last 3 rounds instead</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d38a13c05063fc65",
+  "_key": "!items!d38a13c05063fc65"
+}

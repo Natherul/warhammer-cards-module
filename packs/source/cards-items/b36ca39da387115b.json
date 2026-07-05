@@ -1,0 +1,119 @@
+{
+  "name": "Amber Talons",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Amber Talons",
+      "type": "spell",
+      "traits": "Rank 4,Amber Order,Beastform",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>3 power, at least one free hand (or paw, or claw, or etc.) engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Talons of gleaming amber crystal form around your paw or hand, and you slash your target for <b>Willpower</b> + <b>Strength</b> damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical and perform a free manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage and perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A second target in the same engagement suffers wounds equal to your depth in the Conservative stance</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Amber Talons",
+      "type": "spell",
+      "traits": "Rank 4,Amber Order,Beastform",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>3 power, at least one free hand (or paw, or claw, etc.), engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Talons of gleaming amber crystal form around your paw or hand, and you slash your target for <b>Strength</b> +6 damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, plus additional damage equal to your depth in the Reckless stance</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit a second target in the same engagement for 2 damage less than you hit the primary target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage and perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b36ca39da387115b",
+  "_key": "!items!b36ca39da387115b"
+}

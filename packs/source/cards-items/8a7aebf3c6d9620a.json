@@ -1,0 +1,14 @@
+{
+  "name": "Voice of Reason",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to use <b>Intelligence</b> rather than <b>Fellowship</b> for a skill check. \r\n<br></br>The check gains:\r\n<br></br> {Dbane}  Add  B  to the results pool</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8a7aebf3c6d9620a",
+  "_key": "!items!8a7aebf3c6d9620a"
+}

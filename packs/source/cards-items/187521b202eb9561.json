@@ -1,0 +1,109 @@
+{
+  "name": "Warpstone Throwing Stars",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Warpstone Throwing Stars",
+      "type": "ranged",
+      "traits": "Clan Eshin,Skaven",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Target within medium range. You use warpstone blades for the attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You reveal a hidden throwing star or blade of a bizarre warp stone alloy and hurl it at the target. The throwing star hits for <b>Agility</b> +2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The throwing star hits for <b>Agility</b> +3 damage, and the target must make an <b>Average</b> (<b>2d</b>) <b>Resilience check</b> or suffer 2 corruption plus 1 additional corruption for each  rolled</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical, the attack gains <i>Pierce 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You lose 1 <i>Aggression</i> die and 1 <i>Cunning</i> die from your dice budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Warpstone Throwing Stars",
+      "type": "ranged",
+      "traits": "Clan Eshin,Skaven",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Target within medium range. You use warp stone blades for the attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The sneaky skaven reveals a hidden throwing star of a bizarre warp stone alloy and hurls it at the target. The throwing star hits for <b>Agility</b> +3 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The throwing star hits for <b>Agility</b> +3 damage, and the target must make an <b>Average</b> (<b>2d</b>) <b>Resilience check</b> or suffer 2 corruption. The target also suffers 1 corruption for each  rolled</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker loses 1 <i>Aggression</i> die and 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "187521b202eb9561",
+  "_key": "!items!187521b202eb9561"
+}

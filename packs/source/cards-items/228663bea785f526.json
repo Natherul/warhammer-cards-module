@@ -1,0 +1,101 @@
+{
+  "name": "Staring Contest",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Staring Contest",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Target Discipline (WP)",
+      "requirements": "<p>Willpower 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You engage in a test of will with the target... and win! You influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may add to this card a number of recharge tokens equal to the number of  you have scored. While this card is recharging, your target may not target you with any actions, unless you target him first</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may recover 1 stress or inflict 1 stress on your target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the Party Tension meter 2 spaces to the right, you boring, frustrating ignoramus</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Staring Contest",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Target Discipline (WP)",
+      "requirements": "<p>Willpower 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You engage in a test of will with the target... and win! You influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may add to this card a number of recharge tokens equal to the number of  you have scored. While this card is recharging, add  to your <b>Willpower</b> and <b>Fellowship</b> checks and add  to your target's <b>Willpower</b> and <b>Fellowship</b> checks</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may recover 1 stress or inflict 1 stress on your target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the Party Tension meter 2 spaces to the right, you boring, frustrating ignoramus</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "228663bea785f526",
+  "_key": "!items!228663bea785f526"
+}

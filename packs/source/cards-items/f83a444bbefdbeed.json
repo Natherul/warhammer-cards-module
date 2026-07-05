@@ -1,0 +1,96 @@
+{
+  "name": "Masters of Fate",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Masters of Fate",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target. Capable of rolling stance dice of both types simultaneously</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts critical damage, and the target's stance is moved one space toward a neutral stance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, then choose 2 of your characteristic  or stance  dice from your dice pool, preserving their face. The next time your target makes a check in which he rolls those dice, he swaps out dice from his pool for your dice. He doesn't roll them, but uses the dice face you have selected</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 corruption</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Perplexed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Attacker loses 1  <i>Aggression</i> die</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Attacker loses 1 <i>Expertise</i> die</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 2 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "",
+      "type": "",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f83a444bbefdbeed",
+  "_key": "!items!f83a444bbefdbeed"
+}

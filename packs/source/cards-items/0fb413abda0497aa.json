@@ -1,0 +1,101 @@
+{
+  "name": "Bind Undead",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bind Undead",
+      "type": "spell",
+      "traits": "Necromancy,Rank 4",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>5 Power\r\n<br/>Target undead creature within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You bend the target undead creature to your will. Until the next sunrise, it obeys your commands. If the undead creature is a powerful, free-willed being (such as a Vampire or certain Wights), it will very likely resent being controlled in this manner and may seek revenge when the spell wears off...</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The controlled creature immediately performs one action or manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Before your control takes hold, the creature may immediately perform one action- probably in an attempt to kill you</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may affect additional targets with <b>Willpower</b> no higher than the first. The total number of targets affected cannot be higher than the total  generated on the roll</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Call Undead",
+      "type": "spell",
+      "traits": "Necromancy,Rank 4",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 Power\r\n<br/>You hold aloft a quantity of fresh human blood or flesh and chant as you cast this spell; you must continue to do so until the creatures appear</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your dark magics irresistibility call undead creatures to your location. A number of undead creatures up to your character rank within a dozen miles coverage on your position, intrigued by your offering of blood or flesh</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 additional creatures</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card and adjust your stance 1 space towards <i>Conservative</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card and adjust your stance 1 space towards <i>Conservative</i></p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0fb413abda0497aa",
+  "_key": "!items!0fb413abda0497aa"
+}

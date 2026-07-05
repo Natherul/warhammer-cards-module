@@ -1,0 +1,97 @@
+{
+  "name": "Flames of Purity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flames of Purity",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Sigmar",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>5 favour. Target must be willing and engaged with you. You must use a prepare maneuver before invoking this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Fire crackles up to surround your target; the blessing is invoked</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each time this blessing prevents corruption, the affected target suffers 1 normal wound as the flames flare white-hot.</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are also protected by this blessing</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flames of Purity",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Sigmar",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>5 favour. You must use a prepare manoeuvre before invoking this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Fire crackles up to surround you; the blessing is invoked</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each time this blessing prevents corruption, you suffer 1 wound as the flames flare white-hot.</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this blessing is recharging, you gain +1 defense and +1 soak</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fb9a33e447573064",
+  "_key": "!items!fb9a33e447573064"
+}

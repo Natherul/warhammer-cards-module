@@ -1,0 +1,129 @@
+{
+  "name": "Smash Instrument",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Smash Instrument",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, must possess a musical instrument of sufficient mass (GM discretion) to inflict injury</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You grab your instrument and smash it over your target's head. Treat it as a hand weapon. You hit for -1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you take the target by surprise with your improvised weapon. The target gains the <i>Staggered</i> condition</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +1 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your instrument gains the <i>Damaged</i> condition. If it already has the <i>Damaged</i> condition it is destroyed instead</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 2 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Smash Instrument",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, must possess a musical instrument of sufficient mass (GM discretion) to inflict injury</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You grab your instrument and smash it over your target's head. Treat it as a hand weapon. You hit for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you take the target by surprise with your improvised weapon. You hit for critical damage and the target gains the <i>Staggered</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your instrument gains the <i>Damaged</i> condition. If it already has the <i>Damaged</i> condition it is destroyed instead</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your instrument is destroyed</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 2 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9e0cb01305cf3926",
+  "_key": "!items!9e0cb01305cf3926"
+}

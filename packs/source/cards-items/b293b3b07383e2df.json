@@ -1,0 +1,63 @@
+{
+  "name": "Sadistic Glee",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sadistic Glee",
+      "type": "spell",
+      "traits": "Dark Magic,Rank 1,Reaction",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>A character within close range suffers 1 or more critical wounds or is knocked unconscious, either via wounds, fatigue, stress, or similar</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sadistic Glee",
+      "type": "spell",
+      "traits": "Dark Magic,Rank 1,Reaction",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>A character within close range suffers 1 or more critical wounds or is knocked unconscious, either via wounds, fatigue, stress, or similar</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b293b3b07383e2df",
+  "_key": "!items!b293b3b07383e2df"
+}

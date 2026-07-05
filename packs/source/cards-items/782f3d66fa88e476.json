@@ -1,0 +1,14 @@
+{
+  "name": "Hedge Magic",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you cast a spell, you may suffer 1 corruption to add  K  to the dice pool</span>\n</p>",
+    "type": "Witchcraft",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "782f3d66fa88e476",
+  "_key": "!items!782f3d66fa88e476"
+}

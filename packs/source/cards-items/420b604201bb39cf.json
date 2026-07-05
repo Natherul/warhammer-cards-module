@@ -1,0 +1,114 @@
+{
+  "name": "Mollison's Cocktail",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mollison's Cocktail",
+      "type": "ranged",
+      "traits": "Engineer,Drunken",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Must have a bottle or jug of spirits or dwarfbeer, a source of fire, and a target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Improvising a wick from a scrap of fabric or even your own beard, you create an extremely dangerous firebomb, which you hurl at your target for 8 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 10 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies engaged with the target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mollison's Cocktail",
+      "type": "ranged",
+      "traits": "Engineer,Drunken",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Must have a bottle or jug of spirits or dwarfbeer, a source of fire, and a target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Improvising a wick from a scrap of fabric or even your own beard, you create an extremely dangerous firebomb, which you hurl at your target for <b>Intelligence</b> + 4 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but <b>Intelligence</b> + 6 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All characters engaged with the target suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All characters engaged with the target suffer 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Catastrophe! You light part of your hair, beard, or clothing on fire. You suffer 1 wound and must spend your next action beating it out or suffer another wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "420b604201bb39cf",
+  "_key": "!items!420b604201bb39cf"
+}

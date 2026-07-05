@@ -1,0 +1,119 @@
+{
+  "name": "Belittle",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Belittle",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>The target must be able to hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully assail the target with verbal slings and arrows, making him overly self-conscious</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you influence the target if appropriate</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add one recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to you next <b>Charm</b> check during this encounter</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Increase party tension by 1</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Berate",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>The target must be able to hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You angrily scold and criticize the target, making him overly self-conscious and irritated</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your target moves his stance marker 1 space more reckless</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target moves his stance marker 1 space more reckless</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target moves his stance marker 1 space more reckless</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to you next <i>Charm</i> check during this encounter</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target gains the <i>Cowed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fb247061e9d00f25",
+  "_key": "!items!fb247061e9d00f25"
+}

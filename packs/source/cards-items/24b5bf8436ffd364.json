@@ -1,0 +1,14 @@
+{
+  "name": "Tireless",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to recover 3 fatigue. \r\n<br></br>If you have <i>Resilience Mastery</i>, recover 4 fatigue instead.\r\n<br></br><b>Tireless</b> replaces <b>I'll Sleep When I'm Dead</b> in your talent card deck.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "24b5bf8436ffd364",
+  "_key": "!items!24b5bf8436ffd364"
+}

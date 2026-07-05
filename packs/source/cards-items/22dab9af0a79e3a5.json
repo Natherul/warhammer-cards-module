@@ -1,0 +1,14 @@
+{
+  "name": "Tough as Nails",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you suffer at least 1 critical wound from a single source, you may exhaust this card to choose 1 of the critical wounds and convert it to a normal wound</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "22dab9af0a79e3a5",
+  "_key": "!items!22dab9af0a79e3a5"
+}

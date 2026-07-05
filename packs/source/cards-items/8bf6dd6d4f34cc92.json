@@ -1,0 +1,14 @@
+{
+  "name": "Blood Pact",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your wound threshold is increased by 2.</span>\n</p>",
+    "type": "Pact",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8bf6dd6d4f34cc92",
+  "_key": "!items!8bf6dd6d4f34cc92"
+}

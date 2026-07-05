@@ -1,0 +1,115 @@
+{
+  "name": "The Overwhelming Horde",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Overwhelming Horde",
+      "type": "melee",
+      "traits": "Skaven",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Defence",
+      "requirements": "<p>Used By: Clanrat, Gutter Runner<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A tide of verminkind seek to overrun the intended victim. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target suffers 1 fatigue for each skaven engaged with the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All engaged skaven suffer the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move the topmost skaven initiative counter down one space on the initiative track</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Overwhelming Horde",
+      "type": "melee",
+      "traits": "Skaven,Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and your allies attempt to overwhelm the victim. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 fatigue, plus 1 fatigue for each of your allies engaged with him</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Draw critical wounds equal to the number of your allies within close range. Choose 1 to apply to the target and discard the rest</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains  to his next attack against you or one of your allies</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 die from their <i>Expertise</i> budget</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "64929a683742cefb",
+  "_key": "!items!64929a683742cefb"
+}

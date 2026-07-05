@@ -1,0 +1,113 @@
+{
+  "name": "Doombolt",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Doombolt",
+      "type": "spell",
+      "traits": "Dark Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>5 Power\r\n<br/>Target within medium range. You suffer 1 fatigue when you cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A flickering bolt of pure darkness springs from your outstretched hand or staff, striking the target for 5+ <b>Intelligence</b> damage and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 fatigue instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Doombolt",
+      "type": "spell",
+      "traits": "Dark Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>5 Power\r\n<br/>Target within medium range. You suffer 1 fatigue when you cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A flickering bolt of pure darkness springs from your outstretched hand or staff, striking the target for 5+ <b>Intelligence</b> damage and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 6+ <b>Intelligence</b> damage instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but 8+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4b08d50e0d955d84",
+  "_key": "!items!4b08d50e0d955d84"
+}

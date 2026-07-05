@@ -1,0 +1,91 @@
+{
+  "name": "Vanishment",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Vanishment",
+      "type": "blessing",
+      "traits": "Rank 4,Ranald",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>7 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 1 recharge token to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You are invisible while this blessing recharges. Anyone who tries to target you is functionally blind (add  to the dice pool) and even to target you in the first place an enemy must pass an <b>Observation</b> (<b>Int</b>) <b>vs</b>. <b>Stealth</b> (<b>Ag</b>) <b>check</b> to know you're there. You gain  to any check where being invisible would be helpful. If you perform any act of violence, this blessing immediately ends (but does not recharge)</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Vanishment",
+      "type": "blessing",
+      "traits": "Rank 4,Ranald",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>7 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You are invisible while this blessing recharges. Anyone who tries to target you is functionally blind (add  to the dice pool) and even to target you in the first place an enemy must pass an <b>Observation</b> (<b>Int</b>) <b>vs</b>. <b>Stealth</b> (<b>Ag</b>) <b>check</b> to know you're there. You gain  to any check where being invisible would be helpful. If you perform any act of violence, this blessing immediately ends (but does not recharge)</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e0b2103b59c20894",
+  "_key": "!items!e0b2103b59c20894"
+}

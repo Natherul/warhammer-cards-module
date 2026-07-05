@@ -1,0 +1,111 @@
+{
+  "name": "Swarm of Whispers",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swarm of Whispers",
+      "type": "spell",
+      "traits": "Daemonic,Ruinous Power",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Discipline (WP)",
+      "requirements": "<p>Used By: Imp<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The imp fills the target's thoughts with doubts and fear. The target suffers the <i>Perplexed</i> condition while this action is recharging</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above and the target suffers 1 stress for each Imp within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 temporary insanity with the <i>Supernatural</i> or <i>Chaos</i> trait</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The imp suffers the <i>Perplexed</i> condition while this action is recharging</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The imp suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swarm of Whispers",
+      "type": "spell",
+      "traits": "Daemonic,Ongoing,Ruinous Power",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The imp fills the target's thoughts with doubts and fear. The target gains the <i>Overwhelmed</i> condition while this action is recharging</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above and the target suffers 1 stress for each daemon within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 temporary insanity with the <i>Supernatural</i> or <i>Chaos</i> trait</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Overwhelmed</i> condition while this action is recharging</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8265fc87b13b98d0",
+  "_key": "!items!8265fc87b13b98d0"
+}

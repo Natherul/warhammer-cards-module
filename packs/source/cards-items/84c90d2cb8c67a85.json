@@ -1,0 +1,14 @@
+{
+  "name": "Upper Class",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Once per session you may re-roll a failed <i>Social</i> action check against a target whose <i>Noble Rank</i> is below yours.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "84c90d2cb8c67a85",
+  "_key": "!items!84c90d2cb8c67a85"
+}

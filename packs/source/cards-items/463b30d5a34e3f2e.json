@@ -1,0 +1,115 @@
+{
+  "name": "Dance of Madness",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dance of Madness",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Discipline (WP)",
+      "requirements": "<p>4 Power\r\n<br/>Target(s) within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully invade the minds of your targets</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the targets dance so uncontrollably that each suffers 2 wounds as bones snap and muscles tear</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dance of Madness",
+      "type": "spell",
+      "traits": "Chaos,Ongoing,Rank 1,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Discipline (WP)",
+      "requirements": "<p>4 Power\r\n<br/>Target(s) within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully invade the minds of your targets</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the targets dance so uncontrollably that each suffers 2 wounds as bones snap and muscles tear</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each target suffers 1 corruption</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress for each target</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 2 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "463b30d5a34e3f2e",
+  "_key": "!items!463b30d5a34e3f2e"
+}

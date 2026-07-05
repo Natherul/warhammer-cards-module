@@ -1,0 +1,120 @@
+{
+  "name": "Avalanche of Flesh",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Avalanche of Flesh",
+      "type": "melee",
+      "traits": "Monstrous,Skaven",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +3 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit the target for +3 damage. This attack ignores the soak value of the target's armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit the target for +3 damage. This attack ignores the soak value of the target's armour. The target and all characters engaged with him are knocked prone and gain the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target and all characters engaged with him gain the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Sluggish</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound for each character engaged with you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feeding Frenzy",
+      "type": "melee",
+      "traits": "Monstrous,Ongoing,Skaven",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, must possess at least 2 heads</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage. The attack has <i>Pierce 2</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical. In addition, your heads latch on with needle teeth, and the target gains the <i>Entangled</i> condition for a number of rounds equal to the critical wound's severity or until you suffer a critical wound yourself</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may hit a second engaged target for normal damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "00cf6b58b44768d6",
+  "_key": "!items!00cf6b58b44768d6"
+}

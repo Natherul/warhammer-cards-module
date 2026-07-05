@@ -1,0 +1,111 @@
+{
+  "name": "Growing Season",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Growing Season",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Jade order,Spring",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power\r\n<br/>Target must be within medium range and standing on natural earth or near greenery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 power</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>On his next turn, the target suffers 1 fatigue for each manoeuvre he performs</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All characters, friend or foe, within close range of the target suffer 1 fatigue as grasping vines tear at them</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This spell affects another target within range of the GM's choice</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Growing Season",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Jade order,Spring",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power\r\n<br/>Target must be within medium range and standing on natural earth or near greenery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may affect a second target within close range of the first</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All characters, friend or foe, within close range of the target suffer 1 fatigue as grasping vines tear at them</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This spell affects another target within range of the GM's choice</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1ce6061b9c72a85b",
+  "_key": "!items!1ce6061b9c72a85b"
+}

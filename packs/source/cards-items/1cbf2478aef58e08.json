@@ -1,0 +1,103 @@
+{
+  "name": "Bestial Transformation",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bestial Transformation",
+      "type": "spell",
+      "traits": "Rank 3,Amber Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 power, humanoid target within close range. You must have the ability to assume beastform</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target assumes the form of a beast. Choose the beastform card of the beast who's form you can assume - the target can only use the physical characteristics of skills shown on the card. While in beastform, he can only use spells with the <i>Beastform</i> trait and cannot speak. He resumes his  normal form when you or he are knocked unconscious or killed, or when the act ends or you voluntarily end the spell as a manoeuvre. In any case, this card will not recharge until the end of the act.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may heal or inflict 1 normal wound on the target as he changes form</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You lose the ability to end the spell. It ends only when it suits the whim of the Changer of Ways (but lasts at least 1 act)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bestial Transformation",
+      "type": "spell",
+      "traits": "Rank 3,Amber Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 power, humanoid target within close range. You must have the ability to assume beastform</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target assumes the form of a beast. Choose the beastform card of the beast who's form you can assume - the target can only use the physical characteristics of skills shown on the card. While in beastform, he can only use spells with the <i>Beastform</i> trait and cannot speak. He resumes his  normal form when you or he are knocked unconscious or killed, or when the act ends or you voluntarily end the spell as a manoeuvre. In any case, this card will not recharge until the end of the act.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may heal or inflict 1 normal wound on the target as he changes form</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You lose the ability to end the spell. It ends only when it suits the whim of the Changer of Ways (but lasts at least 1 act)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1cbf2478aef58e08",
+  "_key": "!items!1cbf2478aef58e08"
+}

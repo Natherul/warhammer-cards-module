@@ -1,0 +1,107 @@
+{
+  "name": "Sermon",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sermon",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>Your subjects must be able to see and hear you; the sermon takes several minutes to tell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Drawing on your faith, you deliver a homily appropriate to the current situation. If appropriate, you influence your audience</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and while pursuing goals along parallel lines to your sermon, your audience gains the <i>Inspired</i> condition for the remainder of the act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your audience recovers 1 stress each</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to future <i>Social</i> actions against the same subjects</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sermon",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>Your subjects must be able to see and hear you; the sermon takes several minutes to tell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Drawing on your faith, you deliver a homily appropriate to the current situation. If appropriate, you influence your audience</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your audience recovers 1 stress each</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to future <i>Social</i> actions against the same subjects</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your audience gains the <i>Demoralised</i> condition for the remainder of the act</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While pursuing goals along parallel lines to your sermon, your audience gains the <i>Inspired</i> condition for the remainder of the act</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f7b68d4c18564dde",
+  "_key": "!items!f7b68d4c18564dde"
+}

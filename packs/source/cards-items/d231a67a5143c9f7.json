@@ -1,0 +1,14 @@
+{
+  "name": "Protective",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to skill checks if a member of your party within medium range is critically wounded</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d231a67a5143c9f7",
+  "_key": "!items!d231a67a5143c9f7"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Silver Arrows of Arha",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Silver Arrows of Arha",
+      "type": "spell",
+      "traits": "Rank 2,Gold Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power\r\n<br/>If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and conjure a single arrow, which can strike a target within medium range for <b>Intelligence</b> + 5 damage, <i>Pierce 1</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you conjure 2 arrows instead, which an strike different targets</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The arrows have <i>Pierce 2</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress per arrow you conjure</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Silver Arrows of Arha",
+      "type": "spell",
+      "traits": "Rank 2,Gold Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power\r\n<br/>If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and conjure 2 arrows, which can strike the same or different targets within medium range for <b>Intelligence</b> + 4 damage, <i>Pierce 1</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 3 arrows instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove a recharge token from this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress per arrow you conjure</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "63e940fa7add4493",
+  "_key": "!items!63e940fa7add4493"
+}

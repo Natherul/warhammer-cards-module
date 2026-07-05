@@ -1,0 +1,73 @@
+{
+  "name": "Swallow Whole",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swallow Whole",
+      "type": "melee",
+      "traits": "Monstrous,Ongoing",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target, must have a free appendage (hand, tentacle, etc)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You swallow the target as described above</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swallow Whole",
+      "type": "melee",
+      "traits": "Monstrous,Ongoing",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target, must have a free appendage (hand, tentacle, etc)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage and swallow him as described above</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e8a1bfa7ecc8182f",
+  "_key": "!items!e8a1bfa7ecc8182f"
+}

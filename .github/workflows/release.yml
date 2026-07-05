@@ -1,0 +1,78 @@
+name: Release Module
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install FoundryVTT CLI
+        run: npm install -g @foundryvtt/foundryvtt-cli
+
+      - name: Pack Compendiums
+        run: |
+          npx fvtt package pack cards-items --in packs/source/cards-items --out packs/cards-items
+          
+      - name: Bump Minor Version
+        id: bump_version
+        run: |
+          # Extract current version
+          CURRENT_VERSION=$(jq -r '.version' module.json)
+          
+          # Split into major, minor, patch
+          IFS='.' read -r major minor patch <<< "$CURRENT_VERSION"
+          
+          # Bump minor version
+          NEW_MINOR=$((minor + 1))
+          NEW_VERSION="${major}.${NEW_MINOR}.0"
+          
+          echo "Bumping version from $CURRENT_VERSION to $NEW_VERSION"
+          
+          # Update module.json with new version and correct download URL
+          jq --arg version "$NEW_VERSION" \
+             '.version = $version | .download = (.download | sub("/download/v[0-9\\.]+/"; "/download/v" + $version + "/"))' \
+             module.json > module.json.tmp && mv module.json.tmp module.json
+             
+          echo "VERSION=$NEW_VERSION" >> $GITHUB_ENV
+
+      - name: Commit version bump
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add module.json packs/cards-items
+          git commit -m "Bump version to v${{ env.VERSION }} and pack compendium"
+          git push
+
+      - name: Create Module Archive
+        run: |
+          # Create a temporary directory with the module name to ensure it extracts to the correct folder
+          mkdir warhammer-cards-compendium
+          cp -r packs images module.json README.md warhammer-cards-compendium/
+          zip -r module.zip warhammer-cards-compendium/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Release v${{ env.VERSION }}
+          files: |
+            module.zip
+            module.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

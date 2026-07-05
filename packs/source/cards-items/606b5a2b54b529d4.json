@@ -1,0 +1,119 @@
+{
+  "name": "Disarm",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Disarm",
+      "type": "melee",
+      "traits": "Diestro",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Spc) vs Target Weapon Skill (St)",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You disarm your target, knocking his primary weapon to the ground</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You disarm the target, knocking both his primary and secondary weapon (if any) to the ground</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer  to your next attack</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With a flourish, you snatch the target's weapon from the air! You're now holding it (assuming you had a free hand)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Disarm",
+      "type": "melee",
+      "traits": "Diestro",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Spc) vs Target Weapon Skill (St)",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You disarm your target, knocking his primary weapon to the ground</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you hit for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer  to your next attack</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With a flourish, you snatch the target's weapon from the air! You're now holding it (assuming you had a free hand)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "606b5a2b54b529d4",
+  "_key": "!items!606b5a2b54b529d4"
+}

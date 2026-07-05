@@ -1,0 +1,119 @@
+{
+  "name": "One In Each Eye",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "One In Each Eye",
+      "type": "ranged",
+      "traits": "Epic",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Bow, repeating crossbow or firearm, or two pistols or crossbow pistols equipped. Target(s) within close range of one another</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fire twice... but only hit once. You hit one target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You fire twice and hit twice. You hit with two separate attacks for normal damage (against the same target twice or against two targets).</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore your target(s)'s armour soak value</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>-1 damage per attack</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>-1 damage per attack</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Reduce your target(s)'s <b>Toughness</b> to half (round up) for the purposes of soaking damage from this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "One In Each Eye",
+      "type": "ranged",
+      "traits": "Epic",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Bow, repeating crossbow or firearm, or two pistols or crossbow pistols equipped. Target(s) within close range or one another</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fire twice... but only hit once. You hit one target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You fire twice and hit twice. You hit with two separate attacks for normal damage (against the same target twice or against two targets).</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Ignore your target(s)'s armour soak value</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue. Suffer 1 stress per target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7522be2e17d4fa32",
+  "_key": "!items!7522be2e17d4fa32"
+}

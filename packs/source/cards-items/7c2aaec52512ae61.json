@@ -1,0 +1,121 @@
+{
+  "name": "Berzerker Slash",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Berzerker Slash",
+      "type": "melee",
+      "traits": "Beastman,Monstrous",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, melee weapon engaged</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With implacable and inevitable might, you lay about with your weapon. The target is struck for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target is strick for +2 damage and suffers 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You pick your moment. In addition to the regular  effects, you deal extra damage equal to the number of <i>Aggression</i> and  dice you spent to enhance this attack</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Berzerker Slash",
+      "type": "melee",
+      "traits": "Monstrous",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Izka Madtooth; <br/>Engaged with target, melee weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Foaming like a wild animal and roaring with fury, Izka lays about him with an axe. The target is struck for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is strick for +4 damage and suffers 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Izka suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack hits a second opponent in the same engagement</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Izka suffers 1 wound, but if the attack is successful, it inflicts +1 damage</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7c2aaec52512ae61",
+  "_key": "!items!7c2aaec52512ae61"
+}

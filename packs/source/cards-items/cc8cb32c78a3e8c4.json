@@ -1,0 +1,119 @@
+{
+  "name": "Channel Power",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Channel Power",
+      "type": "spell",
+      "traits": "Basic,Rally",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Channeling (WP)",
+      "requirements": "<p>Your current power is less than twice your <b>Willpower</b>. If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span> to your dice pool.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 2 power</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 3 power</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Gain 4 power</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress. If, after resolving this action, you have more power than twice your <b>Willpower</b>, suffer 1 additional stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After resolving this action, lose all power in excess of twice your <b>Willpower</b> and suffer 1 stress per power lost that way</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Channel Power",
+      "type": "spell",
+      "traits": "Basic,Rally",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Channeling (WP)",
+      "requirements": "<p>Your current power is less than twice your <b>Willpower</b>. If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 2 power</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 4 power</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Gain 6 power</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound. If, after resolving this action, you have more power than twice your <b>Willpower</b>, suffer 1 additional stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>At the end of your turn, lose all power in excess of your <b>Willpower</b> and suffer 1 stress per power lost that way</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cc8cb32c78a3e8c4",
+  "_key": "!items!cc8cb32c78a3e8c4"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Myrmidia, Goddess of Warfare",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain 1 favour each time you generate 1 or more  {Dcomet}  when performing a <i>Melee Attack</i></span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "41777de81ff6b35e",
+  "_key": "!items!41777de81ff6b35e"
+}

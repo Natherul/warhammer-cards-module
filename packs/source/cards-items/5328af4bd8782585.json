@@ -1,0 +1,111 @@
+{
+  "name": "Caress of Laniph",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Caress of Laniph",
+      "type": "spell",
+      "traits": "Rank 4,Amethyst Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>9 power, target within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A spectral form materializes and touches your target, dealing 6+ <b>Willpower</b> damage. The target uses <b>Willpower</b>, rather than <b>Toughness</b>, to resist damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, +<b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Ignore the soak value of your target's armour</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical and if the spell is successful you recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Caress of Laniph",
+      "type": "spell",
+      "traits": "Rank 4,Amethyst Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>9 power, target within close range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A spectral form materializes and touches your target, dealing 6+ <b>Willpower</b> damage. The target uses <b>Willpower</b>, rather than <b>Toughness</b>, to resist damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, +<b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>+X damage, where X is the number of  generated on this check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5328af4bd8782585",
+  "_key": "!items!5328af4bd8782585"
+}

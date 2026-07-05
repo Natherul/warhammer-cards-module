@@ -1,0 +1,113 @@
+{
+  "name": "Spectral Wolf",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Spectral Wolf",
+      "type": "blessing",
+      "traits": "Rank 3,Summoning,Ulric",
+      "rechargeRating": 15,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour, <b>Strength</b> 4+, you and you allies must be outnumbered in battle</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A huge white wolf appears in the engagement of your choice within medium range. The wolf counts as an ally and is under your control. On your turn, the wolf can make 1 manoeuvre for free, and can make additional manoeuvres by discarding recharge tokens from this card. If the wolf is attacked, do not roll dice -simply discard a recharge token from this card. Your allies engaged with the wolf gain +1 defence. Attacks against enemies engaged with the wolf gain</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 2 favour immediately</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Attacks against enemies engaged with the wolf gain \" +1 critical\"</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Spectral Wolf",
+      "type": "blessing",
+      "traits": "Rank 3,Summoning,Ulric",
+      "rechargeRating": 15,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour, <b>Strength</b> 4+, you and your allies must be outnumbered in battle</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A huge white wolf appears in the engagement of your choice within medium range. The wolf counts as an ally and is under your control. On your turn, the wolf can make 1 manoeuvre for free, and can make additional manoeuvres by discarding recharge tokens from this card. If the wolf is attacked, do not roll dice -simply discard a recharge token from this card.  When you make a <i>Melee Attack</i>, you may choose to do so as if you were in the wolf's position, rather than your own</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Successful attacks made through the wolf gain +1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 5 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 2 favour immediately</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Successful attacks made through the wolf gain +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f1e73a9a0643e79b",
+  "_key": "!items!f1e73a9a0643e79b"
+}

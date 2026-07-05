@@ -1,0 +1,83 @@
+{
+  "name": "Shelter of Rhya",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shelter of Rhya",
+      "type": "blessing",
+      "traits": "Rank 1,Rhya",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. <br/>There must be ample natural vegetation within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You grow and shape the nearby flora to create a natural shelter from the elements. The shelter can fit about half a dozen average-sized people comfortably and requires a <b>Hard Observation</b> (<b>3d</b>) <b>check</b> to detect from outside. The shelter lasts until sunrise</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The shelter requires a <b>Hard Observation</b> (<b>3d</b>) <b>check</b> to detect and confers  to recovery checks made by those resting within</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wall of Taal",
+      "type": "blessing",
+      "traits": "Rank 1,Taal",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. <br/>There must be ample natural vegetation within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You grow and shape the nearby flora to create a natural wall of thorny, tough plants. The wall can be shaped into a circle blocking any exit. The wall requires a <b>Hard Observation</b> (<b>3d</b>) <b>check</b> (or comparable) to break through, and anyone attempting and failing suffers 1 wound. The wall disappears when this blessing has recharged</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The wall is requires a <b>Daunting</b> (<b>3d</b>) <b>Athletics check</b> to break through and checks to break through it gain \" Suffer 1 fatigue\"</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "be2826bdf0e4b59a",
+  "_key": "!items!be2826bdf0e4b59a"
+}

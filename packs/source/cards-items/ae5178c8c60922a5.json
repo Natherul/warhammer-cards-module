@@ -1,0 +1,63 @@
+{
+  "name": "Cantrip",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cantrip",
+      "type": "spell",
+      "traits": "Basic,Petty Magic,Rank 0",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Generally None Required",
+      "requirements": "<p>1 power. May require a prop, manoeuvre, or other requirement at the GM's discretion</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cantrip",
+      "type": "spell",
+      "traits": "Basic,Petty Magic,Rank 0",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Generally None Required",
+      "requirements": "<p>1 power. May require a prop, manoeuvre, or other requirement at the GM's discretion</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ae5178c8c60922a5",
+  "_key": "!items!ae5178c8c60922a5"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Slay the Unbeliever",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Slay the Unbeliever",
+      "type": "melee",
+      "traits": "Basic,Cultist",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your blind zeal compels you to lash out violently, cursing those who oppose you. The target is struck for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, the target suffers the <i>Ill-Fortuned</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Slay the Unbeliever",
+      "type": "melee",
+      "traits": "Basic,Cultist",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Cultists\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Cultists' blind zeal compels them to lash out violently, cursing those who oppose them. The target is struck for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is struck for +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Ill-Fortuned</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b765d0247b9760d3",
+  "_key": "!items!b765d0247b9760d3"
+}

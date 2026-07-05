@@ -1,0 +1,109 @@
+{
+  "name": "Hearth & Hold",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Hearth & Hold",
+      "type": "spell",
+      "traits": "Rune Magic",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>As part of this action you hold aloft a Rune item and invoke its mystic runes</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke up to 1 rune</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You invoke up to 2 runes</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You invoke up to 3 runes</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Disaster! You must invoke the most possible runes; runes invoked this way are destroyed rather than exhausted</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your allies recover both stress and fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Hearth & Hold",
+      "type": "spell",
+      "traits": "Rune Magic",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>As part of this action you hold aloft a Rune item and invoke its mystic runes</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke up to 1 rune</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You invoke up to 2 runes</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You invoke up to 3 runes</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Disaster! You must invoke the most possible runes; runes invoked this way are destroyed rather than exhausted</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A single critical wound belonging to an ally within medium range with a severity no greater than the number of runes invoked is turned facedown</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ca4043f8a774b3d0",
+  "_key": "!items!ca4043f8a774b3d0"
+}

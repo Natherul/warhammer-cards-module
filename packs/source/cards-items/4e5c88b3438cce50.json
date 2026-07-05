@@ -1,0 +1,63 @@
+{
+  "name": "Armour of Contempt",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Armour of Contempt",
+      "type": "blessing",
+      "traits": "Rank 3,Reaction,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 favour. Play when you have just been struck by a melee or ranged attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Armour of Contempt",
+      "type": "blessing",
+      "traits": "Rank 3,Reaction,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 favour. Play when you have just been struck by a melee or ranged attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4e5c88b3438cce50",
+  "_key": "!items!4e5c88b3438cce50"
+}

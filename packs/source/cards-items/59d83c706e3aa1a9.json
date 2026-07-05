@@ -1,0 +1,73 @@
+{
+  "name": "Purple Sun of Xereus",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Purple Sun of Xereus",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Amethyst Order,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (WP)",
+      "requirements": "<p>12 power, target area or engagement within long range. Must perform the prepare manoevure before casting this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure up the crackling purple sun which drifts through the battlefield, turning all it touches to amethyst crystal. The orb, which is large enough to engulf an entire engagement, persists while this spell recharges. Anyone engaged with or passing through the orb must make a <b>Hard</b> (<b>3d</b>) <b>Coordination</b> (<b>Ag</b>) <b>check</b> or gain a <i>Petrified</i> condition until the end of the Encounter, when he returns to normal. \r\n<br/>When a character rolls  on any check, the orb drifts closer to that character, to engaged him if within close range, or to change range increment as if spending a single manoeuvre otherwise.</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Purple Sun of Xereus",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Amethyst Order,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (WP)",
+      "requirements": "<p>12 power, target area or engagement within long range. Must perform the prepare manoeuvre before casting this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure up the crackling purple sun which drifts through the battlefield, turning all it touches to amethyst crystal. The orb, which is large enough to engulf an entire engagement, persists while this spell recharges. Anyone engaged with or passing through the orb must make a <b>Hard</b> (<b>3d</b>) <b>Coordination</b> (<b>Ag</b>) <b>check</b> or gain a <i>Petrified</i> condition until the end of the Encounter, when he returns to normal. \r\n<br/>When a character rolls  on any check, the orb drifts closer to that character, to engaged him if within close range, or to change range increment as if spending a single manoeuvre otherwise.</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "59d83c706e3aa1a9",
+  "_key": "!items!59d83c706e3aa1a9"
+}

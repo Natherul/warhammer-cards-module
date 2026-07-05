@@ -1,0 +1,112 @@
+{
+  "name": "Great Fires of U'Zhul",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Great Fires of U'Zhul",
+      "type": "spell",
+      "traits": "Rank 2,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>7 power, not engaged with target, target within close range. Add <span class=\"wfrp-font misfortune\">K</span> to your dice pool for each enemy in the target's engagement after the first</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A great fiery ball flies from your hand, hitting your target for 5+ <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The fireball explodes, causing 2+ <b>Intelligence</b> damage for each other enemy in the target's engagement</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit each other character in the engagement, friend or foe, for 2+ <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Great Fires of U'Zhul",
+      "type": "spell",
+      "traits": "Rank 2,Bright Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>7 power, not engaged with target, target within close range. Add <span class=\"wfrp-font misfortune\">K</span> to your dice pool for each enemy in the target's engagement after the first</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A great fiery ball flies from your hand, hitting your target for 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but for 6 + <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fireball explodes, causing 2+ <b>Intelligence</b> damage for each other enemy in the target's engagement</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit each other character in the engagement, friend or foe, for 2+ <b>Intelligence</b> damage</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage to all targets hit</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "03c0c3d7816c59fd",
+  "_key": "!items!03c0c3d7816c59fd"
+}

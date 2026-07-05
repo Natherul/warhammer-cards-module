@@ -1,0 +1,109 @@
+{
+  "name": "Scrabbling Claws",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Scrabbling Claws",
+      "type": "melee",
+      "traits": "Familiar",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Screech! Your familiar claws the target for critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your familiar may perform a free manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your familiar loses 1 vigour</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Scrabbling Claws",
+      "type": "melee",
+      "traits": "Familiar",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Screech! Your familiar claws the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your familiar loses 1 vigour</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f57f21ac548aca7f",
+  "_key": "!items!f57f21ac548aca7f"
+}

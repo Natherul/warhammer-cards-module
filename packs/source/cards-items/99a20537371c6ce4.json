@@ -1,0 +1,111 @@
+{
+  "name": "Captain's Presence",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Captain's Presence",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All allies within medium range of you gain the <i>Inspired</i> condition while this card is recharging</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, all allies within medium range of you may immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All allies within close rang of you gain the <i>Invigorated</i> condition while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Captain's Presence",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All allies within medium range of you gain the <i>Inspired</i> condition while this card is recharging</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and while this card is recharging, all enemies within close range of you during your <i>Start of Turn</i> phase suffer 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, all allies within close range of you during your <i>Start of Turn</i> phase suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "99a20537371c6ce4",
+  "_key": "!items!99a20537371c6ce4"
+}

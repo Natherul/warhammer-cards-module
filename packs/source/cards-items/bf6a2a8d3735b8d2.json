@@ -1,0 +1,121 @@
+{
+  "name": "Blasphemous Litany",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Blasphemous Litany",
+      "type": "spell",
+      "traits": "Cultist,Ruinous Power",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your chanting corrupts the target's flesh! One random normal wound affecting the target becomes a critical wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target immediately suffers stress equal to the severity of the critical wound inflicted by this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target's suffering is your gain. Heal 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All cultists in close range (including the attacker) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack has <i>Terror 2</i></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Blasphemous Litany",
+      "type": "spell",
+      "traits": "Cultist,Ruinous Power",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Used By: Cult Leader\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The cult leader's chanting corrupts the target's flesh! One random normal wound affecting the target becomes a critical wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target immediately suffers stress equal to the severity of the critical wound inflicted by this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The action affects one additional target within close range to the cult leader</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All cultists in close range (including the attacker) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack has <i>Terror 2</i></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "bf6a2a8d3735b8d2",
+  "_key": "!items!bf6a2a8d3735b8d2"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Flirt",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flirt",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must be within close range of your target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You make yourself appealing to the subject, skirting the edges of decorum. You influence the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You really get into the flirting. You gain the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flirt",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must be within close range of your target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You make yourself appealing to the subject using raunchy innuendo. You influence the target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is tongue-tied by your advances. Your target adds  to all <i>Social</i> checks while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "06ad413fdbb6f377",
+  "_key": "!items!06ad413fdbb6f377"
+}

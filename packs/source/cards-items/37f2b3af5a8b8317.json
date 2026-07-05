@@ -1,0 +1,101 @@
+{
+  "name": "Sigmar's Protection",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sigmar's Protection",
+      "type": "blessing",
+      "traits": "Ongoing,Rally,Rank 1,Sigmar",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 Favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 1 recharge token to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or 1 of your allies may remove a recharge token from 1 of your currently recharging action cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>While this blessing is recharging, you are considered to be encumbered by an amount equal to the number of uncancelled  in your results pool</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sigmar's Protection",
+      "type": "blessing",
+      "traits": "Ongoing,Rally,Rank 1,Sigmar",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 Favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above and your wound threshold is increased by 1 more</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or 1 of your allies may remove a recharge token from 1 of your currently recharging action cards</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this blessing is recharging, your total Encumbrance increases by 3</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "37f2b3af5a8b8317",
+  "_key": "!items!37f2b3af5a8b8317"
+}

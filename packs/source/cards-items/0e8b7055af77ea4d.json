@@ -1,0 +1,14 @@
+{
+  "name": "Knights of the White Wolf",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After you inflict a critical wound, you may spend 1 fortune point to discard that critical wound and draw a new critical wound. Inflict the new critical instead</span>\n</p>",
+    "type": "Oath",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0e8b7055af77ea4d",
+  "_key": "!items!0e8b7055af77ea4d"
+}

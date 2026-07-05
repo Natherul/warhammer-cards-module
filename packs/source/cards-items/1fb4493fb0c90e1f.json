@@ -1,0 +1,63 @@
+{
+  "name": "Duelist's Finesse",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Duelist's Finesse",
+      "type": "melee",
+      "traits": "Diestro,Enhance",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Fencing weapon equipped, Weapon Skill & Coordination trained. Enhances a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Duelist's Speed",
+      "type": "melee",
+      "traits": "Diestro,Enhance",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Fencing weapon equipped, Weapon Skill & Coordination trained. Enhances a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1fb4493fb0c90e1f",
+  "_key": "!items!1fb4493fb0c90e1f"
+}

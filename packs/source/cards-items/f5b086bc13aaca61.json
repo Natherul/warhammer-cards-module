@@ -1,0 +1,14 @@
+{
+  "name": "Infamous",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to add <i>Fear X</i> to a <b>Guile</b> or <b>Intimidate</b> check. X is equal to your ranks of training in the skill used (maximum 3).</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f5b086bc13aaca61",
+  "_key": "!items!f5b086bc13aaca61"
+}

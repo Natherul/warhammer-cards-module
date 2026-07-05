@@ -1,0 +1,123 @@
+{
+  "name": "The Burning Head",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Burning Head",
+      "type": "spell",
+      "traits": "Rank 3,Bright Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>7 power. Target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A screaming, burning skull bursts from your outstretched hand or staff, streaking to the target and striking him for 4+ <b>Intelligence</b> damage. This causes <i>Fear 2</i> to all enemies who witness this</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 6+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The magnitude of the <i>Fear</i> or <i>Terror</i> caused by this spell is increased by 1</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The <i>Fear</i> or <i>Terror</i> effect of this spell affects friend and foe alike</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical. This spell causes <i>Terror 2</i> instead of <i>Fear 2</i></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Burning Head",
+      "type": "spell",
+      "traits": "Rank 3,Bright Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>7 power. Target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A screaming, burning skull bursts from your outstretched hand or staff, streaking to the target and striking him for 4+ <b>Intelligence</b> damage. This causes <i>Fear 2</i> to all enemies who witness this</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 7+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Targets who fail their <i>Fear</i> check cannot move closer to you during their next turn</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The <i>Fear</i> effect of this spell affects friend and foe alike</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c960f55686a7938c",
+  "_key": "!items!c960f55686a7938c"
+}

@@ -1,0 +1,134 @@
+{
+  "name": "Style and Grace",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Style and Grace",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag)",
+      "requirements": "<p>Your subjects must be able to see you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your grace and form impress everyone around you and they cannot take their eyes off you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you have <b>Coordination</b> trained, you may perform a manoeuvre for free</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You make a clumsy misstep, embarrassing yourself. Suffer 2 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Style and Grace",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag)",
+      "requirements": "<p>Your subjects must be able to see you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your grace and form impress everyone around you and they cannot take their eyes off you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If you have <b>Coordination</b> trained, you may perform a manoeuvre for free</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You make a clumsy misstep, embarrassing yourself. Suffer 2 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>In addition to the normal effects of , add a recharge token to each of your currently recharging cards</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8e57834945e5373a",
+  "_key": "!items!8e57834945e5373a"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Knights Panther",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you perform a <i>Melee Attack</i>, you may spend 1 fortune point to add  K  K  to your dice pool. You may do this only once per turn.</span>\n</p>",
+    "type": "Oath",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "08b84e842d0601ee",
+  "_key": "!items!08b84e842d0601ee"
+}

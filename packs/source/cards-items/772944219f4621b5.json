@@ -1,0 +1,111 @@
+{
+  "name": "Crack a Joke",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Crack a Joke",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>Your subjects must be able to see and hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You tell the joke, garnering the attention of those around you</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If the check succeeded, add 1 additional recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your joke isn't very funny. You get a polite chuckle and nothing more. If the check succeeded, add 2 less recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Someone within your audience heckles you. Suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Crack a Joke",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>The butt of your joke is within close range, other subjects are able to see and hear you.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You tell a joke, focusing attention on your target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 shame</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>You joke is in poor taste and not very funny. If the check succeeded, add 2 less recharge tokens to this card.</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your audience jeers at you and your allies for the rude interruption. Increase party tension by 1</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "772944219f4621b5",
+  "_key": "!items!772944219f4621b5"
+}

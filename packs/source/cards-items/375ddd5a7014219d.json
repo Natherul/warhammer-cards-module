@@ -1,0 +1,93 @@
+{
+  "name": "Steely Gaze",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Steely Gaze",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must be within close range of an able to make eye contact with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target must move away from you with its next action. If appropriate, you influence the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Rattled</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to the next <b>Charm</b> or <b>Guile</b> check attempted by a member of your party during this encounter</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Steely Gaze",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must be within close range of and able to make eye contact with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target must move away from you with its next action. If appropriate, you influence the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to the next <b>Charm</b> or <b>Guile</b> check attempted by a member of your party during this encounter</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "375ddd5a7014219d",
+  "_key": "!items!375ddd5a7014219d"
+}

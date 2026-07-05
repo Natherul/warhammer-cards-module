@@ -1,0 +1,63 @@
+{
+  "name": "Half-Haft Grip",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Half-Haft Grip",
+      "type": "melee",
+      "traits": "Enhance,Zweihander",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Two-handed weapon equipped. Enhances a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Half-Haft Grip",
+      "type": "melee",
+      "traits": "Enhance,Zweihander",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Two-handed weapon equipped. Enhances a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c2be3a9efbe85d56",
+  "_key": "!items!c2be3a9efbe85d56"
+}

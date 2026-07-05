@@ -1,0 +1,115 @@
+{
+  "name": "Devastate Senses",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Devastate Senses",
+      "type": "spell",
+      "traits": "Rank 4,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>6 power\r\n<br/>Target within medium range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All the target's weaknesses and fears burst to the surface! For each characteristic that is less than 3, the target suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and for each characteristic that is less than 2, the target suffers 1 additional stress and 1 additional fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All of the target's characteristics are reduced by 1 (to a minimum of 1) until your next turn</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>As your target seems weaker, you seem stronger. You may recover 1 stress for each stress the target suffers, and 1 fatigue for each fatigue the target suffers</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Devastate Senses",
+      "type": "spell",
+      "traits": "Rank 4,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>5 power per target\r\n<br/>Targets within medium range. For each target beyond the first, add <span class=\"wfrp-font misfortune\">K</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All the target's weaknesses and fears burst to the surface! For each characteristic that is less than 3, the target suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and for each characteristic that is less than 2, the target suffers 1 additional stress and 1 additional fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within medium range suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within medium range suffer 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies within medium range suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "60e1f6e953142585",
+  "_key": "!items!60e1f6e953142585"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Scope",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Modifies your <b>Ballistic Skill</b> (<b>Ag</b>) checks.</span>\n</p>",
+    "type": "Invention",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5d113f2038d289f3",
+  "_key": "!items!5d113f2038d289f3"
+}

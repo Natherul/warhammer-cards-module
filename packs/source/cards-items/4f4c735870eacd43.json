@@ -1,0 +1,14 @@
+{
+  "name": "Sharp Wits",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to remove all recharge tokens from one of your currently recharging cards.\r\n<br></br><b>Sharp Wits</b> replaces <b>Quick Wits</b> in your talent card deck.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4f4c735870eacd43",
+  "_key": "!items!4f4c735870eacd43"
+}

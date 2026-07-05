@@ -1,0 +1,63 @@
+{
+  "name": "Parry",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Parry.jpg",
+  "system": {
+    "conservative": {
+      "name": "Parry",
+      "type": "support",
+      "traits": "Active Defence,Basic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Strength 3+, melee weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Parry",
+      "type": "support",
+      "traits": "Active Defence,Basic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Strength 3+, melee weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ae6aad00b2c68dbc",
+  "_key": "!items!ae6aad00b2c68dbc"
+}

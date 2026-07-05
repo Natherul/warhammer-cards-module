@@ -1,0 +1,63 @@
+{
+  "name": "Bolster the Spirit",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bolster the Spirit",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 favour (with no opportunity to <i>Curry Favour</i>). Play in response to yourself or an ally within medium range failing a <i>Fear</i> or <i>Terror</i> check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bolster the Spirit",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 favour (with no opportunity to <i>Curry Favour</i>). Play in response to yourself or an ally within medium range failing a <i>Fear</i> or <i>Terror</i> check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a568a3ce73d0213d",
+  "_key": "!items!a568a3ce73d0213d"
+}

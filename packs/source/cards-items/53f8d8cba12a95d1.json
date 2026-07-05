@@ -1,0 +1,14 @@
+{
+  "name": "Deductive Reasoning",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span><b>Intelligence</b> checks gain  {Dboon}  to the results pool if at least  {Dsucc}  {Dsucc}  {Dsucc}  are generated</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "53f8d8cba12a95d1",
+  "_key": "!items!53f8d8cba12a95d1"
+}

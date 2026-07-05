@@ -1,0 +1,114 @@
+{
+  "name": "Howling Mad",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Howling Mad",
+      "type": "blessing",
+      "traits": "Rank 4,Ulric",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>4 favour, <b>Strength</b> 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You throw your head back and HOWL! Your target suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and if your target is then <i>Strained</i>, he must retreat from you on his next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within earshot suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All Ulricans within earshot recover 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Howling Mad",
+      "type": "blessing",
+      "traits": "Rank 4,Ulric",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>4 favour, <b>Strength</b> 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You throw your head back and HOWL! Your target suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the target suffers stress and fatigue equal to your depth in the Reckless stance instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies within earshot suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies within earshot suffer 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your non-Ulrican allies suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3753bba7429be1ab",
+  "_key": "!items!3753bba7429be1ab"
+}

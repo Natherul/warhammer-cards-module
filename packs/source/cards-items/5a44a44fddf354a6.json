@@ -1,0 +1,103 @@
+{
+  "name": "Skalf's Anvil",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Skalf's Anvil",
+      "type": "melee",
+      "traits": "Ancestor",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Shield equipped, engaged with target. If you are engaged with an ally, gain <span class=\"wfrp-font fortune\">K</span> to your check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage. All allies engaged with you gain  to their attacks against the target while this card is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an ally engaged with you may recover 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may disengage for free after this action is completed</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is <i>Staggered</i> for 3 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Skalf's Anvil",
+      "type": "melee",
+      "traits": "Ancestor",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Shield equipped, engaged with target. If you are engaged with an ally, gain <span class=\"wfrp-font fortune\">K</span> to your check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for normal damage. All enemies engaged with you gain  to their attacks while this card is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may regain 1 fatigue or inflict 1 fatigue on an enemy engaged with you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may disengage for free after this action is completed</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is <i>Staggered</i> for 3 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5a44a44fddf354a6",
+  "_key": "!items!5a44a44fddf354a6"
+}

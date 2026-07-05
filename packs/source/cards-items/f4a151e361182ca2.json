@@ -1,0 +1,14 @@
+{
+  "name": "Resolute",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to recover 2 stress</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f4a151e361182ca2",
+  "_key": "!items!f4a151e361182ca2"
+}

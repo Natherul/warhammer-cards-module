@@ -1,0 +1,14 @@
+{
+  "name": "Twist the Knife",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After you hit a target with a <i>Melee Attack</i>, you may perform a manoeuvre to cause the target to suffer 1 fatigue</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "19502b270dddacf1",
+  "_key": "!items!19502b270dddacf1"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cavalry Specialist",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>All attacks made while riding a mount gain  K . All active defences used while riding a horse contribute an additional  K  to incoming attacks</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a2e1bc99a53b11c3",
+  "_key": "!items!a2e1bc99a53b11c3"
+}

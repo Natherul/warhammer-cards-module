@@ -1,0 +1,14 @@
+{
+  "name": "Man's Best Friend",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>While you are engaged with your pet, gain +1 Defence against all <i>Melee Attack</i> and <i>Ranged Attack</i> actions targeting you</span>\n</p>",
+    "type": "Trick",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b1f03e375a0b01ce",
+  "_key": "!items!b1f03e375a0b01ce"
+}

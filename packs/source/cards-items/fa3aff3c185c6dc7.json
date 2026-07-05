@@ -1,0 +1,14 @@
+{
+  "name": "Stable",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  {Dsucc}  to the result of each of your <b>Willpower</b> checks to see if a temporary insanity becomes permanent.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fa3aff3c185c6dc7",
+  "_key": "!items!fa3aff3c185c6dc7"
+}

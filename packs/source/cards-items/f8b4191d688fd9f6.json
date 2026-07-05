@@ -1,0 +1,93 @@
+{
+  "name": "Swiftness of the Wolf",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swiftness of the Wolf",
+      "type": "blessing",
+      "traits": "Rank 1,Ulric",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, Strength 3+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You borrow some of the swiftness of Ulric's favored animal, the wolf. Until the end of this turn, you may move between range bands for 1 fewer manoeuvre (minimum of 1 manoeuvre)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>all <i>Ranged Attacks</i> that target you before your next turn add  to the dice pool</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swiftness of the Wolf",
+      "type": "blessing",
+      "traits": "Rank 1,Ulric",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, Strength 3+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You borrow some of the swiftness of Ulric's favored animal, the wolf. Until the end of this turn, you may move between range bands for 1 fewer manoeuvre (minimum of 1 manoeuvre)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may perform a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add  to your dice pool for any action you perform next turn</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f8b4191d688fd9f6",
+  "_key": "!items!f8b4191d688fd9f6"
+}

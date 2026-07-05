@@ -1,0 +1,14 @@
+{
+  "name": "Lead from the Front",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>In combat, if no enemies have acted yet during the current round, gain  K  to one skill check you attempt on your turn</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "803c8b022e6c7938",
+  "_key": "!items!803c8b022e6c7938"
+}

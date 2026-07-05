@@ -1,0 +1,114 @@
+{
+  "name": "Shemtek's Fortune",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shemtek's Fortune",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power\r\n<br/>No other spells currently recharging. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell, and suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you do not suffer stress</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and add 1 recharge token to this spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this card is recharging, you may remove all recharge tokens fro this spell to re-roll a number of dice from one of your skill checks up to the number of recharge tokens removed. Dice showing a  result cannot be re-rolled. When the last recharge token is removed, suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, any dice you roll with a  result must be re-rolled until  is no longer showing</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shemtek's Fortune",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power\r\n<br/>No other spells currently recharging. I you engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, suffer 1 fatigue each time you roll a skill check that generates one or more</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this card is recharging, you may remove all recharge tokens from this spell to immediately force an NPC within medium range to re-roll a number of dice from one of his skill checks up to the number of recharge tokens removed. Dice showing a  result cannot be re-rolled. When the last recharge token is removed, suffer 1 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "058fd7cee337d4ab",
+  "_key": "!items!058fd7cee337d4ab"
+}

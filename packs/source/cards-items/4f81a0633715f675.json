@@ -1,0 +1,14 @@
+{
+  "name": "Influential",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add an additional  K  to all <i>Social</i> action checks against a target whose <i>Noble Rank</i> is above yours.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4f81a0633715f675",
+  "_key": "!items!4f81a0633715f675"
+}

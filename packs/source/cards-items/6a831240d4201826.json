@@ -1,0 +1,105 @@
+{
+  "name": "Shadows Gather",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shadows Gather",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Grey Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell. Your shadows add  or  to most checks, as appropriate</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the darkness adds  or , as appropriate</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next <i>Grey Order</i> spell gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shadows Gather",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Grey Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell. Its effects extend out to close range</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but out to medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but out to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your next <i>Grey Order</i> spell gains</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6a831240d4201826",
+  "_key": "!items!6a831240d4201826"
+}

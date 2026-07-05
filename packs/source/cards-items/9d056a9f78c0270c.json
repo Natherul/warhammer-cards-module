@@ -1,0 +1,63 @@
+{
+  "name": "Acceptance of Fate",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Acceptance of Fate",
+      "type": "spell",
+      "traits": "Rank 1,Reaction,Amethyst Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>A target within medium range generates a <i>Fear</i> or <i>Terror</i> effect while you have sufficient power (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Acceptance of Fate",
+      "type": "spell",
+      "traits": "Rank 1,Reaction,Amethyst Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>A target within medium range generates a <i>Fear</i> or <i>Terror</i> effect while you have sufficient power (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9d056a9f78c0270c",
+  "_key": "!items!9d056a9f78c0270c"
+}

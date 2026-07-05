@@ -1,0 +1,14 @@
+{
+  "name": "Charge",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>On the turn in which you first enter an engagement with an enemy, gain  K  to all your <i>Melee Attack</i> actions</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "517349a3cdc1acf5",
+  "_key": "!items!517349a3cdc1acf5"
+}

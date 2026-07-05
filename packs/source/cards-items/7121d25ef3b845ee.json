@@ -1,0 +1,97 @@
+{
+  "name": "Great Wave",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Great Wave",
+      "type": "blessing",
+      "traits": "Rank 3,Manann",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>15 Favour, a sizable body of water within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Manann's fury manifests in the form of a mighty wave, bursting forth from within the body of water. The wave reaches out to a maximum distance equal to the size of the body of water or out to long range, whichever is less. You control the direction and breadth of the wave, and it crashes into everything in its path. Anyone struck by the wave must make a <b>Daunting</b> (<b>4d</b>) <b>Athletics</b> (<b>St</b>) <b>check</b> to keep their feet and not be swept away. On these checks, affected characters suffer 1 wound per  and 2 wounds per</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You have sufficient control over the wave to leave one character unaffected</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Great Wave",
+      "type": "blessing",
+      "traits": "Rank 3,Manann",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>15 Favour, a sizable body of water within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Manann's fury manifests in the form of a mighty wave, bursting forth from within the body of water. The wave reaches out to a maximum distance equal to the size of the body of water or out to long range, whichever is less. You control the direction and breadth of the wave, and it crashes into everything in its path. Anyone struck by the wave must make a <b>Daunting</b> (<b>4d</b>) <b>Athletics</b> (<b>St</b>) <b>check</b> to keep their feet and not be swept away. On these checks, affected characters suffer 1 wound per  and 2 wounds per</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Affected characters add  to their <b>Athletics</b> check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7121d25ef3b845ee",
+  "_key": "!items!7121d25ef3b845ee"
+}

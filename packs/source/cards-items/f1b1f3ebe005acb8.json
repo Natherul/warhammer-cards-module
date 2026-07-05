@@ -1,0 +1,63 @@
+{
+  "name": "Gritted Teeth",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gritted Teeth",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Sigmar",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Favour equal to the severity value of a critical wound you have suffered (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gritted Teeth",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Sigmar",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Favour equal to the severity of a critical wound you have suffered (see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f1b1f3ebe005acb8",
+  "_key": "!items!f1b1f3ebe005acb8"
+}

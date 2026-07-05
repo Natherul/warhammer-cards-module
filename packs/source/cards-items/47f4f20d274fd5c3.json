@@ -1,0 +1,63 @@
+{
+  "name": "Deathwish",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Deathwish",
+      "type": "support",
+      "traits": "Reaction,Slayer",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Willpower 3+, must be a Dwarf</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Deathwish",
+      "type": "support",
+      "traits": "Reaction,Slayer",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Willpower 3+, must be a Dwarf</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "47f4f20d274fd5c3",
+  "_key": "!items!47f4f20d274fd5c3"
+}

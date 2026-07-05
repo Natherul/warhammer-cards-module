@@ -1,0 +1,87 @@
+{
+  "name": "Enchanting Visage",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Enchanting Visage",
+      "type": "support",
+      "traits": "Forest Spirit,Ongoing,Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Ag) vs Target Discipline (WP)",
+      "requirements": "<p>Target in medium range. If you are unobserved, add <span class=\"wfrp-font expertise\">K</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You change your form</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Enchanting Visage",
+      "type": "support",
+      "traits": "Forest Spirit,Ongoing,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target in medium range and can see you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You affect the targets mind as described above</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target gains the <i>Perplexed</i> condition while this action is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may affect a second target with <b>Willpower</b> no higher than the first</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "39601af64316eb28",
+  "_key": "!items!39601af64316eb28"
+}

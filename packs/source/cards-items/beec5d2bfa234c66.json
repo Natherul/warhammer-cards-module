@@ -1,0 +1,109 @@
+{
+  "name": "The Right Moment",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Right Moment",
+      "type": "melee",
+      "traits": "Diestro",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Fencing weapon, hand weapon, or dagger equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 critical wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Draw 3 critical wounds, choose 1 to apply to the target, and apply the other 2 facedown as normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Right Moment",
+      "type": "melee",
+      "traits": "Diestro",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Fencing weapon, hand weapon, or dagger equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 critical wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Draw 3 critical wounds, choose 1 to apply to the target, and apply the other 2 facedown as normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "beec5d2bfa234c66",
+  "_key": "!items!beec5d2bfa234c66"
+}

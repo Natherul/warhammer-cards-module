@@ -1,0 +1,14 @@
+{
+  "name": "Foul-Mouthed",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <i>Social</i> action gain:\r\n\r\n<br></br> {Dboon}  {Dboon}  Your target moves one step toward a more reckless stance</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e950ab291a8a4a82",
+  "_key": "!items!e950ab291a8a4a82"
+}

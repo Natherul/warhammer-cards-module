@@ -1,0 +1,73 @@
+{
+  "name": "Improved Block",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Improved Block",
+      "type": "support",
+      "traits": "Active Defence,Advanced",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Toughness 4+, shield equipped, Resilience trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add to recharge tokens to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Improved Block",
+      "type": "support",
+      "traits": "Active Defence,Advanced",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Toughness 4+, shield equipped, Resilience trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add to recharge tokens to this card to add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1e53efc64bdfe61a",
+  "_key": "!items!1e53efc64bdfe61a"
+}

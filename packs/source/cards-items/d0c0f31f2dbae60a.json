@@ -1,0 +1,111 @@
+{
+  "name": "Slash & Wheel",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Slash & Wheel",
+      "type": "melee",
+      "traits": "Mounted",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Mounted, melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You slash at your enemy, hitting him for normal damage, and then wheel away and disengage for free</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally engaged with the target may disengage immediately for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your mount recovers 1 wind</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Slash & Wheel",
+      "type": "melee",
+      "traits": "Mounted",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Mounted, melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You slash at your enemy, hitting him for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but your steed's sudden wheel also knocks him prone and you or your steed gains a free manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your mount recovers 1 wind</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d0c0f31f2dbae60a",
+  "_key": "!items!d0c0f31f2dbae60a"
+}

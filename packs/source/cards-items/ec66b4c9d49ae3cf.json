@@ -1,0 +1,63 @@
+{
+  "name": "Sage Advice",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sage Advice",
+      "type": "support",
+      "traits": "Reaction,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Intelligence</b> 4+, an ally within close range is assembling a dice pool for a <i>Social</i> action check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sage Advice",
+      "type": "support",
+      "traits": "Reaction,Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Intelligence</b> 4+, an ally within close range is assembling a dice pool for a <i>Social</i> action check</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ec66b4c9d49ae3cf",
+  "_key": "!items!ec66b4c9d49ae3cf"
+}

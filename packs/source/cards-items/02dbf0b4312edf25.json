@@ -1,0 +1,97 @@
+{
+  "name": "Iron Shield Stance",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Iron Shield Stance",
+      "type": "support",
+      "traits": "Defence,Ongoing,Bulwark",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Shield equipped, Strength 4+, Toughness 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You raise your shield and successfully use this action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and remove 1 recharge token from your <b>Block</b> action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove a recharge token from one of your recharging <i>Defences</i> or <i>Active Defences</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 fewer recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Iron Shield Stance",
+      "type": "support",
+      "traits": "Defence,Ongoing,Bulwark",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Shield equipped, Strength 4+, Toughness 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You raise your shield and successfully use this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove a recharge token from a recharging <i>Defence</i> or <i>Active Defence</i> action belonging to a character within close range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "02dbf0b4312edf25",
+  "_key": "!items!02dbf0b4312edf25"
+}

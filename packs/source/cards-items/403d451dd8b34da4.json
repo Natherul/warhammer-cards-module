@@ -1,0 +1,99 @@
+{
+  "name": "Flaring Flames",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Flaring Flames",
+      "type": "spell",
+      "traits": "Rank 4,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add or remove up to 2 recharge tokens from your currently recharging <i>Bright Order</i> spells</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove up to 4 recharge tokens from your currently recharging <i>Bright Order</i> spells or your <i>Bright Order</i> spells in hand</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>Add or remove up to 6 recharge tokens from your currently recharging <i>Bright Order</i> spells or your <i>Bright Order</i> spells in hand</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to every <i>Bright Order</i> spell in your hand, except 1 of your choice</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Flaring Flames",
+      "type": "spell",
+      "traits": "Rank 4,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add or remove up to 2 recharge tokens from your currently recharging <i>Bright Order</i> spells</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove up to 4 recharge tokens from your currently recharging <i>Bright Order</i> spells or your <i>Bright Order</i> spells in hand</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>Add or remove up to 6 recharge tokens from your currently recharging <i>Bright Order</i> spells or your <i>Bright Order</i> spells in hand</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to every <i>Bright Order</i> spell in your hand, except 1 of your choice</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "403d451dd8b34da4",
+  "_key": "!items!403d451dd8b34da4"
+}

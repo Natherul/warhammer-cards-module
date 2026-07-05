@@ -1,0 +1,14 @@
+{
+  "name": "Reliable",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to trigger a  {Dboon}  or  {Dcomet}  effect a second time (you must still spend  {Dboon}  and/or  {Dcomet}  as appropriate).</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "84fcf5d37086f2a9",
+  "_key": "!items!84fcf5d37086f2a9"
+}

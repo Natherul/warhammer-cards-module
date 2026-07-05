@@ -1,0 +1,14 @@
+{
+  "name": "Made of Iron",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you suffer 2 or more fatigue at one time, reduce the amount of fatigue you suffer by 1 (to a minimum of 1)</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "050ba1c6f2e54ff7",
+  "_key": "!items!050ba1c6f2e54ff7"
+}

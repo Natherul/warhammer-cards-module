@@ -1,0 +1,107 @@
+{
+  "name": "Cauterise",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cauterise",
+      "type": "spell",
+      "traits": "Rally,Rank 1,Bright Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Critical Severity",
+      "requirements": "<p>3 power, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>By heating your hand or staff until it is red-hot, you sear closed a target critical wound. That wound is treated as a normal wound until the end of the act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>This spell costs 1 less power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The critical wound is instead permanently converted to a normal wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cauterise",
+      "type": "spell",
+      "traits": "Rally,Rank 1,Bright Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Critical Severity",
+      "requirements": "<p>3 power, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>By heating your hand or staff until it is red-hot, you sear closed a target critical wound. That wound is treated as a normal wound until the end of the act</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may immediately attempt this spell again at +1 difficulty level</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>This spell costs 1 less power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The critical wound is instead permanently converted to a normal wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e4a8dc588fe0a3ce",
+  "_key": "!items!e4a8dc588fe0a3ce"
+}

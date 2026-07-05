@@ -1,0 +1,14 @@
+{
+  "name": "Ranald, God of Luck & Trickery",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You start each session with one additional fortune point\r\n<br></br>When you spend 1 or more fortune points on a skill check, if the check succeeds, gain 1 favour</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1a3145af567dc90e",
+  "_key": "!items!1a3145af567dc90e"
+}

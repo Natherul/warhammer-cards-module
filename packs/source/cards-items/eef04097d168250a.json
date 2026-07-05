@@ -1,0 +1,103 @@
+{
+  "name": "Don't You Know Who I Work For?",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Don't You Know Who I Work For?",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target must be able to hear you, the person you mention must be important (a big name)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You drop a name. A big name. This can be an employer or even an acquaintance. If appropriate, you influence the target. At the very least, you now have his full attention</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging you may add  to all <i>Social</i> actions involving the target</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Funny thing. Your target also knows the person, but they've never heard your name mentioned. If you use <b>Guile</b> for the check, gain the <i>Rattled</i> condition while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This action may only be made against each individual target once per act. If you do not really know the subject of your name-drop, add  to the check and use <b>Guile</b> (<b>Fel</b>) vs. <b>Target Intuition</b> (<b>Int</b>) instead.</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Don't You Know Who I Work For?",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target must be able to hear you, the person you mention must be important (a big name)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You drop a name. A big name. This can be an employer or even an acquaintance. If appropriate, you influence the target. At the very least, you now have his full attention</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging you target adds  to all <i>Social</i> actions with you as a target</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Funny thing. Your target also knows the person, but they've never heard your name mentioned. If you use <b>Guile</b> for the check, gain the <i>Cowed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This action may only be made against each individual target once per act. If you do not really know the subject of your name-drop, add  to the check and use <b>Guile</b> (<b>Fel</b>) vs. <b>Target Intuition</b> (<b>Int</b>) instead.</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eef04097d168250a",
+  "_key": "!items!eef04097d168250a"
+}

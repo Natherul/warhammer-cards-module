@@ -1,0 +1,14 @@
+{
+  "name": "Unflinching",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to all <b>Discipline</b> checks to resist <i>Fear</i> or <i>Terror</i>. Exhaust this card to reroll any or all dice in the results pool of a <b>Discipline</b> check against a <i>Fear</i> or <i>Terror</i> rating.\r\n<br></br><b>Unflinching</b> replaces <b>Fearless</b> in your talent card deck.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "abde76faf33730f7",
+  "_key": "!items!abde76faf33730f7"
+}

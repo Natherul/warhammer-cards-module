@@ -1,0 +1,103 @@
+{
+  "name": "Breath of Life",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Breath of Life",
+      "type": "spell",
+      "traits": "Epic,Jade order,Rank 5,Spring",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>12 power\r\n<br/>engaged with target corpse of a living being killed within the last five minutes</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You return life to the freshly-dead. Over about the next hour, all the target's mortal wounds are healed (the target recovers critical and normal wounds until he had 1 fewer critical wound than his <b>Toughness</b> and 1 fewer normal wound than his wound threshold) and he awakens to life.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target recovers normal wounds equal to the number of  generated</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>For each critical wound the target recovers, you suffer 1 critical wound. for each normal wound the target recovers, you suffer 1 normal wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>There's no need to wait an hour- the target's regeneration occurs almost instantaneously</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Breath of Life",
+      "type": "spell",
+      "traits": "Epic,Jade order,Rank 5,Spring",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>12 power\r\n<br/>engaged with target corpse of a living being killed within the last five minutes</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You return life to the freshly-dead. Over about the next hour, all the target's mortal wounds are healed (the target recovers critical and normal wounds until he had 1 fewer critical wound than his <b>Toughness</b> and 1 fewer normal wound than his wound threshold) and he awakens to life.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target recovers normal wounds equal to the number of  generated</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>For each critical wound the target recovers, you suffer 1 critical wound. for each normal wound the target recovers, you suffer 1 normal wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>There's no need to wait an hour- the target's regeneration occurs almost instantaneously</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fd2a6a79194f5c8c",
+  "_key": "!items!fd2a6a79194f5c8c"
+}

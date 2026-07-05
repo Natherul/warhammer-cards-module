@@ -1,0 +1,101 @@
+{
+  "name": "The Viper's Dance",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Viper's Dance",
+      "type": "support",
+      "traits": "Ongoing,Ritual Dance",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag)",
+      "requirements": "<p><b>Coordination</b> trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You begin the dance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above and add 1 recharge token to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately adjust your stance to 1 deep in Reckless</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Viper's Dance",
+      "type": "support",
+      "traits": "Ongoing,Ritual Dance",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag)",
+      "requirements": "<p><b>Coordination</b> trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You begin the dance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above and add 1 recharge token to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately adjust your stance to 1 deep in Conservative</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6df9e39f633a4aa0",
+  "_key": "!items!6df9e39f633a4aa0"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Jack of All Trades",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You may suffer 1 stress to add  K  to any skill check</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "639b90b9780253dd",
+  "_key": "!items!639b90b9780253dd"
+}

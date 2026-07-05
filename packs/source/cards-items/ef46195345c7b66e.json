@@ -1,0 +1,106 @@
+{
+  "name": "Comforting Light",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Comforting Light",
+      "type": "spell",
+      "traits": "Rank 2,Light Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Insanity Severity",
+      "requirements": "<p>5 power\r\n<br/>target within close range. Target must be able to see your light and must be suffering from a temporary insanity</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Reduce the number of tracking tokens on target insanity by the number of  generated on this roll. If this reduces the number of tracking tokens to 0, the insanity is cured</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Comforting Light",
+      "type": "spell",
+      "traits": "Rank 2,Light Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Insanity Severity",
+      "requirements": "<p>5 power\r\n<br/>target within close range. Target must be able to see your light and must be suffering from a temporary insanity</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target insanity is cured</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Move the target insanity from its original subject to you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ef46195345c7b66e",
+  "_key": "!items!ef46195345c7b66e"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Echo of Apotheosis",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Echo of Apotheosis",
+      "type": "blessing",
+      "traits": "Epic,Ongoing,Sigmar,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>12 favour. You must brandish a holy relic when you invoke this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add +2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are suffused with Sigmar's holy wrath. In the absence of enemies, while this blessing recharges, you will turn on allies, beginning with the least pious</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are instantly healed of all wounds and all non-<i>Severe Injury</i> critical wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Echo of Apotheosis",
+      "type": "blessing",
+      "traits": "Epic,Ongoing,Sigmar,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>12 favour. You must brandish a holy relic when you invoke this blessing</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 recharge tokens to this action</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are suffused with Sigmar's holy wrath. In the absence of enemies, while this blessing recharges, you will turn on allies, beginning with the least pious</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are instantly healed of all wounds and all non-<i>Severe Injury</i> critical wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4624922c5fbd738b",
+  "_key": "!items!4624922c5fbd738b"
+}

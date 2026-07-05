@@ -1,0 +1,101 @@
+{
+  "name": "Storm Shroud",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Storm Shroud",
+      "type": "spell",
+      "traits": "Ongoing,Celestial Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Used By: Niklas Schulmann \r\n<br/>4 Power, +1 power for each enemy engaged with Schulmann</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this action is recharging, Schulmann's Soak and Defence values are increased by an amount equal to the current stage of the <i>Stromdorf Storm Tracker</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, add 2 additional recharge tokens on this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies engaged with Schulmann suffer 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Schulmann suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Storm Shroud",
+      "type": "spell",
+      "traits": "Ongoing,Celestial Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power +1 power per rank of expertise. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, add 2 additional recharge tokens on this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies engaged with you suffer 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d329ed74c5375c8a",
+  "_key": "!items!d329ed74c5375c8a"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Calming Touch",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Calming Touch",
+      "type": "blessing",
+      "traits": "Rank 1,Shallya",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>4 favour, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers either 1 critical wound with severity 3 or less or 1 normal wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Calming Touch",
+      "type": "blessing",
+      "traits": "Rank 1,Shallya",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>4 favour, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6ab12cd041bd7471",
+  "_key": "!items!6ab12cd041bd7471"
+}

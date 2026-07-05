@@ -1,0 +1,107 @@
+{
+  "name": "The Beast Made Well",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Beast Made Well",
+      "type": "spell",
+      "traits": "Rank 1,Amber Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Injury Level",
+      "requirements": "<p>4 power, engaged with target, which must be a natural beast. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><i>Ghur</i> flows through the target, allowing it to recover 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the target recovers 2 normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 normal wound or  a critical wound with a severity of 3 or less</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Beast Made Well",
+      "type": "spell",
+      "traits": "Rank 1,Amber Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Injury Level",
+      "requirements": "<p>4 power, engaged with target, which must be a natural beast. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><i>Ghur</i> flows through the target, allowing it to recover 1 normal wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 normal wound or  a critical wound with a severity of 3 or less</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cf0da90aceb3fb53",
+  "_key": "!items!cf0da90aceb3fb53"
+}

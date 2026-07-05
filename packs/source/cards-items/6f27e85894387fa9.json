@@ -1,0 +1,124 @@
+{
+  "name": "Inescapable Fate",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Inescapable Fate",
+      "type": "blessing",
+      "traits": "Rank 1,Morr",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour. Target within close range. Target must have 1 or more Brief conditions</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You trace a sigil of Morr in the air before the target, ritually sealing his fate. The duration of each Brief condition affecting the target, including those gained from <b>Inescapable Fate</b>, is increased by 1 round</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 3 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target may immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain 1 Brief condition the target is currently suffering from for as long as he has it</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Ill-Fortuned</i> condition</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Inescapable Fate",
+      "type": "blessing",
+      "traits": "Rank 1,Morr",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour. Target within medium range. Target must have 1 or more Brief conditions</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You trace a sigil of Morr in the air before the target, ritually sealing his fate. The duration of each Brief condition affecting the target is increased by 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 rounds instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but 4 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a free manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Immediately lose 1 favour</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain 1 Brief condition the target is currently suffering from for as long as he has it</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6f27e85894387fa9",
+  "_key": "!items!6f27e85894387fa9"
+}

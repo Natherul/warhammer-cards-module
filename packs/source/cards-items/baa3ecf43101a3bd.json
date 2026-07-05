@@ -1,0 +1,14 @@
+{
+  "name": "Loudener",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Modifies your <b>Leadership</b> (<b>Fel</b>) checks.</span>\n</p>",
+    "type": "Invention",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "baa3ecf43101a3bd",
+  "_key": "!items!baa3ecf43101a3bd"
+}

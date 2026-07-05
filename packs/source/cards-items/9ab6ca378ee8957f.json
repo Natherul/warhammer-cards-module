@@ -1,0 +1,103 @@
+{
+  "name": "Guiding Dream",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Guiding Dream",
+      "type": "blessing",
+      "traits": "Rank 2,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 Favour. You must fall asleep as you use this action. It recharges at sundown each day</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place a tracking token on this card. You may discard it anytime before this card recharges to re-roll all  and  for a single check</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover 1 additional fatigue, stress, and wound during the night's rest (even exceeding your <b>Toughness</b> score)</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover 1 fewer fatigue, stress, and wound during the night's rest</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You wake up with a <i>supernatural</i> insanity</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Guiding Dream",
+      "type": "blessing",
+      "traits": "Rank 2,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 Favour. You must fall asleep as you use this action It recharges at sundown each day</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place a tracking token on this card. You may discard it anytime before this card recharges to re-roll all  and  for a single check</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover 1 additional fatigue, stress, and wound during the night's rest (even exceeding your <b>Toughness</b> score)</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You recover 1 fewer fatigue, stress, and wound during the night's rest</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You wake up with a <i>supernatural</i> insanity</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9ab6ca378ee8957f",
+  "_key": "!items!9ab6ca378ee8957f"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Archer's Paradox",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Archer's Paradox",
+      "type": "ranged",
+      "traits": "Hunter's Eye",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Bow or Crossbow equipped, not engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit the target for +1 damage, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack gains <i>Pierce +1</i></p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack gains <i>Pierce +1</i></p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack gains <i>Pierce +X</i> where X is equal to your ranks of training in Observation</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If you are engaged with an enemy add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Archer's Paradox",
+      "type": "ranged",
+      "traits": "Hunter's Eye",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Bow or Crossbow equipped, not engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit the target for +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your bowstring breaks; it will take 1 manoeuvre to ready a new string and 1 manoeuvre to restring your bow</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Reveal the top 3 cards of the wound deck; Apply 1 as a critical wound and apply the others facedown as normal wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If you are engaged with an enemy add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "28119d16489c091b",
+  "_key": "!items!28119d16489c091b"
+}

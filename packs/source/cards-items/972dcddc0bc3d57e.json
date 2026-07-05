@@ -1,0 +1,106 @@
+{
+  "name": "Veil of Fear",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Veil of Fear",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your eyes flash with hidden power, you seem to swell with malice, and shadows flow towards you. While this card is recharging, you gain <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but <i>Fear 2</i> instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within close range suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the <i>Party Tension</i> meter 1 space to the right, you terrifying monster!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Veil of Fear",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your eyes flash with hidden power, you seem to swell with malice, and shadows flow towards you. While this card is recharging, you gain <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but <i>Fear 2</i> instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within close range suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the <i>Party Tension</i> meter 1 space to the right, you terrifying monster!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain a <i>Terror</i> rating equal to the generated <i>Fear</i> rating, instead</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "972dcddc0bc3d57e",
+  "_key": "!items!972dcddc0bc3d57e"
+}

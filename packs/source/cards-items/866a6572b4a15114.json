@@ -1,0 +1,115 @@
+{
+  "name": "Tzeentch's Favour",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Tzeentch's Favour",
+      "type": "spell",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Resilience (To)",
+      "requirements": "<p>Not engaged with target, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You attempt to bestow Tzeentch's dark gifts upon the target. The attack inflicts 1 wound and the target suffers 1 corruption</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>The attack inflicts 1 critical wound, the target suffers corruption equal to the target's depth in his current stance, and you suffer 1 wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 additional recharge tokens to this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Tzeentch's Favour",
+      "type": "spell",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Resilience (To)",
+      "requirements": "<p>Used By: Coloured Fiends, Bobo\r\n<br/>Not engaged with target, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fiend attempts to bestow Tzeentch's dark gifts upon the target. The attack inflicts 1 wound, the target suffers 1 corruption, and the attacker suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts 1 critical wound, the target suffers corruption equal to the target's stance depth, and the attacker suffers 1 wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 additional recharge tokens to this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "866a6572b4a15114",
+  "_key": "!items!866a6572b4a15114"
+}

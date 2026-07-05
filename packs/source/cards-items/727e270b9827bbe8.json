@@ -1,0 +1,93 @@
+{
+  "name": "Transformation of Kadon",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Transformation of Kadon",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Amber Order,Rank 5,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int)",
+      "requirements": "<p>7 power, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the form of a powerful beast. Choose a creature with the <i>Beast</i> type with which you are famliliar. You use the physical characteristics  of your new form. While in beastform, you can only use spells with the <i>Beastform</i> trait. You resume human form when you are knocked unconscious or killed, or when the act ends or you voluntarily end the spell as a manoeuvre. This card does not recharge until the end of the act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 normal wound</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your animal instincts take over. You add  to all mental checks except <b>Observation</b> and <b>Intuition</b> while in beastform. When you suffer a critical wound, you either suffer 1 stress or the GM may force you to make a <i>Melee Strike</i> basic attack against any engaged character of his choice</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Transformation of Kadon",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Amber Order,Rank 5,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int)",
+      "requirements": "<p>7 power, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You assume the form of a powerful beast. Choose a creature with the <i>Beast</i> type with which you are famliliar. You use the physical characteristics  of your new form. While in beastform, you can only use spells with the <i>Beastform</i> trait. You resume human form when you are knocked unconscious or killed, or when the act ends or you voluntarily end the spell as a manoeuvre. This card does not recharge until the end of the act</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 normal wound</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your animal instincts take over. You add  to all mental checks except <b>Observation</b> and <b>Intuition</b> while in beastform. When you suffer a critical wound, you either suffer 1 stress or the GM may force you to make a <i>Melee Strike</i> basic attack against any engaged character of his choice</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "727e270b9827bbe8",
+  "_key": "!items!727e270b9827bbe8"
+}

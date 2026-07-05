@@ -1,0 +1,103 @@
+{
+  "name": "Cure Insanity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cure Insanity",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>6 favour, must be engaged with target and perform a prepare maneuver. May only attempt this blessing once per insanity</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target insanity is cured</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 3 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain an insanity that shares at least one trait with the target insanity</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cure Insanity",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>6 favour, must be engaged with target and perform a prepare manoeuvre. May only attempt this blessing once per insanity</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target insanity is cured! You and the subject each suffer 2 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 3 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain an insanity that shares at least one trait with the target insanity</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "43416459c8a927fe",
+  "_key": "!items!43416459c8a927fe"
+}

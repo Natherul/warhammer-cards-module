@@ -1,0 +1,95 @@
+{
+  "name": "Swift Severity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swift Severity",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Ag) vs Target Defence",
+      "requirements": "<p>Must possess at least 1 claw. Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your razor sharp claw ravages your target's armour. Reduce the soak value of your target's armour by 1 for the remainder of the encounter. Multiple applications of <b>Swift Severity</b> are cumulative</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swift Severity",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Ag) vs Target Defence",
+      "requirements": "<p>Must possess at least 1 claw. Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your razor sharp claw ravages your target's armour. Reduce the soak value of your target's armour by 1 for the remainder of the encounter. Multiple applications of <b>Swift Severity</b> are cumulative</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers +2 damage</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your claw lodges in the target's armour. While this card is recharging, all attacks targeting you gain</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f82ec0f2efe3a8f0",
+  "_key": "!items!f82ec0f2efe3a8f0"
+}

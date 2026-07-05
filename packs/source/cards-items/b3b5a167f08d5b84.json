@@ -1,0 +1,103 @@
+{
+  "name": "Venomous Web",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Venomous Web",
+      "type": "ranged",
+      "traits": "Bestial,Monstrous",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Highest Target Defence",
+      "requirements": "<p>Equipped with a flinger, target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The targets are struck by a venomous ball of webs. Each target suffers -2 damage and gains the <i>Entangled</i> condition until freed. A character can free himself (or an ally can free him) with  an <b>Average</b> (<b>2d</b>) <b>Athletics</b> or <b>Coordination</b> check as an action. This check gains \" Draw 1 critical wound and suffers fatigue equal to its severity. Then return the critical to the deck\"</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card as the goblin riders squabble</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 goblin rider gets stuck and is flung with the web. He gains the <i>Entangled</i> condition and becomes engaged with the target engagement</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You may attack a target at long range by adding  to the dice pool. For each goblin rider, add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Venomous Web",
+      "type": "ranged",
+      "traits": "Bestial,Monstrous",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Highest Target Defence",
+      "requirements": "<p>Equipped with a flinger, target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The targets are struck by a venomous ball of webs. Each target suffers -2 damage and gains the <i>Entangled</i> condition until freed. A character can free himself (or an ally can free him) with  an <b>Average</b> (<b>2d</b>) <b>Athletics</b> or <b>Coordination</b> check as an action. This check gains \" Draw 1 critical wound and suffers fatigue equal to its severity. Then return the critical to the deck\"</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card as the goblin riders squabble</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 goblin rider gets stuck and is flung with the web. He gains the <i>Entangled</i> condition and becomes engaged with the target engagement</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You may attack a target at long range by adding  to the dice pool. For each goblin rider, add  to the dice pool.</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b3b5a167f08d5b84",
+  "_key": "!items!b3b5a167f08d5b84"
+}

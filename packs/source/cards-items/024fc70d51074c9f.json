@@ -1,0 +1,14 @@
+{
+  "name": "Juggernaut",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You may disengage without spending a manoeuvre from any enemy with a <b>Strength</b> less than your soak value</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "024fc70d51074c9f",
+  "_key": "!items!024fc70d51074c9f"
+}

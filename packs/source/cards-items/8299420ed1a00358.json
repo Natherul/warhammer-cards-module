@@ -1,0 +1,14 @@
+{
+  "name": "Clever",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When spending fortune points on an <b>Intelligence</b> check, the check gains:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8299420ed1a00358",
+  "_key": "!items!8299420ed1a00358"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Stay Morr's Hand",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Stay Morr's Hand",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP) vs Critical Severity",
+      "requirements": "<p>Favour equal to the critical wound's severity \r\n<br/>(see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The critical wound is cancelled. Place recharge tokens on this card equal to that critical wound's severity value</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>That character is healed of 1 normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer stress equal to the critical wound's severity value</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Speed Morr's Hand",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Favour equal to the critical wound's severity \r\n<br/>(see below)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c08c84c30668e20c",
+  "_key": "!items!c08c84c30668e20c"
+}

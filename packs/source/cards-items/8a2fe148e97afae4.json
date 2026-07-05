@@ -1,0 +1,116 @@
+{
+  "name": "Tally of Pestilence",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Tally of Pestilence",
+      "type": "support",
+      "traits": "Daemonic,Ongoing,Nurgle",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Education (Int)",
+      "requirements": "<p>Used By: Epidemius</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The tally takes effect</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and all followers of Nurgle within long range add  to <i>Spellcraft</i> checks while this action is recharging</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Epidemius gains the <i>Perplexed</i> condition for 5 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All characters within long range suffer 1 corruption per disease they are afflicted by</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this action is recharging, Epidemius and all followers of Nurgle within long range of him recover 1 wound as the end of each round, and all other characters within long range of him add  to <b>Resilience</b> checks</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Tally of Pestilence",
+      "type": "support",
+      "traits": "Daemonic,Ongoing,Nurgle",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Education (Int)",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The tally takes effect</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and each enemy character within close range must make a <i>Disease X</i> check, where X is the amount of <i>Cunning</i> dice used to enhance this action (maximum 3)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy character within close range suffer 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You lose 1 <i>Cunning</i> die from your dice budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All characters within long range suffer 1 corruption per disease they are afflicted by</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this action is recharging, all followers of Nurgle within long range recover 1 wound at the end of each round, and all other characters within long range add  to <i>Resilience</i> checks</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8a2fe148e97afae4",
+  "_key": "!items!8a2fe148e97afae4"
+}

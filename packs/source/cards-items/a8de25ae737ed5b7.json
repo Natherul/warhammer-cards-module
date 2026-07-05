@@ -1,0 +1,73 @@
+{
+  "name": "Advanced Block",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Advanced Block",
+      "type": "support",
+      "traits": "Active Defence,Epic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Toughness</b> 4+, Shield equipped, <b>Resilience</b> Mastery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add 2 recharge tokens to this card and add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Advanced Block",
+      "type": "support",
+      "traits": "Active Defence,Epic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Toughness</b> 4+, Shield equipped, <b>Resilience</b> Mastery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i>, add 2 recharge tokens to this card and add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a8de25ae737ed5b7",
+  "_key": "!items!a8de25ae737ed5b7"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Vanhel's Danse Macabre",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Vanhel's Danse Macabre",
+      "type": "spell",
+      "traits": "Necromancy,Ongoing,Rank 1",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>You must brandish a bone from the foot of a human or elf. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell. Its effects extend out to close range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You cast the spell. Its effects extend out to medium range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an undead creature within close range recovers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an undead creature within close range may immediately perform a manoeuvre</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all undead creatures within close range recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Vanhel's Danse Macabre",
+      "type": "spell",
+      "traits": "Necromancy,Ongoing,Rank 1",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>You must brandish a bone from the foot of a human or elf. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell. Its effects extend to your engagement</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cast the spell. Its effects extend out to medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You cast the spell. Its effects extend out to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an undead creature within close range recovers 1 wound</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all undead creatures within close range recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "67c26a3b730dd2db",
+  "_key": "!items!67c26a3b730dd2db"
+}

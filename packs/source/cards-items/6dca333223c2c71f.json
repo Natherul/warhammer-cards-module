@@ -1,0 +1,114 @@
+{
+  "name": "Cure Wounds",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cure Wounds",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>6 favour. I f you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 2 normal wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 3 normal wounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target recovers 4 normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 critical wound with a severity no higher than the number of  generated is converted to a normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is healed of 1 wound and all fatigue or all stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cure Wounds",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Injury Level",
+      "requirements": "<p>6 favour. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 normal wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 3 normal wounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target recovers 5 normal wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Another target in the same engagement is healed of half as many wounds (round up)</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6dca333223c2c71f",
+  "_key": "!items!6dca333223c2c71f"
+}

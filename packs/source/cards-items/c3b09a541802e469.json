@@ -1,0 +1,14 @@
+{
+  "name": "Ghur, Shaman, Amber Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Channel Power</b> action is considered to have the <i>Beastform</i> trait. Your <i>Beastform</i> spells require 1 less power to cast.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c3b09a541802e469",
+  "_key": "!items!c3b09a541802e469"
+}

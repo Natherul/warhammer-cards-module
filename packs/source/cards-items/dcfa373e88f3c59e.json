@@ -1,0 +1,113 @@
+{
+  "name": "Shade Shot",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shade Shot",
+      "type": "ranged",
+      "traits": "Undead",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, not engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fire a spectral shot at your enemy, which pierces his very soul! You hit the target for normal damage, ignoring the soak value of your target's armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Turn 3 of the target's wound cards (potentially including any wound cards suffers as a result of this action) face up, choose 1 to apply as a critical, and turn the other 2 face down again</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore the target's <b>Toughness</b> against this attack</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shade Shot",
+      "type": "ranged",
+      "traits": "Undead",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, not engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fire a spectral shot at your enemy, which pierces his very soul! You hit the target for normal damage, ignoring the soak value of your target's armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Turn 3 of the target's wound cards (potentially including any wound cards suffers as a result of this action) face up, choose 1 to apply as a critical, and turn the other 2 face down again</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Deal additional damage equal to your <b>Willpower</b></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dcfa373e88f3c59e",
+  "_key": "!items!dcfa373e88f3c59e"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Lock Breaker",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Lock Breaker",
+      "type": "blessing",
+      "traits": "Rank 1,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>4 favour, lock picking tools, engaged with target lock</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The lock opens</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you gain  to any check to avoid setting off a trap or alarm associated with the lock</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next <b>Stealth</b> or <b>Skullduggery</b> check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Lock Breaker",
+      "type": "blessing",
+      "traits": "Rank 1,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Special",
+      "requirements": "<p>4 favour, lock picking tools, engaged with target lock</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The lock opens</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you gain  to any check to avoid setting off a trap or alarm associated with the lock</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next <b>Stealth</b> or <b>Skullduggery</b> check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ec05267584160f7e",
+  "_key": "!items!ec05267584160f7e"
+}

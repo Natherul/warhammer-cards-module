@@ -1,0 +1,133 @@
+{
+  "name": "Bolt of Change",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bolt of Change",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>6 Power \r\n<br/>Target within long range. Target must be suffering from 1 or more corruption</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A multicoloured bolt of malevolent energy streaks from your hand. you hit the target for 5 damage, plus damage equal to his current corruption</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore the target's armour soak value for this attack</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target loses 1 corruption, burned away by the spell's effect</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound per point of the target's current corruption</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Turn a number of the target's normal wounds face up equal to his current corruption. When this spell has completely recharged, turn the wounds affected by this spell face down again</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bolt of Change",
+      "type": "spell",
+      "traits": "Chaos,Rank 2,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>6 Power\r\n<br/>Up to 4 targets within medium range. All targets must be suffering from 1 or more corruption</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Multicoloured bolts hit the targets for damage equal to their current corruption</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +2 damage to all targets</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but +5 damage to all targets instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage to all targets</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Suffer 1 stress per target</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound per target</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 corruption before this spell resolves</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eaf736fd5735a979",
+  "_key": "!items!eaf736fd5735a979"
+}

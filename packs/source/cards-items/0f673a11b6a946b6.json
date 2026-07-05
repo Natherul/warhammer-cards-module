@@ -1,0 +1,101 @@
+{
+  "name": "Fulminating Flame Cage",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fulminating Flame Cage",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Summoning,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 power. Target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You case the spell. Any character that passes through the flames suffers 4+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 7+ <b>Intelligence</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to any of your currently recharging <i>Bright Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fulminating Flame Cage",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Summoning,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 power. Target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell. Any character that passes through the flames suffers 4+ <b>Intelligence</b> + <b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and 1 target in the engagement is immediately hit for <b>Intelligence</b> + <b>Willpower</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to any of your currently recharging <i>Bright Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0f673a11b6a946b6",
+  "_key": "!items!0f673a11b6a946b6"
+}

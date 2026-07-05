@@ -1,0 +1,107 @@
+{
+  "name": "Commandment of Brass",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Commandment of Brass",
+      "type": "spell",
+      "traits": "Rank 3,Gold Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Target complex machine with significant metal parts (such as a clock or a firearm_ within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The metal components of the target machine deform and twist, making it completely unusable</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and if the target was an item with the <i>Unreliable</i> quality, it misfires as if it had rolled sufficient</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>One creature wielding or crewing the machine suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Commandment of Brass",
+      "type": "spell",
+      "traits": "Rank 3,Gold Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power\r\n<br/>Target complex machines with significant metal parts (such as clocks or firearms) within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The metal components of the target machines deform and twist, making it completely unusable</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>One creature wielding or crewing the machine(s) suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Every machine within close range of the caster explodes, with catastrophic effects</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each target after the first, add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "12536463fb8ab97e",
+  "_key": "!items!12536463fb8ab97e"
+}

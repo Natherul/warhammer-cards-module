@@ -1,0 +1,14 @@
+{
+  "name": "Quick Wits",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to remove 2 recharge tokens from one of your currently recharging cards</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dfc8bc74115ecd93",
+  "_key": "!items!dfc8bc74115ecd93"
+}

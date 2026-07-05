@@ -1,0 +1,107 @@
+{
+  "name": "Leap From Stillness",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Leap From Stillness",
+      "type": "melee",
+      "traits": "Ritual Dance",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>At least 2 units deep in Conservative stance, melee weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You manoeuvre to engaged with the target, ignoring any obstacles in your way, and hit for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recharge 1 of your <i>Active Defences</i> the has its Reckless face up</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may adjust your stance to 1 space deep in Reckless</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Stooping Hawk Leap",
+      "type": "melee",
+      "traits": "Ritual Dance",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>At least 2 units deep in Reckless stance, melee weapon equipped, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You manoeuvre to engaged with the target, ignoring any obstacles in your way, and hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but +2 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Draw a number of critical wounds equal to the number of <i>Ritual Dances</i> you have recharging with their Conservative face up. Choose 1 to apply and discard the rest</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may adjust your stance to 1 space deep in Conservative</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6c61b76e5b997fa4",
+  "_key": "!items!6c61b76e5b997fa4"
+}

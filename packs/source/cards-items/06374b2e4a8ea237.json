@@ -1,0 +1,14 @@
+{
+  "name": "Ulric, The White Wolf",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you inflict a critical wound, you may exhaust this card to gain favour equal to the severity of the critical.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "06374b2e4a8ea237",
+  "_key": "!items!06374b2e4a8ea237"
+}

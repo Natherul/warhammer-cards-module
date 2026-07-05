@@ -1,0 +1,14 @@
+{
+  "name": "Vigilant",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to add  K  K  to an <i>Initiative</i> check</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9c32f99b6a831937",
+  "_key": "!items!9c32f99b6a831937"
+}

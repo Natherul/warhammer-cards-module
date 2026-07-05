@@ -1,0 +1,93 @@
+{
+  "name": "Bridge of Shadows",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bridge of Shadows",
+      "type": "spell",
+      "traits": "Rank 4,Grey Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power per target\r\n<br/>all targets must be engaged with you and in shadow or under the influence of a <i>Grey Order</i> spell \r\n<br/>(you may target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your targets fade into the shadows and reappear anywhere within your line of sight</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your targets do not appear where you intend, but somewhere within close range of where you intended</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The targets are invisible until the end of your next turn</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bridge of Shadows",
+      "type": "spell",
+      "traits": "Rank 4,Grey Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 power per target\r\n<br/>all targets must be engaged with you and in shadow or under the influence of a <i>Grey Order</i> spell \r\n<br/>(you may target yourself</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your targets fade into the shadows and reappear anywhere within your line of sight</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your targets do not appear where you intend, but somewhere within close range of where you intended</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 3 power and you may immediately cast another <i>Grey Order</i> spell of Rank 3 or less</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d9943af235d6f5b9",
+  "_key": "!items!d9943af235d6f5b9"
+}

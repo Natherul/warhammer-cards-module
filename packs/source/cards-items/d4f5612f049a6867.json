@@ -1,0 +1,63 @@
+{
+  "name": "Bitter Tenacity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bitter Tenacity",
+      "type": "support",
+      "traits": "Chaos,Dwarf,Reaction",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when you suffer any effect that deals damage, fatigue, and/or stress</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bitter Tenacity",
+      "type": "support",
+      "traits": "Chaos,Dwarf,Reaction",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when you suffer any effect that deals damage, fatigue, and/or stress</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d4f5612f049a6867",
+  "_key": "!items!d4f5612f049a6867"
+}

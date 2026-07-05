@@ -1,0 +1,73 @@
+{
+  "name": "Improved Parry",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Improved Parry",
+      "type": "support",
+      "traits": "Active Defence,Advanced",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Strength 4+, melee weapon equipped, Weapon skill trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i>, add 2 recharge tokens to this card an add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Improved Parry",
+      "type": "support",
+      "traits": "Active Defence,Advanced",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Strength 4+, melee weapon equipped, Weapon skill trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i>, add 2 recharge tokens to this card an add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7fd99716569f7764",
+  "_key": "!items!7fd99716569f7764"
+}

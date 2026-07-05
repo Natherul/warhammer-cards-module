@@ -1,0 +1,81 @@
+{
+  "name": "Enchant Item",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Enchant Item",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Gold Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power, engaged with target item. This spell takes at least 5 minutes to cast</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The spell is cast, and recharges at the end of the encounter</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but it recharges at sunset</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Enchant Item",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Gold Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power, engaged with target item. This spell takes at least 5 minutes to cast</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The spell is cast, and recharges at the end of the encounter</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but it recharges at sunset</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3557be544673ced5",
+  "_key": "!items!3557be544673ced5"
+}

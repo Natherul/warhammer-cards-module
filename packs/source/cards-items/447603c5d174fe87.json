@@ -1,0 +1,103 @@
+{
+  "name": "Transposition",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Transposition",
+      "type": "spell",
+      "traits": "Rank 4,Celestial Order",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 Power\r\n<br/>You must have a clear view of the night sky to cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and up to 1 other willing character per character rank vanish from your current location and appear in a new one, which may be anywhere int he world that is under the night sky. You appear near the spot you were aiming for, deviating no more that 5% of the total distance you have traveled</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You were way off-target</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Special:</b> If you have instruments for celestial observation and an accurate map marking the direction and distance to your destination, and you spend at least half an hour using them, remove  from the dice pool. If your map is inaccurate, or you have no map, add  instead. This spell recharges as sunset</p>"
+          }
+        ],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You vanish...but you don't reappear until the next night</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Transposition",
+      "type": "spell",
+      "traits": "Rank 4,Celestial Order",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>10 power\r\n<br/>You must have a clear view of the night sky to cast this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and up to 1 other willing character per character rank vanish from your current location and appear in a new one, which may be anywhere int he world that is under the night sky. You appear near the spot you were aiming for, deviating no more that 5% of the total distance you have traveled</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You were way off-target</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Special:</b> If you have instruments for celestial observation and an accurate map marking the direction and distance to your destination, and you spend at least half an hour using them, remove  from the dice pool. If your map is inaccurate, or you have no map, add  instead. This spell recharges as sunset</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all your passengers suffer 1 wound</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "447603c5d174fe87",
+  "_key": "!items!447603c5d174fe87"
+}

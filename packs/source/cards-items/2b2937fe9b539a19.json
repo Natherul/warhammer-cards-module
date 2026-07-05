@@ -1,0 +1,14 @@
+{
+  "name": "Air of Authority",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to <b>Intimidate</b> checks, and you may choose to base your <b>Intimidation</b> skill on your <b>Intelligence</b> rather than <b>Strength</b></span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2b2937fe9b539a19",
+  "_key": "!items!2b2937fe9b539a19"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Sacred Flame of the White Wolf",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sacred Flame of the White Wolf",
+      "type": "blessing",
+      "traits": "Rank 3,Ulric,Melee Attack",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>3 favour available, <b>Strength</b> 4+, melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +3 damage. Your weapon glows with the icy power of Ulric's sacred flame, and the target gains the <i>Freezing</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 favour after making this attack</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sacred Flame of the White Wolf",
+      "type": "blessing",
+      "traits": "Rank 3,Ulric,Melee Attack",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>3 favour available, <b>Strength</b> 4+, melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for +2 damage. Your weapon glows with the icy power of Ulric's sacred flame, and the target gains the <i>Freezing</i> condition for 1 round</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +4 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +2 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "59253870d4b880b4",
+  "_key": "!items!59253870d4b880b4"
+}

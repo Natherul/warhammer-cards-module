@@ -1,0 +1,14 @@
+{
+  "name": "Roll With It",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card when you take damage to increase your <i>Soak Value</i> by 2 against that source of damage</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ed6af556de9baed1",
+  "_key": "!items!ed6af556de9baed1"
+}

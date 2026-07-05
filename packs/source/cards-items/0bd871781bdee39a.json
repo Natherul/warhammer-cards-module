@@ -1,0 +1,93 @@
+{
+  "name": "The Perfect Warrior",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Perfect Warrior",
+      "type": "blessing",
+      "traits": "Epic,Myrmidia,Rank 5",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour, you must have a weapon in hand</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose 1 <i>Melee</i> or <i>Ranged Attack</i> action card not currently recharging that belongs to a character within long range you can see. You gain access to and may immediately perform that action if you meet its requirements. When this action recharges, return the action to its owner.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  on that action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  on that action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Perfect Warrior",
+      "type": "blessing",
+      "traits": "Epic,Myrmidia,Rank 5",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour, you must have a weapon in hand</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose 1 <i>Melee</i> or <i>Ranged Attack</i> action card not currently recharging that belongs to a character within long range you can see. You gain access to and may immediately perform that action if you meet its requirements. When this action recharges, return the action to its owner.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  on that action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  on that action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0bd871781bdee39a",
+  "_key": "!items!0bd871781bdee39a"
+}

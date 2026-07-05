@@ -1,0 +1,131 @@
+{
+  "name": "Martyr's Touch",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Martyr's Touch",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour. Engaged with target (you may not target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You sacrifice some of your own health to heal the target. You suffer 1 wound; the target recovers 3 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 wounds; the target recovers 5 wounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You suffer 3 wounds; the target recovers 7 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>One of your target's critical wounds with a severity no greater than the total number of  rolled is turned face down into a normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 fatigue; the target recovers 3 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress; the target recovers 3 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Martyr's Touch",
+      "type": "blessing",
+      "traits": "Rank 2,Shallya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour. Engaged with target (you may not target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound; the target recovers 2 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 3 wounds; the target recovers 6 wounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You suffer 5 wounds; the target recovers 10 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>One of your target's critical wounds with a severity no greater than the total number of  rolled is turned face down into a normal wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You must use the highest possible success line. (But you do not have to count  as  unless you choose to)</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 fatigue; the target recovers 3 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress; the target recovers 3 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fb34e185f7d104c2",
+  "_key": "!items!fb34e185f7d104c2"
+}

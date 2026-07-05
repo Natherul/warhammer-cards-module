@@ -1,0 +1,129 @@
+{
+  "name": "Hostile Redirection",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Hostile Redirection",
+      "type": "melee",
+      "traits": "Reaction",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag) vs Target Defence",
+      "requirements": "<p>Agility 4+, you have just been missed by an attack that you have used the <b>Dodge</b> action against. Engaged with target; target cannot be the attacker</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You redirect the attack to your target. Treat the attack as if it had achieved 1 success, ignoring all ,, and other effects</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally engaged with you (GM's choice) suffers 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Invigorated</i> condition for 2 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Hostile Redirection",
+      "type": "melee",
+      "traits": "Reaction",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag) vs Target Defence",
+      "requirements": "<p>Agility 4+, you have just been missed by an attack that you have used the <b>Dodge</b> action against. Engaged with the target; target cannot be the attacker</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You redirect the attack to your target. Treat the attack as if it had achieved 1 success, ignoring all ,, and other effects</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally engaged with you (GM's choice) suffers 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Invigorated</i> condition for 2 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c0e7252c8fa3a3bc",
+  "_key": "!items!c0e7252c8fa3a3bc"
+}

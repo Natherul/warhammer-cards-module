@@ -1,0 +1,101 @@
+{
+  "name": "Devious Manoeuvre",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Devious Manoeuvre",
+      "type": "support",
+      "traits": "Social,Support",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag) vs Observation (Int)",
+      "requirements": "<p>Target must be within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target adds  to his next action during this encounter</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target adds  to his next action during this encounter</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a free manouevre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Devious Manoeuvre",
+      "type": "support",
+      "traits": "Social,Support",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag) vs Observation (Int)",
+      "requirements": "<p>Target must be within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target adds  to his next action during this encounter</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target adds  to his next action during this encounter</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally within close range of the target engagement may make a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next action during this encounter</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6996448c062c54db",
+  "_key": "!items!6996448c062c54db"
+}

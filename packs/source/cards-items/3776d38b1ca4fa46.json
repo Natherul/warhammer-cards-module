@@ -1,0 +1,14 @@
+{
+  "name": "Contemplative",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>If you are in a conservative stance, you may spend 1 fortune point to convert one more characteristic die into a conservative die than your stance would normally allow</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3776d38b1ca4fa46",
+  "_key": "!items!3776d38b1ca4fa46"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Fury of the White Wolf",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fury of the White Wolf",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Ulric",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour, <b>Strength</b> 3+, enemy within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and shift to 1 space deep in the Reckless stance. You gain a 1 free maneuver, which you must use to engaged an enemy within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Adjust your stance 1 space towards Reckless</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fury of the White Wolf",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Ulric",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour, <b>Strength</b> 3+, enemy within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and gain 1 free manoeuvre, which you must use to engage an enemy within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, if you defeat an enemy you are engaged with, or if an enemy disengaged from you and you are not engaged with another enemy, you may suffer 1 fatigue to immediately engage any enemy within close range of you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "96aae29a501af56d",
+  "_key": "!items!96aae29a501af56d"
+}

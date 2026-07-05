@@ -1,0 +1,14 @@
+{
+  "name": "Power Pact",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Once per turn on your turn, you may reduce your familiar's vigour by 1 to gain 1 power. This does not require an action or a manoeuvre.</span>\n</p>",
+    "type": "Pact",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "56084f64bec7737e",
+  "_key": "!items!56084f64bec7737e"
+}

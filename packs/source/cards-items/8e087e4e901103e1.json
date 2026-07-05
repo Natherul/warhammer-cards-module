@@ -1,0 +1,106 @@
+{
+  "name": "Stormcall",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Stormcall",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>6 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A blast of shadowy wind surrounds you, knocking all other characters in your engagement away from you to close range. They are no longer engaged with you or each other</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and all affected characters are knocked prone. They must spend a manoeuvre to stand up</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may create any number of new engagements out of the affected characters</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power after this effect resolves</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Stormcall",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>6 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A blast of shadowy wind and black lightning surrounds you, striking each character in your engagement (aside form yourself) for 3+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and ignore each target's soak value of armour</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Borne aloft on your own winds, you may leave the engagement and land somewhere within medium range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are struck by your own storm! Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8e087e4e901103e1",
+  "_key": "!items!8e087e4e901103e1"
+}

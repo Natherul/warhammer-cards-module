@@ -1,0 +1,117 @@
+{
+  "name": "The Shadow Strikes",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Shadow Strikes",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>4 power\r\n<br/>Target creature within medium range must be casting a shadow or under the effects of a <i>Grey Order</i> spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's shadow suddenly strikes! The target suffers normal damage, as if it had just hit itself with its own weapon</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This spell may cause critical damage; use the CR of the target's equipped weapon to determine the  cost. If the target has no listed CR, treat its CR as 3</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Ignore the soak value of the target's non-magical armour</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Shadow Strikes",
+      "type": "spell",
+      "traits": "Rank 2,Grey Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>4 power\r\n<br/>Target creature within medium range must be casting a shadow or under the effects of a <i>Grey Order</i> spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's shadow suddenly strikes! The target suffers normal damage, as if it had just hit itself with its own weapon</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This spell may cause critical damage; use the CR of the target's equipped weapon to determine the  cost. If the target has no listed CR, treat its CR as 3</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6f6f3d34e455c48c",
+  "_key": "!items!6f6f3d34e455c48c"
+}

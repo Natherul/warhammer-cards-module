@@ -1,0 +1,14 @@
+{
+  "name": "Suffused With Power",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You gain  K  on all checks while you have favour or power in excess of the characteristic governing that check.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8bce00ddea273456",
+  "_key": "!items!8bce00ddea273456"
+}

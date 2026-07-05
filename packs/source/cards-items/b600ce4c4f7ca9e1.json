@@ -1,0 +1,103 @@
+{
+  "name": "Unremarkable Face",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Unremarkable Face",
+      "type": "blessing",
+      "traits": "Rank 1,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Observation (Int)",
+      "requirements": "<p>5 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target will only remember the vaguest of details about you if he tries to recall you after this encounter</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Even your own friends begin forgetting your name -advance the party tension meter by 1 space</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target will not be able to recollect anything about you if he tries to recall you after this encounter</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Unremarkable Face",
+      "type": "blessing",
+      "traits": "Rank 1,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Observation (Int)",
+      "requirements": "<p>5 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target will only remember the vaguest of details about you if he tries to recall you after this encounter</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target remembers one false piece of information about you, determined by you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Even your own friends begin forgetting your name -advance the party tension meter by 1 space</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b600ce4c4f7ca9e1",
+  "_key": "!items!b600ce4c4f7ca9e1"
+}

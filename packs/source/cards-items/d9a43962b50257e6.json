@@ -1,0 +1,101 @@
+{
+  "name": "Old Dog, New Trick",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Old Dog, New Trick",
+      "type": "support",
+      "traits": "Pet",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel)",
+      "requirements": "<p>Pet within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pet may immediately perform a manoeuvre and you may swap out one of your pet's socketed <i>Trick</i> talents</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 manoeuvres</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your pet recovers 1 <b>Obedience</b></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Old Dog, New Trick",
+      "type": "support",
+      "traits": "Pet",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel)",
+      "requirements": "<p>Pet within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your pet may immediately perform a manoeuvre. You may suffer 1 stress to allow your pet to immediately perform another manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 manoeuvres</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your pet recovers 1 <b>Obedience</b></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d9a43962b50257e6",
+  "_key": "!items!d9a43962b50257e6"
+}

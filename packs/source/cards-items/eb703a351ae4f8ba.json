@@ -1,0 +1,14 @@
+{
+  "name": "Sigmar, The Heldenhammer",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you roll 1 or more  {Dcomet}  when making a check, exhaust this card to immediately gain 4 favour.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eb703a351ae4f8ba",
+  "_key": "!items!eb703a351ae4f8ba"
+}

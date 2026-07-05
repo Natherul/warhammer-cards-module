@@ -1,0 +1,107 @@
+{
+  "name": "Shield Slam",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shield Slam",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Shield equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for 3+<b>Strength</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit for 5+ damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target is knocked prone</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to your <b>Block</b> action card if it is recharging or 2 recharge tokens if it is not recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your next <i>Weapon Skill</i> check gains</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shield Slam",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Shield equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for 4+ <b>Strength</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is knocked prone</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to you <b>Block</b> action card if it is recharging or 2 recharge tokens if it is not recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your next <i>Weapon Skill</i> check gains</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "131b3bcfa5264e53",
+  "_key": "!items!131b3bcfa5264e53"
+}

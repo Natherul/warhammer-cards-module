@@ -1,0 +1,101 @@
+{
+  "name": "Retroactive Illusion",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Retroactive Illusion",
+      "type": "spell",
+      "traits": "Rank 4,Reaction,Grey Order",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Observation (Int)",
+      "requirements": "<p>6 power\r\n<br/>all elements of your illusion must be within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The object or character the target attempted to interact with is simply not there - the real character or object (if it ever existed at all) has been nearby and invisible the whole time; it now becomes visible</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the object or character has been disguised as a different object or character nearby; the two items have exchanged places</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from one of your <i>Grey Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You fooled your allies, too! Increase party tension by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Retroactive Illusion",
+      "type": "spell",
+      "traits": "Rank 4,Reaction,Grey Order",
+      "rechargeRating": 10,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Observation (Int)",
+      "requirements": "<p>6 power\r\n<br/>all elements of your illusion must be within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The object or character the target attempted to interact with is simply not there - the real character or object (if it ever existed at all) has been nearby and invisible the whole time; it now becomes visible</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the object or character has been disguised as a different object or character nearby; the two items have exchanged places</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from one of your <i>Grey Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You fooled your allies, too! Increase party tension by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cbe2b2ca2632e791",
+  "_key": "!items!cbe2b2ca2632e791"
+}

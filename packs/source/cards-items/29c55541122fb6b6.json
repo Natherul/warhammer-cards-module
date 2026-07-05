@@ -1,0 +1,119 @@
+{
+  "name": "Runestrike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Runestrike",
+      "type": "spell",
+      "traits": "Rank 2,Rune Magic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p><i>Runesmith only</i>\n<br/>Runic item equipped. As part of this action, you strike the item with your hammer. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You exhaust 1 rune</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You exhaust 2 runes</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You exhaust 3 runes</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The effect extends out to medium range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress per rune exhausted</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Disaster! You must use the highest  line possible; the effect hits friend & foe alike; runes exhausted are destroyed</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Runestrike",
+      "type": "spell",
+      "traits": "Rank 2,Rune Magic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p><i>Runesmith only</i>\n<br/>Runic item equipped. As part of this action, you strike the item with your hammer. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies within close range suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within medium range suffer 5 wounds</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>Enemies within long range suffer 10 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress per rune exhausted</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Disaster! You must use the highest  line possible; the effect hits friend & foe alike; runes exhausted are destroyed</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "29c55541122fb6b6",
+  "_key": "!items!29c55541122fb6b6"
+}

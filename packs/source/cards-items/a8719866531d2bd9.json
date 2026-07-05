@@ -1,0 +1,115 @@
+{
+  "name": "Mechanical Precision",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mechanical Precision",
+      "type": "ranged",
+      "traits": "Engineer",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Ag) vs Target Defence",
+      "requirements": "<p>Black powder weapon equipped; not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Crack shot! You hit the target for critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target gains the <i>Exposed</i> condition for 2 rounds as your shot rattles him</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>+1 critical, +2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All the time in the world... you immediately reload your weapon without even thinking about it</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mechanical Precision",
+      "type": "ranged",
+      "traits": "Engineer",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Ag) vs Target Defence",
+      "requirements": "<p>Black powder weapon equipped; not engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Crack shot! You hit the target for +2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You hit something vital belonging to the target. One piece of (non-magical) equipment on the target's person gains the <i>Damaged</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a8719866531d2bd9",
+  "_key": "!items!a8719866531d2bd9"
+}

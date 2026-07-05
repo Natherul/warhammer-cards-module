@@ -1,0 +1,115 @@
+{
+  "name": "Divine Prowess",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Divine Prowess",
+      "type": "blessing",
+      "traits": "Rank 2,Myrmidia",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>6 favour. Must have a <i>Melee Attack</i> or <i>Ranged Attack</i> action available (i.e. not recharging)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pray to Myrmidia in her aspect as the commander and inspire your allies. You may select a <i>Melee Attack</i> or <i>Ranged Attack</i> action and donate it to an ally within long range. That ally may use that action once (provided he meets its requirements), and when it recharges it returns to you</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and your ally may ignore skill training or characteristic-based requirements</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>An ally within long range gains  to his next action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>An ally within long range recovers 1 stress or 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Move the party tension meter 1 space to the right, you bossy git</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Target ally may perform an action immediately after this blessing is invoked</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Divine Prowess",
+      "type": "blessing",
+      "traits": "Rank 2,Myrmidia",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>6 favour. An ally within long range must have a <i>Melee Attack</i> or <i>Ranged Attack</i> action available (i.e. not recharging)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pray to Myrmidia in her aspect as the commander and receive a boon from your allies. One of your allies within long range may donate a <i>Melee Attack</i> or <i>Ranged Attack</i> action to you. You may use that action once (provided you meet its requirements) then return it to its owner when it finishes recharging</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you may ignore any skill training or characteristic-based requirements</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  when you use that action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When you use the donated action, your governing attribute for the action is considered to be 1 higher</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "daba93064cc0ee68",
+  "_key": "!items!daba93064cc0ee68"
+}

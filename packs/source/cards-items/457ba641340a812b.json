@@ -1,0 +1,112 @@
+{
+  "name": "Lightning",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Lightning",
+      "type": "spell",
+      "traits": "Rank 2,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>7 power, target within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A bolt of lightning arcs from your hand and strikes the target for 4+ <b>Intelligence</b> damage, ignoring the soak value of its armour</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical, and you may add or remove 1 recharge token from a <i>Celestial Order</i> spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Backlash! Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The lightning arcs to another target in the same engagement! You hit that target for 2+ <b>Intelligence</b> damage, ignoring the soak value of its armour</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Lightning",
+      "type": "spell",
+      "traits": "Rank 2,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>7 power, target within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A bolt of lightning arcs from your hand and strikes the target for 3+ <b>Intelligence</b> damage, ignoring the soak value of its armour</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical, and you may add or remove 1 recharge token from a <i>Celestial Order</i> spell</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power and you suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Backlash! Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "457ba641340a812b",
+  "_key": "!items!457ba641340a812b"
+}

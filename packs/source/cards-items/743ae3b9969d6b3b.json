@@ -1,0 +1,63 @@
+{
+  "name": "Rebuke the Deceitful",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Rebuke the Deceitful",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Verena",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 favour. You must be in a region under then rule of law (at least nominally)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Rebuke the Deceitful",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Verena",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>3 favour. You must be in a region under the rule of law (at least nominally)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "743ae3b9969d6b3b",
+  "_key": "!items!743ae3b9969d6b3b"
+}

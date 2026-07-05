@@ -1,0 +1,129 @@
+{
+  "name": "Vomit",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Vomit",
+      "type": "ranged",
+      "traits": "Monstrous",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You belche a sizzling stream of potent stomach acid at your unfortunate target. You hit the target for <b>Toughness</b> + 2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, the target must succeed at an <b>Average (2d) Discipline check</b> or immediately suffer a temporary insanity with the <i>Chaos</i> or <i>Trauma</i> trait</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore the target's soak value for this attack</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place 2 additional recharge tokens on this action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A second target within close range of the main target is also affected</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Vomit",
+      "type": "ranged",
+      "traits": "Monstrous",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Resilience (To) vs Target Defence",
+      "requirements": "<p>Used by: River Troll, Stone Troll\r\n<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The vile creature belches a sizzling stream of potent stomach acid at its unfortunate target. The attack inflicts critical damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, the target must succeed at an <b>Average (2d) Discipline check</b> or immediately suffer a temporary insanity with the <i>Chaos</i> or <i>Trauma</i> trait</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The troll recovers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The troll suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The troll suffers 1 wound. Place 2 additional recharge tokens on this action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A second target within close range of the main target is also affected</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "93e78e411e9dc798",
+  "_key": "!items!93e78e411e9dc798"
+}

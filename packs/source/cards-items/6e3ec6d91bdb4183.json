@@ -1,0 +1,116 @@
+{
+  "name": "For the Glory of Tzeentch!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "For the Glory of Tzeentch!",
+      "type": "melee",
+      "traits": "Cultist,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Used By: Broken Wheel Leader\r\n<br/>Engaged with Target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Broken Wheel Leader rallies his followers to assault the cult's enemies. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and all enemies engaged with one or more members of the Cult of the Broken Wheel suffer 1 wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies engaged with one or more members of the Cult of the Broken Wheel suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All members of the Cult of the Broken Wheel in close range (including the attacker) suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "For the Glory of Tzeentch!",
+      "type": "melee",
+      "traits": "Cultist,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Defence (WP)",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your vicious attack is an inspiration to your followers. The attack inflicts normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, an all enemies engaged with one or more of your allies suffer 1 wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies engaged with one or more members of the Cult of the Broken Wheel suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>One of your minions is overcome with his devotion to your dark god, and becomes a mindless, empty, gibbering shell</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>One enemy engaged with one of your allies suffers a critical wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6e3ec6d91bdb4183",
+  "_key": "!items!6e3ec6d91bdb4183"
+}

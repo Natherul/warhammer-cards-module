@@ -1,0 +1,111 @@
+{
+  "name": "Crush 'em Good!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Crush 'em Good!",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, Strength 4+</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You attempt to crush the target with one powerful blow! You hit for +3 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your blow knocks the opponent reeling. You hit for +3 damage and the target can't use any <i>Active Defences</i> against your next attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, and you suffer 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 2 dice from your <i>Aggression budget</i> or 1 die from your <i>Expertise budget</i></p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Crush 'em Good!",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Goblin, Orc\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The greenskin attempts to crush his foe with one powerful blow. The target is struck for +2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is struck for +4 damage, and the attacker cannot use any <i>Active Defences</i> until its next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, and the attacker suffers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All snotlings and goblins in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9f266ceadc8e5046",
+  "_key": "!items!9f266ceadc8e5046"
+}

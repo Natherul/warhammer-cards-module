@@ -1,0 +1,14 @@
+{
+  "name": "Taal, The All-Father",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you invoke a blessing, you may exhaust this card to immediately flip the action card so that the opposite stance side is revealed. Resolve the blessing using this opposite stance side.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fd478cb3b304e0cc",
+  "_key": "!items!fd478cb3b304e0cc"
+}

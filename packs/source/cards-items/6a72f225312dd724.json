@@ -1,0 +1,63 @@
+{
+  "name": "Sigmar's Benediction",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sigmar's Benediction",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Sigmar,Benediction",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when you or an ally within close range KOs or critically wounds a creature of Chaos or a Heretic</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sigmar's Benediction",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Sigmar,Benediction",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play when you or an ally within close range KOs or critically wounds a creature of Chaos or a Heretic</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6a72f225312dd724",
+  "_key": "!items!6a72f225312dd724"
+}

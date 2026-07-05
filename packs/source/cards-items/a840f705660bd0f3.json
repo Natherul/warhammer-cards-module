@@ -1,0 +1,101 @@
+{
+  "name": "Fake Out",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fake Out",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Intuition (Int)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You present a false identity to influence your target, potentially dissuading him from hostility</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus leave this card in play as if it were recharging. When an enemy performs a menoeuvre, you may recharge this card to interrupt him and perform a manoeuvre yourself. The enemy's turn then continues as normal</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may immediately perform a manoeuvre for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The GM may add or remove 1 recharge token to one of your cards.</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fake Out",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Intuition (Int)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You present a false identity to influence your target, potentially dissuading him from hostility</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus leave this card in play as if it were recharging. When an enemy performs a menoeuvre, you may recharge this card to interrupt him and perform a manoeuvre yourself. The enemy's turn then continues as normal</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to any check you make during your interrupt action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  to any check you make during your interrupting action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a840f705660bd0f3",
+  "_key": "!items!a840f705660bd0f3"
+}

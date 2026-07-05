@@ -1,0 +1,113 @@
+{
+  "name": "Urannon's Hasty Relocation",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Urannon's Hasty Relocation",
+      "type": "spell",
+      "traits": "Rank 3,Reaction,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 Power\r\n<br/>Play after an attack, spell, or blessing that targets you resolves</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With an audible crackle, you become a blur of cyan energy and streak effortlessly to a location within long range and within your line of sight. Once you arrive, you become solid once more</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After reappearing, you may immediately perform a manoeuvre for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The capricious Winds of Magic whisk you away. At the end of your turn, you are briefly snapped back into the turbulent winds and reappear somewhere within close range of your destination (Gm's choice as to where)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your <b>Swiftwing</b> spell recharges completely</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Urannon's Hasty Relocation",
+      "type": "spell",
+      "traits": "Rank 3,Reaction,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 Power\r\n<br/>Play after an attack, spell, or blessing that targets you resolves</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With an audible crackle, you become a blur of cyan energy and streak effortlessly to a location within long range and within your line of sight. Once you arrive, you become solid once more</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After reappearing, you may immediately perform a manoeuvre for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The capricious Winds of Magic whisk you away. At the end of your turn, you are briefly snapped back into the turbulent winds and reappear somewhere within close range of your destination (Gm's choice as to where)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your <b>Swiftwing</b> spell recharges completely</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4110abe5ea46745e",
+  "_key": "!items!4110abe5ea46745e"
+}

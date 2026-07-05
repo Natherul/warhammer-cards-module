@@ -1,0 +1,14 @@
+{
+  "name": "Good Dog",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Animal Training</b> (<b>Fel</b>) checks gain:\r\n<br></br><br></br>  {Dboon}  {Dboon}  Your pet gains 1 <b>Obedience</b></span>\n</p>",
+    "type": "Trick",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b72c925c56016607",
+  "_key": "!items!b72c925c56016607"
+}

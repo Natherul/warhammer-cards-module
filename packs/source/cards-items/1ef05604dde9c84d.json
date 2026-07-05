@@ -1,0 +1,83 @@
+{
+  "name": "The Earth Mother",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Earth Mother",
+      "type": "blessing",
+      "traits": "Epic,Ongoing,Rhya,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>10 favour. <br/>You must have a quantity of grain, fruit, and/or dairy products -enough to feed several people- at hand</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You must perform a service for Rhya (GM's discretion) or lose all your blessings</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The All-Father",
+      "type": "blessing",
+      "traits": "Epic,Ongoing,Rank 5,Taal",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>10 favour. <br/>When you invoke this blessing, you daub the blood of a freshly-killed wild beast onto your face</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You must perform a service for Taal (GM's discretion) or lose all your blessings</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1ef05604dde9c84d",
+  "_key": "!items!1ef05604dde9c84d"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Tears of Mercy",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Tears of Mercy",
+      "type": "blessing",
+      "traits": "Epic,Shallya,Rank 5",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>10 favour, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You weep over the target, and as your tears fall upon him he is healed of all wounds, all critical wounds, all permanent or severe injuries, all diseases, all mutations, and all insanities</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers all fatigue and all stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>One of the target's mutations, diseases, critical wounds, insanities, or severe injuries is transferred from the target to you (GM's choice as to which)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may make a <b>Daunting</b> (<b>4d</b>) <b>Discipline</b> (<b>WP</b>) <b>check</b>. If you pass, you do not remove this card from your action deck</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Tears of Mercy",
+      "type": "blessing",
+      "traits": "Epic,Shallya,Rank 5",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>10 favour, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You weep over the target, and as your tears fall upon him he is healed of all wounds, all critical wounds, all permanent or severe injuries, all diseases, all mutations, and all insanities</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer wounds equal to half the wounds the target recovers</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>One of the target's mutations, diseases, critical wounds, insanities, or severe injuries is transferred from the target to you (GM's choice as to which)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may make a <b>Hard</b> (<b>3d</b>) <b>Discipline</b> (<b>WP</b>) <b>check</b>. If you pass, you do not remove this card from your action deck</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a167191c5e9fd56e",
+  "_key": "!items!a167191c5e9fd56e"
+}

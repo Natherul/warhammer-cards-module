@@ -1,0 +1,115 @@
+{
+  "name": "Aspect of the Horned Rat",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Aspect of the Horned Rat",
+      "type": "spell",
+      "traits": "Rank 1,Skaven",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You take on the fearsome aspect of the Horned Rat himself! While this action is recharging, you cause <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cause <i>Fear 2</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cause <i>Terror</i> rather than <i>Fear</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 <i>Aggression</i>, <i>Cunning</i>, or <i>Expertise</i> die</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Aspect of the Horned Rat",
+      "type": "spell",
+      "traits": "Rank 1,Skaven",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You take on the fearsome aspect of the Horned Rat himself! While this action is recharging, you cause <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cause <i>Fear 2</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your <i>Fear</i> rating is increased by 1</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 <i>Aggression</i> die, 1 <i>Cunning</i> die, and 1 <i>Expertise</i> die</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress, 1 fatigue, and 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your allies within medium range must test against your <i>Fear</i> rating</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d375fb6d2ef27866",
+  "_key": "!items!d375fb6d2ef27866"
+}

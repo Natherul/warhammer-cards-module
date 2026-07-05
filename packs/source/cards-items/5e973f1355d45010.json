@@ -1,0 +1,111 @@
+{
+  "name": "Jeer 'N' Jab",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Jeer 'N' Jab",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Sikboyz Goblins, Gobspite; \r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The goblin attacks simultaneously with his weapon and cruel laughter and mocking words (thoroughly corrupted by the strange goblin dialect). The target is struck for normal damage, and suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts normal damage, and the target suffers fatigue and stress equal to the number of critical wounds he is currently suffering</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a manoeuvre after the attacker completes this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All greenskins in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Jeer 'N' Jab",
+      "type": "melee",
+      "traits": "Greenskin",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Yer target iz bof stoopid an' ugly, so tell 'im! Also, poke him wif sticks an' sharp fings. The target is struck for normal damage, and suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>Jus' like before, only better, wif +2 damage an' +1 critical!</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Aw, ya made th' ugly git cry! Ya jab 'im for extra damage equal to the amount of stress he currently suffers from</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may immediately perform a manoeuvre after you complete this action, pro'lly ta run home ta cry</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Uh oh, now 'e's angry! Th' target gets +2 damage on his next attack against you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5e973f1355d45010",
+  "_key": "!items!5e973f1355d45010"
+}

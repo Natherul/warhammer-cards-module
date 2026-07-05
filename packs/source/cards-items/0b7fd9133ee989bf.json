@@ -1,0 +1,81 @@
+{
+  "name": "Destructive Fires",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Destructive Fires",
+      "type": "spell",
+      "traits": "Rank 4,Bright Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Power equal to twice the difficulty of the action (see below), target within medium range, must perform the prepare manouvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and the target slowly begins to burn. By the time this spell recharges, the target will be utterly destroyed unless someone puts the fire out</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and remove 2 recharge tokens for this card</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Destructive Fires",
+      "type": "spell",
+      "traits": "Rank 4,Bright Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Power equal to twice the difficulty of the action (see below), target within medium range, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and the target slowly begins to burn. By the time this spell recharges, the target will be utterly destroyed unless someone puts the fire out</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the flames explode into existence. All enemies within close range of the target item suffer 2 wounds</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0b7fd9133ee989bf",
+  "_key": "!items!0b7fd9133ee989bf"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Bestial Howl",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bestial Howl",
+      "type": "support",
+      "traits": "Beastman,Monstrous,Trauma",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Target engagement within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each enemy in the engagement suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 stress instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 <i>Cunning</i> die to your dice budget</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Spurred on by your example, an ally within close range of the target engagement may either make a <i>Basic Melee Attack</i> or perform a free manoeuvre immediately</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An unengaged opponent within close range of you may immediately engage you as a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bestial Howl",
+      "type": "support",
+      "traits": "Beastman,Monstrous,Trauma",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Defence (WP)",
+      "requirements": "<p>Used By: Gor, Wargor\r\n<br/>Targets within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each enemy in the engagement suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Up to 2 beastmen within close range of the engagement may immediately join the engagement as a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An opponent in the targeted engagement may safely leave the engagement as a free manoeuvre. or an unengaged opponent within close range of the acting beastman may immediately engage the beastman as a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b508beee594f3cb9",
+  "_key": "!items!b508beee594f3cb9"
+}

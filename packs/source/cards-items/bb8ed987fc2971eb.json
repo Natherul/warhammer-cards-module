@@ -1,0 +1,14 @@
+{
+  "name": "Get It Right",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After you fail an <b>Intelligence</b> check, you may spend a fortune point and exhaust this card to perform the check again, this time as if you were in neutral stance.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "bb8ed987fc2971eb",
+  "_key": "!items!bb8ed987fc2971eb"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Clever and Determined",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When spending fortune points on an <b>Intelligence</b> or <b>Willpower</b> check, the check gains:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results\r\n<br></br><b>Clever and Determined</b> replaces both <b>Clever</b> and <b>Determined</b> in your talent card deck.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "45ce0d72a6fca123",
+  "_key": "!items!45ce0d72a6fca123"
+}

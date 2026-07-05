@@ -1,0 +1,106 @@
+{
+  "name": "Dance of Dreaming",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dance of Dreaming",
+      "type": "support",
+      "traits": "Chaos,Daemonic,Ongoing,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag) vs Highest Target Discipline (WP)",
+      "requirements": "<p>Coordination trained, target(s) within close range (up to a maximum of 4 targets)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your wild gyrations and bewitching movements compel others to join your dance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you may assign 4 wounds amongst the targets as you choose</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Chanson of Caging",
+      "type": "support",
+      "traits": "Chaos,Daemonic,Ongoing,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Coordination (Ag)",
+      "requirements": "<p>Coordination trained, target(s) within medium range (up to a maximum of 4 targets)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your graceful and languid movements are infections</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 1 recharge token to each currently recharging card for each target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to each currently recharging card for each target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "11e05bf31159e004",
+  "_key": "!items!11e05bf31159e004"
+}

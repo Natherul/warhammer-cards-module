@@ -1,0 +1,110 @@
+{
+  "name": "Imperious Manner",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Imperious Manner",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "(WP) vs Target Discipline (WP)",
+      "requirements": "<p>Used By: Niklas Schulmann; \r\n<br/>Target within medium range, target can understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Place 1 recharge token on each Social action the target has recharging. While this action is recharging, skill checks that target Schulmann suffer</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 2 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Schulmann recovers 1 stress and gains 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Schulmann suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Imperious Manner",
+      "type": "support",
+      "traits": "Social",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "(WP) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range, target can understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress, you cad!</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, place 1 recharge token on each Social action the target has recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 <i>Cunning</i> die</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You use your inflated ego and superior status (real or only imagined) to put the target in his place. This may involve a snide comment, or nothing more than an artfully arched eyebrow. While this action is recharging <b>Charm</b>, <b>Guile</b>, and <b>Intimidation</b> checks gain</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "523e3d3748a1a8b8",
+  "_key": "!items!523e3d3748a1a8b8"
+}

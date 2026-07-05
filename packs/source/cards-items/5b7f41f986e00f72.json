@@ -1,0 +1,14 @@
+{
+  "name": "Ranald, The Trickster",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Before you make a skill check, you may exhaust this card to add  {Dsucc}  {Dbane}  to the results.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5b7f41f986e00f72",
+  "_key": "!items!5b7f41f986e00f72"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Ulric, God of Battle, Wolves, & Winter",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain 1 favour each time you suffer a critical wound</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "89632a952545a811",
+  "_key": "!items!89632a952545a811"
+}

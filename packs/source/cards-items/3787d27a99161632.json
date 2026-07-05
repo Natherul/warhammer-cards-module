@@ -1,0 +1,109 @@
+{
+  "name": "All That I Have Foreseen",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "All That I Have Foreseen",
+      "type": "spell",
+      "traits": "Epic,Celestial Order,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>10 Power\r\n<br/>You must have as least 2 other Celestial Order spells recharging</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move up to 5 recharge tokens</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You may move up to 8 recharge tokens</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You may move any number of recharge tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "All That I Have Foreseen",
+      "type": "spell",
+      "traits": "Epic,Celestial Order,Rank 5",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>10 Power\r\n<br/>You must have at least 2 other Celestial Order spells recharging</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move up to 5 recharge tokens</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You may move up to 8 recharge tokens</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You may move any number of recharge tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to your next action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3787d27a99161632",
+  "_key": "!items!3787d27a99161632"
+}

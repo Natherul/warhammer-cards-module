@@ -1,0 +1,111 @@
+{
+  "name": "Urannon's Thunderbolt",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Urannon's Thunderbolt",
+      "type": "spell",
+      "traits": "Rank 4,Celestial Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>8 Power\r\n<br/>Target within medium range. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A bolt of lightning strikes your target for 6+ <b>Intelligence</b> damage, ignoring the soak value of his armor</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target is pushed back from you one range increment. If this causes him to strike a solid obstacle, he suffers wounds equal to your character rank</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer  to your next action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Urannon's Thunderbolt",
+      "type": "spell",
+      "traits": "Rank 4,Celestial Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>8 power\r\n<br/>Target within medium range. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A bolt of lightning strikes your target for 6+ <b>Intelligence</b> damage, ignoring the soak value of his armor</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and the target is pushed back from you one range increment. If this causes him to strike a solid obstacle, he suffers wounds equal to your characters rank</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer  to your next action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1ce2d976ca763da4",
+  "_key": "!items!1ce2d976ca763da4"
+}

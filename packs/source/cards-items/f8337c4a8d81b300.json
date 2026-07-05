@@ -1,0 +1,113 @@
+{
+  "name": "The Dance of Despair",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Dance of Despair",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Grey Order,Rank 5",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>12 power\r\n<br/>Target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With a flourish you produce a stringless fiddle and play a tune that only the target can hear</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from one of your recharging <i>Grey Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose all your power</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target acquires a temporary insanity with the <i>Supernatural</i> or <i>Enigma</i> trait</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Dance of Despair",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Grey Order,Rank 5",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Discipline (WP)",
+      "requirements": "<p>10 power\r\n<br/>Target(s) within medium range. For each target after the first, 2 additional power and add <span class=\"wfrp-font misfortune\">K</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With a flourish you produce a stringless fiddle and play a tune that only the target(s) can hear</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add or remove 1 recharge token from one of your recharging <i>Grey Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose all your power</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target acquires a temporary insanity with the <i>Supernatural</i> or <i>Enigma</i> trait</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f8337c4a8d81b300",
+  "_key": "!items!f8337c4a8d81b300"
+}

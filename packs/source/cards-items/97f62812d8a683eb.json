@@ -1,0 +1,14 @@
+{
+  "name": "Favoured by Fortune",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After rolling an <b>Intelligence</b>, <b>Willpower</b>, or <b>Fellowship</b> check, exhaust this card to reroll all  K  and  K  dice in the current dice pool</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "97f62812d8a683eb",
+  "_key": "!items!97f62812d8a683eb"
+}

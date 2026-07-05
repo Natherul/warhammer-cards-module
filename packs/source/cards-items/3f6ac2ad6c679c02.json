@@ -1,0 +1,125 @@
+{
+  "name": "Inescapable Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Inescapable Death",
+      "type": "ranged",
+      "traits": "Engineer",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Int) vs Target Defence",
+      "requirements": "<p>Black powder weapon equipped, must perform the prepare manoeuvre</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You meticulously line up your shot and fire at the enemy's most vulnerable area. You hit for +2 damage, ignoring the target's soak value</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You hit for +2 damage, +1 critical, ignore the target's soak value, and may use <b>Intelligence</b> rather than <b>Agility</b> to determine damage dealt</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The gun jams! You may only remove recharge tokens from this card by spending a manoeuvre (once per turn)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This action uses <b>Intelligence</b> instead of <b>Agility</b> for the check. You may increase the difficulty modifier of this action by  to ignore the Unreliable rating of your weapons</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Inescapable Death",
+      "type": "ranged",
+      "traits": "Engineer",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Int) vs Target Defence",
+      "requirements": "<p>Black powder weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You quickly draw and fire at the enemy's most vulnerable area. You hit for -1 damage, ignoring the target's soak value</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but +2 damage instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +5 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this action</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Something goes <i>SPROING!</i> You and all characters within lose range suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This action uses <b>Intelligence</b> instead of <b>Agility</b> for the check. You may increase the difficulty modifier of this action by  to ignore the Unreliable rating of your weapons</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3f6ac2ad6c679c02",
+  "_key": "!items!3f6ac2ad6c679c02"
+}

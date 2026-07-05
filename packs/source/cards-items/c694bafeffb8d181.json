@@ -1,0 +1,14 @@
+{
+  "name": "Weatherbeaten",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you suffer fatigue, stress, or wounds due to inclement weather or environmental effects, reduce the fatigue, stress, or wounds you suffer by 1 to a minimum of 1. You also suffer 1 fewer  K  from weather effects.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c694bafeffb8d181",
+  "_key": "!items!c694bafeffb8d181"
+}

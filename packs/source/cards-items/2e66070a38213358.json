@@ -1,0 +1,123 @@
+{
+  "name": "Rancid Visitation",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Rancid Visitation",
+      "type": "spell",
+      "traits": "Chaos,Rank 3,Nurgle",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 Power\r\n<br/>Target within long range. You must be suffering from at least 1 disease</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your flesh boils and ripples with maggots and bubbling pus even as your target's does the same. You hit the target for <b>Toughness</b> damage, plus an amount of damage equal to the combined severities of all your diseases and symptoms. Non-magical armour is of no use against the consuming corruption</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and if the target is slain by this spell it rises again as a Plaguebearer</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue per disease you suffer from</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may draw a new disease from the disease deck and then choose to either replace one of your current diseases with it, or discard it, before resolving this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Rancid Visitation",
+      "type": "spell",
+      "traits": "Chaos,Rank 3,Nurgle",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 Power\r\n<br/>Target within long range. The target must be suffering from at least 1 disease</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your flesh boils and ripples with maggots and bubbling pus even as your target's does the same. You hit the target for wounds equal to the combined severities of all his diseases and symptoms</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and if the target is slain by this spell it rises again as a Plaguebearer</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue per disease you suffer from</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may draw a new disease from the disease deck and then choose to either replace one of your current diseases with it, or discard it, before resolving this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2e66070a38213358",
+  "_key": "!items!2e66070a38213358"
+}

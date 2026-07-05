@@ -1,0 +1,83 @@
+{
+  "name": "Benediction of Peace",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Benediction of Peace",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Shallya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>8 favour. You must mark the area to the protected by this benediction with a dove's feather, scented candle, or other holy symbol</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If all intelligent beings in the area join you in invoking the benediction by spending a prepare manoevure on their turn immediately preceding your action, reduce the difficulty modifier by</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Benediction of Peace",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 3,Shallya",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>8 favour. You must mark the area to be protected by this benediction with a done's feather, scented candle, or other holy symbol</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If all intelligent beings in the area join you in invoking the benediction by spending a prepare manoeuvre on their turn immediately preceding your action, reduce the difficulty modifier by</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "48eb8e5cef8d5b1a",
+  "_key": "!items!48eb8e5cef8d5b1a"
+}

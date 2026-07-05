@@ -1,0 +1,101 @@
+{
+  "name": "Combat Focus",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Combat Focus",
+      "type": "support",
+      "traits": "Ongoing,Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, you enter a state of sharpened awareness. You may add  to your <i>Ranged Attacks</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your <i>Ranged Attacks</i> inflict +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card for each stress suffered before making this check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Combat Focus",
+      "type": "support",
+      "traits": "Ongoing,Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, you enter a state of sharpened awareness. You may add  to your <i>Melee Attacks</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your <i>Melee Attacks</i> inflict +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 2 recharge tokens to this card for each stress suffered before making this check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1ed6ea9a74349b04",
+  "_key": "!items!1ed6ea9a74349b04"
+}

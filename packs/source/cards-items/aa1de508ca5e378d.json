@@ -1,0 +1,147 @@
+{
+  "name": "Fireball Barrage",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fireball Barrage",
+      "type": "spell",
+      "traits": "Epic,Bright Order,Rank 5",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Defence",
+      "requirements": "<p>8 power, targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Bolts of fire fly from your. hand or staff, striking the target(s) for 6+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +2 damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>You strike the target(s) for 8+ <b>Intelligence</b> damage, +1 critical, and ignore the soak value of all non-magical armour</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within medium range gain the <i>Scorched</i> condition for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound per target</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Draw 3 wound cards, choose 1 to suffer as a critical wound (discard the others). All creatures within medium range suffer wounds equal to the critical's severity</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical. Damage dealt by this spell is dealt out faceup. Choose which wounds to apply as critical, turn the rest facedown</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each additional target beyond the first add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fireball Barrage",
+      "type": "spell",
+      "traits": "Epic,Bright Order,Rank 5",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Defence",
+      "requirements": "<p>6 power, targets within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Bolts of fire fly from your. hand or staff, striking the target(s) for 5+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +3 damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>You strike the target(s) for 8+ <b>Intelligence</b> + <b>Willpower</b>, +1 critical</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Deal additional damage equal to your depth in the Reckless stance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All enemies within medium range gain the <i>Scorched</i> condition for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue per target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound per target</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Draw 3 wound cards, choose 1 to suffer as a critical wound (discard the others). All creatures within medium range suffer wounds equal to the critical's severity</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each additional target beyond the first add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "aa1de508ca5e378d",
+  "_key": "!items!aa1de508ca5e378d"
+}

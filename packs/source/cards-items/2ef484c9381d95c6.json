@@ -1,0 +1,14 @@
+{
+  "name": "Magic Empathy",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain  K  to <b>Fellowship</b> checks or <i>Social</i> actions targeting a wizard.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2ef484c9381d95c6",
+  "_key": "!items!2ef484c9381d95c6"
+}

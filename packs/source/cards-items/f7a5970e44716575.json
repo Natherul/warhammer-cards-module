@@ -1,0 +1,93 @@
+{
+  "name": "Transformation of Metal",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Transformation of Metal",
+      "type": "spell",
+      "traits": "Rank 2,Gold Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Target metal object within close range. Must spend 2 power per encumbrance of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fold and twist the target metal object into a new shape, changing one thing into another. You can't cause the object to penetrate anything or cause damage as it changes form, and the new object must have the same encumbrance value as the original object. This spell cannot produce an item with sophisticated moving parts, but it could turn a breastplate into a great sword, for example. The change is permanent.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The new object created by this spell is a superior example of its type</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The new item is of poor quality</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Transformation of Metal",
+      "type": "spell",
+      "traits": "Rank 2,Gold Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Target metal object within close range. Must spend 2 power per encumbrance of the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fold and twist the target metal object into a new shape, changing one thing into another. You can't cause the object to penetrate anything or cause damage as it changes form, and the new object must have the same encumbrance value as the original object. This spell cannot produce an item with sophisticated moving parts, but it could turn a breastplate into a great sword, for example. The change is permanent.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The new object created by this spell is a superior example of its type</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The new item is of poor quality</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f7a5970e44716575",
+  "_key": "!items!f7a5970e44716575"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Magick Pact",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your equilibrium is increased by 1.</span>\n</p>",
+    "type": "Pact",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4b42a077c214f36a",
+  "_key": "!items!4b42a077c214f36a"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Steadfast",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to recover 3 stress. If you have <b>Discipline</b> Mastery, recover 4 stress instead.\r\n<br></br><b>Steadfast</b> replaces <b>Resolute</b> in your talent card deck.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "081e56531619ab95",
+  "_key": "!items!081e56531619ab95"
+}

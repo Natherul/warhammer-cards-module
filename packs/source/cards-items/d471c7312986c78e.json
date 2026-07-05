@@ -1,0 +1,101 @@
+{
+  "name": "Frailty",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Frailty",
+      "type": "blessing",
+      "traits": "Rank 1,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour; medium range to target. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Weakened</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target gains the <i>Weakened</i> condition for 3 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 less recharge token to this card; and the duration of the <i>Weakened</i> condition is increased by 1 round</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Frailty",
+      "type": "blessing",
+      "traits": "Rank 1,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour; medium range to target. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Weakened</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target gains the <i>Weakened</i> condition for 2 rounds and suffers 1 wound, ignoring <b>Toughness</b> and armour</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 additional target within close range of your original target may be affected by this blessing</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d471c7312986c78e",
+  "_key": "!items!d471c7312986c78e"
+}

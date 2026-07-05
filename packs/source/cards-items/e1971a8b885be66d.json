@@ -1,0 +1,122 @@
+{
+  "name": "Impending Doom",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Impending Doom",
+      "type": "blessing",
+      "traits": "Rank 3,Morr",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>5 favour. Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains 2 conditions for 2 rounds each</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target gains 3 conditions for 3 rounds each</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>The target gains 4 conditions for 4 rounds each</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Increase the duration of each condition by 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Increase the duration of each condition by 1 round</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target chooses the conditions, rather than you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Impending Doom",
+      "type": "blessing",
+      "traits": "Rank 3,Morr",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>6 favour. Targets within medium range. Add <span class=\"wfrp-font misfortune\">K</span> to your dice pool for each target beyond the first</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target(s) gain 1 condition for 2 rounds each</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target(s) gain 2 conditions for 3 rounds each</p>"
+          },
+          {
+            "symbolAmount": 5,
+            "description": "<p>The target(s) gain 3 conditions for 4 rounds each</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Increase the duration of each condition by 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are effected exactly as if you were a target</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers 1 additional condition</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e1971a8b885be66d",
+  "_key": "!items!e1971a8b885be66d"
+}

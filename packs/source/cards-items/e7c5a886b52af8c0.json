@@ -1,0 +1,14 @@
+{
+  "name": "Resourceful",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to add  K  to an <b>Intelligence</b> check</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e7c5a886b52af8c0",
+  "_key": "!items!e7c5a886b52af8c0"
+}

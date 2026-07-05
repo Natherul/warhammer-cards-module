@@ -1,0 +1,129 @@
+{
+  "name": "Death's Release",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Death's Release",
+      "type": "spell",
+      "traits": "Rank 3,Amethyst Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 power. Target undead creature within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>In a burst of amethyst light, you attack the magic animating the undead creature. The target suffers 10 wounds, ignoring <b>Toughness</b> and soak values</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 20 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose power equal to your target's <b>Willpower</b></p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all allies within medium range of you suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Before applying any damage from this spell, all target's normal wounds are turned face-up and become critical wounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Death's Release",
+      "type": "spell",
+      "traits": "Rank 3,Amethyst Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 power. Target undead creature within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>In a burst of amethyst light, you attack the magic animating the undead creature. The target suffers 10 wounds, ignoring <b>Toughness</b> and soak values</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 20 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose power equal to your target's <b>Willpower</b></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all allies within medium range of you suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 5 wounds, ignoring <b>Toughness</b> and soak values</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d53a9b2f09561e30",
+  "_key": "!items!d53a9b2f09561e30"
+}

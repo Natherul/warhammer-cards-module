@@ -1,0 +1,111 @@
+{
+  "name": "Rush of Knowledge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Rush of Knowledge",
+      "type": "spell",
+      "traits": "Rank 2,Celestial Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Intelligence 4+, 5 power, engaged with target, Education trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You reach out and touch the target's forehead, imbuing his mind with a rush of Azyr magic. Until the end of the encounter, he acquires the <b>Education</b> skill (and the ability to read and write) if he did not have it acquired and gains 1 rank of training in <b>Education</b> if he did have it acquired</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target also gains the ability to understand and speak 1 language that he did not know before until the end of the encounter</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and the target both receive  to <b>Education</b> checks until the end of the encounter</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Rush of Knowledge",
+      "type": "spell",
+      "traits": "Rank 2,Celestial Order",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>Intelligence 4+, 4 power per target, engaged with target(s), Education trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Azyr magic flows from your outstretched hand and through the eyes of each target, entering their minds. Until the end of the encounter, the targets acquire the <b>Education</b> skill (and the ability to read ad write) if they did not have it acquired and gain 1 rank of training in <b>Education</b> if they did have it acquired</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and the targets also gain the ability to understand and speak 1 language that they did not now before until the end of the encounter</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may affect an additional target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The targets suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The first <b>Education</b> check performed by any of the targets gains</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b1c630ff05b615e9",
+  "_key": "!items!b1c630ff05b615e9"
+}

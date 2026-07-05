@@ -1,0 +1,129 @@
+{
+  "name": "Warning Shot",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Warning Shot",
+      "type": "ranged",
+      "traits": "Reaction,Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, not engaged with an enemy, target within close range, target declares an action against an ally</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for -2 damage and all allies in the engagement may remove 1 recharge token from any recharging action</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but your allies may remove 2 recharge tokens instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies engaged with target may recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies engaged with target suffer one stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally in the target's engagement suffers 1 wound due to your hasty aim (GM's choice)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Warning Shot",
+      "type": "ranged",
+      "traits": "Reaction,Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Ranged weapon equipped, not engaged with an enemy, target within close range, target declares an action or spends a maneouver to move</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for -1 damage, startling your target.  You my add  to his declared action or force him to spend 1 additional fatigue per movement maneouver this turn</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but you hit for +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target adds  to his next check</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>One ally within close range of the target gains  to his next check</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You startle any allies engaged with the target, causing each 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All allies engaged with the target take 1 wound on account of your careless aim</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e8b96f03e4a0d55f",
+  "_key": "!items!e8b96f03e4a0d55f"
+}

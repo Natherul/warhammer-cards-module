@@ -1,0 +1,14 @@
+{
+  "name": "Warning Bark",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You and your allies within medium range of your pet gain  K  to <b>Observation</b> (<b>Int</b>) and <b>Initiative</b> checks</span>\n</p>",
+    "type": "Trick",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f138345f8563003a",
+  "_key": "!items!f138345f8563003a"
+}

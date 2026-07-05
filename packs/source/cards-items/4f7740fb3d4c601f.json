@@ -1,0 +1,63 @@
+{
+  "name": "Grief of the Goddess",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Grief of the Goddess",
+      "type": "blessing",
+      "traits": "Rank 4,Reaction,Shallya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 favour without needing to curry favour. A sentient being (such as a human) must have just died within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Grief of the Goddess",
+      "type": "blessing",
+      "traits": "Rank 4,Reaction,Shallya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>4 favour without needing to curry favour. A sentient being (such as a human) must have just died within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4f7740fb3d4c601f",
+  "_key": "!items!4f7740fb3d4c601f"
+}

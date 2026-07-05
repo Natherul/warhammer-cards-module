@@ -1,0 +1,14 @@
+{
+  "name": "Stiff Upper Lip",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you receive a condition card for a limited number of rounds, you may spend a Fortune point to reduce the duration of the effect by 2 rounds</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9e82eb758402ef87",
+  "_key": "!items!9e82eb758402ef87"
+}

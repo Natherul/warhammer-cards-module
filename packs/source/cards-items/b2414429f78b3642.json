@@ -1,0 +1,106 @@
+{
+  "name": "Torment",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Torment",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Ongoing,Slaanesh",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, you must be engaged with your target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You repeatedly land small precise slashes that sear the target's nerves with pain. You hit for normal damage and he suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and while this card is recharging, the target is dealt 1 wound during each of his <i>Beginning of Turn Phases</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Torment",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Ongoing,Slaanesh",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, you must be engaged with your target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You repeatedly land small precise slashes that sear the target's nerves with pain. You hit for normal damage and he suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and while this card is recharging, during each of his <i>Beginning of Turn Phases</i>, the target is dealt 1 wound for each stress he suffers from (minimum 1)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b2414429f78b3642",
+  "_key": "!items!b2414429f78b3642"
+}

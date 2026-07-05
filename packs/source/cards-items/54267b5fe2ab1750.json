@@ -1,0 +1,14 @@
+{
+  "name": "Might Makes Right",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When spending fortune points on a <b>Strength</b> check, the check gains:\r\n\r\n<br></br><br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "54267b5fe2ab1750",
+  "_key": "!items!54267b5fe2ab1750"
+}

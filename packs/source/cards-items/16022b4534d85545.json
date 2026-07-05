@@ -1,0 +1,14 @@
+{
+  "name": "Combat Prescience",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain +2 <b>Defence</b> against <i>Melee Attacks</i>, <i>Ranged Attacks</i>, or <i>Spells</i> and <i>Blessings</i> that target your defence while you have no <i>Active Defence</i> actions recharging.\r\n<br></br><b>Combat Prescience</b> replaces <b>Combat Alertness</b> in your talent card deck.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "16022b4534d85545",
+  "_key": "!items!16022b4534d85545"
+}

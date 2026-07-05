@@ -1,0 +1,14 @@
+{
+  "name": "Skilled Champion",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When spending fortune points on an <b>Agility</b>, <b>Strength</b>, or <b>Toughness</b> check, the check gains:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results\r\n<br></br><b>Skilled Champion</b> replaces <b>Girding Oneself</b>, <b>Coordinated Efforts</b>, and <b>Might Makes Right</b> in your talent deck.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "91f55a6a8638c80d",
+  "_key": "!items!91f55a6a8638c80d"
+}

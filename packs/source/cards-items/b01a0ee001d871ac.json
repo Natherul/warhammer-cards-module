@@ -1,0 +1,97 @@
+{
+  "name": "Covering Fire",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Covering Fire",
+      "type": "ranged",
+      "traits": "Ongoing",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag)",
+      "requirements": "<p>A ranged weapon without the Reload quality and a ready supply of ammunition</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You maintain covering fire as described above</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you hit 1 enemy in the area for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally within close range of you may immediately perform a free manouevre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An enemy in the target area may make a free manoeuvre, without suffering the penalties listed above</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Covering Fire",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag)",
+      "requirements": "<p>A ranged weapon without the Reload quality and a ready supply of ammunition, target engagement within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target engagement with a hail of fire, sending the enemies scrambling. All enemies in the engagement suffer 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>An ally within close range of the target engagement may make a free manoeuvre</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies in the engagement also suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b01a0ee001d871ac",
+  "_key": "!items!b01a0ee001d871ac"
+}

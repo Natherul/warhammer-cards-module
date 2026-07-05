@@ -1,0 +1,119 @@
+{
+  "name": "Death's Hymn",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Death's Hymn",
+      "type": "blessing",
+      "traits": "Rank 2,Morr",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour. Target within medium range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The icy fear of death grips your target. He suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and he gains the <i>Frightened</i> condition until the end of your next turn</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your target suffers 2 stress, 2 fatigue, and gains the <i>Frightened</i> condition until the end of your next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>For each stress the target suffers, you recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target may immediately perform a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Until the end of the encounter, the target suffers  to any <i>Fear</i> or <i>Terror</i> checks</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Death's Hymn",
+      "type": "blessing",
+      "traits": "Rank 2,Morr",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your hymn calls up images of final death.Each enemy within close range suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but out to medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but out to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy affected by this blessing suffers 1 additional stress and 1 additional fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 stress per enemy affected by this blessing</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each enemy affected by this blessing suffers 1 additional stress and 1 additional fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1aece4ea98ba196b",
+  "_key": "!items!1aece4ea98ba196b"
+}

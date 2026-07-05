@@ -1,0 +1,101 @@
+{
+  "name": "Come, Face Me!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Come, Face Me!",
+      "type": "support",
+      "traits": "Ongoing",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target within hearing distance, can understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully evoke your target's sense of honor, compelling him to engage with you. At the end of each round, while this card is recharging, if your target is not engaged with you, he will suffer 2 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, additionally, if he attacks your allies, he will take 1 additional stress and add  to attack rolls</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target gains the <i>Rattled</i> condition while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target gains the <i>Inspired</i> condition while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Come, Face Me!",
+      "type": "support",
+      "traits": "Ongoing",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target within hearing distance, can understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully pierce your target's pride and he exerts himself to face you and defend his honour. At the end of each round, while this card is recharging, if your target is not engaged with you, he suffers 2 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, additionally, if he attacks your allies, he will take 1 additional fatigue and add  to any attack rolls</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target gains the <i>Demoralised</i> condition while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your target gains the <i>Inspired</i> condition while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e4f0df88a42616c4",
+  "_key": "!items!e4f0df88a42616c4"
+}

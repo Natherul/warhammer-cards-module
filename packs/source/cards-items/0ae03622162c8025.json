@@ -1,0 +1,91 @@
+{
+  "name": "Feral Fire",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Feral Fire",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>5 Power\r\n<br/>Target within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A rat shaped flame leaps from your land, scurries across the battlefield, and climbs its way up the target's leg and under his armor. The target suffers 1 wound each time you remove a recharge token from this spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you may add 2 additional recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When the last recharge token is removed, the fiery animal explodes, dealing <b>Intelligence</b> +2 damage to everything within close range</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feral Fire",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>5 Power\r\n<br/>Targets within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A rat shaped flame leaps from your land, scurries across the battlefield, and climbs its way up the target's leg and under his armor. The target suffers 1 wound each time you remove a recharge token from this spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but there are 2 rats that can effect separate targets or both attack a single target</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each time you remove a recharge token from this card, suffer 1 fatigue as one of your own rats menaces you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0ae03622162c8025",
+  "_key": "!items!0ae03622162c8025"
+}

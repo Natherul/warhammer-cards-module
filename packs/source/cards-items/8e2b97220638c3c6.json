@@ -1,0 +1,121 @@
+{
+  "name": "Gut Instinct",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Gut Instinct",
+      "type": "blessing",
+      "traits": "Rank 3,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, not currently engaged in combat</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You get a hunch that you might be in danger. If there is a threat to your health or freedom somewhere within medium range (such as a hidden enemy, trap, or patrolling guard) you know that you're in danger</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you identify the single most dangerous threat within medium range (as determined by the GM)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The blessing works out to long range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress per danger detected</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Danger is everywhere! Gain the <i>Cowed</i> condition until all the dangers are removed</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the insight into the dangers, including how many there are, and receive  to your first check to deal with each danger (including initiative checks)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Gut Instinct",
+      "type": "blessing",
+      "traits": "Rank 3,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, not currently engaged in combat</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You get a hunch that you might be in danger. If there is a threat to your health or freedom somewhere within medium range (such as a hidden enemy, trap, or patrolling guard) you know that you're in danger</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you identify the single most dangerous threat within medium range (as determined by the GM)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The blessing works out to long range</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Danger is everywhere! Gain the <i>Rattled</i> condition until all dangers are removed</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You're ready for anything! Gain the <i>Inspired</i> condition until you fail a check or suffer a wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8e2b97220638c3c6",
+  "_key": "!items!8e2b97220638c3c6"
+}

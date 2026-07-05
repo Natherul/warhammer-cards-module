@@ -1,0 +1,98 @@
+{
+  "name": "Improvised Improvements",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Improvised Improvements",
+      "type": "support",
+      "traits": "Engineer,Ongoing",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Int)",
+      "requirements": "<p>Tools at hand, engaged with target. You must perform the prepare manoeuvre before performing this action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cobble together something to improve the function of an item</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> The item affected by this action card is considered Superior while this card is recharging. This card recharges the next time a  is rolled on any check</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Eureka! Your improvements have a little more permanence; they won't fail until a total of 3  are rolled across any number of checks</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You can't rush these things! The improvements will not come into effect until the start of your next turn, in addition to the normal  effects</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Improvised Improvements",
+      "type": "support",
+      "traits": "Engineer,Ongoing",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Dwarf Engineering (Int)",
+      "requirements": "<p>Tools at hand, engaged with target. You must perform the prepare manoeuvre before performing this action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cobble together something to improve the function of an item</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Eureka! You improvements have a little more permanence; Add 3 recharge tokens to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ruch a miracle worker and you get a rotten miracle. Remove 1 recharge token from this card</p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "03e92734eba29893",
+  "_key": "!items!03e92734eba29893"
+}

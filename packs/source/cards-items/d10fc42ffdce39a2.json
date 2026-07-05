@@ -1,0 +1,116 @@
+{
+  "name": "Intuit Intention",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Intuit Intention",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You study your target very carefully watching for \"tells\" that give away his true intentions</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may add or remove a tracking token from one of your currently recharging actions</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove a tracking token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target sees you looking at him and becomes self-conscious. Your target suffers 1 stress each time he uses a <i>Social</i> action while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Intuit Intention",
+      "type": "support",
+      "traits": "Ongoing,Social",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You study your target very carefully watching for \"tells\" that give away his true intentions</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress or 1 shame</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove a tracking token from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are too focused on reading the target. You add  to your checks targeting anyone other than the subject of your <b>Intuit Intention</b> while this card is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target sees you looking at him and becomes self-conscious. Your target suffers 1 stress each time he uses a <i>Social</i> action while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d10fc42ffdce39a2",
+  "_key": "!items!d10fc42ffdce39a2"
+}

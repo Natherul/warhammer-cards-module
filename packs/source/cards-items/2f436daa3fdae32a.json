@@ -1,0 +1,14 @@
+{
+  "name": "Chamon, Lore of Metal, Gold Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When casting a <i>Gold Order</i> spell you may spend 1 power to convert one of your characteristic dice  L  to a conservative die  M  regardless of your current stance.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2f436daa3fdae32a",
+  "_key": "!items!2f436daa3fdae32a"
+}

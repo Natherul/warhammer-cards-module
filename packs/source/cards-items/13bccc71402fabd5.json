@@ -1,0 +1,101 @@
+{
+  "name": "Induce Panic",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Induce Panic",
+      "type": "support",
+      "traits": "Swarm",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "(St) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your sheer numbers strike fear in your enemy's heart. The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Cowed</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target may immediately make a free <i>Basic</i> attack against you</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Induce Panic",
+      "type": "support",
+      "traits": "Swarm",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "(St) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your sheer numbers strike fear in your enemy's heart. The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Overwhelmed</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "13bccc71402fabd5",
+  "_key": "!items!13bccc71402fabd5"
+}

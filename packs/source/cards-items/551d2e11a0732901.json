@@ -1,0 +1,14 @@
+{
+  "name": "Supreme Confidence",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to negate up to  {Dbane}  {Dbane}  generated on any check you make. \r\n<br></br><b>Supreme Confidence</b> replaces <b>Confident</b> in your talent card deck.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "551d2e11a0732901",
+  "_key": "!items!551d2e11a0732901"
+}

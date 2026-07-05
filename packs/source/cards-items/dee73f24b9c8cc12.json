@@ -1,0 +1,119 @@
+{
+  "name": "The Eagle's Stoop",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Eagle's Stoop",
+      "type": "blessing",
+      "traits": "Rank 3,Myrmidia",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Spear of Sword equipped, not engaged with an enemy, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You move to engage the target and hit him for normal damage, +1 damage for each favour you choose to expand</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>+1 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+ <b>Strength</b> damage. If this attack kills the target, it recharges immediately</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Eagle's Stoop",
+      "type": "blessing",
+      "traits": "Rank 3,Myrmidia",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Spear or sword equipped, not engaged with an enemy, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You move to engage the target and hit him for normal damage, +1 damage for each favour you choose to expand</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, + <b>Fellowship</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>+2 damage, +1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+ <b>Strength</b> damage. If this attack kills the target, it recharges immediately</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dee73f24b9c8cc12",
+  "_key": "!items!dee73f24b9c8cc12"
+}

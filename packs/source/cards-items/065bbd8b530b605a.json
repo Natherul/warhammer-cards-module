@@ -1,0 +1,125 @@
+{
+  "name": "Listen to the Wind",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Listen to the Wind",
+      "type": "support",
+      "traits": "Chaos,Khorne,Skaeling",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>Add <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span> to the dice pool if engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You listen to the voice of Khorne, gaining insight and inspiration. You may add  to the dice pool of your next action, or to the action of an ally within close range before your next turn</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but  instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add an additional  to the modified dice pool</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add an additional  to the modified dice pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Listen to the Wind",
+      "type": "support",
+      "traits": "Chaos,Khorne,Skaeling",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>Add <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span> to the dice pool if engaged with an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You listen to the blood singing in your veins. Your next attack, or the attack of ally within close range before your next turn, gains +1 damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +3 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The modified attack gains  to its dice pool</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>The modified attack gains:\r\n<br/>\" +1 critical\"</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The modified attack gains  to its dice pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "065bbd8b530b605a",
+  "_key": "!items!065bbd8b530b605a"
+}

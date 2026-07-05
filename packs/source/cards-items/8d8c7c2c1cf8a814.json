@@ -1,0 +1,111 @@
+{
+  "name": "Homeward Bound",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Homeward Bound",
+      "type": "blessing",
+      "traits": "Rank 1,Manann",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, must toss a coin into a body of water as you set out on a journey to a place you have been before</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You receive a general impression of the right direction to reach your destination, which you can discern as a manoeuvre at any time</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the exact direction</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain sufficient insight into the route to add  to a single check related to continuing your journey</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The journey seems overwhelming. Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>On invoking this blessing, you gain a comprehensive sense of the best route and estimated travel time</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Outward Bound",
+      "type": "blessing",
+      "traits": "Rank 1,Manann",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour, must toss a coin into a body of water as you set out on a journey to a place you're never been before</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You receive a general impression of the right direction to reach your destination, which you can discern as a manoeuvre at any time</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the exact direction</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain sufficient insight into the route to add  to a single check related to continuing your journey</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The journey seems overwhelming. Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain sufficient insight into the route to add  to a single check related to continuing your journey</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8d8c7c2c1cf8a814",
+  "_key": "!items!8d8c7c2c1cf8a814"
+}

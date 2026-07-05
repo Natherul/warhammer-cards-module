@@ -1,0 +1,63 @@
+{
+  "name": "Testing Mettle",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Testing Mettle",
+      "type": "melee",
+      "traits": "Enhance,Bulwark",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Shield equipped, Resilience trained. \r\nEnhances a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Testing Mettle",
+      "type": "melee",
+      "traits": "Enhance,Bulwark",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Shield equipped, Resilience trained. Enahances a <i>Melee Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1e98f01218f1e8ba",
+  "_key": "!items!1e98f01218f1e8ba"
+}

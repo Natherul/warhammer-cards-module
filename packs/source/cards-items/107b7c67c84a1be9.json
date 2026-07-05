@@ -1,0 +1,101 @@
+{
+  "name": "One Foot in the Grave",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "One Foot in the Grave",
+      "type": "blessing",
+      "traits": "Ongoing,Reaction,Morr,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>Play in response to an ally dying within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and lose all your favour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You invoke the blessing (and your current favour is unaffected)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> Play when an ally within medium range dies. He does not die, instead. While the spell is recharging, he is alive and cannot be killed or KO'd by damage or injury. When the spell recharges, he dies. This spell does not recharge following normal rules; instead, remove 1 recharge token from it each time the target rolls ,, or</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "One Foot in the Grave",
+      "type": "blessing",
+      "traits": "Ongoing,Reaction,Morr,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>Play in response to an ally dying within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and lose all your favour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You invoke the blessing (and your current favour is unaffected)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> Play when an ally within medium range dies. He does not die, instead. While the spell is recharging, he is alive and cannot be killed or KO'd by damage or injury. When the spell recharges, he dies. This spell does not recharge following normal rules; instead, remove 1 recharge token from it each time the target rolls ,, or</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "107b7c67c84a1be9",
+  "_key": "!items!107b7c67c84a1be9"
+}

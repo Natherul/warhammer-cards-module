@@ -1,0 +1,14 @@
+{
+  "name": "Confident",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to negate up to  {Dbane}  {Dbane}  generated during an <b>Intelligence</b>, <b>Willpower</b>, or <b>Fellowship</b> check</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1b1f145b4bc9042f",
+  "_key": "!items!1b1f145b4bc9042f"
+}

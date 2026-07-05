@@ -1,0 +1,101 @@
+{
+  "name": "Sorcerous Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sorcerous Strike",
+      "type": "melee",
+      "traits": "Basic,Chaos,Tzeentch",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, able to channel and store power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You strike out with your staff, arcane focus, or sorcerous claws. The target is struck for -1 damage and loses 1 power; you gain 1 power</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is struck for +1 damage and loses 2 power; you gain 2 power</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The GM adds 1 recharge token to one of the target's actions</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sorcerous Strike",
+      "type": "melee",
+      "traits": "Basic,Chaos,Tzeentch",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Enigmatic Disciples\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Enigmatic Disciple strikes out with its staff, arcane focus, or sorcerous claws. The target is struck for normal damage and loses 1 power; you gain 1 power</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is struck for +2 damage and loses 2 power</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The GM adds 1 recharge token to one of the target's actions</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f9c7b605f96ae6e4",
+  "_key": "!items!f9c7b605f96ae6e4"
+}

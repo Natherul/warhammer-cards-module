@@ -1,0 +1,97 @@
+{
+  "name": "Doom & Darkness",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Doom & Darkness",
+      "type": "spell",
+      "traits": "Rank 2,Amethyst Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (WP) vs Target Discipline (WP)",
+      "requirements": "<p>6 power, living target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains either the <i>Ill-Fortuned</i> or <i>Frightened</i> condition (your choice) for 3 rounds as he is reminded of his mortality</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but the target gains both conditions</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  on your next <i>Amethyst Order</i> spell this act</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Doom & Darkness",
+      "type": "spell",
+      "traits": "Rank 2,Amethyst Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (WP)",
+      "requirements": "<p>6 power, living target(s) within close range. Add <span class=\"wfrp-font challenge\">L</span> to the dice pool for each target beyond the first, up to a maximum of 4 total targets</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains either the <i>Ill-Fortuned</i> or <i>Frightened</i> condition (your choice) for 3 rounds as he is reminded of his mortality</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  on your next <i>Amethyst Order</i> spell this act</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4900c6d5a653316e",
+  "_key": "!items!4900c6d5a653316e"
+}

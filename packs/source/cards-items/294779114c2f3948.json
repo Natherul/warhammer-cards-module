@@ -1,0 +1,101 @@
+{
+  "name": "Dark Experiment",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dark Experiment",
+      "type": "support",
+      "traits": "Chaos,Ongoing,Nurgle",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Education (Int) vs Target Resilience (To)",
+      "requirements": "<p>Used By: Doktor Festus\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Doktor Festus injects his foul-smelling poisons into the subject of his experiment. Each time a recharge token is removed from this action, the target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and when this action recharges the target must make a <i>Disease</i> check with a difficulty equal to the amount of fatigue he suffered during this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains a temporary insanity with the <i>Chaos</i> or <i>Trauma</i> trait. Each time a recharge token is removed from this card, add a tracking token to this insanity</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Reduce the difficulty modifier by  if the target is securely restrained. this action completely recharges as soon as Doktor Festus disengages from the target, makes an attack, or uses an <i>Active Defence</i></p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dark Experiment",
+      "type": "support",
+      "traits": "Chaos,Ongoing,Nurgle",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Education (Int) vs Target Resilience (To)",
+      "requirements": "<p>Engaged with target. You must have a variety of depraved medical tools at hand</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You inject your foul-smelling poisons into the subject of your experiment. Each time a recharge token is removed from this action, the target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and when this action recharges the target must make a <b>Resilience (To)</b> check with a difficulty equal to the amount of fatigue he suffered during this action to resist corruption</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains a temporary insanity with the <i>Chaos</i> or <i>Trauma</i> trait. Each time a recharge token is removed from this card, add a tracking token to this insanity</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Reduce the difficulty modifier by  if the target is securely restrained. This action completely recharges as soon as you disengage from the target, make an attack, or use an <i>Active Defence</i></p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "294779114c2f3948",
+  "_key": "!items!294779114c2f3948"
+}

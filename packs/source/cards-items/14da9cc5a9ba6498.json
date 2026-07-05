@@ -1,0 +1,101 @@
+{
+  "name": "Balanced Fortitude",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Balanced Fortitude",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Verena",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. Engaged with a target with a higher <b>Toughness</b> rating than you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and your <b>Toughness</b> is increased by 1</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but by 2 instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your target's <b>Toughness</b> is increased by 1 as well</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Balanced Might",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Verena",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. Engaged with a target with a higher <b>Strength</b> rating than you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing and your <b>Strength</b> is increased by 1</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but by 2 instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Your target's <b>Strength</b> is increased by 1 as well</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "14da9cc5a9ba6498",
+  "_key": "!items!14da9cc5a9ba6498"
+}

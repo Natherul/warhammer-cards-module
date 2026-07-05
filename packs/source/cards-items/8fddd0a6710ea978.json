@@ -1,0 +1,111 @@
+{
+  "name": "Glimpse Eternity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Glimpse Eternity",
+      "type": "spell",
+      "traits": "Rank 2,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power\r\n<br/>Not engaged with an enemy. If you perform the prepare manoeuvre beforehand, reduce the difficulty modifier to <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The uttermost secrets of the future are revealed to you! You may move up to 2 recharge tokens from any of your currently recharging cards to any other of your currently recharging action cards</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 recharge tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, enemies add  to attacks that target you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Sluggish</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move recharge tokens to and from anyone's recharging actions, instead of just yours. You may move tokens from actions belonging to one character to actions belonging to a different character, or between actions belonging to one character</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Glimpse Eternity",
+      "type": "spell",
+      "traits": "Rank 2,Celestial Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>4 Power\r\n<br/>Not engaged with an enemy. if you perform the prepare manoeuve beforehand, reduce the difficulty modifier to <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The uttermost secrets of the future are revealed to you! You may move up to 1 recharge token from any of your currently recharging cards to any other of your currently recharging action cards</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 recharge tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, enemies add  to attacks that target you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Sluggish</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may move recharge tokens to and from anyone's recharging actions, instead of just yours. You may move tokens from actions belonging to one character to actions belonging to a different character, or between actions belonging to one character</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8fddd0a6710ea978",
+  "_key": "!items!8fddd0a6710ea978"
+}

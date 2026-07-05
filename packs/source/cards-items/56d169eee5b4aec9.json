@@ -1,0 +1,14 @@
+{
+  "name": "Well-Read",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain  K  on <b>Folklore</b> and <b>Education</b> tests</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "56d169eee5b4aec9",
+  "_key": "!items!56d169eee5b4aec9"
+}

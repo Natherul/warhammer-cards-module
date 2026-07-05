@@ -1,0 +1,14 @@
+{
+  "name": "Dark Magic",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You can learn and cast <i>Dark Magic</i> and <i>Chaos</i> spells. When channelling power or casting a spell, add  K  to your dice pool. If one or more  {Exertion}  or  I  are generated, add  {Dchaos}  to the results.\r\n<br></br>Channeling and Spellcraft checks gain: <br></br> {Dbane}  {Dbane}  Add  {Dchaos}  to the results pool</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1805244efce31bf0",
+  "_key": "!items!1805244efce31bf0"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Wildsight",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wildsight",
+      "type": "spell",
+      "traits": "Hedge Magic,Ongoing,Rank 1",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power\r\n<br/>Animal within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>As your visions coalesce, you glimpse unfathomable Chaos! After this spell recharges, you gain the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this card is recharging, you share vision with a friendly, small animal without flight. You can see what the animal sees. You can target an animal that cat fly if you add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wildsight",
+      "type": "spell",
+      "traits": "Hedge Magic,Ongoing,Rank 1",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power\r\n<br/>Animal within close range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After this spell recharges, you suffer a temporary insanity with the <i>Chaos</i> trait. Then the animal, terrified, attacks the nearest living creature!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this card is recharging, you share a vision with a friendly, small animal. You can see what the animal sees. You can target a larger or unfriendly animal if you add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "99a6a8c05e76f703",
+  "_key": "!items!99a6a8c05e76f703"
+}

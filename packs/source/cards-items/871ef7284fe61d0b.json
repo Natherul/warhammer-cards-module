@@ -1,0 +1,110 @@
+{
+  "name": "Quickgrowth",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Quickgrowth",
+      "type": "spell",
+      "traits": "Hedge Magic,Ongoing,Rank 1",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Athletics (St)",
+      "requirements": "<p>4 Power<br/>Within medium range of target, on soil or similar surface. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Flailing vines reach out of the earth to capture your target, trapping him where he stands. While this card is recharging, the target cannot spend manoeuvres to move</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the thorny vines inflict 2 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The spell has gone too far! Another set of vines grow out of the ground engaged with you. They are attached to a very large, very hungry plant! It becomes a monster with statistics and abilities identical to a <i>Giant Spider</i>, and attacks. When the card is done recharging, the creature disappears</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Quickblight",
+      "type": "spell",
+      "traits": "Hedge Magic,Rank 1",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>3 Power<br/>Target within medium range, not engaged with enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Every creature (including you) touched by the haze gains 1 corruption</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>The Ruinous Powers delight in your attempts to corrupt the land. You must pass a <b>Hard</b> (<b>3d</b>) <b>Discipline</b> (<b>WP</b>) <b>check</b> or devolved into a horrific Chaos Spawn!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "871ef7284fe61d0b",
+  "_key": "!items!871ef7284fe61d0b"
+}

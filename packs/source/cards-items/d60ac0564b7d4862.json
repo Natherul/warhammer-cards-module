@@ -1,0 +1,93 @@
+{
+  "name": "Eye of the Beholder",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Eye of the Beholder",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Observation (Int)",
+      "requirements": "<p>4 power\r\n<br/>medium range to the item</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You alter how an item (or small group of items, such as a handful of coins) is perceived - silver looks like gold, fine wine tastes like vinegar, a worthless bauble seems like a priceless artifact, and so on. This spell only works on inanimate objects and lasts until the end of the encounter. Suspicious people can see through your illusion with a successful <b>Observation</b> (<b>Int</b>) <b>check</b> opposed by your <b>Spellcraft</b> (<b>Int</b>)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The quality of the illusion is unusually high. Anyone attempting to see through it must add  to his dice pool</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The arrow-shaped mark of <i>Ulgu</i> appears somewhere on the item, clear evidence of tampering to those with sufficient knowledge</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Eye of the Beholder",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Observation (Int)",
+      "requirements": "<p>4 power\r\n<br/>medium range to the item</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You alter how an item (or small group of items, such as a handful of coins) is perceived - silver looks like gold, fine wine tastes like vinegar, a worthless bauble seems like a priceless artifact, and so on. This spell only works on inanimate objects and lasts until the end of the encounter. Suspicious people can see through your illusion with a successful <b>Observation</b> (<b>Int</b>) <b>check</b> opposed by your <b>Spellcraft</b> (<b>Int</b>)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The quality of the illusion is unusually high. Anyone attempting to see through it must add  to his dice pool</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The arrow-shaped mark of <i>Ulgu</i> appears somewhere on the item, clear evidence of tampering to those with sufficient knowledge</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d60ac0564b7d4862",
+  "_key": "!items!d60ac0564b7d4862"
+}

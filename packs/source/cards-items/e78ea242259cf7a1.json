@@ -1,0 +1,109 @@
+{
+  "name": "Pronouncements of Doom",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Pronouncements of Doom",
+      "type": "support",
+      "traits": "Leader,Ongoing,Shaman",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Targets must be within medium range and able to hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your grim proclamation takes effect</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and enemies suffer the <i>Rattled</i> condition as well</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress or 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, allies within medium range gain the <i>Inspired</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Pronouncements of Doom",
+      "type": "support",
+      "traits": "Leader,Ongoing,Shaman",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Targets must be within medium range and able to hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your grim proclamation takes effect</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and enemies suffer the <i>Cowed</i> condition as well</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 stress or 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, allies within medium range gain the <i>Inspired</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e78ea242259cf7a1",
+  "_key": "!items!e78ea242259cf7a1"
+}

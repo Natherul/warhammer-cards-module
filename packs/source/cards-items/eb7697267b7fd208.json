@@ -1,0 +1,14 @@
+{
+  "name": "Morr, God of Death & Dreams",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Once per turn, you may perform <i>Morr's Last Rites</i> over a dead or dying person within close range to gain 1 favour. Performing the rites is a prepare manoeuvre.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eb7697267b7fd208",
+  "_key": "!items!eb7697267b7fd208"
+}

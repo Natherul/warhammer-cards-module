@@ -1,0 +1,115 @@
+{
+  "name": "Dismay Foe",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Dismay Foe",
+      "type": "blessing",
+      "traits": "Rank 1,Myrmidia",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>3 favour. You must be able to speak and your target(s) must be able to hear you clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You boast of martial prowess and promise victory. Your target(s) gain the <i>Demoralised</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 5 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 ally within close range recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> This check is opposed by the highest <b>Willpower</b> amongst your targets. For each target beyond the first, add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Dismay Foe",
+      "type": "blessing",
+      "traits": "Rank 1,Myrmidia",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour. You must be able to speak and your target(s) must be able to hear you clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You boast of martial prowess and promise victory. Your target gain the <i>Demoralised</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 4 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All targets suffer 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each target beyond the first, add  to the dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cb4d2cb2d2465381",
+  "_key": "!items!cb4d2cb2d2465381"
+}

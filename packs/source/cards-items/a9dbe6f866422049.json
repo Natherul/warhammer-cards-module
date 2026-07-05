@@ -1,0 +1,115 @@
+{
+  "name": "Swarm of Filth",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swarm of Filth",
+      "type": "melee",
+      "traits": "Daemonic,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>You and at least 1 filth-encrusted disease-ridden ally must be engaged with the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts normal damage, +1 damage for every 3 allies in the engagement</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target makes a <i>Disease 1</i> check with an additional  for every 2 of your allies in the engagement or becomes infected by a disease with the <i>Contact, Filth</i>, or <i>Wound</i> traits</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 damage for every 3 allies in the engagement</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You lose 1 <i>Aggression</i> die from your budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and each of your allies in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swarm of Filth",
+      "type": "melee",
+      "traits": "Daemonic,Nurgle",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Nurglings\r\n<br/>Multiple nurslings engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack inflicts normal damage, +1 damage for every 3 nurglings in the engagement</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The attack inflicts critical damage, +1 damage for every 2 nurglings in the engagement</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target makes a <i>Disease 1</i> check with an additional  for every 2 of your allies in the engagement or becomes infected by a disease with the <i>Contact, Filth</i>, or <i>Wound</i> traits</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker loses 1 <i>Aggression</i> die</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All nurglings in the engagement suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a9dbe6f866422049",
+  "_key": "!items!a9dbe6f866422049"
+}

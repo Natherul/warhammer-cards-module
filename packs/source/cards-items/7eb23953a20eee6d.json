@@ -1,0 +1,121 @@
+{
+  "name": "Da' Brainbursta'",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Da' Brainbursta'",
+      "type": "spell",
+      "traits": "Shaman,WAAAGH!",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>5 Power, Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's brain feels like it is about to burst! the target suffers 3+ <b>Fellowship</b> damage and gains the <i>'Ed 'Urtz</i> condition for 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 round to <i>'Ed 'Urtz</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 round to the <i>'Ed 'Urtz</i> condition</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All your engaged allies suffer 1 wound!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You may reduce the difficulty modifier by  if you suffer 1 wound before attempting this action</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Da' Brainbursta'",
+      "type": "spell",
+      "traits": "Shaman,WAAAGH!",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>5 Power; Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target's brain feels like it is about to burst! the target suffers 4+ <b>Fellowship</b> damage and gains the <i>'Ed 'Urtz</i> condition for 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All your engaged allies suffer 1 wound!</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> You may reduce the difficulty modifier by  if you suffer 1 wound before attempting this action</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7eb23953a20eee6d",
+  "_key": "!items!7eb23953a20eee6d"
+}

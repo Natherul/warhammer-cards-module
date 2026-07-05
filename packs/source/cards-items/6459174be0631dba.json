@@ -1,0 +1,115 @@
+{
+  "name": "Cerulean Armour",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cerulean Armour",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Celestial Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power. Must perform the prepare manoeuvre. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and the armour flares into existence</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 charge tokens to this card</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer  to your next action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While your <b>Cerulean Shield</b> is recharging, you gain access to the <b>Improved Block</b> action regardless of its requirements</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You are girded with crackling magical armour while this spell is recharging which counts as a suit of armor with <b>Soak 3</b> and <b>Defence 2</b> that does not interfere with spellcasting. When you are attacked, you may remove 1 recharge token from this card to reroll 1  or  in the dice pool (do this only once per attack).</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If your <b>Cerulean Shield</b> is recharging, reduce the difficulty modifier by</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cerulean Armour",
+      "type": "spell",
+      "traits": "Ongoing,Rank 4,Celestial Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>8 power. Must perform the prepare manoeuvre. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell and the armour flares into existence</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 2 charge tokens to this card</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer  to your next action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While your <b>Cerulean Shield</b> is recharging, you gain access to the <b>Improved Block</b> action regardless of its requirements</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> If your <b>Cerulean Shield</b> is recharging, reduce the difficulty modifier by</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6459174be0631dba",
+  "_key": "!items!6459174be0631dba"
+}

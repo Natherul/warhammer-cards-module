@@ -1,0 +1,114 @@
+{
+  "name": "Curry Favour",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Curry Favour",
+      "type": "support",
+      "traits": "Basic,Divine,Rally",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>You have successfully invoked a blessing, but have less favour than the blessing requires. If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pray to your god. Gain 2 favour</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but gain 3 favour.</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but gain 4 favour.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain 1 favour</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress. If, after completing this action, you have more favour than twice your Willpower score, suffer 1 additional stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Curry Favour",
+      "type": "support",
+      "traits": "Basic,Divine,Rally",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Piety (WP)",
+      "requirements": "<p>You have successfully invoked a blessing, but have less favour than the blessing requires. If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You pray to your god. Gain 2 favour</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but gain 4 favour.</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but gain 6 favour.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 favour</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress. If, after completing this action, you have more favour than twice your Willpower score, suffer 1 additional stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If, after completing this action, you have more favour than twice your Willpower score, you incur the wrath of the gods! Your are Staggered for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c414a6c10b562eb9",
+  "_key": "!items!c414a6c10b562eb9"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Ghyran, the Lore of Life, Jade Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When casting a <i>Jade Order</i> spell whose season trait matches the current season, add  K  to your dice pool. When casting a <i>Jade Order</i> spell whose season trait is the opposite of your current season, add  K  to your dice pool.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e78ebeba7e67f778",
+  "_key": "!items!e78ebeba7e67f778"
+}

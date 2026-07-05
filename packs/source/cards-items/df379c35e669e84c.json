@@ -1,0 +1,73 @@
+{
+  "name": "This Will Be a Glorious Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "This Will Be a Glorious Death",
+      "type": "support",
+      "traits": "Ongoing,Rank 3,Slayer",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "This Will Be a Glorious Death",
+      "type": "support",
+      "traits": "Ongoing,Rank 3,Slayer",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP)",
+      "requirements": "<p>Dwarf slayer only\r\n<br/>You must be critically wounded and have a deathwish. Seriously.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You resolve yourself to die gloriously as indicated above</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Immediately take an extra turn after this one</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "df379c35e669e84c",
+  "_key": "!items!df379c35e669e84c"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Wind of Fortune",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wind of Fortune",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Manann",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 favour; you or an ally within close range is declared the target of an attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wind of Fortune",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Manann",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 favour, you or an ally within close rang is declared the target of an attack</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2e6344602cb4d996",
+  "_key": "!items!2e6344602cb4d996"
+}

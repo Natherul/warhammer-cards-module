@@ -1,0 +1,106 @@
+{
+  "name": "Fire of Mork",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fire of Mork",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Shaman,WAAAGH!",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>Target engagement within medium range. If you are engaged with an enemy add <span class=\"wfrp-font misfortune\">K</span> to your pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A burning green fog descends upon the target engagement. Each target gains the <i>Sluggish</i> condition</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and each target suffers normal wounds equal to the number of</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 wounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>On each turn, while this card is recharging, you may move the fog as if spending a single manoeuvre</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fire of Mork",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Shaman,WAAAGH!",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>Target engagement within close range. If you are engaged with an enemy add <span class=\"wfrp-font misfortune\">K</span> to your pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A burning green fog descends upon the target engagement. Each target gains the <i>Sluggish</i> condition</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and each target suffers normal wounds equal to the number of</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The fog descends upon you instead!</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Allies are not harmed by this spell</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7b34992036ae9160",
+  "_key": "!items!7b34992036ae9160"
+}

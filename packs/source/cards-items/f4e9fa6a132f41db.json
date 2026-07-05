@@ -1,0 +1,137 @@
+{
+  "name": "Siphon Life",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Siphon Life",
+      "type": "spell",
+      "traits": "Necromancy,Rank 3",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>4 Power\r\n<br/>Target within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span>  to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A green mist enshrouds your target and then billows to your outstretched hand, leeching the life from him. The target suffers 2 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 wounds instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 4 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an undead creature within close range recovers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 corruption</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers a critical wound. You recover wounds or gain power equal to that critical wound's severity</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Siphon Life",
+      "type": "spell",
+      "traits": "Necromancy,Rank 3",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>4 Power\r\n<br/>Target within close range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A green mist enshrouds your target and then billows to your outstretched hand, leeching the life from him. The target suffers 2 wounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 wounds instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 5 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You or an undead creature within close range recovers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 corruption</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers a critical wound. You recover wounds or gain power equal to that critical wound's severity</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f4e9fa6a132f41db",
+  "_key": "!items!f4e9fa6a132f41db"
+}

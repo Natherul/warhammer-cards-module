@@ -1,0 +1,14 @@
+{
+  "name": "Unflappable",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this talent to remove 1 tracking token from all of your temporary insanities</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2c71950bcf9714a7",
+  "_key": "!items!2c71950bcf9714a7"
+}

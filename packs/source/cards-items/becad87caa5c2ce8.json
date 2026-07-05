@@ -1,0 +1,14 @@
+{
+  "name": "Knights of The Blazing Sun",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After rolling an Initiative check, you may spend 1 fortune point to add  {Dsucc}  to your results</span>\n</p>",
+    "type": "Oath",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "becad87caa5c2ce8",
+  "_key": "!items!becad87caa5c2ce8"
+}

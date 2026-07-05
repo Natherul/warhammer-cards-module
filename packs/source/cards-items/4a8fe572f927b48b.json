@@ -1,0 +1,115 @@
+{
+  "name": "Wind of Death",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wind of Death",
+      "type": "spell",
+      "traits": "Necromancy,Rank 4",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>6 Power\r\n<br/>Target(s) within medium range. For each target beyond the first, spend 2 additional power. Targets must be within short range of one another</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A putrefying black wind blows over and through your targets. Each target suffers wounds equal to your character rank</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but each target suffers 1 additional wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Gain 1 power per target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power per target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Turn each wounds inflicted by this spell faceup, choose 1 per target to apply as a critical and then turn the rest back facedown</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wind of Death",
+      "type": "spell",
+      "traits": "Necromancy,Rank 4",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>6 Power\r\n<br/>Target(s) within medium range. For each target beyond the first, spend 2 additional power and add <span class=\"wfrp-font misfortune\">K</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A putrefying wind blows over and through your targets. You hit each target for <b>Intelligence</b> + your character rank damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +1 damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, +2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Choose 1 target. You deal +X damage to that target, where X is the total number of targets</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 1 power per target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+X damage, where X is the number of targets</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4a8fe572f927b48b",
+  "_key": "!items!4a8fe572f927b48b"
+}

@@ -1,0 +1,133 @@
+{
+  "name": "Wrath of U'zuhl",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wrath of U'zuhl",
+      "type": "melee",
+      "traits": "Chaos,Epic",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Equipped with the Slayer of Kings, engaged with target(s)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You unleash the Daemon within the blade. You hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may choose up to 2 additional targets in the engagement. You hit each of these targets in the engagement. You hit each of these targets for -2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage to each target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker suffers the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 ally in your engagement is struck for -2 damage. If there is no ally engaged with you, you suffer 2 wounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wrath of U'zuhl",
+      "type": "melee",
+      "traits": "Chaos,Epic",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Highest Target Defence",
+      "requirements": "<p>Equipped with the Slayer of Kings, engaged with target(s)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You unleash the Daemon within the blade hitting every character engaged with you for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +2 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+2 damage to each target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 wound</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 2 wounds and add 2 recharge tokens to 1 other recharging action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Each target suffers +2 damage, +1 critical</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0979644283c36ea9",
+  "_key": "!items!0979644283c36ea9"
+}

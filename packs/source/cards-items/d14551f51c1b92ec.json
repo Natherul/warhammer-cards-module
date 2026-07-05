@@ -1,0 +1,101 @@
+{
+  "name": "Narcotic Caress",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Narcotic Caress",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Slaanesh",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must be engaged with your target, must possess a long poisonous tongue</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your tongue wraps around the exposed flesh of your target injecting narcotic poisons into their bloodstream. The target suffers 5+ <b>Intelligence</b> damage and gains the <i>Perplexed</i> and <i>Overwhelmed</i> conditions while this card is recharging</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you gain  on all attacks against the same target while this card is recharging</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, suffer 1 fatigue each time you perform an action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Narcotic Caress",
+      "type": "melee",
+      "traits": "Chaos,Daemonic,Ongoing,Slaanesh",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must be engaged with your target, must possess a long poisonous tongue</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your tongue wraps around the exposed flesh of your target injecting narcotic poisons into their bloodstream. The target suffers 4+ <b>Intelligence</b> damage and gains the <i>Perplexed</i> and <i>Overwhelmed</i> conditions while this card is recharging</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target draws one card from the insanity deck. If it has the <i>Chaos</i> or <i>Trauma</i> trait, the target suffers the insanity until the end of the encounter</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, suffer 1 fatigue each time you perform an action</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d14551f51c1b92ec",
+  "_key": "!items!d14551f51c1b92ec"
+}

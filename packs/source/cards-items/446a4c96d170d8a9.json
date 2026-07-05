@@ -1,0 +1,91 @@
+{
+  "name": "Beast Speech",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Beast Speech",
+      "type": "spell",
+      "traits": "Rank 2,Amber Order,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int)",
+      "requirements": "<p>2 power, target natural beast within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cast the spell and gain  on any <b>Fellowship</b> checks you make against the target</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You inflict 1 stress on the target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Beast Speech",
+      "type": "spell",
+      "traits": "Rank 2,Amber Order,Beastform",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int)",
+      "requirements": "<p>2 power, target natural beast within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You cast the spell and gain  on any <b>Fellowship</b> checks you make against the target</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You inflict 1 stress on the target</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "446a4c96d170d8a9",
+  "_key": "!items!446a4c96d170d8a9"
+}

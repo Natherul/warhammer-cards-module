@@ -1,0 +1,14 @@
+{
+  "name": "Myrmidia, Strength of The Eagle",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you generate  {Dcomet}  on a <i>Melee Attack</i> or <i>Blessing</i>, exhaust this card to add another  {Dcomet}  to the results pool.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "67f342d02a5c35d1",
+  "_key": "!items!67f342d02a5c35d1"
+}

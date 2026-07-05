@@ -1,0 +1,106 @@
+{
+  "name": "Wind Blast",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wind Blast",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Celestial Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power<br/>You must have a free hand, and cannot use that hand for anything else while this spell is recharging</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose 1 target within the area of your winds. He is pushed 1 range increment away from you and suffers 2 fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wind Blast",
+      "type": "spell",
+      "traits": "Rank 3,Celestial Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>7 Power<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You inhale deeply, then blow a mighty blast of wind at the target. The target is pushed back 1 range increment from you and knocked prone (he will have to spend a manoeuvre to stand up). If this blows him into a solid obstacle, such as a wall, he suffers wounds equal to your character rank. If this blows him off the edge of the cliff or similar, he falls</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the target suffers wounds whether or not he hits an obstacle</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target suffers 2 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are reduced to 0 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A second target with <b>Toughness</b> no higher than the first is also affected</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4fa083a7cadb3178",
+  "_key": "!items!4fa083a7cadb3178"
+}

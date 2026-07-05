@@ -1,0 +1,101 @@
+{
+  "name": "Avenging Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Avenging Strike",
+      "type": "melee",
+      "traits": "Reaction",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit your foe for +1 damage in the name of vengeance!</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may discard any number of recharge tokens from this action. For each token discarded in this way, you deal +1 damage and suffer 1 fatigue</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this action is recharging, your defence is reduced by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately recharge this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Avenging Strike",
+      "type": "melee",
+      "traits": "Reaction",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit your foe for normal damage, +1 critical in the name of vengeance!</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may discard any number of recharge tokens from this action. For each token discarded in this way, you deal +1 damage and suffer 1 fatigue</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this action is recharging, your defence is reduced by 1</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain the <i>Exposed</i> condition while this action is recharging</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d96f16c9b0601978",
+  "_key": "!items!d96f16c9b0601978"
+}

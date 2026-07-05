@@ -1,0 +1,128 @@
+{
+  "name": "Ecstatic Convulsions",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Ecstatic Convulsions",
+      "type": "spell",
+      "traits": "Chaos,Rank 3,Slaanesh",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Varies Discipline (WP)",
+      "requirements": "<p>8 Power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target collapses to the ground in a state of both exquisite agony and unparalleled ecstasy causing him to violently shake and thrash. You hit the target for <b>Willpower</b> damage, plus an amount of damage equal to the number of stress and fatigue the target is suffering from, including any stress and fatigue gained from this spell. This spell ignores non-magical armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target draws a mutation and is affected by it while this spell is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target gains the <i>Weakened</i> condition for 2 rounds</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Ecstatic Convulsions",
+      "type": "spell",
+      "traits": "Chaos,Rank 3,Slaanesh",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 Power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target collapses to the ground in a state of both exquisite agony and unparalleled ecstasy causing him to violently shake and thrash. You hit the target for <b>Willpower</b> damage, plus an amount of damage equal to the number of stress and fatigue the target is suffering from, including any stress and fatigue gained from this spell. This spell ignores non-magical armour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target draws a mutation and is affected by it while this spell is recharging</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your attack deals -2 damage</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 corruption</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4a87481891795f5c",
+  "_key": "!items!4a87481891795f5c"
+}

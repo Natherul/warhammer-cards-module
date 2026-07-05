@@ -1,0 +1,14 @@
+{
+  "name": "I Can Taste Your Fear",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When another creature within medium range fails a <i>Fear</i> or <i>Terror</i> check, you gain 1 power or recover 1 stress.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "472c3ebb768011a1",
+  "_key": "!items!472c3ebb768011a1"
+}

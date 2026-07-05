@@ -1,0 +1,63 @@
+{
+  "name": "Heads I Win...",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Heads I Win...",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 favour, not engaged with an enemy, a coin marked with an X on one face</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "...Tails You Lose",
+      "type": "blessing",
+      "traits": "Rank 1,Reaction,Ranald",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>2 favour, not engaged with an enemy, a coin marked with an X on one face</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6f9958fd1efb57d9",
+  "_key": "!items!6f9958fd1efb57d9"
+}

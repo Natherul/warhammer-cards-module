@@ -1,0 +1,14 @@
+{
+  "name": "Celebrity",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>You are famous! NPCs may recognize you if you pass a <b>Charm</b> (<b>Fel</b>) <b>check</b>. The difficulty of the check is 6d, -1d for each character rank you have attained. If you are recognized, your <b>Charm</b>, <b>Guile</b>, and <b>Intimidate</b> checks gain:\r\n<br></br> {Dcomet}  Add  {Dsucc}  {Dsucc}  to the results pool</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0867a39381398f90",
+  "_key": "!items!0867a39381398f90"
+}

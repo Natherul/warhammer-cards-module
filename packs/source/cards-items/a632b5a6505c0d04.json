@@ -1,0 +1,101 @@
+{
+  "name": "Belching Smoke",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Belching Smoke",
+      "type": "support",
+      "traits": "Thunder",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St)",
+      "requirements": "<p>Black powder weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You load your weapon with an excess of powder and a deficit of shot. Your discharge creates an awful din, drawing the attention of all within long range and inflicting 1 stress on any enemies within that range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 3 stress instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within long range gain the <i>Demoralized</i> condition for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Every character within long range suffers 1 stress, including you</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Belching Smoke",
+      "type": "support",
+      "traits": "Thunder",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St)",
+      "requirements": "<p>Black Powder Weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You load your weapon with an excess of powder and a deficit of shot. Your discharge created an awful din, drawing the attention of all within long range and inflicting 1 stress on any enemies within that range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 3 stress instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within long range gain the <i>Cowed</i> and <i>Rattled</i> conditions for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Every character within long range suffers 1 stress, including you</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a632b5a6505c0d04",
+  "_key": "!items!a632b5a6505c0d04"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Shameless",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your Shame Threshold is one higher than normal\r\n<br></br>Add  K  to all <b>Charm</b> checks.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a412c4373c34ed63",
+  "_key": "!items!a412c4373c34ed63"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Owl of Judgement",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Owl of Judgement",
+      "type": "blessing",
+      "traits": "Rank 3,Summoning,Verena",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour. You must have a piece of food an owl would like to eat</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A shadowy owl settles on your should and process to advise you in a voice that only you can hear. The owl's observations add  to <b>Charm</b>, <b>Discipline</b>, <b>Guile</b>, <b>Intimidate</b>, and <b>Leadership</b> checks. The owl stays with you until the end of the episode or sunrise, whichever comes first</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above and, if you also have the <b>Owl of Wisdom</b> on your shoulder, your <b>Willpower</b> and <b>Toughness</b> are each increased by 1 while in the presence of those you know to be lawbreakers, oathbreakers, or destroyers of knowledge</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may recharge your <b>Owl of Wisdom</b> blessing</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Owl of Judgement",
+      "type": "blessing",
+      "traits": "Rank 3,Summoning,Verena",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour. You must have a piece of food an owl would like to eat</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A shadowy owl settles on your should and process to advise you in a voice that only you can hear. The owl's observations add  to <b>Charm</b>, <b>Discipline</b>, <b>Guile</b>, <b>Intimidate</b>, and <b>Leadership</b> checks. The owl stays with you until the end of the episode or sunrise, whichever comes first</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above and, if you also have the <b>Owl of Wisdom</b> on your shoulder, your <b>Willpower</b> and <b>Toughness</b> are each increased by 1 while in the presence of those you know to be lawbreakers, oathbreakers, or destroyers of knowledge</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may recharge your <b>Owl of Wisdom</b> blessing</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3701f90b3f9b1bfb",
+  "_key": "!items!3701f90b3f9b1bfb"
+}

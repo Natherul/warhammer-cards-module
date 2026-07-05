@@ -1,0 +1,101 @@
+{
+  "name": "Fearsome Visage",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fearsome Visage",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Morr",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blessing is invoked; you gain <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but you gain <i>Fear 2</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Enemies within medium range add  to all checks while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies within close range add  to all checks while this card is recharging</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fearsome Visage",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 1,Morr",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The blessing is invoked; you gain <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but you gain <i>Fear 2</i></p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Advance the party tension meter by 2 spaces, you terrifying monster!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies within medium range add  to all checks while this card is recharging</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "de54e8ec20e8f7c5",
+  "_key": "!items!de54e8ec20e8f7c5"
+}

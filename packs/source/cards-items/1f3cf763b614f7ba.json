@@ -1,0 +1,14 @@
+{
+  "name": "Manann, King of the Seas",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you are at maximum depth in a stance, exhaust this card to adjust your stance to your maximum depth in the opposite stance.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1f3cf763b614f7ba",
+  "_key": "!items!1f3cf763b614f7ba"
+}

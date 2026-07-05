@@ -1,0 +1,118 @@
+{
+  "name": "Meteor Storm",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Meteor Storm",
+      "type": "spell",
+      "traits": "Epic,Celestial Order,Rank 5",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>8 power\r\n<br/>Target(s) within long range. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A shower of meteors streaks from the sky and strikes the target(s) for 6+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +<b>Willpower</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Deal additional damage equal to your depth in the <i>Conservative</i> stance</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each target after the first, add  to the difficulty modifier and 2 power to the requirements. This spell is opposed by the highest <b>Toughness</b> among its targets</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may strike an additional target with <b>Toughness</b> no higher than the primary target</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Meteor Storm",
+      "type": "spell",
+      "traits": "Epic,Celestial Order,Rank 5",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Resilience (To)",
+      "requirements": "<p>8 power\r\n<br/>Target(s) within long range. If engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A shower of meteors streaks from the sky and strikes the target(s) for 6+ <b>Intelligence</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +<b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>You hit the target(s) for 6+ <b>Intelligence</b> + <b>Willpower</b> damage, plus damage equal to your depth in the <i>Reckless</i> stance</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each target after the first, add  to the difficulty modifier and 2 power to the requirements. This spell is opposed by the highest <b>Toughness</b> among its targets</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1c2a4114c6020ec1",
+  "_key": "!items!1c2a4114c6020ec1"
+}

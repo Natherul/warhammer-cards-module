@@ -1,0 +1,14 @@
+{
+  "name": "Determined",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When spending fortune points on a <b>Willpower</b> check, the check gains:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9eab843b7bbe513c",
+  "_key": "!items!9eab843b7bbe513c"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Swiftwing",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Swiftwing",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With an audible crackle, you become a blur of cyan energy and streak effortlessly to a location within long range and within your line of sight. Once you arrive, you become solid once more</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After reappearing, you may immediately perform a manoeuvre for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The capricious Winds of Magic whisk you away. At the end of your turn, you are briefly snapped back into the turbulent winds and reappear somewhere within close range of your destination (Gm's choice as to where)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Swiftwing",
+      "type": "spell",
+      "traits": "Rank 1,Celestial Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With an audible crackle, you become a blur of cyan energy and streak effortlessly to a location within long range and within your line of sight. Once you arrive, you become solid once more</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>After reappearing, you may immediately perform a manoeuvre for free</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The capricious Winds of Magic whisk you away. At the end of your turn, you are briefly snapped back into the turbulent winds and reappear somewhere within close range of your destination (Gm's choice as to where)</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f9b0ebe37258a08f",
+  "_key": "!items!f9b0ebe37258a08f"
+}

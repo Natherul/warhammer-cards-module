@@ -1,0 +1,14 @@
+{
+  "name": "Chamon, Alchemist, Gold Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After casting a <i>Gold Order</i> spell you may convert the next critical wound you suffer before the start of your next turn into a normal wound. If you do, exhaust this card.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4fcdced65520de16",
+  "_key": "!items!4fcdced65520de16"
+}

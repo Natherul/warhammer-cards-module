@@ -1,0 +1,63 @@
+{
+  "name": "Armour Expertise",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Armour Expertise",
+      "type": "support",
+      "traits": "Active Defence,Ancestor",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play after you are hit by an attack. <b>Resilience</b> trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Armour Expertise",
+      "type": "support",
+      "traits": "Active Defence,Ancestor",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>Play after you are hit by an attack. <b>Resilience</b> trained</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0d9f24de30332c4a",
+  "_key": "!items!0d9f24de30332c4a"
+}

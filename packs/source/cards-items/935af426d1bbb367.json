@@ -1,0 +1,14 @@
+{
+  "name": "Exo-Frame",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Modifies your <b>Athletics</b> (<b>St</b>) checks.</span>\n</p>",
+    "type": "Invention",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "935af426d1bbb367",
+  "_key": "!items!935af426d1bbb367"
+}

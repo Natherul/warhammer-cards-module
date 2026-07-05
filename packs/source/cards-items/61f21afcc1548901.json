@@ -1,0 +1,14 @@
+{
+  "name": "Ward the Fearful",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When another creature within medium range fails a <i>Fear</i> or <i>Terror</i> check, you may immediately perform a free manoeuvre.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "61f21afcc1548901",
+  "_key": "!items!61f21afcc1548901"
+}

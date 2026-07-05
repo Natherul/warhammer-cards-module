@@ -1,0 +1,14 @@
+{
+  "name": "Legendary",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you suffer fatigue, stress, and/or wounds, exhaust this card to reduce the fatigue, stress, and/or wounds you suffer by 1 to a minimum of 1</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9461cd71b44420aa",
+  "_key": "!items!9461cd71b44420aa"
+}

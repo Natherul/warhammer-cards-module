@@ -1,0 +1,73 @@
+{
+  "name": "The Whispering Wind",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Whispering Wind",
+      "type": "spell",
+      "traits": "Rank 1,Jade order,Autumn",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int) vs Special",
+      "requirements": "<p>4 power\r\n<br/>must have access to fresh, free-moving air</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Whispering Wind",
+      "type": "spell",
+      "traits": "Rank 1,Jade order,Autumn",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Nature Lore (Int) vs Special",
+      "requirements": "<p>4 power\r\n<br/>must have access to fresh, free-moving air</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5a18787be74396b6",
+  "_key": "!items!5a18787be74396b6"
+}

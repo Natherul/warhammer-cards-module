@@ -1,0 +1,121 @@
+{
+  "name": "Predator or Prey",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Predator or Prey",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "vs Nature Lore (Int)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, all beasts and wild animals add  to any attacks or aggressive actions they perform against you and any of your allies within medium range of you</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 stress or 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, suffer 1 stress each time you are wounded by a beast or wild animal</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Increase the difficulty modifier of this action to  if it is performed in an urban setting</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Predator or Prey",
+      "type": "support",
+      "traits": "Support",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "vs Nature Lore (Int)",
+      "requirements": "",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, you and any of your allies within close range add  to any <i>Melee Attacks</i> or <i>Ranged Attacks</i> targeting beasts or wild animals</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 3 recharge tokens to this card</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 stress or 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>While this card is recharging, suffer 1 fatigue each time you are wounded by a beast or wild animal</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Increase the difficulty modifier of this action to  if it is performed in an urban setting</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c8a9236408acaf2a",
+  "_key": "!items!c8a9236408acaf2a"
+}

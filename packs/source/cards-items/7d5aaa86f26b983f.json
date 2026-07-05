@@ -1,0 +1,135 @@
+{
+  "name": "Horrific Assault",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Horrific Assault",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You flail and caper, striking the target over and over again until you finally hit it for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 corruption</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack causes <i>Fear 1</i></p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You my immediately repeat this attack against the same target</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may perform a free manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You lose 1 die from your <i>Aggression</i> budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Horrific Assault",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Horror of Tzeentch\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The fiend's tentacles and claws all extend wickedly, hurling their might at one target and inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts critical damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 corruption</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attack causes <i>Fear 1</i> to all enemies engaged with the horror</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attacker loses 1 die from its <i>Aggression</i> budget</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7d5aaa86f26b983f",
+  "_key": "!items!7d5aaa86f26b983f"
+}

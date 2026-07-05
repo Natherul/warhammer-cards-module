@@ -1,0 +1,93 @@
+{
+  "name": "Mask of the Deceiver",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Mask of the Deceiver",
+      "type": "blessing",
+      "traits": "Rank 3,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. You can only assume the guise of a humanoid no smaller than a halfling nor larger than an orc</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ranald hides your true nature and makes you appear as another. You assume the guise of another person, including your clothing and personal effects. The change is only an illusion. Attempts to see through your disguise are opposed by your <b>Invocation</b> (<b>Fel</b>)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to <b>Fellowship</b> checks while wearing your new form</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Reduce the difficulty modifier by  if you are dressed as or already resemble the subject; increase it by  if you are unfamiliar with the subject. If you attack another character while masked, the disguise ends and you gain the <i>Staggered</i> condition for 2 rounds. This blessing recharges at sunrise</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Mask of the Deceiver",
+      "type": "blessing",
+      "traits": "Rank 3,Ranald",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. You can only assume the guise of a humanoid no smaller than a halfling nor larger than an orc</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ranald hides your true nature and makes you appear as another. You assume the guise of another person, including your clothing and personal effects. The change is only an illusion. Attempts to see through your disguise are opposed by your <b>Invocation</b> (<b>Fel</b>)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Gain  to <b>Fellowship</b> checks while wearing your new form</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Reduce the difficulty modifier by  if you are dressed as or already resemble the subject; increase it by  if you are unfamiliar with the subject. If you attack another character while masked, the disguise ends and you gain the <i>Staggered</i> condition for 2 rounds. This blessing recharges at sunrise</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "91b6da66a9b9c73a",
+  "_key": "!items!91b6da66a9b9c73a"
+}

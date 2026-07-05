@@ -1,0 +1,14 @@
+{
+  "name": "Chosen by Fortune",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>After rolling an <b>Intelligence</b>, <b>Willpower</b>, or <b>Fellowship</b> check, exhaust this card to reroll any or all  K  and  K  dice in your current pool. \r\n<br></br><b>Chosen by Fortune</b> replaces <b>Favoured by Fortune</b> in your talent card deck.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "63ca5cb4d9863247",
+  "_key": "!items!63ca5cb4d9863247"
+}

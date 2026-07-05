@@ -1,0 +1,14 @@
+{
+  "name": "Find the Rhythm",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your non-<i>Basic Melee Attacks</i> gain:\r\n<br></br> {Dcomet}  You may immediately perform a <b>Melee Strike</b> action.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "49d955e41ed73669",
+  "_key": "!items!49d955e41ed73669"
+}

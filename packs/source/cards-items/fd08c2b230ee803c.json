@@ -1,0 +1,101 @@
+{
+  "name": "Miasma of Pestilence",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Miasma of Pestilence",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Nurgle",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>5 Power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Pestilential vapours surround the target, afflicting him with random disease with the <i>Filth</i> or <i>Miasma</i> traits. This disease lasts until the end of the encounter, at which point the target makes an <b>Average (2d) Resilience (To) check</b> to shake it off. If he fails, the disease becomes permanent</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but add  to the <b>Resilience</b> check</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain 1 disease until the end of the act</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Miasma of Pestilence",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Nurgle",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Resilience (To)",
+      "requirements": "<p>5 Power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Pestilential vapours surround the target, afflicting him with random disease with the <i>Filth</i> or <i>Miasma</i> traits. This disease lasts until the end of the encounter, at which point the target makes an <b>Average (2d) Resilience (To) check</b> to shake it off. If he fails, the disease becomes permanent</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but a second target within close range of the first is affected as well</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target(s) suffers 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gain 1 disease until the end of the act</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fd08c2b230ee803c",
+  "_key": "!items!fd08c2b230ee803c"
+}

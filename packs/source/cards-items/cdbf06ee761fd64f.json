@@ -1,0 +1,14 @@
+{
+  "name": "Shallya, Goddess of Healing & Mercy",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Each time an ally within close range (other than you) is critically wounded, gain 1 favour.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cdbf06ee761fd64f",
+  "_key": "!items!cdbf06ee761fd64f"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Challenge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Challenge",
+      "type": "support",
+      "traits": "Ongoing,Rally",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully challenge your target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your target suffers 1 stress when performing any check that does not include you as the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You call out your target and challenge him to one on one combat. While this card is recharging all characters except you and your target add  to all checks targeting you and your target</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Challenge",
+      "type": "support",
+      "traits": "Ongoing,Rally",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully challenge your target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your target suffers 1 stress when performing any check that does not include you as the target</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You call out your target and challenge him to one on one combat. While this card is recharging you and your target add  to all checks that do not target each other</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b5f5623b6137a89a",
+  "_key": "!items!b5f5623b6137a89a"
+}

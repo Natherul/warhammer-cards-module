@@ -1,0 +1,91 @@
+{
+  "name": "Incite Righteous Mob",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Incite Righteous Mob",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Sigmar",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>10 favour. You must invoke this blessing in the presence of a prominent fire, where you preach for several minutes as your audience looks on</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your audience becomes an unruly and hate-filled mob</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you can suggest a target to the mob on whom to unleash their righteous anger</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The mob decides you are insufficiently pious...</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Incite Righteous Mob",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 4,Sigmar",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel) vs Highest Target Discipline (WP)",
+      "requirements": "<p>10 favour. You must invoke this blessing in the presence of a prominent fire, where you preach for several minutes as your audience looks on</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your audience becomes an unruly and hate-filled mob</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you can suggest a target to the mob on whom to unleash their righteous anger</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The mob decides you are insufficiently pious...</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4c09192f84aeb548",
+  "_key": "!items!4c09192f84aeb548"
+}

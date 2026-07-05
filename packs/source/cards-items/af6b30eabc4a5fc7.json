@@ -1,0 +1,127 @@
+{
+  "name": "The Balanced Scales",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Balanced Scales",
+      "type": "blessing",
+      "traits": "Rank 3,Verena",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>7 favour. Two targets, both of which must be within medium range (you can target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Name stress or fatigue. The target with more of the named token gives 2 of them to the other target (your choice if there is a tie)</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 3 tokens instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but 4 tokens instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If you named stress, the donor target recovers 1 fatigue, and vice versa</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This blessing affects both stress and fatigue</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Balanced Scales",
+      "type": "blessing",
+      "traits": "Rank 3,Verena",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>7 favour. Two targets, both of which must be within medium range (you can target yourself)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target with more wounds gives 1 normal wound to the other target (your choice if there is a tie)</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 wounds instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but 4 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The donor target recovers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The donor target may give 1 of his critical wounds to the second target</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "af6b30eabc4a5fc7",
+  "_key": "!items!af6b30eabc4a5fc7"
+}

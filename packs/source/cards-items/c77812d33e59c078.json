@@ -1,0 +1,14 @@
+{
+  "name": "Skeptical",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to any dice pools targeting you that are based on <b>Guile</b> checks</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c77812d33e59c078",
+  "_key": "!items!c77812d33e59c078"
+}

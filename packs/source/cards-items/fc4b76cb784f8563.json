@@ -1,0 +1,101 @@
+{
+  "name": "Surprise Attack",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Surprise Attack",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag) vs Target Defence",
+      "requirements": "<p>Engaged with target, not visibly armed or target does not suspect you of being an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You produce a dagger or similar weapon as if by magic and hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you may use <b>Agility</b> rather than <b>Strength</b> to determine damage if you choose</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Reduce the target's armour soak value by 2 for this attack</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You leave yourself open for a counterattack! If your target's next action is to attack you, he adds  to his dice pool!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Surprise Attack",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag) vs Target Defence",
+      "requirements": "<p>Engaged with target, not visibly armed or target does not suspect you of being an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You produce a dagger or similar weapon as if by magic and hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and reduce the target's armor soak value by 2 for this attack</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may use <b>Agility</b> rather than <b>Strength</b> to determine damage if you choose</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You leave yourself open for a counterattack! If your target's next action is to attack you, he adds  to his dice pool!</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fc4b76cb784f8563",
+  "_key": "!items!fc4b76cb784f8563"
+}

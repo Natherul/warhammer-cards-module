@@ -1,0 +1,101 @@
+{
+  "name": "Okkam's Mindrazor",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Okkam's Mindrazor",
+      "type": "spell",
+      "traits": "Epic,Grey Order,Rank 5",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 power\r\n<br/>Target within medium range; you must be able to make eye contact with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You reach into the target's mind and tear it savagely! The target gains a temporary insanity with the <i>Enigma</i>, <i>Supernatural</i>, or <i>Trauma</i> trait, then suffers wound equal to the total severity of insanities he suffers from</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but reveal 3 insanities and choose 1 to apply to the target as a temporary insanity (ignoring traits)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain a temporary insanity with the <i>Enigma</i>, <i>Supernatural</i>, or <i>Trauma</i> trait</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose a temporary insanity suffered by yourself or an ally within medium range. That insanity is moved to the target (it retains the same number of tracking tokens) before resolving this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Okkam's Mindrazor",
+      "type": "spell",
+      "traits": "Epic,Grey Order,Rank 5",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 power\r\n<br/>Target within medium range' you must be able to make eye contact with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You reach into the target's mind and tear it savagely! The target gains a temporary insanity with the <i>Enigma</i>, <i>Supernatural</i>, or <i>Trauma</i> trait, then suffers wound equal to the total severity of insanities he suffers from</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 insanities instead</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain a temporary insanity with the <i>Enigma</i>, <i>Supernatural</i>, or <i>Trauma</i> trait</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose a temporary insanity suffered by yourself or an ally within medium range. That insanity is moved to the target (it retains the same number of tracking tokens) before resolving this action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f3816979b66de43a",
+  "_key": "!items!f3816979b66de43a"
+}

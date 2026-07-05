@@ -1,0 +1,91 @@
+{
+  "name": "Snapping Heads",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Snapping Heads",
+      "type": "melee",
+      "traits": "Monstrous,Beast",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: War Hydra\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You launch all your heads in an attack against a single target. you hit for normal damage, +1 damage per living head beyond the first</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus the attack inflicts 1 or more critical wounds on the target. Draw and inflict critical wounds until the Severity of all critical wound cards drawn equals or exceeds the number of living heads you still possess</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 of your destroyed heads grows back to life</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Snapping Heads",
+      "type": "melee",
+      "traits": "Monstrous,Beast",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: War Hydra\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You launch all your heads in an attack against a single target. you hit for normal damage, +1 damage per living head beyond the first</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus the attack inflicts 1 or more critical wounds on the target. Draw and inflict critical wounds until the Severity of all critical wound cards drawn equals or exceeds the number of living heads you still possess</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 of your destroyed heads grows back to life</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cfec5a3dbae9b1d5",
+  "_key": "!items!cfec5a3dbae9b1d5"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Undying Ferocity",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Undying Ferocity",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>As the creature is dealt a death blow, Izka lashes out one last time at a nearby opponent, striking for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target is struck for +2 damage, critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lightning strikes the engagement, dealing 2 wounds and inflicting the <i>Thunderstruck</i> condition for all characters in the engagement for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Undying Ferocity",
+      "type": "melee",
+      "traits": "Reaction",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Wargor<br/>Melee weapon, engaged with target, received a killing blow</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>As the creature is dealt a death blow, Izka lashes out one last time at a nearby opponent, striking for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is struck for +2 damage, critical damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a manoeuvre after this action is resolved</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d8d4266c956a6cd9",
+  "_key": "!items!d8d4266c956a6cd9"
+}

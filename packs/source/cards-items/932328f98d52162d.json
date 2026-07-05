@@ -1,0 +1,105 @@
+{
+  "name": "Shared Fate",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shared Fate",
+      "type": "blessing",
+      "traits": "Rank 2,Morr",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your invocation links the target's fate to that of his allies. One of the target's allies within medium range of you gains each condition that the target has (and for the same durations, where applicable)</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but two allies instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each affected ally suffers or recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>You suffer 1 stress per condition transferred by this blessing</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shared Fate",
+      "type": "blessing",
+      "traits": "Rank 2,Morr",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>6 favour. Target within medium range.</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your invocation links the target's fate to that of his allies. One of the target's allies within medium range of you gains each condition that the target has (and for the same durations, where applicable)</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but two allies instead</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but three allies instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each affected ally suffers or recovers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>You suffer 1 stress per condition transferred by this blessing</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "932328f98d52162d",
+  "_key": "!items!932328f98d52162d"
+}

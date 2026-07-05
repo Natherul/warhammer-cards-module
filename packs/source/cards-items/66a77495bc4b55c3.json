@@ -1,0 +1,14 @@
+{
+  "name": "Oh No You Don't",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you perform an attack, add  K  to your dice pool for each <i>Active Defence</i> your target uses.</span>\n</p>",
+    "type": "Tactic",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "66a77495bc4b55c3",
+  "_key": "!items!66a77495bc4b55c3"
+}

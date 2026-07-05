@@ -1,0 +1,14 @@
+{
+  "name": "Verena, Scales of Justice",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you invoke a blessing in a neutral stance, exhaust this card to exchange some or all of the characteristic dice in your dice pool for conservative and reckless dice. Your dice pool must contain an even number of conservative and reckless dice.</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b2e72149bde672f0",
+  "_key": "!items!b2e72149bde672f0"
+}

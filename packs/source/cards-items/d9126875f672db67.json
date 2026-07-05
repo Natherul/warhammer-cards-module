@@ -1,0 +1,14 @@
+{
+  "name": "Notorious",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to <b>Guile</b> checks</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "d9126875f672db67",
+  "_key": "!items!d9126875f672db67"
+}

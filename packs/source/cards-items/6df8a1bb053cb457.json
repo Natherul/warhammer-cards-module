@@ -1,0 +1,106 @@
+{
+  "name": "Translocation",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Translocation",
+      "type": "spell",
+      "traits": "Dark Magic,Ongoing,Rank 3",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully case the spell. Place 3 recharge tokens on this card</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 4 recharge tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>You may attempt to teleport enemies as well. Each time you do, you must pass an opposed <b>Discipline</b> (<b>WP</b>) <b>vs</b>. <b>Discipline</b> (<b>WP</b>) <b>check</b> to teleport an engaged enemy; if you fail the check, the recharge token and manoeuvre are wasted</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Translocation",
+      "type": "spell",
+      "traits": "Dark Magic,Ongoing,Rank 3",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You successfully case the spell. Place 3 recharge tokens on this card</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 4 recharge tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>You may teleport yourself or your allies as well</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 enemy (GM's choice) within long range teleports to become immediately engaged with you</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "6df8a1bb053cb457",
+  "_key": "!items!6df8a1bb053cb457"
+}

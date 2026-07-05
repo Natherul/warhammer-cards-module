@@ -1,0 +1,73 @@
+{
+  "name": "Astral Projection",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Astral Projection",
+      "type": "spell",
+      "traits": "Rank 3,Celestial Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>This spell requires several minutes of peace and quiet to cast, and a comfortable place to leave your body while you're \"out\"</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Astral Projection",
+      "type": "spell",
+      "traits": "Rank 3,Celestial Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>7 Power\r\n<br/>This sell requires several minutes of peace and quiet to case, and a comfortable place to leave your body while you're \"out\"</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2440b35ddb7fd8bf",
+  "_key": "!items!2440b35ddb7fd8bf"
+}

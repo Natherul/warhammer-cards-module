@@ -1,0 +1,93 @@
+{
+  "name": "Bribery",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Bribery",
+      "type": "support",
+      "traits": "Social,Criminal",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must engage the target in discreet conversation for a few minutes</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You determine whether or not the target is willing to accept a bribe, and how much the bribe will cost you (usually measured in coins of the targets social tier). If the target is willing and you pay the requisite amount, influence the target. If the target is not willing, you successfully disengage from the conversation without actually offering the bribe</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You come off as uncouth and a little untrustworthy, add  to your next <i>Social</i> action against he same target</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>\"Are you offering me a bribe!?\" If the check failed, the target knows you just tried to bribe him. If there are witnesses, things could get interesting...</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Bribery",
+      "type": "support",
+      "traits": "Social,Criminal",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>You must engage the target in discreet conversation for a few minutes</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You determine whether or not the target is willing to accept a bribe, and how much the bribe will cost you (usually measured in coins of the targets social tier). If the target is willing and you pay the requisite amount, influence the target. If the target is not willing, you successfully disengage from the conversation without actually offering the bribe</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You come off as uncouth and a little untrustworthy, add  to your next <i>Social</i> action against he same target</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>\"Are you offering me a bribe!?\" If the check failed, the target knows you just tried to bribe him. If there are witnesses, things could get interesting...</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ce2095a9a82e4ccc",
+  "_key": "!items!ce2095a9a82e4ccc"
+}

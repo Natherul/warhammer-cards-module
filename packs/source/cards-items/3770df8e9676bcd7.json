@@ -1,0 +1,63 @@
+{
+  "name": "Trivial Knowledge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Trivial Knowledge",
+      "type": "support",
+      "traits": "Reaction,Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Folklore</b> trained. You or an ally engaged with you attempts an action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Trivial Knowledge",
+      "type": "support",
+      "traits": "Reaction,Teamwork",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Folklore</b> trained. You or an ally engaged with you attempts an action</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3770df8e9676bcd7",
+  "_key": "!items!3770df8e9676bcd7"
+}

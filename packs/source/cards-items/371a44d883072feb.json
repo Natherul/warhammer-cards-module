@@ -1,0 +1,91 @@
+{
+  "name": "The Past Revealed",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Past Revealed",
+      "type": "blessing",
+      "traits": "Rank 3,Verena",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, engaged with target item</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your prayers to Verena reveal an insight into the item's past. The GM reveals a piece of information such as who owned the item most recently, where it was made, or what it was used for</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but the information is of superior quality or quantity, sufficient to grant  to future <b>Education</b>, <b>Folklore</b>, <b>Intuition</b>, or <b>Observation</b> checks where the object's past is relevant (at GM discretion)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This information is confusing and vague. It will take you quite some time to interpret it (hours, or as long as it takes you to reach a library), and you gain no benefit until then</p>"
+          }
+        ],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Past Revealed",
+      "type": "blessing",
+      "traits": "Rank 3,Verena",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, engaged with target item</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your prayers to Verena reveal an insight into the item's past. The GM reveals a piece of information such as who owned the item most recently, where it was made, or what it was used for</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but the information is of superior quality or quantity, sufficient to grant  to future <b>Education</b>, <b>Folklore</b>, <b>Intuition</b>, or <b>Observation</b> checks where the object's past is relevant (at GM discretion)</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The information comes in the form of a rush of images, exhausting to behold. You suffer sufficient stress and fatigue to distress your <b>Willpower</b> and fatigue your <b>Toughness</b></p>"
+          }
+        ]
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "371a44d883072feb",
+  "_key": "!items!371a44d883072feb"
+}

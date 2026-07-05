@@ -1,0 +1,14 @@
+{
+  "name": "Manann, God of the Seas",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Gain  K  to <b>Invocation</b> and <b>Piety</b> checks while within long range of a natural body of water</span>\n</p>",
+    "type": "Faith",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "717d7ce6ef42d668",
+  "_key": "!items!717d7ce6ef42d668"
+}

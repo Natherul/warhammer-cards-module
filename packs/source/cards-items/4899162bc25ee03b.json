@@ -1,0 +1,91 @@
+{
+  "name": "Chanty of the Wind",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Chanty of the Wind",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Manann",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 or more favour; must be under the open sky and able to sing or play a musical instrument</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure a stiff breeze, sufficient to propel a boat slowly or impose a  penalty to relevant checks and actions</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You conjure a stiff breeze, sufficient to propel a boat slowly or impose a  penalty to relevant checks and actions</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Chanty of the Wind",
+      "type": "blessing",
+      "traits": "Ongoing,Rank 2,Manann",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>4 or more favour; must be under the open sky and able to sing or play a musical instrument</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure a stiff breeze, sufficient to propel a boat slowly or impose a  penalty to relevant checks and actions</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>You conjure a fierce wind, sufficient to propel a boat quickly or impose a  penalty to relevant checks and actions</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4899162bc25ee03b",
+  "_key": "!items!4899162bc25ee03b"
+}

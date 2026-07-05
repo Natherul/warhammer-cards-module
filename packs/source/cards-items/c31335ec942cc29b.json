@@ -1,0 +1,111 @@
+{
+  "name": "Sigmar's Healing Hand",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sigmar's Healing Hand",
+      "type": "blessing",
+      "traits": "Holy,Ongoing,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>Engaged with target. Clear and present danger must threaten the target or the priest</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A nimbus of holy light surrounds the target, healing and protecting him. The target is healed of 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target is healed of 2 wounds, or 1 critical wound of severity 2 or less is converted into a normal wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this action is recharging, the target's Soak value is increased by 1</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You lose 1 <i>Cunning</i> die from your dice budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>One of the target's critical wounds (of any severity) is cured</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sigmar's Healing Hand",
+      "type": "blessing",
+      "traits": "Holy,Ongoing,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>Used By: Magnus Gottschalk;\r\n<br/>Engaged with target. Clear and present danger must threaten the target or the priest</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A nimbus of holy light surrounds the target, healing and protecting him. The target is healed of 1 wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>The target is healed of 3 wounds, or 1 critical wound of severity 3 or less is converted into a normal wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this action is recharging, the target's Soak value is increased by 1</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lector Gottschalk loses 1 <i>Cunning</i> die from his dice budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Double the effect of any healing done by this blessing (twice as many wounds healed or critical wounds converted)</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c31335ec942cc29b",
+  "_key": "!items!c31335ec942cc29b"
+}

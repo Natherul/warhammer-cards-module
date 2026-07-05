@@ -1,0 +1,14 @@
+{
+  "name": "Shady",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Skullduggery</b> checks gain  K </span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "725e0e4921887a72",
+  "_key": "!items!725e0e4921887a72"
+}

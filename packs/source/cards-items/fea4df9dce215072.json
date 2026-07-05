@@ -1,0 +1,102 @@
+{
+  "name": "Twin-Tailed Comet",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Twin-Tailed Comet",
+      "type": "blessing",
+      "traits": "Rank 2,Sigmar",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Defence",
+      "requirements": "<p>7 favour, medium range to the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A brilliant twin-tailed comet streaks from your hand and strikes your target for 7 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This attack ignores the soak value of your target's armour</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Twin-Tailed Comet",
+      "type": "blessing",
+      "traits": "Rank 2,Sigmar",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Defence",
+      "requirements": "<p>7 favour medium range to the target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A brilliant twin-tailed comet streaks from your hand and strikes your target for 7 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 5+ <b>Willpower</b> damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>This attack ignores the soak value of your target's armour</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 3 favour immediately</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fea4df9dce215072",
+  "_key": "!items!fea4df9dce215072"
+}

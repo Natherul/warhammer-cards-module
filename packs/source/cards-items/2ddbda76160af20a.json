@@ -1,0 +1,101 @@
+{
+  "name": "Kindly Words",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Kindly Words",
+      "type": "blessing",
+      "traits": "Rank 3,Social,Shallya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>4 favour. Target must be blessing to hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You speak of the kindness of the goddess. If appropriate, you Influence the target and the target may not attack you until the end of the act or until you perform a hostile action towards the target or his allies (whichever comes first)</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and the target may not perform any hostile action whatsoever until the end of the act or until the target is attacked or is the target of a hostile action (whichever comes first)</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the target each recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Move the party tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Kindly Words",
+      "type": "blessing",
+      "traits": "Rank 3,Social,Shallya",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>4 favour. Target must be able to hear and understand you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You speak of the kindness of the goddess. If appropriate, you Influence the target and the target may not attack you until the end of the act or until you perform a hostile action towards the target or his allies (whichever comes first)</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, and you affect a number of additional targets equal to your character rank. These additional targets must have <b>Willpower</b> no higher than the first target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the target(s) each recover 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 3,
+            "description": "<p>Move the party tension meter 1 space to the right</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2ddbda76160af20a",
+  "_key": "!items!2ddbda76160af20a"
+}

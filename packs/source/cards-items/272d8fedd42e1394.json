@@ -1,0 +1,111 @@
+{
+  "name": "Ruinous Attack",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Ruinous Attack",
+      "type": "melee",
+      "traits": "Chaos,Monstrous",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Melee weapon, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You rush forward, laying about with your weapon. The target is struck for normal damage, and you may add 1 recharge token to any one of the target's currently recharging cards</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but you may add 1 recharge token to up to three of the target's currently recharging cards instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+3 Damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound. If you are a Chaos Warrior or bear a Mark of Chaos, this attack immediately recharges</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Ruinous Attack",
+      "type": "melee",
+      "traits": "Chaos,Monstrous",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Marauder, Chaos Warrior\r\n<br/>Melee weapon, target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>A servant of Chaos rushes forward, laying about with its weapon. The target is struck for normal damage, and the GM may add 1 recharge token to any one of the target's currently recharging cards</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target is struck for +1 damage, and the GM may add 1 recharge token to any two of the target's currently recharging cards</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+3 Damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound. If the attacker is a Chaos Warrior, this attack immediately recharges</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "272d8fedd42e1394",
+  "_key": "!items!272d8fedd42e1394"
+}

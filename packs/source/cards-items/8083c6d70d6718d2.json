@@ -1,0 +1,14 @@
+{
+  "name": "Ghur, The Lore of Beasts, Amber Order",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>While you are in <i>Beastform</i>, you may spend 1 power to perform an extra manoeuvre on your turn. You may only gain 1 extra manoeuvre per turn.</span>\n</p>",
+    "type": "Order",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8083c6d70d6718d2",
+  "_key": "!items!8083c6d70d6718d2"
+}

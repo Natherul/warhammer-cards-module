@@ -1,0 +1,109 @@
+{
+  "name": "Sudden Knife",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sudden Knife",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag) vs Target Defence",
+      "requirements": "<p>Target within close range. Not visibly armed or target does not suspect you of being an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You produce a dagger or similar weapon as if by magic and hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target may not move closer to you on its next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your attack is very subtle. Characters further than close range must pass <b>Average</b> (<b>2d</b>)<b>Observation</b> (<b>Int</b>) checks to notice that you made an attack</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your attack is very obvious and clearly visible to all characters within long range</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sudden Knife",
+      "type": "ranged",
+      "traits": "",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Skulduggery (Ag) vs Target Defence",
+      "requirements": "<p>Target within close range. Not visibly armed or target does not suspect you of being an enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You produce a dagger or similar weapon as if by magic and hit the target for normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target may not move closer to you on its next turn</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your attack is very obvious and clearly visible to all characters within long range</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "519d68f9e52f345b",
+  "_key": "!items!519d68f9e52f345b"
+}

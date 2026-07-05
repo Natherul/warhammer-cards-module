@@ -1,0 +1,103 @@
+{
+  "name": "Assess the Situation",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Assess_the_Situation.jpg",
+  "system": {
+    "conservative": {
+      "name": "Assess the Situation",
+      "type": "support",
+      "traits": "Basic,Defence",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 fatigue and 1 stress. Until the start of your next turn, add  to any <i>Melee Attack</i> or <i>Ranged Attack</i> actions targeting you.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from one of your cards.</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The GM may add 1 recharge token to one of your cards.</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Add  to this action's dice pool if you are engaged with an enemy.</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Assess the Situation",
+      "type": "support",
+      "traits": "Basic,Defence",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intuition (Int)",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 fatigue and 1 stress. Until the start of your next turn, add  to any <i>Melee Attack</i> or <i>Ranged Attack</i> actions targeting you.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from one of your cards.</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The GM may add 1 recharge token to one of your cards.</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Add  to this action's dice pool if you are engaged with an enemy.</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f1e8b896671ba403",
+  "_key": "!items!f1e8b896671ba403"
+}

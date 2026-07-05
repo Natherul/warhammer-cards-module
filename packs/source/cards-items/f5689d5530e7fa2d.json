@@ -1,0 +1,118 @@
+{
+  "name": "Shroud of Invisibility",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shroud of Invisibility",
+      "type": "spell",
+      "traits": "Ongoing,Rank 2,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The spell briefly severs your connection to the material world. Move to any location within long range, ignoring al obstacles</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You veil yourself from sight. While this card is recharging, you are invisible. Characters within close range may make a <b>Hard</b> (<b>3d</b>) <b>Observation</b> (<b>Int</b>) <b>check</b> to detect your approximate location, but add  to all actions that target you even after you have been detected. Your <i>Melee Attack</i> and <i>Ranged Attack</i> actions that target characters who have not detected you gain</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shroud of Invisibility",
+      "type": "spell",
+      "traits": "Ongoing,Rank 2,Grey Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>5 power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may also veil 1 willing creature as long as he remains engaged with you</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Remove 2 recharge tokens from this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Veiled creatures can't see each other</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may veil some or all of the creatures engaged with you for as long as they remain engaged with you</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You veil yourself from sight. While this card is recharging, you are invisible. Characters within close range may make a <b>Hard</b> (<b>3d</b>) <b>Observation</b> (<b>Int</b>) <b>check</b> to detect your approximate location, but add  to all actions that target you even after you have been detected. Your <i>Melee Attack</i> and <i>Ranged Attack</i> actions that target characters who have not detected you gain</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f5689d5530e7fa2d",
+  "_key": "!items!f5689d5530e7fa2d"
+}

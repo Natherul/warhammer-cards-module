@@ -1,0 +1,116 @@
+{
+  "name": "Beguile",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Beguile",
+      "type": "support",
+      "traits": "Ongoing,Supernatural,Undead",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Discipline (WP)",
+      "requirements": "<p>Eye contact with target within close range. Add <span class=\"wfrp-font challenge\">L</span> if you are engaged with another enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You beguile the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All attempts to resist gain</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>All attempts to resist gain</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All attempts to resist gain</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target will remember nothing that happens while this card recharges</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Beguile",
+      "type": "support",
+      "traits": "Supernatural,Undead",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Charm (Fel) vs Discipline (WP)",
+      "requirements": "<p>Eye contact with target within close range. Add <span class=\"wfrp-font challenge\">L</span> if you are engaged with another enemy</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You beguile the target momentarily and force him to comment a single, sudden act. The target immediately performs one of his available actions of your choice. You make all relevant decisions for the target, such as who to target or how to spend  boons. You can't force the target to spend fortune or suffer fatigue, stress, or wounds as part of the requirements of playing the action, nor to do something obviously suicidal</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may also force the target to perform a single manoeuvre</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Place 2 fewer recharge tokens on this card</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Place 2 recharge tokens on this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 2 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>On your next turn, the target must again perform the action of your choice, as above</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "56603a1b935cd0aa",
+  "_key": "!items!56603a1b935cd0aa"
+}

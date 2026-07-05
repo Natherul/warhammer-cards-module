@@ -1,0 +1,119 @@
+{
+  "name": "Overrun (Tzeentch)",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Overrun (Tzeentch)",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Not engaged with target. Target within medium range. Must be able to fly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You use your sheer bulk in an effort to overwhelm your foes. The attack inflicts normal damage to the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, +1 damage and you hit an additional target in the same engagement</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and all affected targets gain the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies in the target's engagement are knocked prone, unless they suffer 1 fatigue to remain on their feet</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Overrun (Tzeentch)",
+      "type": "melee",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used By: Screamer & Disc of Tzeentch\r\n<br/>Not engaged with target. Target within medium range. Must be able to fly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You use your sheer bulk in an effort to overwhelm your foes. The attack inflicts normal damage to the target</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The attack inflicts normal damage to up to 2 additional targets in the same engagement as the primary target</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and all affected targets gain the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies in the target's engagement are knocked prone, unless they suffer 1 fatigue to remain on their feet</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target may perform a free manoeuvre</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ad3c32304a46a7ec",
+  "_key": "!items!ad3c32304a46a7ec"
+}

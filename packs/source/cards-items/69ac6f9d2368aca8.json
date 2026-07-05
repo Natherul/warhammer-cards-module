@@ -1,0 +1,121 @@
+{
+  "name": "Annihilate Undead",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Annihilate Undead",
+      "type": "blessing",
+      "traits": "Epic,Morr,Rank 5",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour,\r\n<br/>Target undead creature within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With an unearthly howl, your target is cast into Morr's realm. The target suffers 12 wounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 24 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each other undead creature that can see you suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all allies within medium range of you suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Immediately gain 2 favour</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Annihilate Undead",
+      "type": "blessing",
+      "traits": "Epic,Morr,Rank 5",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>6 favour,\r\n<br/>Target undead creature within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>With an unearthly howl, your target is cast into Morr's realm. The target suffers 12 wounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 24 wounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>If the target survives, turn all of his normal wounds faceup, choose 1 to apply as a critical wound, and turn the rest facedown again</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Add 1 recharge token to this card</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and all allies within medium range of you suffer 1 stress</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Immediately gain 2 favour</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "69ac6f9d2368aca8",
+  "_key": "!items!69ac6f9d2368aca8"
+}

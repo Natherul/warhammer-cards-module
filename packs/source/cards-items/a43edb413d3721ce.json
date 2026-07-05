@@ -1,0 +1,14 @@
+{
+  "name": "Serene",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you succeed at a <b>Willpower</b> check to recover stress, you may recover one additional stress</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a43edb413d3721ce",
+  "_key": "!items!a43edb413d3721ce"
+}

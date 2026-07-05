@@ -1,0 +1,83 @@
+{
+  "name": "The Final Portent of Amul",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Final Portent of Amul",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Celestial Order,Rank 5",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>You must spend at least 1 hour studying the stars through a telescope of Superior quality</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell as above</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 fortune point to the party fortune pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Final Portent of Amul",
+      "type": "spell",
+      "traits": "Epic,Ongoing,Celestial Order,Rank 5",
+      "rechargeRating": 1,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>You must spend at least 1 hour studying the stars through a telescope of Superior quality</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell as above</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 fortune point to the party fortune pool</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "039ab0edf4f5ebd8",
+  "_key": "!items!039ab0edf4f5ebd8"
+}

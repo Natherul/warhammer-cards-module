@@ -1,0 +1,101 @@
+{
+  "name": "Feint",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Feint",
+      "type": "melee",
+      "traits": "Clan Eshin,Dark Elf",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cunningly fake an attack causing your target to strike out at you aggressively, possibly opening themselves up for another attack. You hit for -2 damage and your next attack against the target gains</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but you hit for normal damage and your target suffers 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may perform a free manoeuvre and your target gains the <i>Exposed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feint",
+      "type": "melee",
+      "traits": "Clan Eshin,Dark Elf",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Target Discipline (WP)",
+      "requirements": "<p>Melee weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fake an aggressive attack, forcing your target to take a defensive approach. You hit for -2 damage and your next attack against the target gains</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but you hit for normal damage and your target suffers 1 fatigue</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You may perform a free manoeuvre and your target gains the <i>Exposed</i> condition while this card is recharging</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 2 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "88e422acefad0293",
+  "_key": "!items!88e422acefad0293"
+}

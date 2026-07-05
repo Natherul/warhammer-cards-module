@@ -1,0 +1,83 @@
+{
+  "name": "Judgement of Beasts",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Judgement of Beasts",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Amber Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Charm (Fel)",
+      "requirements": "<p>9 power, target within line of sight or marked with the blood of a natural beast</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Beasts hate not only the target, but all within close range of him at any given time</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Judgement of Beasts",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Amber Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Charm (Fel)",
+      "requirements": "<p>9 power, target within line of sight or marked with the blood of natural beasts</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Beasts hate not only the target, but all within close range of him at any given time</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3ca511bd4f0df5c3",
+  "_key": "!items!3ca511bd4f0df5c3"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Sigmar's Light",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Sigmar's Light",
+      "type": "blessing",
+      "traits": "Rank 3,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour, must proudly hold forth a symbol of your faith</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You glow with holy light, illuminating those tainted by corruption! Each character or object in your line of sight who has 1 or more corruption is revealed to you as a glowing light</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the intensity of the light gives you a relative sense of how corrupted and trained the characters are. Daemons are the most corrupt, followed by mutants and those bearing a Mask of Chaos, and finally ordinary people with corruption below the corruption threshold</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain an inkling of the direction to the closest, strongest source or corruption in the area, even if it's not in sight</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress per corrupted character within close range</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Sigmar's Light",
+      "type": "blessing",
+      "traits": "Rank 3,Sigmar",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>8 favour, must proudly hold forth a symbol of your faith</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You glow with holy light, illuminating those tainted by corruption! Each character or object in your line of sight who has 1 or more corruption is revealed to you as a glowing light</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the intensity of the light gives you a relative sense of how corrupted and trained the characters are. Daemons are the most corrupt, followed by mutants and those bearing a Mask of Chaos, and finally ordinary people with corruption below the corruption threshold</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain an inkling of the direction to the closest, strongest source or corruption in the area, even if it's not in sight</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 stress per corrupted character within close range</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c870d1beeeb56bd4",
+  "_key": "!items!c870d1beeeb56bd4"
+}

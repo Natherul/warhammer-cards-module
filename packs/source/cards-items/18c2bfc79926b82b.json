@@ -1,0 +1,14 @@
+{
+  "name": "Intimidating Presence",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Intimidate</b> checks gain:\r\n<br></br> {Dboon}  The target suffers 1 stress</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "18c2bfc79926b82b",
+  "_key": "!items!18c2bfc79926b82b"
+}

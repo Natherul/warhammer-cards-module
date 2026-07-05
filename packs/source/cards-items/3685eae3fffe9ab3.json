@@ -1,0 +1,63 @@
+{
+  "name": "Stilled Breath",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Stilled Breath",
+      "type": "ranged",
+      "traits": "Enhance,Hunter's Eye",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "",
+      "requirements": "<p>Bow or crossbow equipped. Observation trained. Enhances a <i>Ranged Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Stilled Breath",
+      "type": "ranged",
+      "traits": "Enhance,Hunter's Eye",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "",
+      "requirements": "<p>Bow or Crossbow equipped. Observation trained. Enhances a <i>Ranged Attack</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3685eae3fffe9ab3",
+  "_key": "!items!3685eae3fffe9ab3"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Calm Down",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Calm Down",
+      "type": "support",
+      "traits": "Social,Support",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>Ally must be able to see and hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target visibly calms and his actions become more cautious. Your target may move his stance marker 1 space more conservative</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but up to 2 spaces more conservative</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Incite",
+      "type": "support",
+      "traits": "Social,Support",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Leadership (Fel)",
+      "requirements": "<p>Ally must be able to see and hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target visibly rouses and his actions become more impulsive. Your target may move his stance marker 1 space more reckless</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but up to 2 spaces more reckless</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "80899d8723e3f861",
+  "_key": "!items!80899d8723e3f861"
+}

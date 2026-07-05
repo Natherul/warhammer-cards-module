@@ -1,0 +1,83 @@
+{
+  "name": "The Gates of Sleep",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "The Gates of Sleep",
+      "type": "blessing",
+      "traits": "Rank 4,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Resilience (To)",
+      "requirements": "<p>7 favour. Engaged with target, who must be a living creature</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You touch the target's eyelids and he is overcome with sleep, immediately lying down to snore peacefully. He remains asleep until you permit him to awaken, he suffers any damage or wounds, or the sun comes up, whichever comes first</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fall asleep as well and remain asleep for as long as well and remain asleep for as long as the target does. Your dreams are mingled with t he target's, a disturbing and possibly enlightening experience.</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "The Gates of Sleep",
+      "type": "blessing",
+      "traits": "Rank 4,Morr",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel) vs Target Resilience (To)",
+      "requirements": "<p>7 favour. Engaged with target, who must be a living creature</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You touch the target's eyelids and he is overcome with sleep, immediately lying down to snore peacefully. He remains asleep until you permit him to awaken, he suffers any damage or wounds, or the sun comes up, whichever comes first</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fall asleep as well and remain asleep for as long as well and remain asleep for as long as the target does. Your dreams are mingled with t he target's, a disturbing and possibly enlightening experience.</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "120ddf200b009c58",
+  "_key": "!items!120ddf200b009c58"
+}

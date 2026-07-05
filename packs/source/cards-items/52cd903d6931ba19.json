@@ -1,0 +1,101 @@
+{
+  "name": "Skulltaker",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Skulltaker.jpg",
+  "system": {
+    "conservative": {
+      "name": "Skulltaker",
+      "type": "support",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Highest Target Discipline (WP)",
+      "requirements": "<p>Engaged with the body of a recently fallen foe, targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You burn the flesh from the skull of a defeated foe, claiming another skull for the skull throne. All followers of Khorne within medium range gain the <i>Inspired</i> condition</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and all enemies within medium range gain the <i>Demoralised</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 follower of Khorne within medium range gains the <i>Frenzied</i> condition</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Skulltaker",
+      "type": "support",
+      "traits": "Chaos,Daemonic,Khorne",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St) vs Highest Target Discipline (WP)",
+      "requirements": "<p>Engaged with the body of a recently-fallen foe, targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You burn the flesh from the skull of a defeated foe, claiming another skull for the skull throne. All enemies within medium range gain the <i>Demoralised</i> condition</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and all followers of Khorne within medium range gain the <i>Inspired</i> condition</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>1 follower of Khorne within medium range gains the <i>Frenzied</i> condition</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 wound</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "52cd903d6931ba19",
+  "_key": "!items!52cd903d6931ba19"
+}

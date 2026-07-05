@@ -1,0 +1,131 @@
+{
+  "name": "Melkoth's Mystifying Miasma",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Melkoth's Mystifying Miasma",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Grey Order",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>4 power\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure a numbing fog around the target, causing him to stumble and stagger</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target suffers 1 stress</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target adds  to his next action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 1 recharge token to 1 of your currently recharging <i>Grey Order</i> spells</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this action is recharging, the target adds  to the dice pool of all of his actions. If you have Spellcraft Mastery, add  instead</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Melkoth's Mystifying Miasma",
+      "type": "spell",
+      "traits": "Ongoing,Rank 1,Grey Order",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Discipline (WP)",
+      "requirements": "<p>3 power per target.\r\n<br/>Targets within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure a numbing fog around the target, causing him to stumble and stagger</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and add 1 recharge token to this action</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 target adds  to his next action{primary}</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>1 target adds  to his next action{secondary}</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Each target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Remove 1 recharge token from this action</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your next action</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> While this action is recharging, the target adds  to the dice pool of all of his actions. if you have Spellcraft Mastery, add  instead</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ed70bfacf63abf8e",
+  "_key": "!items!ed70bfacf63abf8e"
+}

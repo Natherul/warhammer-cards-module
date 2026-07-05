@@ -1,0 +1,111 @@
+{
+  "name": "Seize the Initiative",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Seize the Initiative",
+      "type": "blessing",
+      "traits": "Rank 1,Myrmidia,Teamwork",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. I you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Myrmidia grants you tactical insight and acumen. You may add 1 PC initiative token to the current space on the initiative track</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may remove 1 recharge token from a card belonging to you or an ally within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The next time 1 of your allies acts during this round, he gains  to his dice pool for his action</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Seize the Initiative",
+      "type": "blessing",
+      "traits": "Rank 1,Myrmidia,Teamwork",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>5 favour. If you are engaged with an enemy, add <span class=\"wfrp-font misfortune\">K</span><span class=\"wfrp-font misfortune\">K</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Myrmidia grants you tactical insight and acumen. You may add 1 PC initiative token to the current space on the initiative track</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may remove 1 recharge token from a card belonging to you or an ally within close range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Choose 1 enemy initiative token that has not yet acted this round and move it 1 space down the initiative track</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "22d3f11e2be252cc",
+  "_key": "!items!22d3f11e2be252cc"
+}

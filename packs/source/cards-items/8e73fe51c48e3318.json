@@ -1,0 +1,14 @@
+{
+  "name": "Unshakable",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  K  to any <b>Intimidation</b> checks targeting you</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8e73fe51c48e3318",
+  "_key": "!items!8e73fe51c48e3318"
+}

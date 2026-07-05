@@ -1,0 +1,14 @@
+{
+  "name": "Righteous Servant",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you recover or lose favour during your <i>End of Turn</i> phase due to not being at equilibrium, you recover or lose 1 additional favour (unless this would take you past equilibrium)</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "73c4c02f0e15babc",
+  "_key": "!items!73c4c02f0e15babc"
+}

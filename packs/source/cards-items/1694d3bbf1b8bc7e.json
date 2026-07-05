@@ -1,0 +1,14 @@
+{
+  "name": "Death Pact",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Enemies engaged with your familiar have their wound thresholds reduced by 1 (to a minimum of 1).</span>\n</p>",
+    "type": "Pact",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1694d3bbf1b8bc7e",
+  "_key": "!items!1694d3bbf1b8bc7e"
+}

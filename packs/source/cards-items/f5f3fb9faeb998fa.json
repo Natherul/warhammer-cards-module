@@ -1,0 +1,109 @@
+{
+  "name": "Enticing Delusions",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Enticing Delusions",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Slaanesh",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>5 Power\r\n<br/>Target within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Reaching within the mind of your target, you create an illusion of his deepest desire, and dangle it in front of him. you may immediately force the target to make a movement manoeuvre. The target does not lose his desire for self-preservation and cannot be forced to walk off a cliff or into an open flame. He will however endanger himself to a reasonable degree, and can be forced to engage with an enemy</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 movement manoeuvres instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound per point of the target's current corruption</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Enticing Delusions",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Slaanesh",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>5 Power\r\n<br/>Target within long range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Reaching within the mind of your target, you create an illusion of his deepest desire, and dangle it in front of him. you may immediately force the target to make a movement manoeuvre. The target does not lose his desire for self-preservation and cannot be forced to walk off a cliff or into an open flame. He will however endanger himself to a reasonable degree, and can be forced to engage with an enemy</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 2 movement manoeuvres instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 corruption</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Until your next turn, all attacks that include you as a target gain</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f5f3fb9faeb998fa",
+  "_key": "!items!f5f3fb9faeb998fa"
+}

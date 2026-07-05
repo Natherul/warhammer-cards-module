@@ -1,0 +1,14 @@
+{
+  "name": "Fearless",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Add  K  to all <b>Discipline</b> checks to resist <i>Fear</i> or <i>Terror</i>\n<br></br><br></br> Exhaust this card to reroll a failed <b>Discipline</b> check against <i>Fear</i> or <i>Terror</i> rating</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "28af29c3fcfa1b71",
+  "_key": "!items!28af29c3fcfa1b71"
+}

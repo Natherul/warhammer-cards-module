@@ -1,0 +1,141 @@
+{
+  "name": "Blazing Sun",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Blazing Sun",
+      "type": "blessing",
+      "traits": "Rank 3,Myrmidia",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure up an enormous blazing sun, which streaks to your target and strikes him for 5+ <b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, plus additional damage equal to the target's highest severity critical wound</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target's armour soak value is ignored against this blessing</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+ <b>Fellowship</b> damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each enemy within medium range gains the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 3 favour immediately</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Blazing Sun",
+      "type": "blessing",
+      "traits": "Rank 3,Myrmidia",
+      "rechargeRating": 7,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>7 favour, target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure up an enormous blazing sun, which streaks to your target and strikes him for 5+ <b>Willpower</b> damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, + <b>Fellowship</b> damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Plus additional damage equal to the target's highest severity critical wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>Each enemy within medium range gains the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain the <i>Blinded</i> condition for 2 rounds</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 3 favour immediately</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1fb59686eeaa3626",
+  "_key": "!items!1fb59686eeaa3626"
+}

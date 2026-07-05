@@ -1,0 +1,110 @@
+{
+  "name": "Insulting Blow",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Insulting Blow",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Fel) vs Target Defence",
+      "requirements": "<p>Dagger, hand weapon, or fencing weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for -1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus make a <b>Guile (Fel) check vs. Discipline (WP)</b>. If you succeed, +3 damage and the target gains the <i>Rattled</i> condition for 3 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>-1 damage</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Insulting Blow",
+      "type": "melee",
+      "traits": "",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Fel) vs Target Defence",
+      "requirements": "<p>Dagger, hand weapon, or fencing weapon equipped, engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit for -1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, plus make a <b>Guile (Fel) check vs. Discipline (WP)</b>. If you succeed, +3 damage and the target gains the <i>Rattled</i> condition for 3 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue and 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may use <b>Fellowship</b> rather than <b>Strength</b> to determine your damaged</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "53f38cb940f2113c",
+  "_key": "!items!53f38cb940f2113c"
+}

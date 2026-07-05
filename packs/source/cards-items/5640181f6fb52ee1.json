@@ -1,0 +1,113 @@
+{
+  "name": "Wings of Fire",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Wings of Fire",
+      "type": "spell",
+      "traits": "Rank 3,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power, must perform the prepare manoeuvre before casting this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are borne aloft on wings of flame, flying to a new location within close range. You suffer no penalty for terrain or enemies that you fly over</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but out to medium range</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but out to long range</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You land heavily and fall prone</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Wings of Fire",
+      "type": "spell",
+      "traits": "Rank 3,Bright Order",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power, must perform the prepare maneuver before casting this spell</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are borne aloft on wings of flame, flying to a new location within close range. You suffer no penalty for terrain or enemies that you fly over</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and you sear all enemies in the engagement you leave for 2 wounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You sear all enemies you land engaged with for 2 wounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You land heavily and fall prone</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5640181f6fb52ee1",
+  "_key": "!items!5640181f6fb52ee1"
+}

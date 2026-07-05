@@ -1,0 +1,108 @@
+{
+  "name": "Final Words",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Final Words",
+      "type": "spell",
+      "traits": "Rally,Rank 2,Amethyst Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. Your target must be the corpse of a creature that had a soul (e.g. it cannot be a daemon or undead). The target must have died within close range of your during this encounter</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure up the spirit of the deceased and may ask it any 1 question. The spirit is not compelled to answer truthfully, but it cannot move on to Morr's realm until it gives you a reply. This spell does not confer any special comprehension to either you or the spirit - if you do not share a language, communication will be difficult!</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are able to comprehend and communicate with the spirit regardless of the languages it knew in life</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Everyone within close range suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The spirit stays until it chooses to leave or dismiss it; it can answer multiple questions if it so desires, but cannot leave the place where it died</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Final Words",
+      "type": "spell",
+      "traits": "Rally,Rank 2,Amethyst Order",
+      "rechargeRating": 0,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. Your target must be the corpse of a creature that had a soul (e.g. it cannot be a daemon or undead). The target must have dried within close range of you during this encounter</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You conjure up the spirit of the deceased and may ask it any 1 question. The spirit is not compelled to answer truthfully, but it cannot move on to Morr's realm until it gives you a reply. This spell does not confer any special comprehension to either you or the spirit - if you do not share a language, communication will be difficult!</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are able to comprehend and communicate with the spirit regardless of the languages it knew in life</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Everyone within close range suffers 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You are compelled to do a service for the spirit before it answers (GM's choice)</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The spirit is compelled to answer truthfully, to the best of its knowledge</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "df23398a79c2cbfc",
+  "_key": "!items!df23398a79c2cbfc"
+}

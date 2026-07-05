@@ -1,0 +1,14 @@
+{
+  "name": "Outgoing",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this card to completely recharge a <i>Social</i> action</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e60340c5328bd1bd",
+  "_key": "!items!e60340c5328bd1bd"
+}

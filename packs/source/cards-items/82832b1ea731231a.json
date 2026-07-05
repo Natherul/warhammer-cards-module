@@ -1,0 +1,100 @@
+{
+  "name": "Shade Strike",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Shade Strike",
+      "type": "melee",
+      "traits": "Dark Elf",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Spc) vs Target Defence",
+      "requirements": "<p>Engaged with target, sword or dagger equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You wait for your moment and dash in with a deep, cutting strike. You hit for -1 damage, +1 critical</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +1 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your cunning attack surprises and distracts your opponent; add 2 recharge tokens to 1 of his recharging actions</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Shade Strike",
+      "type": "melee",
+      "traits": "Dark Elf",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (Spc) vs Target Defence",
+      "requirements": "<p>Engaged with target, sword or dagger equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You dart in quickly and hit for normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and your attack gains <i>Pierce 2</i></p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>If your attack is governed by <b>Strength</b>, + <b>Agility</b> damage. If governed by <b>Agility</b>, + <b>Strength</b> damage</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "82832b1ea731231a",
+  "_key": "!items!82832b1ea731231a"
+}

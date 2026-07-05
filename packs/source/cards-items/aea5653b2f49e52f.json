@@ -1,0 +1,103 @@
+{
+  "name": "Maelstrom",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Maelstrom",
+      "type": "blessing",
+      "traits": "Epic,Ongoing,Manann,Rank 5",
+      "rechargeRating": 12,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>10 Favour. There must be a sizable body of water within long range to focus the maelstrom upon</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> A storm of incredible size and strength lashes the seas around you out to extreme range while this blessing is recharging. Wind, rain, and sea spray add  to all checks against the targets that are not engaged with the active player, or any other checks that the GM rules would be affected. Anyone attempting to swim or otherwise navigate the storm-tossed waters must pass a <b>Heroic</b> (<b>5d</b>) <b>check</b> of a relevant skill. Failure may be fatal at the GM's discretion!</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all your allies are swept away by the storm. Where (and whether) you wash up is in the hands of the GM</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You, or the vessel on which you stand, may pass safely through the maelstrom</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Maelstrom",
+      "type": "blessing",
+      "traits": "Epic,Ongoing,Manann,Rank 5",
+      "rechargeRating": 12,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>10 Favour. There must be a sizable body of water within long range to focus the maelstrom upon</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You invoke the blessing</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p><b>Effect:</b> A storm of incredible size and strength lashes the seas around you out to extreme range while this blessing is recharging. Wind, rain, and sea spray add  to all checks against the targets that are not engaged with the active player, or any other checks that the GM rules would be affected. Anyone attempting to swim or otherwise navigate the storm-tossed waters must pass a <b>Heroic</b> (<b>5d</b>) <b>check</b> of a relevant skill. Failure may be fatal at the GM's discretion!</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and all your allies are swept away by the storm. Where (and whether) you wash up is in the hands of the GM</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You, or the vessel on which you stand, may pass safely through the maelstrom</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "aea5653b2f49e52f",
+  "_key": "!items!aea5653b2f49e52f"
+}

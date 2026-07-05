@@ -1,0 +1,119 @@
+{
+  "name": "Birona's Time Warp",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Birona's Time Warp",
+      "type": "spell",
+      "traits": "Rank 4,Reaction,Light Order",
+      "rechargeRating": 12,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>9 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Light flares from your fingertips, impossibly bright, washing away color and detail from all but your allies. During the next round, ignore all initiative tokens except for 1 hero token</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but up to 3 hero tokens</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but all hero tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies within medium range recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fall into a time warp of your own. You skip your turn during the next round, but you also ignore all actions and other effects during the next round -it's as if you don't exist!</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Allies within medium range add  to their actions during the time warp</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Birona's Time Warp",
+      "type": "spell",
+      "traits": "Rank 4,Reaction,Light Order",
+      "rechargeRating": 12,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>9 Power</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Light flares from your fingertips, impossibly bright, washing away color and detail from all but your allies. During the next round, ignore all initiative tokens except for 1 hero token</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but up to 3 hero tokens</p>"
+          },
+          {
+            "symbolAmount": 4,
+            "description": "<p>As above, but all hero tokens</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Allies within medium range recover 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You fall into a time warp of your own. You skip your turn during the next round, but you also ignore all actions and other effects during the next round -it's as if you don't exist!</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Allies within medium range add  to their actions during the time warp</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b4c11a77d2ea11bc",
+  "_key": "!items!b4c11a77d2ea11bc"
+}

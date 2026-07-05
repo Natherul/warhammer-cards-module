@@ -1,0 +1,14 @@
+{
+  "name": "Creative Thinking",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Exhaust this talent to choose and equip a new talent that you possess of any type in this slot; that talent remans equipped until <b>Creative Thinking</b> recharges.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dc92a4b3d5dc7c89",
+  "_key": "!items!dc92a4b3d5dc7c89"
+}

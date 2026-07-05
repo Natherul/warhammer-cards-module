@@ -1,0 +1,106 @@
+{
+  "name": "Traitor of Tarn",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Traitor of Tarn",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Grey Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 power\r\n<br/>Target living creature within medium range. The target must be either casting a shadow or suffering from one of your <i>Grey Order</i> spells</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may spend fortune points to add  to the target's dice pool</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target is unaware of your control until you force him to act</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You steal the target's shadow and seize control of him. While this spell is recharging, you and the target both control his body. He acts normally on his turn, but on your turn you may act through him, using his characteristics, talents, and actions. If you take actions both through the target and yourself in the same turn, each additional action suffers . You can't force the target to take extra maneuvers or directly injure himself</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Traitor of Tarn",
+      "type": "spell",
+      "traits": "Ongoing,Rank 3,Grey Order",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>8 power\r\n<br/>Target living creature within medium range. The target must be either casting a shadow or suffering from one of your <i>Grey Order</i> spells</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you may immediately take an action through the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target immediately suffers 2 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You steal the target's shadow and seize control of him. While this spell is recharging, you and the target both control his body. He acts normally on his turn, but on your turn you may act through him, using his characteristics, talents, and actions. If you take actions both through the target and yourself in the same turn, each additional action suffers . You can't force the target to take extra maneuvers or directly injure himself</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0fb44aa9719badcc",
+  "_key": "!items!0fb44aa9719badcc"
+}

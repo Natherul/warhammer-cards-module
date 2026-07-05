@@ -1,0 +1,14 @@
+{
+  "name": "Measure Twice, Cut Once",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <i>Tradecraft</i>, <i>Dwarf Engineering</i>, and <i>Education</i> checks in <i>Conservative</i> stance gain:\r\n<br></br> I  Add  {Dboon}  {Dboon}  to the results pool, in addition to the normal  I  effects</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "3d955f629308d6b0",
+  "_key": "!items!3d955f629308d6b0"
+}

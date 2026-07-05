@@ -1,0 +1,119 @@
+{
+  "name": "Lash of Slaanesh",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Lash of Slaanesh",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>3 Power\r\n<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You create a long tongue-like whip of pure energy and slash your target, leaving him convulsing. You hit the target for 4+ <b>Intelligence</b> damage and he gains the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target gains the <i>Weakened</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 wound</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Lose 2 power</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target suffers 1 wound plus 1 additional wound for each condition currently affecting him, including any conditions gained from <b>Lash of Slaanesh</b></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Lash of Slaanesh",
+      "type": "spell",
+      "traits": "Chaos,Rank 1,Slaanesh",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>3 Power\r\n<br/>Target within close range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You create a long tongue-like whip of pure energy and slash your target, leaving him convulsing. You hit the target for 4+ <b>Intelligence</b> damage and he gains the <i>Overwhelmed</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 6+ <b>Intelligence</b> damage instead and the target gains the <i>Exposed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Each target suffers 1 corruption</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 stress and 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your target suffers 1 wound plus 1 additional wound for each condition currently affecting him, including any conditions gained from <b>Lash of Slaanesh</b></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "9253124c0cc3e5d1",
+  "_key": "!items!9253124c0cc3e5d1"
+}

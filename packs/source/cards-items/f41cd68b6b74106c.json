@@ -1,0 +1,63 @@
+{
+  "name": "Spellweaving",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Spellweaving",
+      "type": "spell",
+      "traits": "Epic,Enhance",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Channeling and Spellcraft Mastery. You must be holding power in excess of your Equilibrium. Enhances a <i>Spell</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Spellweaving",
+      "type": "spell",
+      "traits": "Epic,Enhance",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "No Check",
+      "requirements": "<p>Channeling and Spellcraft Mastery. You must be holding power in excess of your Equilibrium. Enhances a <i>Spell</i></p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f41cd68b6b74106c",
+  "_key": "!items!f41cd68b6b74106c"
+}

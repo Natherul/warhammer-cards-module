@@ -1,0 +1,119 @@
+{
+  "name": "Inferno of U'zhul",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Inferno of U'zhul",
+      "type": "spell",
+      "traits": "Epic,Bright Order,Rank 5",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. You must have at least one other <i>Bright Order</i> spell recharging. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The flickering flames of all your <i>Bright Order</i> spells rekindle and flare into a mighty inferno. You strike the target for 4+ <b>Intelligence</b> damage, +1 damage for each of your <i>Bright Order</i> spells (aside from this one) that is currently recharging</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 wound per <i>Bright Order</i> spell you have currently recharging (aside from this one)</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Reveal critical wounds from the top of the wound deck until their total severity exceeds the number of <i>Bright Order</i> spells currently recharging. Discard the last such wound card revealed and apply the rest as critical wounds to the target.</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Inferno of U'zhul",
+      "type": "spell",
+      "traits": "Epic,Bright Order,Rank 5",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int)",
+      "requirements": "<p>6 power. You must have at least one other <i>Bright Order</i> spell recharging. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to your dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The flickering flames of all your <i>Bright Order</i> spells rekindle and flare into a mighty inferno. You strike the target for <b>Intelligence</b> damage, +1 damage for each recharge token on each of your <i>Bright Order</i> spells aside from this one</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, +3 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>+2 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add  to your results pool</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Before resolving this spell, add 1 recharge token to each of your currently recharging <i>Bright Order</i> actions</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>After resolving this spell, remove 1 recharge token from each of your currently recharging <i>Bright Order</i> actions</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "98449508043c511e",
+  "_key": "!items!98449508043c511e"
+}

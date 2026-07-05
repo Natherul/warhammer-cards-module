@@ -1,0 +1,121 @@
+{
+  "name": "Magic Rift",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Magic Rift",
+      "type": "spell",
+      "traits": "Chaos,Tzeentch",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>Must bear the Mark of Tzeentch or be a Servant of Tzeentch. Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You tear a rip in the Winds of Magic, suffusing the target with raw magic energy. The target suffers 3 wounds, or wounds equal to his current power, whichever is higher</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target draws Miscast cards and resolves their effects as if he had cast an arcane spell that generated</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 1 <i>Expertise</i> from your budget</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies in medium range suffer 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Magic Rift",
+      "type": "spell",
+      "traits": "Chaos,Tzeentch",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>Used By: Sorcerer of Tzeentch, Sorcerer Lord of Tzeentch\r\n<br/>Target within medium range</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The sorcerer tears a rip in the Winds of Magic, suffusing the target with raw magic energy. The target draws Miscast cards and resolves their effects as if he had miscast an arcane spell that generated</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target draws Miscast cards and resolves their effects as if he had miscast an arcane spell that generated</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 1 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The attacker loses 1 <i>Expertise</i> from its budget</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All enemies in medium range suffer 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7363ed20b1eae97b",
+  "_key": "!items!7363ed20b1eae97b"
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Feast, My Pet!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Feast, My Pet!",
+      "type": "melee",
+      "traits": "Familiar",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your familiar chomps on the target and feasts! The target is hit for -1 damage and your familiar recovers 1 vigour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 2 vigour instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You recover 1 fatigue or 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Feast, My Pet!",
+      "type": "melee",
+      "traits": "Familiar",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your familiar chomps on the target and feasts! The target is hit for -1 damage and your familiar recovers 1 vigour</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but +2 damage instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+1 critical</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain 1 power</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your familiar revcovers 1 vigour</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "a66380ad8ee99c27",
+  "_key": "!items!a66380ad8ee99c27"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Exorcism",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Exorcism",
+      "type": "spell",
+      "traits": "Rank 3,Light Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Target Discipline (WP)",
+      "requirements": "<p>7 power\r\n<br/>daemon or possessed target and a light source within close range. If you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 3,
+            "description": "<p><b>Effect:</b> You attempt to banish a daemon or evil force. While this spell is recharging, you and the target must engaged in a battle of wills during each of your respective <i>Beginning of Turn</i> phases. This requires a <b>Discipline</b> (<b>WP</b>) <b>vs</b>. <b>Discipline</b> (<b>WP</b>) opposed check. A character who fails this check may not act on his turn. A success by either competitor with  or  wins the battle. If you win, the target is banished, which effectively kills it. If the target wins or if this spell recharges with the battle unresolved, you lose 5 power and gain the <i>Rattled</i> condition for 5 turns</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  during the battle of wills</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain  during the battle of wills</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Exorcism",
+      "type": "spell",
+      "traits": "Rank 3,Light Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Discipline (WP) vs Target Discipline (WP)",
+      "requirements": "<p>7 power\r\n<br/>daemon or possessed target and a light source within close range. I you are engaged with an enemy, add <span class=\"wfrp-font challenge\">L</span> to the dice pool</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 3,
+            "description": "<p><b>Effect:</b> You attempt to banish a daemon or evil force. While this spell is recharging, you and the target must engaged in a battle of wills during each of your respective <i>Beginning of Turn</i> phases. This requires a <b>Discipline</b> (<b>WP</b>) <b>vs</b>. <b>Discipline</b> (<b>WP</b>) opposed check. A character who fails this check may not act on his turn. A success by either competitor with  or  wins the battle. If you win, the target is banished, which effectively kills it. If the target wins or if this spell recharges with the battle unresolved, you lose 5 power and gain the <i>Rattled</i> condition for 5 turns</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>You cast the spell</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target suffers 2 stress</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "fd02b9d0448b84f5",
+  "_key": "!items!fd02b9d0448b84f5"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Blade in the Dark",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Blade in the Dark",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order,Melee Attack",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>3 Power\r\n<br/>1 hand must be free or wielding a sword, target within close range. Target must be in shadow (which adds <span class=\"wfrp-font fortune\">K</span> to your dice pool) or casting a shadow</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your blade stabs from shadow to shadow and hits the target for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>+1 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore target's armour soak</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Blade in the Dark",
+      "type": "spell",
+      "traits": "Rank 1,Grey Order,Melee Attack",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Defence",
+      "requirements": "<p>3 Power\r\n<br/>1 hand must be free or wielding a sword, target within close range. Target must be in shadow (which adds <span class=\"wfrp-font fortune\">K</span> to your dice pool) or casting a shadow</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your blade stabs from shadow to shadow and hits the target for normal damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>+3 damage</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Ignore your target's armour soak value</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "89842dfa007b5641",
+  "_key": "!items!89842dfa007b5641"
+}

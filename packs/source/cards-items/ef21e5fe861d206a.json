@@ -1,0 +1,14 @@
+{
+  "name": "Stubborn As a Dwarf",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>When you suffer any amount of stress, you may suffer 1 fatigue to reduce the stress suffered by 1. You. may only do this once each time you suffer stress.</span>\n</p>",
+    "type": "Reputation",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ef21e5fe861d206a",
+  "_key": "!items!ef21e5fe861d206a"
+}

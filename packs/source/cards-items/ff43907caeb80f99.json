@@ -1,0 +1,115 @@
+{
+  "name": "Inspire Comrades",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Inspire Comrades",
+      "type": "blessing",
+      "traits": "Rank 1,Myrmidia",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour. You must be able to speak and your target(s) must be able to hear you clearly</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your prayers bolster the confidence of your comrades-in-arms. The targets gain the <i>Inspired</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but 3 rounds instead</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 4 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The duration of the <i>Inspired</i> condition is increased by 1 round</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Add 2 recharge tokens to this card</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> For each target beyond the first add  to your dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Inspire Self",
+      "type": "blessing",
+      "traits": "Rank 1,Myrmidia",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Invocation (Fel)",
+      "requirements": "<p>3 favour</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Reciting the tactical principles and litanies of valour of Myrmidia bolsters your confidence. You gain the <i>Inspired</i> condition for 3 rounds</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but 5 rounds instead</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Invigorated</i> condition for 3 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Suffer 1 fatigue</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your next <i>Melee Attack</i> this act gains</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "ff43907caeb80f99",
+  "_key": "!items!ff43907caeb80f99"
+}

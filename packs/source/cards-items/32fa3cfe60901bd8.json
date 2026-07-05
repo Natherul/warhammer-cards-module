@@ -1,0 +1,83 @@
+{
+  "name": "Devouring Grasp",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Devouring Grasp",
+      "type": "melee",
+      "traits": "Monstrous,Ongoing",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target; must have a free appendage (hand, tentacle, etc)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You grab hold of the target</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You grab your target and drag him inexorably to your mouth. While this action is recharging, your target cannot move, counts as engaged with you, and suffers  to all checks except to escape. He can escape by making an <b>Athletics</b> (<b>St</b>) <b>check</b> or <b>Coordination</b> (<b>Ag</b>) <b>check</b> opposed by your <b>Athletics</b> (<b>St</b>). If the target is still in your grasp when this action recharges completely, you eat him. (He dies)</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Devouring Grasp",
+      "type": "melee",
+      "traits": "Monstrous,Ongoing",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target; must have a free appendage (hand, tentacle, etc)</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hit the target for normal damage and grab hold!</p>"
+          }
+        ],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> You grab your target and drag him inexorably to your mouth. While this action is recharging, your target cannot move, counts as engaged with you, and suffers  to all checks except to escape. He can escape by making an <b>Athletics</b> (<b>St</b>) <b>check</b> or <b>Coordination</b> (<b>Ag</b>) <b>check</b> opposed by your <b>Athletics</b> (<b>St</b>). If the target is still in your grasp when this action recharges completely, you eat him. (He dies)</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "32fa3cfe60901bd8",
+  "_key": "!items!32fa3cfe60901bd8"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Foresight",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Your <b>Initiative</b> checks gain:\r\n<br></br> {Dboon}  Add  {Dsucc}  to the results pool</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "968f86ae7a0807cc",
+  "_key": "!items!968f86ae7a0807cc"
+}

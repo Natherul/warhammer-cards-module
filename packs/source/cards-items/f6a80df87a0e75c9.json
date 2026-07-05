@@ -1,0 +1,101 @@
+{
+  "name": "Fight-Fight!",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Fight-Fight!",
+      "type": "support",
+      "traits": "Skaven,Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St)",
+      "requirements": "<p>Skaven allies within medium range engaged in combat</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gnash your teeth and shriek in Queekish. While this action recharges, Skaven allies within medium range gain the <i>Inspired</i> condition</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and skaven allies within medium range gain 2 <i>Aggression</i> dice</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Enemies within close range of you gain the <i>Rattled</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Skaven within medium range gain the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Fight-Fight!",
+      "type": "support",
+      "traits": "Skaven,Support",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Intimidate (St)",
+      "requirements": "<p>Skaven allies within medium range and engaged in combat</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You gnash your teeth and shriek in Queekish. Enemies within medium range of you gain the <i>Rattled</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Skaven allies within medium range gain the <i>Inspired</i> condition for 2 rounds</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Skaven allies within medium range gain 2 <i>Aggression</i> dice</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Skaven within medium range gain the <i>Cowed</i> condition for 2 rounds</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "f6a80df87a0e75c9",
+  "_key": "!items!f6a80df87a0e75c9"
+}

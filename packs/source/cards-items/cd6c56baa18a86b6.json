@@ -1,0 +1,73 @@
+{
+  "name": "Advanced Dodge",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Advanced Dodge",
+      "type": "support",
+      "traits": "Active Defence,Epic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Agility</b> 4+, not encumbered, <b>Coordination</b> Mastery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i> or a <i>Spell</i> or a <i>Blessing</i> that targets your defence, add 2 recharge tokens to this card and add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Advanced Dodge",
+      "type": "support",
+      "traits": "Active Defence,Epic",
+      "rechargeRating": 2,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p><b>Agility</b> 4+, not encumbered, <b>Coordination</b> Mastery</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Melee Attack</i> or <i>Ranged Attack</i> or a <i>Spell</i> or a <i>Blessing</i> that targets your defence, add 2 recharge tokens to this card and add  to the action's dice pool</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "cd6c56baa18a86b6",
+  "_key": "!items!cd6c56baa18a86b6"
+}

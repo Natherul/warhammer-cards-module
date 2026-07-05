@@ -1,0 +1,127 @@
+{
+  "name": "Scorching Flames",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Scorching Flames",
+      "type": "ranged",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Not engaged with target. Target within medium range. Must have some source of fire</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You spew forth a violent jet of searing flames, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the attack inflicts 1 wound to all the target's allies within close range of the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All targets injured by the attack suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>All targets injured by the attack suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Ignore the primary target's soak value from armour against this attack</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Scorching Flames",
+      "type": "ranged",
+      "traits": "Daemonic,Tzeentch",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Ballistic Skill (Ag) vs Target Defence",
+      "requirements": "<p>Used By: Flamer of Tzeentch\r\n<br/>Not engaged with target. Target within medium range. Must have some source of fire</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The gibbering Flamer of Tzeentch spews forth a violent jet of searing flames, inflicting normal damage</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the attack inflicts 1 wound to all the target's allies within close range of the target</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>All targets injured by the attack suffer 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>All targets injured by the attack suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>The primary target suffers 1 fatigue each time a recharge token is removed from this action</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Flamer of Tzeentch suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The Flamer of Tzeentch suffers 1 critical wound</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "ranged"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "7cfb1c9ecc135f32",
+  "_key": "!items!7cfb1c9ecc135f32"
+}

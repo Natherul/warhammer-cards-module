@@ -1,0 +1,73 @@
+{
+  "name": "Cloak of Dragonscales",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Cloak of Dragonscales",
+      "type": "support",
+      "traits": "Active Defence,Dark Elf",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Ranged Attack</i>, add 5 recharge tokens to this card to add  to the action's dice pool. During your next turn, you may not spend fatigue to perform manoeuvres</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Cloak of Dragonscales",
+      "type": "support",
+      "traits": "Active Defence,Dark Elf",
+      "rechargeRating": 5,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "None Required",
+      "requirements": "<p>None</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [],
+        "boon": [],
+        "bane": [],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Effect:</b> After you have been declared the target of a <i>Ranged Attack</i>, add 5 recharge tokens to this card to add  to the action's dice pool. During your next turn, you may not spend fatigue to perform manoeuvres</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8cd0e5a1a98f1770",
+  "_key": "!items!8cd0e5a1a98f1770"
+}

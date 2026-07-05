@@ -1,0 +1,111 @@
+{
+  "name": "Boneripper",
+  "type": "action",
+  "img": "modules/warhammer-cards-compendium/images/Boneripper.jpg",
+  "system": {
+    "conservative": {
+      "name": "Boneripper",
+      "type": "melee",
+      "traits": "Skaven",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Engaged with target, Strength higher than the target's Strength</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You put all your strength into a single, bone-rattling strike. The target suffers 1 critical wound</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, the target suffers a number of normal wounds equal to the critical wound's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Gain 1 <i>Aggression die</i></p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Lose 2 dice from your <b>Cunning</b> budget</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You roar with fury and power! You recover wounds equal to the severity of the critical you inflict with this attack. If you don't have enough rounds, gain the balance in <i>Aggression dice</i></p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Boneripper",
+      "type": "melee",
+      "traits": "Skaven",
+      "rechargeRating": 4,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Weapon Skill (St) vs Target Defence",
+      "requirements": "<p>Used by: Rat Ogre\r\n<br/>Engaged with target</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The rat ogre puts all of its strength into a single, bone-rattling strike. The attack automatically inflicts 1 critical wound</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, and the target suffers a number of normal wounds equal to the critical wound's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target is knocked prone and suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The rat ogre suffers 1 wound</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The rat ogre flies into a frenzy! While this action is recharging, it's <b>Strength</b> is increased by 1</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "c10a976a539be690",
+  "_key": "!items!c10a976a539be690"
+}

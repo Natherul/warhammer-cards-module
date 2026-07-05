@@ -1,0 +1,127 @@
+{
+  "name": "Inflame Passions",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Inflame Passions",
+      "type": "spell",
+      "traits": "Rank 4,Bright Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Target Discipline (WP)",
+      "requirements": "<p>4 power, target is able to see and hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Your words carry with them the slight waft of Aqshy, the wind of passion, rage, and fire. The target is suffused with some of that fire, which incites his own passions, Influence the target, if appropriate.</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target gains the <i>Inspired</i> condition for 4 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target recovers 1 fatigue</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Increase party tension by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You and the target may immediately adjust your stance to 1 step into Reckless</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Inflame Passions",
+      "type": "spell",
+      "traits": "Rank 4,Bright Order",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Spellcraft (Int) vs Highest Target Discipline (WP)",
+      "requirements": "<p>4 power, target is able to see and hear you</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>When people talk about a \"firebrand public speaker,\" they're talking about you. Your words, suffused with Aqshy, fire up the crowd! Influence your target(s) if appropriate</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and the target(s) gain the <i>Inspired</i> condition for 2 rounds</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The duration of all <i>Inspired</i> conditions granted but this pell is increased by 1 round</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>You gain the <i>Inspired</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          },
+          {
+            "symbolAmount": 1,
+            "description": "<p>Increase party tension by 1</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>For each target, you affect an additional character with <b>Willpower</b> no higher than the first</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "spell"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "5ee4033c2d6547fb",
+  "_key": "!items!5ee4033c2d6547fb"
+}

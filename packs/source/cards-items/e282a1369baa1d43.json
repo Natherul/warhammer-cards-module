@@ -1,0 +1,116 @@
+{
+  "name": "Twist The Knife",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Twist The Knife",
+      "type": "support",
+      "traits": "Social,Duel of Wits",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range, target must be suffering from at least 1 point of shame</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You add insult to injury and verbally \"twist the knife\". Choose one of the target's shame and flip it face up. The target suffers the effects of this insanity until the end of the encounter at which point it is flipped face down and can be recovered normally.</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>As above, but flip 2 shame and choose one to remain face up. The other is turned face down once again.</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, you suffer the same effects of any insanities that your target is suffering from</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover 1 shame or 1 stress</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Twist The Knife",
+      "type": "support",
+      "traits": "Social,Duel of Wits",
+      "rechargeRating": 6,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Guile (Fel) vs Target Discipline (WP)",
+      "requirements": "<p>Target within close range, target must be suffering from at least one point of shame</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You add insult to injury and verbally \"twist the knife\". Choose one of the target's shame and flip it face up. The target suffers the effects of this insanity until the end of the encounter at which point it is flipped face down and can be recovered normally.</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, but the target suffers stress equal to the insanity's severity</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>The target gains the <i>Staggered</i> condition for 2 rounds</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>While this card is recharging, you suffer the same effects of any insanities that your target is suffering from</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>Recover stress equal to the severity value of any insanities the target is suffering from</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "support"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "e282a1369baa1d43",
+  "_key": "!items!e282a1369baa1d43"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cool As Ice",
+  "type": "talent",
+  "img": "",
+  "system": {
+    "description": "<p>\n<span>Whenever you suffer 1 or more stress, you may remove 1 recharge token from 1 of your recharging action or talent cards.</span>\n</p>",
+    "type": "Focus",
+    "rechargeTokens": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "37ffb0cabb1f5846",
+  "_key": "!items!37ffb0cabb1f5846"
+}

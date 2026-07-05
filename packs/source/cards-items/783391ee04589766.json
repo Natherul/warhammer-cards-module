@@ -1,0 +1,103 @@
+{
+  "name": "Commune With Beasts",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Commune With Beasts",
+      "type": "blessing",
+      "traits": "Rank 3,Rhya",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel)",
+      "requirements": "<p>10 favour, engaged with the beast. The beast must permit contact</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You ask a single question of the beast, and then get a glimpse of a memory the beast possesses that is relevant to your inquiry, as determined by your GM. You can see, smell, hear, and feel only what the beast did, and the beast does not have a sophisticated sense of subjects such as the pass of time, beyond \"recently\" or \"long ago\"</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Although not necessarily clear at the time, nights you glean from the beast give you  to 1 check related to the inquiry</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the beast each suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Detailed inquiries or inquiries about the distant past may add  or even  to the check at the GM's discretion</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Commune With Beasts",
+      "type": "blessing",
+      "traits": "Rank 3,Taal",
+      "rechargeRating": 8,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Animal Handling (Fel)",
+      "requirements": "<p>10 favour, engaged with the beast. The beast must permit contact</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You ask a single question of the beast, and then get a glimpse of a memory the beast possesses that is relevant to your inquiry, as determined by your GM. You can see, smell, hear, and feel only what the beast did, and the beast does not have a sophisticated sense of subjects such as the pass of time, beyond \"recently\" or \"long ago\"</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>Although not necessarily clear at the time, nights you glean from the beast give you  to 1 check related to the inquiry</p>"
+          }
+        ],
+        "bane": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You and the beast each suffer 1 stress</p>"
+          }
+        ],
+        "chaosStar": [],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [
+          {
+            "symbolAmount": 1,
+            "description": "<p><b>Special:</b> Detailed inquiries or inquiries about the distant past may add  or even  to the check at the GM's discretion</p>"
+          }
+        ],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "blessing"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "783391ee04589766",
+  "_key": "!items!783391ee04589766"
+}

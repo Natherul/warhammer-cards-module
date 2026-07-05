@@ -1,0 +1,110 @@
+{
+  "name": "Corps-A-Corps",
+  "type": "action",
+  "img": "",
+  "system": {
+    "conservative": {
+      "name": "Corps-A-Corps",
+      "type": "melee",
+      "traits": "Zweihander",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target, melee weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You slam your body into your target, knocking him prone. He must spend a manoeuvre to stand up</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you also strike him for unarmed damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are knocked prone</p>"
+          }
+        ],
+        "sigmarsComet": [],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "reckless": {
+      "name": "Corps-A-Corps",
+      "type": "melee",
+      "traits": "Zweihander",
+      "rechargeRating": 3,
+      "difficultyModifiers": {
+        "challengeDice": 0,
+        "misfortuneDice": 0
+      },
+      "check": "Athletics (St) vs Target Athletics (St)",
+      "requirements": "<p>Engaged with target, melee weapon equipped</p>",
+      "special": "",
+      "uniqueEffect": "",
+      "effects": {
+        "success": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You hook your weapon into your opponent's knee, knocking him prone. he must spend a manoeuvre to stand up</p>"
+          },
+          {
+            "symbolAmount": 3,
+            "description": "<p>As above, and you also strike him for -2 damage</p>"
+          }
+        ],
+        "boon": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>The target suffers 1 fatigue</p>"
+          },
+          {
+            "symbolAmount": 2,
+            "description": "<p>Your allies gain  to attacks against the target until your next turn</p>"
+          }
+        ],
+        "bane": [],
+        "chaosStar": [
+          {
+            "symbolAmount": 2,
+            "description": "<p>You are knocked prone</p>"
+          }
+        ],
+        "sigmarsComet": [
+          {
+            "symbolAmount": 1,
+            "description": "<p>You may immediately perform a free manoeuvre, or repeat this action against another opponent in the same engagement</p>"
+          }
+        ],
+        "righteousSuccess": [],
+        "challenge": [],
+        "delay": [],
+        "exertion": []
+      }
+    },
+    "rechargeTokens": 0,
+    "type": "melee"
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "b6c17751e18a5e2d",
+  "_key": "!items!b6c17751e18a5e2d"
+}
