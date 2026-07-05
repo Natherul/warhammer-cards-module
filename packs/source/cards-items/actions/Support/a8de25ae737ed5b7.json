@@ -1,7 +1,7 @@
 {
   "name": "Advanced Block",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/advancedblock.jpg",
   "system": {
     "conservative": {
       "name": "Advanced Block",

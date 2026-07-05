@@ -1,7 +1,7 @@
 {
   "name": "Dread Malaise",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dreadmalaise.jpg",
   "system": {
     "conservative": {
       "name": "Dread Malaise",

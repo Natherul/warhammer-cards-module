@@ -1,7 +1,7 @@
 {
   "name": "Coup-de-Grace",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/coupdegrace.jpg",
   "system": {
     "conservative": {
       "name": "Coup-de-Grace",

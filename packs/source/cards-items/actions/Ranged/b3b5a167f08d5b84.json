@@ -1,7 +1,7 @@
 {
   "name": "Venomous Web",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/venomousweb.jpg",
   "system": {
     "conservative": {
       "name": "Venomous Web",

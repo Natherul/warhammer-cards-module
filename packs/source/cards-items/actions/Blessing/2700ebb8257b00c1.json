@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Hammer",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarshammer.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Hammer",

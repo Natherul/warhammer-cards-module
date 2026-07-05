@@ -1,7 +1,7 @@
 {
   "name": "Vanishment",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/vanishment.jpg",
   "system": {
     "conservative": {
       "name": "Vanishment",

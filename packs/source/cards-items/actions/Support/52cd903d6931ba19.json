@@ -1,7 +1,7 @@
 {
   "name": "Skulltaker",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Skulltaker.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/skulltaker.jpg",
   "system": {
     "conservative": {
       "name": "Skulltaker",

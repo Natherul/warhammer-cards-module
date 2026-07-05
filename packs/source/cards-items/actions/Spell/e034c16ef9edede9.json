@@ -1,7 +1,7 @@
 {
   "name": "Vermintide",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/vermintide.jpg",
   "system": {
     "conservative": {
       "name": "Vermintide",

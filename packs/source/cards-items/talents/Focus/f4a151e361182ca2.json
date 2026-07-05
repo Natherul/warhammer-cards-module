@@ -1,7 +1,7 @@
 {
   "name": "Resolute",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/resolute.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to recover 2 stress</span>\n</p>",
     "type": "Focus",

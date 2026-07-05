@@ -1,7 +1,7 @@
 {
   "name": "Beguile",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/beguile.jpg",
   "system": {
     "conservative": {
       "name": "Beguile",

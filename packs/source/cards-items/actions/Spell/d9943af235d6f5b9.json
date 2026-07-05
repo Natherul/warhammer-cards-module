@@ -1,7 +1,7 @@
 {
   "name": "Bridge of Shadows",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bridgeofshadows.jpg",
   "system": {
     "conservative": {
       "name": "Bridge of Shadows",

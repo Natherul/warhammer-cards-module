@@ -1,7 +1,7 @@
 {
   "name": "Setup Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/setupstrike.jpg",
   "system": {
     "conservative": {
       "name": "Setup Strike",

@@ -1,7 +1,7 @@
 {
   "name": "Seize the Initiative",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/seizetheinitiative.jpg",
   "system": {
     "conservative": {
       "name": "Seize the Initiative",

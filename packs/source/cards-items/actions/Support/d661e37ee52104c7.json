@@ -1,7 +1,7 @@
 {
   "name": "Dirty Tricks",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dirtytricks.jpg",
   "system": {
     "conservative": {
       "name": "Dirty Tricks",

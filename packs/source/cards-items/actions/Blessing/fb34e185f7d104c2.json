@@ -1,7 +1,7 @@
 {
   "name": "Martyr's Touch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/martyrstouch.jpg",
   "system": {
     "conservative": {
       "name": "Martyr's Touch",

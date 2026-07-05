@@ -1,7 +1,7 @@
 {
   "name": "Juggernaut",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/juggernaut.jpg",
   "system": {
     "description": "<p>\n<span>You may disengage without spending a manoeuvre from any enemy with a <b>Strength</b> less than your soak value</span>\n</p>",
     "type": "Tactic",

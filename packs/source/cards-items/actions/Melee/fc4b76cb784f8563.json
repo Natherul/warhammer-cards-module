@@ -1,7 +1,7 @@
 {
   "name": "Surprise Attack",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/surpriseattack.jpg",
   "system": {
     "conservative": {
       "name": "Surprise Attack",

@@ -1,7 +1,7 @@
 {
   "name": "Illumination",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/illumination.jpg",
   "system": {
     "conservative": {
       "name": "Illumination",

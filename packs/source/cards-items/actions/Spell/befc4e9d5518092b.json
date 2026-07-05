@@ -1,7 +1,7 @@
 {
   "name": "Skitterleap",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/skitterleap.jpg",
   "system": {
     "conservative": {
       "name": "Skitterleap",

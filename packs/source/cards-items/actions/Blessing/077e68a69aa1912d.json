@@ -1,7 +1,7 @@
 {
   "name": "Divine Distraction",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/divinedistraction.jpg",
   "system": {
     "conservative": {
       "name": "Divine Distraction",

@@ -1,7 +1,7 @@
 {
   "name": "My Will Be Done",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mywillbedone.jpg",
   "system": {
     "conservative": {
       "name": "My Will Be Done",

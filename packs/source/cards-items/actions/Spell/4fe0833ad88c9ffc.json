@@ -1,7 +1,7 @@
 {
   "name": "Dazzling Light",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dazzlinglight.jpg",
   "system": {
     "conservative": {
       "name": "Dazzling Light",

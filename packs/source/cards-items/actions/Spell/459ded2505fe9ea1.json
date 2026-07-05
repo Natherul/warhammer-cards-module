@@ -1,7 +1,7 @@
 {
   "name": "Winter's Frost",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wintersfrost.jpg",
   "system": {
     "conservative": {
       "name": "Winter's Frost",

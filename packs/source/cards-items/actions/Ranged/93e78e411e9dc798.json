@@ -1,7 +1,7 @@
 {
   "name": "Vomit",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/vomit.jpg",
   "system": {
     "conservative": {
       "name": "Vomit",

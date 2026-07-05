@@ -1,7 +1,7 @@
 {
   "name": "Staring Contest",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/staringcontest.jpg",
   "system": {
     "conservative": {
       "name": "Staring Contest",

@@ -1,7 +1,7 @@
 {
   "name": "Howl of Chaos",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/howlofchaos.jpg",
   "system": {
     "conservative": {
       "name": "Howl of Chaos",

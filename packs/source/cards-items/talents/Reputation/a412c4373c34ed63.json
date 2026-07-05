@@ -1,7 +1,7 @@
 {
   "name": "Shameless",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shameless.jpg",
   "system": {
     "description": "<p>\n<span>Your Shame Threshold is one higher than normal\r\n<br></br>Add  K  to all <b>Charm</b> checks.</span>\n</p>",
     "type": "Reputation",

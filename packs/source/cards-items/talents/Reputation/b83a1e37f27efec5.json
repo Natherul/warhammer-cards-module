@@ -1,7 +1,7 @@
 {
   "name": "University Education",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/universityeducation.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Education</b> or <b>Folklore</b> checks gain:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results pool</span>\n</p>",
     "type": "Reputation",

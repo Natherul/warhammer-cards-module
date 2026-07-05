@@ -1,7 +1,7 @@
 {
   "name": "Silver Tongue",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/silvertongue.jpg",
   "system": {
     "description": "<p>\n<span><b>Fellowship</b> checks add  {Dboon}  to the results pool if at least  {Dsucc}  {Dsucc}  {Dsucc}  are generated</span>\n</p>",
     "type": "Reputation",

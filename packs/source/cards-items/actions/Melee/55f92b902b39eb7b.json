@@ -1,7 +1,7 @@
 {
   "name": "Repeated Strikes",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/repeatedstrikes.jpg",
   "system": {
     "conservative": {
       "name": "Repeated Strikes",

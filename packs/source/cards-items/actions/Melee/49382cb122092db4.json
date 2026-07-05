@@ -1,7 +1,7 @@
 {
   "name": "Devastating Swing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/devastatingswing.jpg",
   "system": {
     "conservative": {
       "name": "Devastating Swing",

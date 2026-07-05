@@ -1,7 +1,7 @@
 {
   "name": "Purulent Attack",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/purulentattack.jpg",
   "system": {
     "conservative": {
       "name": "Purulent Attack",

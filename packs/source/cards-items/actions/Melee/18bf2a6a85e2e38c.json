@@ -1,7 +1,7 @@
 {
   "name": "Vicious Bite",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/viciousbite.jpg",
   "system": {
     "conservative": {
       "name": "Vicious Bite",

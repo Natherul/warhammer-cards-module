@@ -1,7 +1,7 @@
 {
   "name": "Bestial Howl",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bestialhowl.jpg",
   "system": {
     "conservative": {
       "name": "Bestial Howl",

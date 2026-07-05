@@ -1,7 +1,7 @@
 {
   "name": "Rain of Life",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/rainoflife.jpg",
   "system": {
     "conservative": {
       "name": "Rain of Life",

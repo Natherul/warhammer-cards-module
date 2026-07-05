@@ -1,7 +1,7 @@
 {
   "name": "Inexhaustible",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/inexhaustible.jpg",
   "system": {
     "description": "<p>\n<span>When you suffer any amount of fatigue, you may suffer 1 stress to reduce the fatigue suffered by 1. You may only do this once each time you suffer fatigue.</span>\n</p>",
     "type": "Tactic",

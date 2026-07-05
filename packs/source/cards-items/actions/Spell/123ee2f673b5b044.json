@@ -1,7 +1,7 @@
 {
   "name": "Destroy Magic",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/destroymagic.jpg",
   "system": {
     "conservative": {
       "name": "Destroy Magic",

@@ -1,7 +1,7 @@
 {
   "name": "Riposte",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/riposte.jpg",
   "system": {
     "conservative": {
       "name": "Riposte",

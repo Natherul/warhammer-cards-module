@@ -1,7 +1,7 @@
 {
   "name": "Reliable",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/reliable.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to trigger a  {Dboon}  or  {Dcomet}  effect a second time (you must still spend  {Dboon}  and/or  {Dcomet}  as appropriate).</span>\n</p>",
     "type": "Reputation",

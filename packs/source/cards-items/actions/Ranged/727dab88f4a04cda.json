@@ -1,7 +1,7 @@
 {
   "name": "Ranged Shot",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Ranged_Shot.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/rangedshot.jpg",
   "system": {
     "conservative": {
       "name": "Ranged Shot",

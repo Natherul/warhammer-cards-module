@@ -1,7 +1,7 @@
 {
   "name": "Assess the Situation",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Assess_the_Situation.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/assessthesituation.jpg",
   "system": {
     "conservative": {
       "name": "Assess the Situation",

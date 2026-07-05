@@ -1,7 +1,7 @@
 {
   "name": "Assassin's Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/assassinsstrike.jpg",
   "system": {
     "conservative": {
       "name": "Assassin's Strike",

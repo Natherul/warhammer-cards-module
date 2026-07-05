@@ -1,7 +1,7 @@
 {
   "name": "Savage Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/savagestrike.jpg",
   "system": {
     "conservative": {
       "name": "Savage Strike",

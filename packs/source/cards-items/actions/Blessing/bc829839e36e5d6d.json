@@ -1,7 +1,7 @@
 {
   "name": "Sword of Justice",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/swordofjustice.jpg",
   "system": {
     "conservative": {
       "name": "Sword of Justice",

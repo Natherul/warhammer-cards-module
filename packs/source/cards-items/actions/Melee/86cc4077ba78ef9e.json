@@ -1,7 +1,7 @@
 {
   "name": "Pilfering Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/pilferingstrike.jpg",
   "system": {
     "conservative": {
       "name": "Pilfering Strike",

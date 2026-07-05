@@ -1,7 +1,7 @@
 {
   "name": "Aethyric Conduit",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/aethyricconduit.jpg",
   "system": {
     "description": "<p>\n<span>When you recover or lose power during your end of turn step due to not being at equilibrium, you recover or lose 1 additional power (unless this would take you past equilibrium)</span>\n</p>",
     "type": "Focus",

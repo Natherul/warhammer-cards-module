@@ -1,7 +1,7 @@
 {
   "name": "Warning Bark",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/warningbark.jpg",
   "system": {
     "description": "<p>\n<span>You and your allies within medium range of your pet gain  K  to <b>Observation</b> (<b>Int</b>) and <b>Initiative</b> checks</span>\n</p>",
     "type": "Trick",

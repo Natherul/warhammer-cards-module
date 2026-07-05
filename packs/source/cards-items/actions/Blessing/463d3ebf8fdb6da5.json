@@ -1,7 +1,7 @@
 {
   "name": "Hammer of God",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hammerofgod.jpg",
   "system": {
     "conservative": {
       "name": "Hammer of God",

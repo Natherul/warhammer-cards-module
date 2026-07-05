@@ -1,7 +1,7 @@
 {
   "name": "Combat Alertness",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/combatalertness.jpg",
   "system": {
     "description": "<p>\n<span>Gain +1 <b>Defence</b> against <i>Melee Attacks</i> while you have no <i>Active Defence</i> actions recharging</span>\n</p>",
     "type": "Tactic",

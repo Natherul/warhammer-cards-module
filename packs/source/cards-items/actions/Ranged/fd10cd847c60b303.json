@@ -1,7 +1,7 @@
 {
   "name": "Death's Head",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deathshead.jpg",
   "system": {
     "conservative": {
       "name": "Death's Head",

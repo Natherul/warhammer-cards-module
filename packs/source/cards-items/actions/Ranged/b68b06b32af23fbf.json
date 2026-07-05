@@ -1,7 +1,7 @@
 {
   "name": "Feather Dart",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/featherdart.jpg",
   "system": {
     "conservative": {
       "name": "Feather Dart",

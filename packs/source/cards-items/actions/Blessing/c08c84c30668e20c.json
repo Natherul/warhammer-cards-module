@@ -1,7 +1,7 @@
 {
   "name": "Stay Morr's Hand",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/staymorrshand.jpg",
   "system": {
     "conservative": {
       "name": "Stay Morr's Hand",

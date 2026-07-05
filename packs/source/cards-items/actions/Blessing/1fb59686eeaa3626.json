@@ -1,7 +1,7 @@
 {
   "name": "Blazing Sun",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/blazingsun.jpg",
   "system": {
     "conservative": {
       "name": "Blazing Sun",

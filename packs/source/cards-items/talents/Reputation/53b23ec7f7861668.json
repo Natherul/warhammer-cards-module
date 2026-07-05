@@ -1,7 +1,7 @@
 {
   "name": "Power of Faith",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/poweroffaith.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to use <b>Willpower</b> rather than <b>Intelligence</b> for a skill check. The check gains: \r\n\r\n<br></br> {Dbane}  Add  B  to the results pool</span>\n</p>",
     "type": "Reputation",

@@ -1,7 +1,7 @@
 {
   "name": "Flamestorm",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flamestorm.jpg",
   "system": {
     "conservative": {
       "name": "Flamestorm",

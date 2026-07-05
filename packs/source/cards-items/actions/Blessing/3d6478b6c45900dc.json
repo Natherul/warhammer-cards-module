@@ -1,7 +1,7 @@
 {
   "name": "Hopeful Prayer",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hopefulprayer.jpg",
   "system": {
     "conservative": {
       "name": "Hopeful Prayer",

@@ -1,7 +1,7 @@
 {
   "name": "Deathwish",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deathwish.jpg",
   "system": {
     "conservative": {
       "name": "Deathwish",

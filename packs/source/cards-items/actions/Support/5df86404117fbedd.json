@@ -1,7 +1,7 @@
 {
   "name": "Bloodspatter",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bloodspatter.jpg",
   "system": {
     "conservative": {
       "name": "Bloodspatter",

@@ -1,7 +1,7 @@
 {
   "name": "Genius",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/genius.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card when making any basic skill check to use <b>Intelligence</b> instead of the characteristic normally associated with that skill. Add  B  to the difficulty of the check.</span>\n</p>",
     "type": "Focus",

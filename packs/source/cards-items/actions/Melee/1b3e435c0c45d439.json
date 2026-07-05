@@ -1,7 +1,7 @@
 {
   "name": "Coordinated Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/coordinatedstrike.jpg",
   "system": {
     "conservative": {
       "name": "Coordinated Strike",

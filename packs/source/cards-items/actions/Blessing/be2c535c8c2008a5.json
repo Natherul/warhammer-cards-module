@@ -1,7 +1,7 @@
 {
   "name": "Call For Aid",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/callforaid.jpg",
   "system": {
     "conservative": {
       "name": "Call For Aid",

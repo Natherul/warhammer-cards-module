@@ -1,7 +1,7 @@
 {
   "name": "Quickcasting",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/quickcasting.jpg",
   "system": {
     "conservative": {
       "name": "Quickcasting",

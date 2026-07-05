@@ -1,7 +1,7 @@
 {
   "name": "Parry",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Parry.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/parry.jpg",
   "system": {
     "conservative": {
       "name": "Parry",

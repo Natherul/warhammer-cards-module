@@ -1,7 +1,7 @@
 {
   "name": "Sleep of Death",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sleepofdeath.jpg",
   "system": {
     "conservative": {
       "name": "Sleep of Death",

@@ -1,7 +1,7 @@
 {
   "name": "Craven Attack",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/cravenattack.jpg",
   "system": {
     "conservative": {
       "name": "Craven Attack",

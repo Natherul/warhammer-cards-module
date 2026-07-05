@@ -1,7 +1,7 @@
 {
   "name": "Beat Back",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/beatback.jpg",
   "system": {
     "conservative": {
       "name": "Beat Back",

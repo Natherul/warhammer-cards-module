@@ -1,7 +1,7 @@
 {
   "name": "Dead Calm",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deadcalm.jpg",
   "system": {
     "conservative": {
       "name": "Dead Calm",

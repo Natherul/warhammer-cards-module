@@ -1,7 +1,7 @@
 {
   "name": "Owl of Wisdom",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/owlofwisdom.jpg",
   "system": {
     "conservative": {
       "name": "Owl of Wisdom",

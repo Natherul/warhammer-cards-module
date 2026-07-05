@@ -1,7 +1,7 @@
 {
   "name": "Berzerker Fury",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/berzerkerfury.jpg",
   "system": {
     "conservative": {
       "name": "Berzerker Fury",

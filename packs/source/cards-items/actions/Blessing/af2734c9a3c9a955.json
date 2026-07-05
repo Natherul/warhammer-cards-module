@@ -1,7 +1,7 @@
 {
   "name": "Perceive Lies",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/perceivelies.jpg",
   "system": {
     "conservative": {
       "name": "Perceive Lies",

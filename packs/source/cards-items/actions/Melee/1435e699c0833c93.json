@@ -1,7 +1,7 @@
 {
   "name": "Wheeling Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wheelingstrike.jpg",
   "system": {
     "conservative": {
       "name": "Wheeling Strike",

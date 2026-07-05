@@ -1,7 +1,7 @@
 {
   "name": "Curse of Undeath",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curseofundeath.jpg",
   "system": {
     "conservative": {
       "name": "Curse of Undeath",

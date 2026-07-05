@@ -1,7 +1,7 @@
 {
   "name": "Knockback Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/knockbackshot.jpg",
   "system": {
     "conservative": {
       "name": "Knockback Shot",

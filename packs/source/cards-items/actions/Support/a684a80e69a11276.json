@@ -1,7 +1,7 @@
 {
   "name": "Scrutinise",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/scrutinise.jpg",
   "system": {
     "conservative": {
       "name": "Scrutinise",

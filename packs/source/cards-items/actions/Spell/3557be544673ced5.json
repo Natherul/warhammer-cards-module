@@ -1,7 +1,7 @@
 {
   "name": "Enchant Item",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/enchantitem.jpg",
   "system": {
     "conservative": {
       "name": "Enchant Item",

@@ -1,7 +1,7 @@
 {
   "name": "Shards of Slaanesh",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shardsofslaanesh.jpg",
   "system": {
     "conservative": {
       "name": "Shards of Slaanesh",

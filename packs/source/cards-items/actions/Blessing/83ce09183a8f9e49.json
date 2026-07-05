@@ -1,7 +1,7 @@
 {
   "name": "Tactical Mastery",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/tacticalmastery.jpg",
   "system": {
     "conservative": {
       "name": "Tactical Mastery",

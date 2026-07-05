@@ -1,7 +1,7 @@
 {
   "name": "Warp Reality",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/warpreality.jpg",
   "system": {
     "conservative": {
       "name": "Warp Reality",

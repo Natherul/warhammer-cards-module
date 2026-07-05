@@ -1,7 +1,7 @@
 {
   "name": "Malicious Seduction",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/maliciousseduction.jpg",
   "system": {
     "conservative": {
       "name": "Malicious Seduction",

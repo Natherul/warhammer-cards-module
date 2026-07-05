@@ -1,7 +1,7 @@
 {
   "name": "Runestrike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/runestrike.jpg",
   "system": {
     "conservative": {
       "name": "Runestrike",

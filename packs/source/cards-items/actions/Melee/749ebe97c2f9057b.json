@@ -1,7 +1,7 @@
 {
   "name": "Tooth and Claw",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/toothandclaw.jpg",
   "system": {
     "conservative": {
       "name": "Tooth and Claw",

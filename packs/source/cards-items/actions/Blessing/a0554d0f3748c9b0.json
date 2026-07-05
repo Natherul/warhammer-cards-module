@@ -1,7 +1,7 @@
 {
   "name": "Battle Howl",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/battlehowl.jpg",
   "system": {
     "conservative": {
       "name": "Battle Howl",

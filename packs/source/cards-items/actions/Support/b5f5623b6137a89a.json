@@ -1,7 +1,7 @@
 {
   "name": "Challenge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/challenge.jpg",
   "system": {
     "conservative": {
       "name": "Challenge",

@@ -1,7 +1,7 @@
 {
   "name": "Fearless",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fearless.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to all <b>Discipline</b> checks to resist <i>Fear</i> or <i>Terror</i>\n<br></br><br></br> Exhaust this card to reroll a failed <b>Discipline</b> check against <i>Fear</i> or <i>Terror</i> rating</span>\n</p>",
     "type": "Reputation",

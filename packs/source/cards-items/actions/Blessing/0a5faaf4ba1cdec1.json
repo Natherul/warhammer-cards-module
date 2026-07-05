@@ -1,7 +1,7 @@
 {
   "name": "Destroy Undead",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/destroyundead.jpg",
   "system": {
     "conservative": {
       "name": "Destroy Undead",

@@ -1,7 +1,7 @@
 {
   "name": "Path of the Hawk",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/pathofthehawk.jpg",
   "system": {
     "conservative": {
       "name": "Path of the Hawk",

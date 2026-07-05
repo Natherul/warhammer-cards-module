@@ -1,7 +1,7 @@
 {
   "name": "Peerless Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/peerlessstrike.jpg",
   "system": {
     "conservative": {
       "name": "Peerless Strike",

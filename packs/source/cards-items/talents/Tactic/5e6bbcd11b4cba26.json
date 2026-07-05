@@ -1,7 +1,7 @@
 {
   "name": "Relentless Approach",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/relentlessapproach.jpg",
   "system": {
     "description": "<p>\n<span>After rolling a <b>Strength</b>, <b>Toughness</b>, or <b>Agility</b> check, exhaust this card to reroll all  K  and  K  in the current dice pool</span>\n</p>",
     "type": "Tactic",

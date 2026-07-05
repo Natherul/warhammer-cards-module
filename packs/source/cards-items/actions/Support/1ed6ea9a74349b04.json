@@ -1,7 +1,7 @@
 {
   "name": "Combat Focus",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/combatfocus.jpg",
   "system": {
     "conservative": {
       "name": "Combat Focus",

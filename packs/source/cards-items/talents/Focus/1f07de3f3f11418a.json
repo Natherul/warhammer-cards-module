@@ -1,7 +1,7 @@
 {
   "name": "Civil Tongue",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/civiltongue.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to remove  K  K  from your dice pool when using a <i>Social</i> action.</span>\n</p>",
     "type": "Focus",

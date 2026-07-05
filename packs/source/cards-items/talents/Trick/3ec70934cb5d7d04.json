@@ -1,7 +1,7 @@
 {
   "name": "Nip at the Heels",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/nipattheheels.jpg",
   "system": {
     "description": "<p>\n<span>Enemies engaged with your pet do not get a free manoeuvre on their turns. Your <b>Animal Training</b> (<b>Fel</b>) checks gain:\r\n<br></br> {Dbane}  {Dbane}  Your pet loses 1 <b>Obedience</b></span>\n</p>",
     "type": "Trick",

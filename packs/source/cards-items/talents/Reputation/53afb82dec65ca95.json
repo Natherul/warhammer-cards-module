@@ -1,7 +1,7 @@
 {
   "name": "Ambitious",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ambitious.jpg",
   "system": {
     "description": "<p>\n<span>You may spend a fortune point to convert one additional characteristic die into a stance die</span>\n</p>",
     "type": "Reputation",

@@ -1,7 +1,7 @@
 {
   "name": "Scorching Flames",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/scorchingflames.jpg",
   "system": {
     "conservative": {
       "name": "Scorching Flames",

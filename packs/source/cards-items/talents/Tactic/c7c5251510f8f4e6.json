@@ -1,7 +1,7 @@
 {
   "name": "Timely Surge",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/timelysurge.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  K  to any <b>Strength</b> check\r\n\r\n<br></br><br></br>If the check fails, suffer 1 fatigue</span>\n</p>",
     "type": "Tactic",

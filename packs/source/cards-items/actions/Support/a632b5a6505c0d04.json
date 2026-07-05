@@ -1,7 +1,7 @@
 {
   "name": "Belching Smoke",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/belchingsmoke.jpg",
   "system": {
     "conservative": {
       "name": "Belching Smoke",

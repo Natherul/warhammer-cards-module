@@ -1,7 +1,7 @@
 {
   "name": "Twin Pistols",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/twinpistols.jpg",
   "system": {
     "conservative": {
       "name": "Twin Pistols",

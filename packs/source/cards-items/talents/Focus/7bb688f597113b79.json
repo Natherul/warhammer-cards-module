@@ -1,7 +1,7 @@
 {
   "name": "Keen Eyes",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/keeneyes.jpg",
   "system": {
     "description": "<p>\n<span>Gain  K  to <b>Observation</b> checks where vision is relevant</span>\n</p>",
     "type": "Focus",

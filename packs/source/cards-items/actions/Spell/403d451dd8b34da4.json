@@ -1,7 +1,7 @@
 {
   "name": "Flaring Flames",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flaringflames.jpg",
   "system": {
     "conservative": {
       "name": "Flaring Flames",

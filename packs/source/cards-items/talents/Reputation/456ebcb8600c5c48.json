@@ -1,7 +1,7 @@
 {
   "name": "Ascetic Upbringing",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/asceticupbringing.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Resilience</b> and <b>Discipline</b> checks gain  K </span>\n</p>",
     "type": "Reputation",

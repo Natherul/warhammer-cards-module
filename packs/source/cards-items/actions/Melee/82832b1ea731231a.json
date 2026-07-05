@@ -1,7 +1,7 @@
 {
   "name": "Shade Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shadestrike.jpg",
   "system": {
     "conservative": {
       "name": "Shade Strike",

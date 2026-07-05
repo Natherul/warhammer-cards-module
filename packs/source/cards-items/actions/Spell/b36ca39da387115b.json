@@ -1,7 +1,7 @@
 {
   "name": "Amber Talons",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ambertalons.jpg",
   "system": {
     "conservative": {
       "name": "Amber Talons",

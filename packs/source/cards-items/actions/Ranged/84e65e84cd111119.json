@@ -1,7 +1,7 @@
 {
   "name": "Extreme Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/extremeshot.jpg",
   "system": {
     "conservative": {
       "name": "Extreme Shot",

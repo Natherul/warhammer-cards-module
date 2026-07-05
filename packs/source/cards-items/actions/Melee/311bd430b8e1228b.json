@@ -1,7 +1,7 @@
 {
   "name": "Ride Down",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ridedown.jpg",
   "system": {
     "conservative": {
       "name": "Ride Down",

@@ -1,7 +1,7 @@
 {
   "name": "Powerful Throw",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/powerfulthrow.jpg",
   "system": {
     "conservative": {
       "name": "Powerful Throw",

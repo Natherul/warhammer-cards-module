@@ -1,7 +1,7 @@
 {
   "name": "Righteous Strength",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/righteousstrength.jpg",
   "system": {
     "conservative": {
       "name": "Righteous Strength",

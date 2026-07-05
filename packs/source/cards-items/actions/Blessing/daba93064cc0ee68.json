@@ -1,7 +1,7 @@
 {
   "name": "Divine Prowess",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/divineprowess.jpg",
   "system": {
     "conservative": {
       "name": "Divine Prowess",

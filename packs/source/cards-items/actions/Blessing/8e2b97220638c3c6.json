@@ -1,7 +1,7 @@
 {
   "name": "Gut Instinct",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/gutinstinct.jpg",
   "system": {
     "conservative": {
       "name": "Gut Instinct",

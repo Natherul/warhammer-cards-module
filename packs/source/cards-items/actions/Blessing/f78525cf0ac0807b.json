@@ -1,7 +1,7 @@
 {
   "name": "Hopeful Dawn",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hopefuldawn.jpg",
   "system": {
     "conservative": {
       "name": "Hopeful Dawn",

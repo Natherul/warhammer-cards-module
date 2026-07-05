@@ -1,7 +1,7 @@
 {
   "name": "Howling Mad",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/howlingmad.jpg",
   "system": {
     "conservative": {
       "name": "Howling Mad",

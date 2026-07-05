@@ -1,7 +1,7 @@
 {
   "name": "Berzerker Rage!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/berzerkerrage.jpg",
   "system": {
     "conservative": {
       "name": "Berzerker Rage!",

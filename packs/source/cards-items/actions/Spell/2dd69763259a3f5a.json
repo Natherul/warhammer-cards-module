@@ -1,7 +1,7 @@
 {
   "name": "Cool Metal",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/coolmetal.jpg",
   "system": {
     "conservative": {
       "name": "Cool Metal",

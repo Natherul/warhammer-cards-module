@@ -1,7 +1,7 @@
 {
   "name": "Magic Rift",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/magicrift.jpg",
   "system": {
     "conservative": {
       "name": "Magic Rift",

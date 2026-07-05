@@ -1,7 +1,7 @@
 {
   "name": "Devious",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/devious.jpg",
   "system": {
     "description": "<p>\n<span>When making a <b>Fellowship</b> check in <i>Conservative Stance</i>, you only suffer a delay when rolling more than one  I </span>\n</p>",
     "type": "Focus",

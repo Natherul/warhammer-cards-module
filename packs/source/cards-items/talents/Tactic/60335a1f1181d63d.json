@@ -1,7 +1,7 @@
 {
   "name": "Coordinated Efforts",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/coordinatedefforts.jpg",
   "system": {
     "description": "<p>\n<span>When spending fortune points on an <b>Agility</b> check, the check gains:\r\n\r\n<br></br><br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
     "type": "Tactic",

@@ -1,7 +1,7 @@
 {
   "name": "Oath of Truth",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/oathoftruth.jpg",
   "system": {
     "conservative": {
       "name": "Oath of Truth",

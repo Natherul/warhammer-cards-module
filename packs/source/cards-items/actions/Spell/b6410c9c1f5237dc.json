@@ -1,7 +1,7 @@
 {
   "name": "Curtain of Flame",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curtainofflame.jpg",
   "system": {
     "conservative": {
       "name": "Curtain of Flame",

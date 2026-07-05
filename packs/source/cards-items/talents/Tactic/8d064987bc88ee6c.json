@@ -1,7 +1,7 @@
 {
   "name": "The Bigger They Are",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/thebiggertheyare.jpg",
   "system": {
     "description": "<p>\n<span>Your attacks against targets larger than a human gain:\r\n<br></br> {Dboon}  {Dboon}  +2 damage</span>\n</p>",
     "type": "Tactic",

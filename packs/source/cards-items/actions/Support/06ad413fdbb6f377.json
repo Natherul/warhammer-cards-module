@@ -1,7 +1,7 @@
 {
   "name": "Flirt",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flirt.jpg",
   "system": {
     "conservative": {
       "name": "Flirt",

@@ -1,7 +1,7 @@
 {
   "name": "Notorious",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/notorious.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to <b>Guile</b> checks</span>\n</p>",
     "type": "Reputation",

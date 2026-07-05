@@ -1,7 +1,7 @@
 {
   "name": "Skalf's Anvil",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/skalfsanvil.jpg",
   "system": {
     "conservative": {
       "name": "Skalf's Anvil",

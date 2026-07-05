@@ -1,7 +1,7 @@
 {
   "name": "Final Hours",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/finalhours.jpg",
   "system": {
     "conservative": {
       "name": "Final Hours",

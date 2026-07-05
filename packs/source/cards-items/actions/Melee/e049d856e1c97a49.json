@@ -1,7 +1,7 @@
 {
   "name": "Wolfpack Attack",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wolfpackattack.jpg",
   "system": {
     "conservative": {
       "name": "Wolfpack Attack",

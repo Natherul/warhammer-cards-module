@@ -1,7 +1,7 @@
 {
   "name": "Call of the Wild",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/callofthewild.jpg",
   "system": {
     "conservative": {
       "name": "Call of the Wild",

@@ -1,7 +1,7 @@
 {
   "name": "Teller of Tales",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/telleroftales.jpg",
   "system": {
     "conservative": {
       "name": "Teller of Tales",

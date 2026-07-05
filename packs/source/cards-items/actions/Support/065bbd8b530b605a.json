@@ -1,7 +1,7 @@
 {
   "name": "Listen to the Wind",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/listentothewind.jpg",
   "system": {
     "conservative": {
       "name": "Listen to the Wind",

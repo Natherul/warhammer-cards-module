@@ -1,7 +1,7 @@
 {
   "name": "Reiksguard",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/reiksguard.jpg",
   "system": {
     "description": "<p>\n<span>You may spend 1 fortune point to remove up to 2 recharge tokens from 1 of your <i>Active Defences</i> (you can only play a given <i>Active Defence</i> once in response to a given attack)</span>\n</p>",
     "type": "Oath",

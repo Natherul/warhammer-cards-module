@@ -1,7 +1,7 @@
 {
   "name": "Charismatic",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/charismatic.jpg",
   "system": {
     "description": "<p>\n<span>When you spend fortune points on a <b>Fellowship</b> check, the check gains:\r\n<br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
     "type": "Reputation",

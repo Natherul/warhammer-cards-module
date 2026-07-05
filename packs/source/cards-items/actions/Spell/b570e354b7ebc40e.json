@@ -1,7 +1,7 @@
 {
   "name": "Ignite",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ignite.jpg",
   "system": {
     "conservative": {
       "name": "Ignite",

@@ -1,7 +1,7 @@
 {
   "name": "Bodyguard",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Bodyguard.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/bodyguard.jpg",
   "system": {
     "conservative": {
       "name": "Bodyguard",

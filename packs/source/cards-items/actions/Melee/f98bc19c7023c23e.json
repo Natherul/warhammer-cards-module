@@ -1,7 +1,7 @@
 {
   "name": "Hellblade Slash",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hellbladeslash.jpg",
   "system": {
     "conservative": {
       "name": "Hellblade Slash",

@@ -1,7 +1,7 @@
 {
   "name": "Sage Advice",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sageadvice.jpg",
   "system": {
     "conservative": {
       "name": "Sage Advice",

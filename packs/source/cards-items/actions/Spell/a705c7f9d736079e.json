@@ -1,7 +1,7 @@
 {
   "name": "Arcane Blast",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/arcaneblast.jpg",
   "system": {
     "conservative": {
       "name": "Arcane Blast",

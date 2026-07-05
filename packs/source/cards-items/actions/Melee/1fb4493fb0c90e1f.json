@@ -1,7 +1,7 @@
 {
   "name": "Duelist's Finesse",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/duelistsfinesse.jpg",
   "system": {
     "conservative": {
       "name": "Duelist's Finesse",

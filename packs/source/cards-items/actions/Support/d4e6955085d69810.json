@@ -1,7 +1,7 @@
 {
   "name": "Saga of Gazul",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sagaofgazul.jpg",
   "system": {
     "conservative": {
       "name": "Saga of Gazul",

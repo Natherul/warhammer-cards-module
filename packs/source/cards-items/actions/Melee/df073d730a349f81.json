@@ -1,7 +1,7 @@
 {
   "name": "Make a Stand",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/makeastand.jpg",
   "system": {
     "conservative": {
       "name": "Make a Stand",

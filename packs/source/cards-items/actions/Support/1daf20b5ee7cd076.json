@@ -1,7 +1,7 @@
 {
   "name": "Skeleton In The Closet",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/skeletoninthecloset.jpg",
   "system": {
     "conservative": {
       "name": "Skeleton In The Closet",

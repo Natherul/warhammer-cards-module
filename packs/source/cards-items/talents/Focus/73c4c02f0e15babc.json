@@ -1,7 +1,7 @@
 {
   "name": "Righteous Servant",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/righteousservant.jpg",
   "system": {
     "description": "<p>\n<span>When you recover or lose favour during your <i>End of Turn</i> phase due to not being at equilibrium, you recover or lose 1 additional favour (unless this would take you past equilibrium)</span>\n</p>",
     "type": "Focus",

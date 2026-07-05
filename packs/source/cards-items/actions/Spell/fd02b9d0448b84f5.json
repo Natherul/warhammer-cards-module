@@ -1,7 +1,7 @@
 {
   "name": "Exorcism",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/exorcism.jpg",
   "system": {
     "conservative": {
       "name": "Exorcism",

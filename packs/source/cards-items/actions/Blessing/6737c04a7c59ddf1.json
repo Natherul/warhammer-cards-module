@@ -1,7 +1,7 @@
 {
   "name": "Cure Disease",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curedisease.jpg",
   "system": {
     "conservative": {
       "name": "Cure Disease",

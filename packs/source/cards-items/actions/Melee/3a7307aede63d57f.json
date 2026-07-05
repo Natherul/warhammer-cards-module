@@ -1,7 +1,7 @@
 {
   "name": "Haunting Visions",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hauntingvisions.jpg",
   "system": {
     "conservative": {
       "name": "Haunting Visions",

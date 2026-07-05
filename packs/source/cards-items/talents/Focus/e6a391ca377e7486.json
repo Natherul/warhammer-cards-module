@@ -1,7 +1,7 @@
 {
   "name": "Embrace the Maelstrom",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/embracethemaelstrom.jpg",
   "system": {
     "description": "<p>\n<span>Whenever you suffer a miscast, gain 2 power after that miscast is resolved.</span>\n</p>",
     "type": "Focus",

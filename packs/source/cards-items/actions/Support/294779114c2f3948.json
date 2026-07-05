@@ -1,7 +1,7 @@
 {
   "name": "Dark Experiment",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/darkexperiment.jpg",
   "system": {
     "conservative": {
       "name": "Dark Experiment",

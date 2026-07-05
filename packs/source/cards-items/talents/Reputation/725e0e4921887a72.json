@@ -1,7 +1,7 @@
 {
   "name": "Shady",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shady.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Skullduggery</b> checks gain  K </span>\n</p>",
     "type": "Reputation",

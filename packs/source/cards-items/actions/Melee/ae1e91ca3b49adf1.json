@@ -1,7 +1,7 @@
 {
   "name": "Eviscerator",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/eviscerator.jpg",
   "system": {
     "conservative": {
       "name": "Eviscerator",

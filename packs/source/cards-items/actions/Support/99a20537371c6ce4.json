@@ -1,7 +1,7 @@
 {
   "name": "Captain's Presence",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/captainspresence.jpg",
   "system": {
     "conservative": {
       "name": "Captain's Presence",

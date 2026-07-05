@@ -1,7 +1,7 @@
 {
   "name": "Clear Seeing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/clearseeing.jpg",
   "system": {
     "conservative": {
       "name": "Clear Seeing",

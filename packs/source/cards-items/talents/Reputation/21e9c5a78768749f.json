@@ -1,7 +1,7 @@
 {
   "name": "Gregarious",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/gregarious.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to <b>Charm</b> checks</span>\n</p>",
     "type": "Reputation",

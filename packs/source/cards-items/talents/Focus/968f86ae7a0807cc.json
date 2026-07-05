@@ -1,7 +1,7 @@
 {
   "name": "Foresight",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/foresight.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Initiative</b> checks gain:\r\n<br></br> {Dboon}  Add  {Dsucc}  to the results pool</span>\n</p>",
     "type": "Focus",

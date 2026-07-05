@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Strength",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarsstrength.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Strength",

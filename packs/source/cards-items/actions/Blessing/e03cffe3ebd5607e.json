@@ -1,7 +1,7 @@
 {
   "name": "Valour of Ulric",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/valourofulric.jpg",
   "system": {
     "conservative": {
       "name": "Valour of Ulric",

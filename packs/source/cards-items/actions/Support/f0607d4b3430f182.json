@@ -1,7 +1,7 @@
 {
   "name": "Who's Next?",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/whosnext.jpg",
   "system": {
     "conservative": {
       "name": "Who's Next?",

@@ -1,7 +1,7 @@
 {
   "name": "Death Frenzy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deathfrenzy.jpg",
   "system": {
     "conservative": {
       "name": "Death Frenzy",

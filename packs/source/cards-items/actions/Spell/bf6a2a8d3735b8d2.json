@@ -1,7 +1,7 @@
 {
   "name": "Blasphemous Litany",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/blasphemouslitany.jpg",
   "system": {
     "conservative": {
       "name": "Blasphemous Litany",

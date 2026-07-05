@@ -1,7 +1,7 @@
 {
   "name": "Traitor of Tarn",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/traitoroftarn.jpg",
   "system": {
     "conservative": {
       "name": "Traitor of Tarn",

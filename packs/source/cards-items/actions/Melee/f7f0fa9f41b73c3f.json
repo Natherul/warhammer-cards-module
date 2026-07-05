@@ -1,7 +1,7 @@
 {
   "name": "Wounded Frenzy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/woundedfrenzy.jpg",
   "system": {
     "conservative": {
       "name": "Wounded Frenzy",

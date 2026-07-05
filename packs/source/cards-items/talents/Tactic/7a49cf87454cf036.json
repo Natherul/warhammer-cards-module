@@ -1,7 +1,7 @@
 {
   "name": "Armoured in Speed",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/armouredinspeed.jpg",
   "system": {
     "description": "<p>\n<span>When you use an <i>Active Defence</i> against an attack, your armour soak value against that attack becomes equal to your character rank (regardless of what armour you are wearing).</span>\n</p>",
     "type": "Tactic",

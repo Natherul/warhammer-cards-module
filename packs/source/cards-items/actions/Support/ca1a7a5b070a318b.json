@@ -1,7 +1,7 @@
 {
   "name": "Chanty of Toil",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/chantyoftoil.jpg",
   "system": {
     "conservative": {
       "name": "Chanty of Toil",

@@ -1,7 +1,7 @@
 {
   "name": "Undying Ferocity",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/undyingferocity.jpg",
   "system": {
     "conservative": {
       "name": "Undying Ferocity",

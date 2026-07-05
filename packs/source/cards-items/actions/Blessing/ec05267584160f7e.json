@@ -1,7 +1,7 @@
 {
   "name": "Lock Breaker",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/lockbreaker.jpg",
   "system": {
     "conservative": {
       "name": "Lock Breaker",

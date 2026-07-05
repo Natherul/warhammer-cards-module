@@ -1,7 +1,7 @@
 {
   "name": "Improved Bless Weapon",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/improvedblessweapon.jpg",
   "system": {
     "conservative": {
       "name": "Improved Bless Weapon",

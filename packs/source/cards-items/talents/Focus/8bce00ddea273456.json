@@ -1,7 +1,7 @@
 {
   "name": "Suffused With Power",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/suffusedwithpower.jpg",
   "system": {
     "description": "<p>\n<span>You gain  K  on all checks while you have favour or power in excess of the characteristic governing that check.</span>\n</p>",
     "type": "Focus",

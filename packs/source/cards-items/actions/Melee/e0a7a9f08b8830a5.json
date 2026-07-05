@@ -1,7 +1,7 @@
 {
   "name": "Melee Strike",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Melee_Strike.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/meleestrike.jpg",
   "system": {
     "conservative": {
       "name": "Melee Strike",

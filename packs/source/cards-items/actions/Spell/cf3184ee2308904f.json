@@ -1,7 +1,7 @@
 {
   "name": "Death's Door",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deathsdoor.jpg",
   "system": {
     "conservative": {
       "name": "Death's Door",

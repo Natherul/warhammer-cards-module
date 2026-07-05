@@ -1,7 +1,7 @@
 {
   "name": "Trick Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/trickshot.jpg",
   "system": {
     "conservative": {
       "name": "Trick Shot",

@@ -1,7 +1,7 @@
 {
   "name": "Improved Counterspell",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/improvedcounterspell.jpg",
   "system": {
     "conservative": {
       "name": "Improved Counterspell",

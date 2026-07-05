@@ -1,7 +1,7 @@
 {
   "name": "Saga of Grimnir",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sagaofgrimnir.jpg",
   "system": {
     "conservative": {
       "name": "Saga of Grimnir",

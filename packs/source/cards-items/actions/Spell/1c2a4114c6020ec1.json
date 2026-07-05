@@ -1,7 +1,7 @@
 {
   "name": "Meteor Storm",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/meteorstorm.jpg",
   "system": {
     "conservative": {
       "name": "Meteor Storm",

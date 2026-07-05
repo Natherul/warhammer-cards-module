@@ -1,7 +1,7 @@
 {
   "name": "Great Sense of Humour",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/greatsenseofhumour.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Fellowship</b> checks gain:\r\n\r\n<br></br> {Dboon}  {Dboon}  Move the party tension meter 1 space to the left</span>\n</p>",
     "type": "Reputation",

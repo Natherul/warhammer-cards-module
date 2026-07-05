@@ -1,7 +1,7 @@
 {
   "name": "Skaeling Charge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/skaelingcharge.jpg",
   "system": {
     "conservative": {
       "name": "Skaeling Charge",

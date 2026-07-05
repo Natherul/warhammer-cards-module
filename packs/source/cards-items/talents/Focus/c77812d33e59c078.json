@@ -1,7 +1,7 @@
 {
   "name": "Skeptical",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/skeptical.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to any dice pools targeting you that are based on <b>Guile</b> checks</span>\n</p>",
     "type": "Focus",

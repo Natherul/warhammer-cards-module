@@ -1,7 +1,7 @@
 {
   "name": "Erratic",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/erratic.jpg",
   "system": {
     "description": "<p>\n<span>During the <i>Beginning of Turn Phase</i> of social encounters, you may adjust your stance 1 additional space.</span>\n</p>",
     "type": "Reputation",

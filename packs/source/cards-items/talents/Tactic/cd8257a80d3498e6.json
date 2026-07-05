@@ -1,7 +1,7 @@
 {
   "name": "Robust",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/robust.jpg",
   "system": {
     "description": "<p>\n<span>When your critical wounds are being treated or healed, the severity of each critical wound is reduced by 1 to a minimum of 1. Critical wounds that are already severity 0 are unaffected.</span>\n</p>",
     "type": "Tactic",

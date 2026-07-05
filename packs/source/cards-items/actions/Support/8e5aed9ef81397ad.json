@@ -1,7 +1,7 @@
 {
   "name": "Blather",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/blather.jpg",
   "system": {
     "conservative": {
       "name": "Blather",

@@ -1,7 +1,7 @@
 {
   "name": "Trivial Knowledge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/trivialknowledge.jpg",
   "system": {
     "conservative": {
       "name": "Trivial Knowledge",

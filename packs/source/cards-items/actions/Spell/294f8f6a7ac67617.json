@@ -1,7 +1,7 @@
 {
   "name": "Feral Howl",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/feralhowl.jpg",
   "system": {
     "conservative": {
       "name": "Feral Howl",

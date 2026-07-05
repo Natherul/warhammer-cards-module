@@ -1,7 +1,7 @@
 {
   "name": "Wrath of Morgrim",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wrathofmorgrim.jpg",
   "system": {
     "conservative": {
       "name": "Wrath of Morgrim",

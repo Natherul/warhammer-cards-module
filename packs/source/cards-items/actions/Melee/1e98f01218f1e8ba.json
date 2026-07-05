@@ -1,7 +1,7 @@
 {
   "name": "Testing Mettle",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/testingmettle.jpg",
   "system": {
     "conservative": {
       "name": "Testing Mettle",

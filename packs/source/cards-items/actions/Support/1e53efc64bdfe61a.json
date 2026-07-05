@@ -1,7 +1,7 @@
 {
   "name": "Improved Block",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/improvedblock.jpg",
   "system": {
     "conservative": {
       "name": "Improved Block",

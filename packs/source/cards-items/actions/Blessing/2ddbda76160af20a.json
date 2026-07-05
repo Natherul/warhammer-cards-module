@@ -1,7 +1,7 @@
 {
   "name": "Kindly Words",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/kindlywords.jpg",
   "system": {
     "conservative": {
       "name": "Kindly Words",

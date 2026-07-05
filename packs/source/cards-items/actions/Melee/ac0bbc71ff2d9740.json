@@ -1,7 +1,7 @@
 {
   "name": "Rampaging Mutation",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/rampagingmutation.jpg",
   "system": {
     "conservative": {
       "name": "Rampaging Mutation",

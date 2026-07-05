@@ -1,7 +1,7 @@
 {
   "name": "Clear Skies",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/clearskies.jpg",
   "system": {
     "conservative": {
       "name": "Clear Skies",

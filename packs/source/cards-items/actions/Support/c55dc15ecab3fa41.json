@@ -1,7 +1,7 @@
 {
   "name": "Raise the Dead",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/raisethedead.jpg",
   "system": {
     "conservative": {
       "name": "Raise the Dead",

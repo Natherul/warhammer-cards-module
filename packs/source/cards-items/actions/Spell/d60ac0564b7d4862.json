@@ -1,7 +1,7 @@
 {
   "name": "Eye of the Beholder",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/eyeofthebeholder.jpg",
   "system": {
     "conservative": {
       "name": "Eye of the Beholder",

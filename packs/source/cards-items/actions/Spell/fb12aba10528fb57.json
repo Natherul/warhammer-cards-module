@@ -1,7 +1,7 @@
 {
   "name": "Flesh Puppet",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fleshpuppet.jpg",
   "system": {
     "conservative": {
       "name": "Flesh Puppet",

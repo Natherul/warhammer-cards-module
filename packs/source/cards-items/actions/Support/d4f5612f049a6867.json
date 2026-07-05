@@ -1,7 +1,7 @@
 {
   "name": "Bitter Tenacity",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bittertenacity.jpg",
   "system": {
     "conservative": {
       "name": "Bitter Tenacity",

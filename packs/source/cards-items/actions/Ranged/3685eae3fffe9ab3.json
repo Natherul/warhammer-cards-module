@@ -1,7 +1,7 @@
 {
   "name": "Stilled Breath",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/stilledbreath.jpg",
   "system": {
     "conservative": {
       "name": "Stilled Breath",

@@ -1,7 +1,7 @@
 {
   "name": "Fast-Talker",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fasttalker.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  K  to your initiative checks for all social encounters.</span>\n</p>",
     "type": "Reputation",

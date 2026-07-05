@@ -1,7 +1,7 @@
 {
   "name": "Call Beast",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/callbeast.jpg",
   "system": {
     "conservative": {
       "name": "Call Beast",

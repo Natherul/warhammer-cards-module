@@ -1,7 +1,7 @@
 {
   "name": "Not Done Yet",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/notdoneyet.jpg",
   "system": {
     "conservative": {
       "name": "Not Done Yet",

@@ -1,7 +1,7 @@
 {
   "name": "Ambush",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ambush.jpg",
   "system": {
     "conservative": {
       "name": "Ambush",

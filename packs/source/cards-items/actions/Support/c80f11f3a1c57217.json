@@ -1,7 +1,7 @@
 {
   "name": "Resist the Lure",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/resistthelure.jpg",
   "system": {
     "conservative": {
       "name": "Resist the Lure",

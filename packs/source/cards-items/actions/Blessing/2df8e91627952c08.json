@@ -1,7 +1,7 @@
 {
   "name": "Untangle",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/untangle.jpg",
   "system": {
     "conservative": {
       "name": "Untangle",

@@ -1,7 +1,7 @@
 {
   "name": "Harrier",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/harrier.jpg",
   "system": {
     "description": "<p>\n<span>Enemies engaged with your pet suffer  K  to all <i>Melee Attack</i>, <i>Ranged Attack</i>, <i>Spell</i>, and <i>Blessing</i> actions</span>\n</p>",
     "type": "Trick",

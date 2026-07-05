@@ -1,7 +1,7 @@
 {
   "name": "Cat's Reflexes",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/catsreflexes.jpg",
   "system": {
     "conservative": {
       "name": "Cat's Reflexes",

@@ -1,7 +1,7 @@
 {
   "name": "Charismatic Presence",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/charismaticpresence.jpg",
   "system": {
     "conservative": {
       "name": "Charismatic Presence",

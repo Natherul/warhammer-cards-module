@@ -1,7 +1,7 @@
 {
   "name": "Wolf's Cunning",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wolfscunning.jpg",
   "system": {
     "conservative": {
       "name": "Wolf's Cunning",

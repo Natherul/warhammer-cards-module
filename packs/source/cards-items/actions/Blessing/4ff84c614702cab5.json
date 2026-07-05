@@ -1,7 +1,7 @@
 {
   "name": "Benediction of Health",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/benedictionofhealth.jpg",
   "system": {
     "conservative": {
       "name": "Benediction of Health",

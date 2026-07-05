@@ -1,7 +1,7 @@
 {
   "name": "Overloaded Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/overloadedshot.jpg",
   "system": {
     "conservative": {
       "name": "Overloaded Shot",

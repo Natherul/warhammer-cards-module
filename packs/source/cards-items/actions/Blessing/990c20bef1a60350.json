@@ -1,7 +1,7 @@
 {
   "name": "Stern Prayer",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sternprayer.jpg",
   "system": {
     "conservative": {
       "name": "Stern Prayer",

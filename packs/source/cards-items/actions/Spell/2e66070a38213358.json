@@ -1,7 +1,7 @@
 {
   "name": "Rancid Visitation",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/rancidvisitation.jpg",
   "system": {
     "conservative": {
       "name": "Rancid Visitation",

@@ -1,7 +1,7 @@
 {
   "name": "Berzerker Slash",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/berzerkerslash.jpg",
   "system": {
     "conservative": {
       "name": "Berzerker Slash",

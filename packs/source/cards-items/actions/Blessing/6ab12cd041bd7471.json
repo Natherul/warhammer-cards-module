@@ -1,7 +1,7 @@
 {
   "name": "Calming Touch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/calmingtouch.jpg",
   "system": {
     "conservative": {
       "name": "Calming Touch",

@@ -1,7 +1,7 @@
 {
   "name": "Spectral Wolf",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/spectralwolf.jpg",
   "system": {
     "conservative": {
       "name": "Spectral Wolf",

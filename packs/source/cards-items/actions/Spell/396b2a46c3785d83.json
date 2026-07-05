@@ -1,7 +1,7 @@
 {
   "name": "Arcane Bolt",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/arcanebolt.jpg",
   "system": {
     "conservative": {
       "name": "Arcane Bolt",

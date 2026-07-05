@@ -1,7 +1,7 @@
 {
   "name": "Destructive Fires",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/destructivefires.jpg",
   "system": {
     "conservative": {
       "name": "Destructive Fires",

@@ -1,7 +1,7 @@
 {
   "name": "Come, Face Me!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/comefaceme.jpg",
   "system": {
     "conservative": {
       "name": "Come, Face Me!",

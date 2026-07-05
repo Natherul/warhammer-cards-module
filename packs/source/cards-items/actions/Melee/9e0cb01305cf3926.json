@@ -1,7 +1,7 @@
 {
   "name": "Smash Instrument",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/smashinstrument.jpg",
   "system": {
     "conservative": {
       "name": "Smash Instrument",

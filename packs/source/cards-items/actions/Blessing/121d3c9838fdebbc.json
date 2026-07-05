@@ -1,7 +1,7 @@
 {
   "name": "Cure Critical Wound",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curecriticalwound.jpg",
   "system": {
     "conservative": {
       "name": "Cure Critical Wound",

@@ -1,7 +1,7 @@
 {
   "name": "Celebrity",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/celebrity.jpg",
   "system": {
     "description": "<p>\n<span>You are famous! NPCs may recognize you if you pass a <b>Charm</b> (<b>Fel</b>) <b>check</b>. The difficulty of the check is 6d, -1d for each character rank you have attained. If you are recognized, your <b>Charm</b>, <b>Guile</b>, and <b>Intimidate</b> checks gain:\r\n<br></br> {Dcomet}  Add  {Dsucc}  {Dsucc}  to the results pool</span>\n</p>",
     "type": "Reputation",

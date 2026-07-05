@@ -1,7 +1,7 @@
 {
   "name": "Hostile Redirection",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hostileredirection.jpg",
   "system": {
     "conservative": {
       "name": "Hostile Redirection",

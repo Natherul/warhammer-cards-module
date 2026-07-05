@@ -1,7 +1,7 @@
 {
   "name": "Not Yet Time",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/notyettime.jpg",
   "system": {
     "conservative": {
       "name": "Not Yet Time",

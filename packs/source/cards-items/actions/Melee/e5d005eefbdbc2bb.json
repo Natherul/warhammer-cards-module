@@ -1,7 +1,7 @@
 {
   "name": "Troll-Feller Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/trollfellerstrike.jpg",
   "system": {
     "conservative": {
       "name": "Troll-Feller Strike",

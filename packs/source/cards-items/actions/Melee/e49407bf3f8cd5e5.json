@@ -1,7 +1,7 @@
 {
   "name": "Grave Blade",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/graveblade.jpg",
   "system": {
     "conservative": {
       "name": "Grave Blade",

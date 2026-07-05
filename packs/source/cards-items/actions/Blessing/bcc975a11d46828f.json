@@ -1,7 +1,7 @@
 {
   "name": "Watery Grave",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/waterygrave.jpg",
   "system": {
     "conservative": {
       "name": "Watery Grave",

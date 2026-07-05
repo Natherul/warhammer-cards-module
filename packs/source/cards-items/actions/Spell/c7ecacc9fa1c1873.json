@@ -1,7 +1,7 @@
 {
   "name": "Boon of Tzeentch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/boonoftzeentch.jpg",
   "system": {
     "conservative": {
       "name": "Boon of Tzeentch",

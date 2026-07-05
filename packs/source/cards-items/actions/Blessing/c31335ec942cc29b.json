@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Healing Hand",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarshealinghand.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Healing Hand",

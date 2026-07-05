@@ -1,7 +1,7 @@
 {
   "name": "Rend the Flesh",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/rendtheflesh.jpg",
   "system": {
     "conservative": {
       "name": "Rend the Flesh",

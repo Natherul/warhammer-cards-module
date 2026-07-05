@@ -1,7 +1,7 @@
 {
   "name": "Leaf Fall",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/leaffall.jpg",
   "system": {
     "conservative": {
       "name": "Leaf Fall",

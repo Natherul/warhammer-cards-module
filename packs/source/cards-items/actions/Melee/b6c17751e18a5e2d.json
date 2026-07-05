@@ -1,7 +1,7 @@
 {
   "name": "Corps-A-Corps",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/corpsacorps.jpg",
   "system": {
     "conservative": {
       "name": "Corps-A-Corps",

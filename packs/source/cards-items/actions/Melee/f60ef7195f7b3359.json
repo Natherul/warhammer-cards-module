@@ -1,7 +1,7 @@
 {
   "name": "Reaving Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/reavingstrike.jpg",
   "system": {
     "conservative": {
       "name": "Reaving Strike",

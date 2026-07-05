@@ -1,7 +1,7 @@
 {
   "name": "Radiant Weapon",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/radiantweapon.jpg",
   "system": {
     "conservative": {
       "name": "Radiant Weapon",

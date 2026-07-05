@@ -1,7 +1,7 @@
 {
   "name": "Enforce the Law",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/enforcethelaw.jpg",
   "system": {
     "conservative": {
       "name": "Enforce the Law",

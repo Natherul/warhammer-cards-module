@@ -1,7 +1,7 @@
 {
   "name": "Spellweaving",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/spellweaving.jpg",
   "system": {
     "conservative": {
       "name": "Spellweaving",

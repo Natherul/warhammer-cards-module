@@ -1,7 +1,7 @@
 {
   "name": "Winning Smile",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/winningsmile.jpg",
   "system": {
     "conservative": {
       "name": "Winning Smile",

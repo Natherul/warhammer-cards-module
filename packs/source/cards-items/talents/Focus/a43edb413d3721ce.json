@@ -1,7 +1,7 @@
 {
   "name": "Serene",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/serene.jpg",
   "system": {
     "description": "<p>\n<span>When you succeed at a <b>Willpower</b> check to recover stress, you may recover one additional stress</span>\n</p>",
     "type": "Focus",

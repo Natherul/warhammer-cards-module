@@ -1,7 +1,7 @@
 {
   "name": "Sign of the Raven",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/signoftheraven.jpg",
   "system": {
     "conservative": {
       "name": "Sign of the Raven",

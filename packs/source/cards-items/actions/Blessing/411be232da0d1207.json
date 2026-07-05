@@ -1,7 +1,7 @@
 {
   "name": "Greater Healing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/greaterhealing.jpg",
   "system": {
     "conservative": {
       "name": "Greater Healing",

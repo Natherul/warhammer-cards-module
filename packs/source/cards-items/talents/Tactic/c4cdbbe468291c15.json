@@ -1,7 +1,7 @@
 {
   "name": "Footwork",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/footwork.jpg",
   "system": {
     "description": "<p>\n<span>You may spend 1 manoeuvre to gain +1 <b>Defence</b> until your next turn or +1 damage on your next attack this turn. Do this only once per turn</span>\n</p>",
     "type": "Tactic",

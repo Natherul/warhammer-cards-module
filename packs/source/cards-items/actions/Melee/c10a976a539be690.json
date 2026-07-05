@@ -1,7 +1,7 @@
 {
   "name": "Boneripper",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Boneripper.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/boneripper.jpg",
   "system": {
     "conservative": {
       "name": "Boneripper",

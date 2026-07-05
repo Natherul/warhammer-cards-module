@@ -1,7 +1,7 @@
 {
   "name": "Capture and Contain",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/captureandcontain.jpg",
   "system": {
     "conservative": {
       "name": "Capture and Contain",

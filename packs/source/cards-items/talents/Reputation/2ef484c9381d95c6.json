@@ -1,7 +1,7 @@
 {
   "name": "Magic Empathy",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/magicempathy.jpg",
   "system": {
     "description": "<p>\n<span>Gain  K  to <b>Fellowship</b> checks or <i>Social</i> actions targeting a wizard.</span>\n</p>",
     "type": "Reputation",

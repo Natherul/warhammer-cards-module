@@ -1,7 +1,7 @@
 {
   "name": "Quit Yer Yappin'",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/quityeryappin.jpg",
   "system": {
     "conservative": {
       "name": "Quit Yer Yappin'",

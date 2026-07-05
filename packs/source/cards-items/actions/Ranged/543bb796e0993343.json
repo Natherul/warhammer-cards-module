@@ -1,7 +1,7 @@
 {
   "name": "Seek Confession",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/seekconfession.jpg",
   "system": {
     "conservative": {
       "name": "Seek Confession",

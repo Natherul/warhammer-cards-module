@@ -1,7 +1,7 @@
 {
   "name": "Slobber!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/slobber.jpg",
   "system": {
     "conservative": {
       "name": "Slobber!",

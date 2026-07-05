@@ -1,7 +1,7 @@
 {
   "name": "Chastise",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/chastise.jpg",
   "system": {
     "conservative": {
       "name": "Chastise",

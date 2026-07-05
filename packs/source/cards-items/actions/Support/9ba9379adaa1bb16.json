@@ -1,7 +1,7 @@
 {
   "name": "Summon Creatures of the Night",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/summoncreaturesofthenight.jpg",
   "system": {
     "conservative": {
       "name": "Summon Creatures of the Night",

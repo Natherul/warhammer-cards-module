@@ -1,7 +1,7 @@
 {
   "name": "Do You Know Who I Am?",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/doyouknowwhoiam.jpg",
   "system": {
     "conservative": {
       "name": "Do You Know Who I Am?",

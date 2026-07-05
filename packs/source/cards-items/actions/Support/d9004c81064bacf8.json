@@ -1,7 +1,7 @@
 {
   "name": "Bellow of Rage",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bellowofrage.jpg",
   "system": {
     "conservative": {
       "name": "Bellow of Rage",

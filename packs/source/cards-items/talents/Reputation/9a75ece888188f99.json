@@ -1,7 +1,7 @@
 {
   "name": "Social Butterfly",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/socialbutterfly.jpg",
   "system": {
     "description": "<p>\n<span>Recover 1 stress whenever you succeed at a <b>Charm</b> or <b>Guile</b> check of at least <b>Easy</b> (<b>1d</b>) difficulty</span>\n</p>",
     "type": "Reputation",

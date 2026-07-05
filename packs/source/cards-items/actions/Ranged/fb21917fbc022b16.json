@@ -1,7 +1,7 @@
 {
   "name": "Flying Debris",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flyingdebris.jpg",
   "system": {
     "conservative": {
       "name": "Flying Debris",

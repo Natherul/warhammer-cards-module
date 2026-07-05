@@ -1,7 +1,7 @@
 {
   "name": "Soul Drain",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/souldrain.jpg",
   "system": {
     "conservative": {
       "name": "Soul Drain",

@@ -1,7 +1,7 @@
 {
   "name": "Shemtek's Fortune",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shemteksfortune.jpg",
   "system": {
     "conservative": {
       "name": "Shemtek's Fortune",

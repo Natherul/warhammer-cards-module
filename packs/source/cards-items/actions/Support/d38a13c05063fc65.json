@@ -1,7 +1,7 @@
 {
   "name": "Imperator Rex",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/imperatorrex.jpg",
   "system": {
     "conservative": {
       "name": "Imperator Rex",

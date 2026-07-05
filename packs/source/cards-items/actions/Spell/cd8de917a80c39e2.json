@@ -1,7 +1,7 @@
 {
   "name": "Hunter's Moon",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/huntersmoon.jpg",
   "system": {
     "conservative": {
       "name": "Hunter's Moon",

@@ -1,7 +1,7 @@
 {
   "name": "Bounce 'N' Chomp",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bouncenchomp.jpg",
   "system": {
     "conservative": {
       "name": "Bounce 'N' Chomp",

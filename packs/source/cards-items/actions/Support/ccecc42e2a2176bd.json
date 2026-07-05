@@ -1,7 +1,7 @@
 {
   "name": "Velvet Parlance",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/velvetparlance.jpg",
   "system": {
     "conservative": {
       "name": "Velvet Parlance",

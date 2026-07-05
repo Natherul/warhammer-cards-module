@@ -1,7 +1,7 @@
 {
   "name": "Strafing Talon Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/strafingtalonstrike.jpg",
   "system": {
     "conservative": {
       "name": "Strafing Talon Strike",

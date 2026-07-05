@@ -1,7 +1,7 @@
 {
   "name": "Rapid Fire",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/rapidfire.jpg",
   "system": {
     "conservative": {
       "name": "Rapid Fire",

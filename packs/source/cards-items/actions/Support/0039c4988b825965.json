@@ -1,7 +1,7 @@
 {
   "name": "Social Drinking",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/socialdrinking.jpg",
   "system": {
     "conservative": {
       "name": "Social Drinking",

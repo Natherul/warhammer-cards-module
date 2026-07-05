@@ -1,7 +1,7 @@
 {
   "name": "Better Lucky Than Good",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/betterluckythangood.jpg",
   "system": {
     "description": "<p>\n<span>When you spend a fortune point to add dice to a check using a basic skill you do not have training in, you may add  K  K  instead of  K </span>\n</p>",
     "type": "Reputation",

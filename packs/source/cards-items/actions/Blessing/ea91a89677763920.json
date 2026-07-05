@@ -1,7 +1,7 @@
 {
   "name": "Dream Weaver",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dreamweaver.jpg",
   "system": {
     "conservative": {
       "name": "Dream Weaver",

@@ -1,7 +1,7 @@
 {
   "name": "Steadfast",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/steadfast.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to recover 3 stress. If you have <b>Discipline</b> Mastery, recover 4 stress instead.\r\n<br></br><b>Steadfast</b> replaces <b>Resolute</b> in your talent card deck.</span>\n</p>",
     "type": "Focus",

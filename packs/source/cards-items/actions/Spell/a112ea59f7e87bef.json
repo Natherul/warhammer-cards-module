@@ -1,7 +1,7 @@
 {
   "name": "Ward Evil",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wardevil.jpg",
   "system": {
     "conservative": {
       "name": "Ward Evil",

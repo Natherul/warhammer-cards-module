@@ -1,7 +1,7 @@
 {
   "name": "Commandment of Brass",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/commandmentofbrass.jpg",
   "system": {
     "conservative": {
       "name": "Commandment of Brass",

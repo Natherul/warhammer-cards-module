@@ -1,7 +1,7 @@
 {
   "name": "Duelist's Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/duelistsstrike.jpg",
   "system": {
     "conservative": {
       "name": "Duelist's Strike",

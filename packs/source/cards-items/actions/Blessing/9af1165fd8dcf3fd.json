@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Wroth",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarswroth.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Wroth",

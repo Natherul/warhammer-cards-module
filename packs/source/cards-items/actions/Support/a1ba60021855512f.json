@@ -1,7 +1,7 @@
 {
   "name": "Compose Yourself",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/composeyourself.jpg",
   "system": {
     "conservative": {
       "name": "Compose Yourself",

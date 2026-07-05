@@ -1,7 +1,7 @@
 {
   "name": "Me First",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mefirst.jpg",
   "system": {
     "conservative": {
       "name": "Me First",

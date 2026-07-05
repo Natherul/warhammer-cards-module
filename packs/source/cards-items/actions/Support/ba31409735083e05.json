@@ -1,7 +1,7 @@
 {
   "name": "Fetch, Boy!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fetchboy.jpg",
   "system": {
     "conservative": {
       "name": "Fetch, Boy!",

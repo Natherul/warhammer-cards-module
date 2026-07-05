@@ -1,7 +1,7 @@
 {
   "name": "Minor Blessing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/minorblessing.jpg",
   "system": {
     "conservative": {
       "name": "Minor Blessing",

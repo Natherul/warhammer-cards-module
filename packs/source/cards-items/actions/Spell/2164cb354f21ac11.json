@@ -1,7 +1,7 @@
 {
   "name": "Flameblast",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flameblast.jpg",
   "system": {
     "conservative": {
       "name": "Flameblast",

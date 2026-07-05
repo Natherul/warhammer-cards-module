@@ -1,7 +1,7 @@
 {
   "name": "Aerial Assault",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/aerialassault.jpg",
   "system": {
     "conservative": {
       "name": "Aerial Assault",

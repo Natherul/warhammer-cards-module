@@ -1,7 +1,7 @@
 {
   "name": "Weapon Mastery",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/weaponmastery.jpg",
   "system": {
     "conservative": {
       "name": "Weapon Mastery",

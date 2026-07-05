@@ -1,7 +1,7 @@
 {
   "name": "Icy Stare",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/icystare.jpg",
   "system": {
     "description": "<p>\n<span>Your <i>Social</i> interactions using <b>Guile</b> gain:\r\n\r\n<br></br> {Dboon}  {Dboon}  The target must make an <b>Average</b> (<b>1d</b>) <b>Discipline</b> (<b>WP</b>) <b>check</b> or gain the <i>Rattled</i> condition for 2 rounds</span>\n</p>",
     "type": "Reputation",

@@ -1,7 +1,7 @@
 {
   "name": "Fake Out",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fakeout.jpg",
   "system": {
     "conservative": {
       "name": "Fake Out",

@@ -1,7 +1,7 @@
 {
   "name": "Curse of Thorns",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curseofthorns.jpg",
   "system": {
     "conservative": {
       "name": "Curse of Thorns",

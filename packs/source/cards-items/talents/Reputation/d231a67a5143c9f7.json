@@ -1,7 +1,7 @@
 {
   "name": "Protective",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/protective.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to skill checks if a member of your party within medium range is critically wounded</span>\n</p>",
     "type": "Reputation",

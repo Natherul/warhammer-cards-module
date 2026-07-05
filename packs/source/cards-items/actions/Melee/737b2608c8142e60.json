@@ -1,7 +1,7 @@
 {
   "name": "Scything Death",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/scythingdeath.jpg",
   "system": {
     "conservative": {
       "name": "Scything Death",

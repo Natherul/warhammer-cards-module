@@ -1,7 +1,7 @@
 {
   "name": "Aethyric Attunement",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/aethyricattunement.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Channeling</b>, <b>Piety</b>, <b>Observation</b>, <b>Folklore</b>, and <b>Intuition</b> checks gain  K  when magic is involved</span>\n</p>",
     "type": "Focus",

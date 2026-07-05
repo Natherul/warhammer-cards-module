@@ -1,7 +1,7 @@
 {
   "name": "Guiding Dream",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/guidingdream.jpg",
   "system": {
     "conservative": {
       "name": "Guiding Dream",

@@ -1,7 +1,7 @@
 {
   "name": "Charge",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/charge.jpg",
   "system": {
     "description": "<p>\n<span>On the turn in which you first enter an engagement with an enemy, gain  K  to all your <i>Melee Attack</i> actions</span>\n</p>",
     "type": "Tactic",

@@ -1,7 +1,7 @@
 {
   "name": "Accurate Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/accurateshot.jpg",
   "system": {
     "conservative": {
       "name": "Accurate Shot",

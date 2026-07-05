@@ -1,7 +1,7 @@
 {
   "name": "Guarded Position",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Guarded_Position.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/guardedposition.jpg",
   "system": {
     "conservative": {
       "name": "Guarded Position",

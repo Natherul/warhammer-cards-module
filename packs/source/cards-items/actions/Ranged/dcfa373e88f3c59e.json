@@ -1,7 +1,7 @@
 {
   "name": "Shade Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shadeshot.jpg",
   "system": {
     "conservative": {
       "name": "Shade Shot",

@@ -1,7 +1,7 @@
 {
   "name": "Intimidating Presence",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/intimidatingpresence.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Intimidate</b> checks gain:\r\n<br></br> {Dboon}  The target suffers 1 stress</span>\n</p>",
     "type": "Reputation",

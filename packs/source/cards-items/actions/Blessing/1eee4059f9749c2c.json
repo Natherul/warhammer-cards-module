@@ -1,7 +1,7 @@
 {
   "name": "Shining Example",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shiningexample.jpg",
   "system": {
     "conservative": {
       "name": "Shining Example",

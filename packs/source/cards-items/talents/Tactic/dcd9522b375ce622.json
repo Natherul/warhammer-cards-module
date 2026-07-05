@@ -1,7 +1,7 @@
 {
   "name": "Nimble",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/nimble.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to make 1 movement manoeuvre. This can interrupt another character's turn which continues after the manoeuvre is resolved. \r\n<br></br>If you have <i>Coordination Mastery</i>, you may make up to 2 movement manoeuvres instead.</span>\n</p>",
     "type": "Tactic",

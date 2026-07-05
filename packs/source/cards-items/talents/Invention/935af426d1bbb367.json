@@ -1,7 +1,7 @@
 {
   "name": "Exo-Frame",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/exoframe.jpg",
   "system": {
     "description": "<p>\n<span>Modifies your <b>Athletics</b> (<b>St</b>) checks.</span>\n</p>",
     "type": "Invention",

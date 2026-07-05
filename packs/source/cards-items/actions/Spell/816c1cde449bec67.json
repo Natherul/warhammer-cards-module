@@ -1,7 +1,7 @@
 {
   "name": "Pyrokinesis",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/pyrokinesis.jpg",
   "system": {
     "conservative": {
       "name": "Pyrokinesis",

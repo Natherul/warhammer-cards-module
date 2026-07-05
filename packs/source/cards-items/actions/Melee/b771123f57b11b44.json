@@ -1,7 +1,7 @@
 {
   "name": "Lead From the Front",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/leadfromthefront.jpg",
   "system": {
     "conservative": {
       "name": "Lead From the Front",

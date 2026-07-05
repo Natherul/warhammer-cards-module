@@ -1,7 +1,7 @@
 {
   "name": "Defy Undeath",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/defyundeath.jpg",
   "system": {
     "conservative": {
       "name": "Defy Undeath",

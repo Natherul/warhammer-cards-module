@@ -1,7 +1,7 @@
 {
   "name": "Thief's Fortune",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/thiefsfortune.jpg",
   "system": {
     "conservative": {
       "name": "Thief's Fortune",

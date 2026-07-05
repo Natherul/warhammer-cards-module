@@ -1,7 +1,7 @@
 {
   "name": "Blessing of Shallya",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/blessingofshallya.jpg",
   "system": {
     "conservative": {
       "name": "Blessing of Shallya",

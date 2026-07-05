@@ -1,7 +1,7 @@
 {
   "name": "Vigilant",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/vigilant.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  K  to an <i>Initiative</i> check</span>\n</p>",
     "type": "Tactic",

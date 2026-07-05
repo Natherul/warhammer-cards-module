@@ -1,7 +1,7 @@
 {
   "name": "Calm Down",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/calmdown.jpg",
   "system": {
     "conservative": {
       "name": "Calm Down",

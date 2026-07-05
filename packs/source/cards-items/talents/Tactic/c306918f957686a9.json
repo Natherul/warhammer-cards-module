@@ -1,7 +1,7 @@
 {
   "name": "Up Close and Personal",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/upcloseandpersonal.jpg",
   "system": {
     "description": "<p>\n<span>When you make a <i>Melee Attack</i> against a target you are engaged with and they attempt to use the <b>Dodge</b> <i>Active Defence</i>, if your attack still hits, add 1 additional recharge token to their <b>Dodge</b> action</span>\n</p>",
     "type": "Tactic",

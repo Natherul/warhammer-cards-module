@@ -1,7 +1,7 @@
 {
   "name": "Bestial Frenzy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bestialfrenzy.jpg",
   "system": {
     "conservative": {
       "name": "Bestial Frenzy",

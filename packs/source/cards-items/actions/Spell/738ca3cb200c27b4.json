@@ -1,7 +1,7 @@
 {
   "name": "Curse",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curse.jpg",
   "system": {
     "conservative": {
       "name": "Curse",

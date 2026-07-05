@@ -1,7 +1,7 @@
 {
   "name": "We Must Work Together!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wemustworktogether.jpg",
   "system": {
     "conservative": {
       "name": "We Must Work Together!",

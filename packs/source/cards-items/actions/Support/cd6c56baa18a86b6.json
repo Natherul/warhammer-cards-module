@@ -1,7 +1,7 @@
 {
   "name": "Advanced Dodge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/advanceddodge.jpg",
   "system": {
     "conservative": {
       "name": "Advanced Dodge",

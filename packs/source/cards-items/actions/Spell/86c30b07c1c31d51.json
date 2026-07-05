@@ -1,7 +1,7 @@
 {
   "name": "Burning Blood",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/burningblood.jpg",
   "system": {
     "conservative": {
       "name": "Burning Blood",

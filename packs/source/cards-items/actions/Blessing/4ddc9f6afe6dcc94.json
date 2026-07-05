@@ -1,7 +1,7 @@
 {
   "name": "Face of Rhya",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/faceofrhya.jpg",
   "system": {
     "conservative": {
       "name": "Face of Rhya",

@@ -1,7 +1,7 @@
 {
   "name": "Healing Energy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/healingenergy.jpg",
   "system": {
     "conservative": {
       "name": "Healing Energy",

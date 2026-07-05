@@ -1,7 +1,7 @@
 {
   "name": "Scourge Lash",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/scourgelash.jpg",
   "system": {
     "conservative": {
       "name": "Scourge Lash",

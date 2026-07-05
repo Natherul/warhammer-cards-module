@@ -1,7 +1,7 @@
 {
   "name": "Diestro Training",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/diestrotraining.jpg",
   "system": {
     "description": "<p>\n<span>While armed with a single fencing weapon, or a fencing weapon and dagger, gain +1 <b>Defence</b>.</span>\n</p>",
     "type": "Tactic",

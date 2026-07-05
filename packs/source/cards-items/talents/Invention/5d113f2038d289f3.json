@@ -1,7 +1,7 @@
 {
   "name": "Scope",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/scope.jpg",
   "system": {
     "description": "<p>\n<span>Modifies your <b>Ballistic Skill</b> (<b>Ag</b>) checks.</span>\n</p>",
     "type": "Invention",

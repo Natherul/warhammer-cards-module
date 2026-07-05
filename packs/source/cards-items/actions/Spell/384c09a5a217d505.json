@@ -1,7 +1,7 @@
 {
   "name": "Reaping Scythe",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/reapingscythe.jpg",
   "system": {
     "conservative": {
       "name": "Reaping Scythe",

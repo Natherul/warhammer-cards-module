@@ -1,7 +1,7 @@
 {
   "name": "Enlightenment",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/enlightenment.jpg",
   "system": {
     "conservative": {
       "name": "Enlightenment",

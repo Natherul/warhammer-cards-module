@@ -1,7 +1,7 @@
 {
   "name": "Off-Hand Flourish",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/offhandflourish.jpg",
   "system": {
     "conservative": {
       "name": "Off-Hand Flourish",

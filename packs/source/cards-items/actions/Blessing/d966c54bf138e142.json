@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Smite",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarssmite.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Smite",

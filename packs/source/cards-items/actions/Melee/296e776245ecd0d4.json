@@ -1,7 +1,7 @@
 {
   "name": "Kiss My Waaagh!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/kissmywaaagh.jpg",
   "system": {
     "conservative": {
       "name": "Kiss My Waaagh!",

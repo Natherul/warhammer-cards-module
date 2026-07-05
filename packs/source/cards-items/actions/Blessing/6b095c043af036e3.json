@@ -1,7 +1,7 @@
 {
   "name": "Fearsome Prayer",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fearsomeprayer.jpg",
   "system": {
     "conservative": {
       "name": "Fearsome Prayer",

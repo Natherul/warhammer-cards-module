@@ -1,7 +1,7 @@
 {
   "name": "Storm Shroud",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/stormshroud.jpg",
   "system": {
     "conservative": {
       "name": "Storm Shroud",

@@ -1,7 +1,7 @@
 {
   "name": "Tough as Nails",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/toughasnails.jpg",
   "system": {
     "description": "<p>\n<span>When you suffer at least 1 critical wound from a single source, you may exhaust this card to choose 1 of the critical wounds and convert it to a normal wound</span>\n</p>",
     "type": "Tactic",

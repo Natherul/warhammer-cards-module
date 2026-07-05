@@ -1,7 +1,7 @@
 {
   "name": "Homeward Bound",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/homewardbound.jpg",
   "system": {
     "conservative": {
       "name": "Homeward Bound",

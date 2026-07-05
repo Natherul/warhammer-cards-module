@@ -1,7 +1,7 @@
 {
   "name": "Cornered Frenzy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/corneredfrenzy.jpg",
   "system": {
     "conservative": {
       "name": "Cornered Frenzy",

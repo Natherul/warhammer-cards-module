@@ -1,7 +1,7 @@
 {
   "name": "Channel Power",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/channelpower.jpg",
   "system": {
     "conservative": {
       "name": "Channel Power",

@@ -1,7 +1,7 @@
 {
   "name": "Patron's Champion",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/patronschampion.jpg",
   "system": {
     "conservative": {
       "name": "Patron's Champion",

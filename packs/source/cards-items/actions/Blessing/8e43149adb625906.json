@@ -1,7 +1,7 @@
 {
   "name": "Healing Fist",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/healingfist.jpg",
   "system": {
     "conservative": {
       "name": "Healing Fist",

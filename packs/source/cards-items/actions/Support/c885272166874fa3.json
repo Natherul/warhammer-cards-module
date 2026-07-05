@@ -1,7 +1,7 @@
 {
   "name": "Interpose",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/interpose.jpg",
   "system": {
     "conservative": {
       "name": "Interpose",

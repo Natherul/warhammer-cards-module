@@ -1,7 +1,7 @@
 {
   "name": "Mounted Charge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mountedcharge.jpg",
   "system": {
     "conservative": {
       "name": "Mounted Charge",

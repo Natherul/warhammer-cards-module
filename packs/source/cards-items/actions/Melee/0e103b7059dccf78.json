@@ -1,7 +1,7 @@
 {
   "name": "Soporific Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/soporificstrike.jpg",
   "system": {
     "conservative": {
       "name": "Soporific Strike",

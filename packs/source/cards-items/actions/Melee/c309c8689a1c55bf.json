@@ -1,7 +1,7 @@
 {
   "name": "Disorienting Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/disorientingstrike.jpg",
   "system": {
     "conservative": {
       "name": "Disorienting Strike",

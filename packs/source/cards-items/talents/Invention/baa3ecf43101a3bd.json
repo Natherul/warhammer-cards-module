@@ -1,7 +1,7 @@
 {
   "name": "Loudener",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/loudener.jpg",
   "system": {
     "description": "<p>\n<span>Modifies your <b>Leadership</b> (<b>Fel</b>) checks.</span>\n</p>",
     "type": "Invention",

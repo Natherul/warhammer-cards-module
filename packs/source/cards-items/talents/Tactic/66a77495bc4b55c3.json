@@ -1,7 +1,7 @@
 {
   "name": "Oh No You Don't",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ohnoyoudont.jpg",
   "system": {
     "description": "<p>\n<span>When you perform an attack, add  K  to your dice pool for each <i>Active Defence</i> your target uses.</span>\n</p>",
     "type": "Tactic",

@@ -1,7 +1,7 @@
 {
   "name": "Armour Expertise",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/armourexpertise.jpg",
   "system": {
     "conservative": {
       "name": "Armour Expertise",

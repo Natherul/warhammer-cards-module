@@ -1,7 +1,7 @@
 {
   "name": "Whip Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/whipstrike.jpg",
   "system": {
     "conservative": {
       "name": "Whip Strike",

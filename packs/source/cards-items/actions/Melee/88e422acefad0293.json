@@ -1,7 +1,7 @@
 {
   "name": "Feint",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/feint.jpg",
   "system": {
     "conservative": {
       "name": "Feint",

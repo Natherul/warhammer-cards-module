@@ -1,7 +1,7 @@
 {
   "name": "I've Seen Worse...",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/iveseenworse.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  K  to any <b>Willpower</b> check</span>\n</p>",
     "type": "Focus",

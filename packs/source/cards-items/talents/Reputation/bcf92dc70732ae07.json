@@ -1,7 +1,7 @@
 {
   "name": "I Know a Guy...",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/iknowaguy.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  K  to a <b>Fellowship</b> check\r\n\r\n<br></br>If the check fails, suffer 1 stress</span>\n</p>",
     "type": "Reputation",

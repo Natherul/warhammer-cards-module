@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Benediction",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarsbenediction.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Benediction",

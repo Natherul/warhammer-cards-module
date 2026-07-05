@@ -1,7 +1,7 @@
 {
   "name": "Sorcerous Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sorcerousstrike.jpg",
   "system": {
     "conservative": {
       "name": "Sorcerous Strike",

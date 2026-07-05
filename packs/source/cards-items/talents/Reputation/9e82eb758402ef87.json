@@ -1,7 +1,7 @@
 {
   "name": "Stiff Upper Lip",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/stiffupperlip.jpg",
   "system": {
     "description": "<p>\n<span>When you receive a condition card for a limited number of rounds, you may spend a Fortune point to reduce the duration of the effect by 2 rounds</span>\n</p>",
     "type": "Reputation",

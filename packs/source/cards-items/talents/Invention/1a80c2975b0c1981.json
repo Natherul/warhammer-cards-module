@@ -1,7 +1,7 @@
 {
   "name": "Optical Lens",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/opticallens.jpg",
   "system": {
     "description": "<p>\n<span>Modifies your <b>Observation</b> (<b>Int</b>) checks.</span>\n</p>",
     "type": "Invention",

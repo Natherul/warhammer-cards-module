@@ -1,7 +1,7 @@
 {
   "name": "Reckless Cleave",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/recklesscleave.webp",
   "system": {
     "conservative": {
       "name": "Reckless Cleave",

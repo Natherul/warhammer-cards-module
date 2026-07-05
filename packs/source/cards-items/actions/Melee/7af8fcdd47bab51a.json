@@ -1,7 +1,7 @@
 {
   "name": "Dazzling Display",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dazzlingdisplay.jpg",
   "system": {
     "conservative": {
       "name": "Dazzling Display",

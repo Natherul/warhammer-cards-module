@@ -1,7 +1,7 @@
 {
   "name": "Deductive Reasoning",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deductivereasoning.jpg",
   "system": {
     "description": "<p>\n<span><b>Intelligence</b> checks gain  {Dboon}  to the results pool if at least  {Dsucc}  {Dsucc}  {Dsucc}  are generated</span>\n</p>",
     "type": "Focus",

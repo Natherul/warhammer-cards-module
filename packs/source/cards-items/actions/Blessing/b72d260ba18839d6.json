@@ -1,7 +1,7 @@
 {
   "name": "Beacon of Mercy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/beaconofmercy.jpg",
   "system": {
     "conservative": {
       "name": "Beacon of Mercy",

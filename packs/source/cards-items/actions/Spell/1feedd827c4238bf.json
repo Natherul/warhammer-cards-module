@@ -1,7 +1,7 @@
 {
   "name": "Flickering Fire of Tzeentch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flickeringfireoftzeentch.jpg",
   "system": {
     "conservative": {
       "name": "Flickering Fire of Tzeentch",

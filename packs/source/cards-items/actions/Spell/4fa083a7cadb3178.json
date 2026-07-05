@@ -1,7 +1,7 @@
 {
   "name": "Wind Blast",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/windblast.jpg",
   "system": {
     "conservative": {
       "name": "Wind Blast",

@@ -1,7 +1,7 @@
 {
   "name": "Outgoing",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/outgoing.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to completely recharge a <i>Social</i> action</span>\n</p>",
     "type": "Reputation",

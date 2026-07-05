@@ -1,7 +1,7 @@
 {
   "name": "Shadow Stalker",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shadowstalker.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to <b>Stealth</b> checks</span>\n</p>",
     "type": "Focus",

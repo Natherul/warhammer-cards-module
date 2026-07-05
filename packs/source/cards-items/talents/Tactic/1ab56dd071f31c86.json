@@ -1,7 +1,7 @@
 {
   "name": "Lead by Example",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/leadbyexample.jpg",
   "system": {
     "description": "<p>\n<span>You may suffer 1 fatigue to perform the Assist manoeuvre during another hero's turn</span>\n</p>",
     "type": "Tactic",

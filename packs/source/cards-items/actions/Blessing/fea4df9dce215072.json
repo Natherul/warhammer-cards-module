@@ -1,7 +1,7 @@
 {
   "name": "Twin-Tailed Comet",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/twintailedcomet.jpg",
   "system": {
     "conservative": {
       "name": "Twin-Tailed Comet",

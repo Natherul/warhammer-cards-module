@@ -1,7 +1,7 @@
 {
   "name": "Disillusionment",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/disillusionment.jpg",
   "system": {
     "conservative": {
       "name": "Disillusionment",

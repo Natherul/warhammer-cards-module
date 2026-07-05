@@ -1,7 +1,7 @@
 {
   "name": "Warning Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/warningshot.jpg",
   "system": {
     "conservative": {
       "name": "Warning Shot",

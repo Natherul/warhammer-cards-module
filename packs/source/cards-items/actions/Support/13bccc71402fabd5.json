@@ -1,7 +1,7 @@
 {
   "name": "Induce Panic",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/inducepanic.jpg",
   "system": {
     "conservative": {
       "name": "Induce Panic",

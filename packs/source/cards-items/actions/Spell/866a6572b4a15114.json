@@ -1,7 +1,7 @@
 {
   "name": "Tzeentch's Favour",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/tzeentchsfavour.jpg",
   "system": {
     "conservative": {
       "name": "Tzeentch's Favour",

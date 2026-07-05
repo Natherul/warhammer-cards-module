@@ -1,7 +1,7 @@
 {
   "name": "Weaponmaster's Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/weaponmastersstrike.jpg",
   "system": {
     "conservative": {
       "name": "Weaponmaster's Strike",

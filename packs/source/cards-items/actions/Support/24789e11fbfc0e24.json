@@ -1,7 +1,7 @@
 {
   "name": "Deathly Presence",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deathlypresence.jpg",
   "system": {
     "conservative": {
       "name": "Deathly Presence",

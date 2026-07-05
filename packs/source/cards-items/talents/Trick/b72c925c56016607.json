@@ -1,7 +1,7 @@
 {
   "name": "Good Dog",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/gooddog.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Animal Training</b> (<b>Fel</b>) checks gain:\r\n<br></br><br></br>  {Dboon}  {Dboon}  Your pet gains 1 <b>Obedience</b></span>\n</p>",
     "type": "Trick",

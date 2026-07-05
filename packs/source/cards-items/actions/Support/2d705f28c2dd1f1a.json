@@ -1,7 +1,7 @@
 {
   "name": "Conundrum",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/conundrum.jpg",
   "system": {
     "conservative": {
       "name": "Conundrum",

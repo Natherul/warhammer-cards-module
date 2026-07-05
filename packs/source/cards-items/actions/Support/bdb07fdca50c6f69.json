@@ -1,7 +1,7 @@
 {
   "name": "Fluster",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fluster.jpg",
   "system": {
     "conservative": {
       "name": "Fluster",

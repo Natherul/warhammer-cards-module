@@ -1,7 +1,7 @@
 {
   "name": "Dance of Madness",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/danceofmadness.jpg",
   "system": {
     "conservative": {
       "name": "Dance of Madness",

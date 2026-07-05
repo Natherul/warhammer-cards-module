@@ -1,7 +1,7 @@
 {
   "name": "Hypodermic Injector",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/hypodermicinjector.jpg",
   "system": {
     "description": "<p>\n<span>Modifies your <b>First Aid</b> (<b>Int</b>) checks.</span>\n</p>",
     "type": "Invention",

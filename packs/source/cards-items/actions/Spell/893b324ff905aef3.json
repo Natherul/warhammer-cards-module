@@ -1,7 +1,7 @@
 {
   "name": "Divination",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/divination.jpg",
   "system": {
     "conservative": {
       "name": "Divination",

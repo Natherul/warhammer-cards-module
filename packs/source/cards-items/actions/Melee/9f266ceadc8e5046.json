@@ -1,7 +1,7 @@
 {
   "name": "Crush 'em Good!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/crushemgood.jpg",
   "system": {
     "conservative": {
       "name": "Crush 'em Good!",

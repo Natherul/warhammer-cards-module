@@ -1,7 +1,7 @@
 {
   "name": "Cauterise",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/cauterise.jpg",
   "system": {
     "conservative": {
       "name": "Cauterise",

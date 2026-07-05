@@ -1,7 +1,7 @@
 {
   "name": "Devious Manoeuvre",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deviousmanoeuvre.jpg",
   "system": {
     "conservative": {
       "name": "Devious Manoeuvre",

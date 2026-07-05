@@ -1,7 +1,7 @@
 {
   "name": "Bullseye",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/bullseye.webp",
   "system": {
     "conservative": {
       "name": "Bullseye",

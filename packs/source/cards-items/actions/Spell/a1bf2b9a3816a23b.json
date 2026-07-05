@@ -1,7 +1,7 @@
 {
   "name": "Guard of Steel",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/guardofsteel.jpg",
   "system": {
     "conservative": {
       "name": "Guard of Steel",

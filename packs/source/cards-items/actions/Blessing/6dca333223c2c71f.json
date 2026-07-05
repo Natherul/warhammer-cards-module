@@ -1,7 +1,7 @@
 {
   "name": "Cure Wounds",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/curewounds.jpg",
   "system": {
     "conservative": {
       "name": "Cure Wounds",

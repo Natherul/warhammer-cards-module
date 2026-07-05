@@ -1,7 +1,7 @@
 {
   "name": "Headlong Charge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/headlongcharge.jpg",
   "system": {
     "conservative": {
       "name": "Headlong Charge",

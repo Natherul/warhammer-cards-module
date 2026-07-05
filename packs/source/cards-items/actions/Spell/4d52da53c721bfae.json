@@ -1,7 +1,7 @@
 {
   "name": "Conjure Wind Spirit",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/conjurewindspirit.jpg",
   "system": {
     "conservative": {
       "name": "Conjure Wind Spirit",

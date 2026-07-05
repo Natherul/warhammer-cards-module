@@ -1,7 +1,7 @@
 {
   "name": "Soothing Voice",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/soothingvoice.jpg",
   "system": {
     "conservative": {
       "name": "Soothing Voice",

@@ -1,7 +1,7 @@
 {
   "name": "Quickgrowth",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/quickgrowth.jpg",
   "system": {
     "conservative": {
       "name": "Quickgrowth",

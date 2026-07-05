@@ -1,7 +1,7 @@
 {
   "name": "Clear Judgement",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/clearjudgement.jpg",
   "system": {
     "conservative": {
       "name": "Clear Judgement",

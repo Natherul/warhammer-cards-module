@@ -1,7 +1,7 @@
 {
   "name": "Morr's Touch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/morrstouch.jpg",
   "system": {
     "conservative": {
       "name": "Morr's Touch",

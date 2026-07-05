@@ -1,7 +1,7 @@
 {
   "name": "Doombolt",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/doombolt.jpg",
   "system": {
     "conservative": {
       "name": "Doombolt",

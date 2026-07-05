@@ -1,7 +1,7 @@
 {
   "name": "Drunken Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/drunkenstrike.jpg",
   "system": {
     "conservative": {
       "name": "Drunken Strike",

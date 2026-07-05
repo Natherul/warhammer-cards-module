@@ -1,7 +1,7 @@
 {
   "name": "Wind of Fortune",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/windoffortune.jpg",
   "system": {
     "conservative": {
       "name": "Wind of Fortune",

@@ -1,7 +1,7 @@
 {
   "name": "Swift Severity",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/swiftseverity.jpg",
   "system": {
     "conservative": {
       "name": "Swift Severity",

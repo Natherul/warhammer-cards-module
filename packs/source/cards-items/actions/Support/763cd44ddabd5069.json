@@ -1,7 +1,7 @@
 {
   "name": "Formal Diplomacy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/formaldiplomacy.jpg",
   "system": {
     "conservative": {
       "name": "Formal Diplomacy",

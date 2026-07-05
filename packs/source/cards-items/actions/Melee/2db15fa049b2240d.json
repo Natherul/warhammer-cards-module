@@ -1,7 +1,7 @@
 {
   "name": "Sadistic Blow",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sadisticblow.jpg",
   "system": {
     "conservative": {
       "name": "Sadistic Blow",

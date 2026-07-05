@@ -1,7 +1,7 @@
 {
   "name": "Unconventional Application",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/unconventionalapplication.jpg",
   "system": {
     "conservative": {
       "name": "Unconventional Application",

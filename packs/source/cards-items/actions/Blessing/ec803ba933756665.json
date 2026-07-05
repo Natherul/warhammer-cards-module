@@ -1,7 +1,7 @@
 {
   "name": "Fires of Faith",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/firesoffaith.jpg",
   "system": {
     "conservative": {
       "name": "Fires of Faith",

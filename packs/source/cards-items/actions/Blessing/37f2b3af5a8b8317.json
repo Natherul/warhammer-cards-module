@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Protection",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarsprotection.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Protection",

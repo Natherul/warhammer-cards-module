@@ -1,7 +1,7 @@
 {
   "name": "Water Breathing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/waterbreathing.jpg",
   "system": {
     "conservative": {
       "name": "Water Breathing",

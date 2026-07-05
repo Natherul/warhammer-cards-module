@@ -1,7 +1,7 @@
 {
   "name": "Sear",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sear.jpg",
   "system": {
     "conservative": {
       "name": "Sear",

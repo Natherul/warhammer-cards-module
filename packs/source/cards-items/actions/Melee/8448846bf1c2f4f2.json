@@ -1,7 +1,7 @@
 {
   "name": "Subdue",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/subdue.jpg",
   "system": {
     "conservative": {
       "name": "Subdue",

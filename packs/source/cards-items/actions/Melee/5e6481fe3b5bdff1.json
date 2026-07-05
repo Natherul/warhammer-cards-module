@@ -1,7 +1,7 @@
 {
   "name": "I am the Hammer",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/iamthehammer.jpg",
   "system": {
     "conservative": {
       "name": "I am the Hammer",

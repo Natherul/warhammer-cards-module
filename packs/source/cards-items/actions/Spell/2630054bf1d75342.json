@@ -1,7 +1,7 @@
 {
   "name": "Rune Lore",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/runelore.jpg",
   "system": {
     "conservative": {
       "name": "Rune Lore",

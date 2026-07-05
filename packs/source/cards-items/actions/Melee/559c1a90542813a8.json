@@ -1,7 +1,7 @@
 {
   "name": "Unstoppable Rush",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/unstoppablerush.jpg",
   "system": {
     "conservative": {
       "name": "Unstoppable Rush",

@@ -1,7 +1,7 @@
 {
   "name": "Stormcall",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/stormcall.jpg",
   "system": {
     "conservative": {
       "name": "Stormcall",

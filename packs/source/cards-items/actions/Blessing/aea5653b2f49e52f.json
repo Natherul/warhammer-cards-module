@@ -1,7 +1,7 @@
 {
   "name": "Maelstrom",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/maelstrom.jpg",
   "system": {
     "conservative": {
       "name": "Maelstrom",

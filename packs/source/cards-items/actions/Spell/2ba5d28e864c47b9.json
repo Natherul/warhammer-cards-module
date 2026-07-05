@@ -1,7 +1,7 @@
 {
   "name": "Nurgle's Touch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/nurglestouch.jpg",
   "system": {
     "conservative": {
       "name": "Nurgle's Touch",

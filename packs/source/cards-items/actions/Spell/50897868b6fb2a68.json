@@ -1,7 +1,7 @@
 {
   "name": "Gerroff Me!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/gerroffme.jpg",
   "system": {
     "conservative": {
       "name": "Gerroff Me!",

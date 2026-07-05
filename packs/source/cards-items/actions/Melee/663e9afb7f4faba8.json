@@ -1,7 +1,7 @@
 {
   "name": "Armoured Fist",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/armouredfist.jpg",
   "system": {
     "conservative": {
       "name": "Armoured Fist",

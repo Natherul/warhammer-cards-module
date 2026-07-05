@@ -1,7 +1,7 @@
 {
   "name": "Unholy Invocation",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/unholyinvocation.jpg",
   "system": {
     "conservative": {
       "name": "Unholy Invocation",

@@ -1,7 +1,7 @@
 {
   "name": "Infamous",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/infamous.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add <i>Fear X</i> to a <b>Guile</b> or <b>Intimidate</b> check. X is equal to your ranks of training in the skill used (maximum 3).</span>\n</p>",
     "type": "Reputation",

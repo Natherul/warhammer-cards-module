@@ -1,7 +1,7 @@
 {
   "name": "Blessing of The Witch",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/blessingofthewitch.jpg",
   "system": {
     "conservative": {
       "name": "Blessing of The Witch",

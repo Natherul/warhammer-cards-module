@@ -1,7 +1,7 @@
 {
   "name": "Woven Mist",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wovenmist.jpg",
   "system": {
     "conservative": {
       "name": "Woven Mist",

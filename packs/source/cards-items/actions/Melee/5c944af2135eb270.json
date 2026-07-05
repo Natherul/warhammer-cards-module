@@ -1,7 +1,7 @@
 {
   "name": "Feathered Frenzy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/featheredfrenzy.jpg",
   "system": {
     "conservative": {
       "name": "Feathered Frenzy",

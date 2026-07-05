@@ -1,7 +1,7 @@
 {
   "name": "The Price of Knowledge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/thepriceofknowledge.jpg",
   "system": {
     "conservative": {
       "name": "The Price of Knowledge",

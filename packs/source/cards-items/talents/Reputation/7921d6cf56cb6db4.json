@@ -1,7 +1,7 @@
 {
   "name": "More Money Than Sense",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/moremoneythansense.jpg",
   "system": {
     "description": "<p>\n<span>When performing a <i>Social</i> action or skill check using <b>Fellowship</b>, you may make a conspicuous show of wealth by spending at least 1 gold coin during the resolution of the task. If you do, add  K  to the dice pool.</span>\n</p>",
     "type": "Reputation",

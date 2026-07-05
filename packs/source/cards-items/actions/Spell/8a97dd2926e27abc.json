@@ -1,7 +1,7 @@
 {
   "name": "Shadowcloak",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shadowcloak.jpg",
   "system": {
     "conservative": {
       "name": "Shadowcloak",

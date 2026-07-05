@@ -1,7 +1,7 @@
 {
   "name": "Catlike Reflexes",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/catlikereflexes.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  K  to any <b>Agility</b> check, or  K  K  to a <b>Dodge</b> attempt\r\n\r\n<br></br><br></br>If your <b>Agility</b> check fails, suffer 1 fatigue</span>\n</p>",
     "type": "Tactic",

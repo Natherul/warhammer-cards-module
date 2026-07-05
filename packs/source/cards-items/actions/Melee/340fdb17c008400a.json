@@ -1,7 +1,7 @@
 {
   "name": "Festering Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/festeringstrike.jpg",
   "system": {
     "conservative": {
       "name": "Festering Strike",

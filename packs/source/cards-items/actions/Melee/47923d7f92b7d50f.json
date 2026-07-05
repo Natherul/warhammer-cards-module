@@ -1,7 +1,7 @@
 {
   "name": "Cut Throat",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Cutthroat.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/cutthroat.jpg",
   "system": {
     "conservative": {
       "name": "Cut Throat",

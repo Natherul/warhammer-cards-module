@@ -1,7 +1,7 @@
 {
   "name": "True Seeing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/trueseeing.jpg",
   "system": {
     "conservative": {
       "name": "True Seeing",

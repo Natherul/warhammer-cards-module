@@ -1,7 +1,7 @@
 {
   "name": "Battle's Call",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/battlescall.jpg",
   "system": {
     "conservative": {
       "name": "Battle's Call",

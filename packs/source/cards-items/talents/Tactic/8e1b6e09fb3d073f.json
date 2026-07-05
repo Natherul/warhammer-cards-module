@@ -1,7 +1,7 @@
 {
   "name": "Exploit a Weakness",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/exploitaweakness.jpg",
   "system": {
     "description": "<p>\n<span>Add  K  to your attack if the target is critically wounded</span>\n</p>",
     "type": "Tactic",

@@ -1,7 +1,7 @@
 {
   "name": "Kindleflame",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/kindleflame.jpg",
   "system": {
     "conservative": {
       "name": "Kindleflame",

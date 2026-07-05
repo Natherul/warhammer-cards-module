@@ -1,7 +1,7 @@
 {
   "name": "Chaos Incarnate",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/chaosincarnate.jpg",
   "system": {
     "conservative": {
       "name": "Chaos Incarnate",

@@ -1,7 +1,7 @@
 {
   "name": "Block",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Block.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/block.jpg",
   "system": {
     "conservative": {
       "name": "Block",

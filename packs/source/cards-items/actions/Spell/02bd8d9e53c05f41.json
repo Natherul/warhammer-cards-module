@@ -1,7 +1,7 @@
 {
   "name": "Shape Plants",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shapeplants.jpg",
   "system": {
     "conservative": {
       "name": "Shape Plants",

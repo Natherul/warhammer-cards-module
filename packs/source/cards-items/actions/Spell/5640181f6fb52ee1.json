@@ -1,7 +1,7 @@
 {
   "name": "Wings of Fire",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wingsoffire.jpg",
   "system": {
     "conservative": {
       "name": "Wings of Fire",

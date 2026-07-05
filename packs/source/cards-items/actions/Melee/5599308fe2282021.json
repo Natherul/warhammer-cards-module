@@ -1,7 +1,7 @@
 {
   "name": "Double Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/doublestrike.jpg",
   "system": {
     "conservative": {
       "name": "Double Strike",

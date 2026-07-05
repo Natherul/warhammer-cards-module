@@ -1,7 +1,7 @@
 {
   "name": "Lifebloom",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/lifebloom.jpg",
   "system": {
     "conservative": {
       "name": "Lifebloom",

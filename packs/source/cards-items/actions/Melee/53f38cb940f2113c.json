@@ -1,7 +1,7 @@
 {
   "name": "Insulting Blow",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/insultingblow.jpg",
   "system": {
     "conservative": {
       "name": "Insulting Blow",

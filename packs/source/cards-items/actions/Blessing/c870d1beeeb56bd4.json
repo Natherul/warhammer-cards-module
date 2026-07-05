@@ -1,7 +1,7 @@
 {
   "name": "Sigmar's Light",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sigmarslight.jpg",
   "system": {
     "conservative": {
       "name": "Sigmar's Light",

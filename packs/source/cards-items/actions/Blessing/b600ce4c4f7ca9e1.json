@@ -1,7 +1,7 @@
 {
   "name": "Unremarkable Face",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/unremarkableface.jpg",
   "system": {
     "conservative": {
       "name": "Unremarkable Face",

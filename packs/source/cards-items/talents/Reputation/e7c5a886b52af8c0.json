@@ -1,7 +1,7 @@
 {
   "name": "Resourceful",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/resourceful.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  to an <b>Intelligence</b> check</span>\n</p>",
     "type": "Reputation",

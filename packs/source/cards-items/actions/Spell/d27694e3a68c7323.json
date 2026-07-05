@@ -1,7 +1,7 @@
 {
   "name": "Primal Claw",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/primalclaw.jpg",
   "system": {
     "conservative": {
       "name": "Primal Claw",

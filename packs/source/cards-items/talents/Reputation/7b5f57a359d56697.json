@@ -1,7 +1,7 @@
 {
   "name": "Daredevil",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/daredevil.jpg",
   "system": {
     "description": "<p>\n<span>While you are strained (both fatigued and distressed), you gain the <i>Invigorated</i> condition until you are no longer strained.</span>\n</p>",
     "type": "Reputation",

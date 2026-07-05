@@ -1,7 +1,7 @@
 {
   "name": "Flight of the Phoenix",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/flightofthephoenix.jpg",
   "system": {
     "conservative": {
       "name": "Flight of the Phoenix",

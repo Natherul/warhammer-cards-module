@@ -1,7 +1,7 @@
 {
   "name": "Stalwart",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/stalwart.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to recover a total of 3 fatigue and/or stress. If you have either <b>Discipline</b> or <b>Resilience</b> Mastery you may instead recover a total of 4 fatigue and/or stress.\r\n<br></br><b>Stalwart</b> replaces <b>Strong Willed</b> in your talent card deck.</span>\n</p>",
     "type": "Reputation",

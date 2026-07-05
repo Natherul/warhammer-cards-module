@@ -1,7 +1,7 @@
 {
   "name": "Creative Thinking",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/creativethinking.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this talent to choose and equip a new talent that you possess of any type in this slot; that talent remans equipped until <b>Creative Thinking</b> recharges.</span>\n</p>",
     "type": "Focus",

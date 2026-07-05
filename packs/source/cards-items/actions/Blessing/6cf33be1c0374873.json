@@ -1,7 +1,7 @@
 {
   "name": "Angel of Death",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/angelofdeath.jpg",
   "system": {
     "conservative": {
       "name": "Angel of Death",

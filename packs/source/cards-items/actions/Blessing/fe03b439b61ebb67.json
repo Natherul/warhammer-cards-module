@@ -1,7 +1,7 @@
 {
   "name": "True Mastery",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/truemastery.jpg",
   "system": {
     "conservative": {
       "name": "True Mastery",

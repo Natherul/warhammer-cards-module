@@ -1,7 +1,7 @@
 {
   "name": "Push It 'Til You Drop",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/pushittilyoudrop.jpg",
   "system": {
     "description": "<p>\n<span>When you score a hit with a <i>Melee Attack</i>, you may convert one of your regular wounds to a critical wound. Deal extra damage on that attack equal to that critical's severity.</span>\n</p>",
     "type": "Tactic",

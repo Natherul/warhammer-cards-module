@@ -1,7 +1,7 @@
 {
   "name": "Slay the Unbeliever",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/slaytheunbeliever.jpg",
   "system": {
     "conservative": {
       "name": "Slay the Unbeliever",

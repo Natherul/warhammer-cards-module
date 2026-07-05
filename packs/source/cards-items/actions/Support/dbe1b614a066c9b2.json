@@ -1,7 +1,7 @@
 {
   "name": "Ward",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ward.jpg",
   "system": {
     "conservative": {
       "name": "Ward",

@@ -1,7 +1,7 @@
 {
   "name": "Sudden Knife",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/suddenknife.jpg",
   "system": {
     "conservative": {
       "name": "Sudden Knife",

@@ -1,7 +1,7 @@
 {
   "name": "Mechanical Precision",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mechanicalprecision.jpg",
   "system": {
     "conservative": {
       "name": "Mechanical Precision",

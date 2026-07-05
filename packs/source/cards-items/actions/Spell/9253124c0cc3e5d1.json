@@ -1,7 +1,7 @@
 {
   "name": "Lash of Slaanesh",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/lashofslaanesh.jpg",
   "system": {
     "conservative": {
       "name": "Lash of Slaanesh",

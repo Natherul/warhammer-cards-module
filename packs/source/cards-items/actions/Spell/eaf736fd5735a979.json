@@ -1,7 +1,7 @@
 {
   "name": "Bolt of Change",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/boltofchange.jpg",
   "system": {
     "conservative": {
       "name": "Bolt of Change",

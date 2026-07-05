@@ -1,7 +1,7 @@
 {
   "name": "Axe of Khorne Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/axeofkhornestrike.jpg",
   "system": {
     "conservative": {
       "name": "Axe of Khorne Strike",

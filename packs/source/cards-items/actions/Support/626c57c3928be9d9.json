@@ -1,7 +1,7 @@
 {
   "name": "Perform a Stunt",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Perform_a_Stunt.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/performastunt.jpg",
   "system": {
     "conservative": {
       "name": "Perform a Stunt",

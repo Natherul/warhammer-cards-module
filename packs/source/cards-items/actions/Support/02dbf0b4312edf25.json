@@ -1,7 +1,7 @@
 {
   "name": "Iron Shield Stance",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ironshieldstance.jpg",
   "system": {
     "conservative": {
       "name": "Iron Shield Stance",

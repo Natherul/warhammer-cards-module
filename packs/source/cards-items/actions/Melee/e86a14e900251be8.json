@@ -1,7 +1,7 @@
 {
   "name": "Daemonic Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/daemonicstrike.jpg",
   "system": {
     "conservative": {
       "name": "Daemonic Strike",

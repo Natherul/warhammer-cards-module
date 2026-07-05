@@ -1,7 +1,7 @@
 {
   "name": "Cloud of Gnats",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/cloudofgnats.jpg",
   "system": {
     "conservative": {
       "name": "Cloud of Gnats",

@@ -1,7 +1,7 @@
 {
   "name": "Roiling Skies",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/roilingskies.jpg",
   "system": {
     "conservative": {
       "name": "Roiling Skies",

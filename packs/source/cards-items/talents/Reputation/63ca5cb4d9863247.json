@@ -1,7 +1,7 @@
 {
   "name": "Chosen by Fortune",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/chosenbyfortune.jpg",
   "system": {
     "description": "<p>\n<span>After rolling an <b>Intelligence</b>, <b>Willpower</b>, or <b>Fellowship</b> check, exhaust this card to reroll any or all  K  and  K  dice in your current pool. \r\n<br></br><b>Chosen by Fortune</b> replaces <b>Favoured by Fortune</b> in your talent card deck.</span>\n</p>",
     "type": "Reputation",

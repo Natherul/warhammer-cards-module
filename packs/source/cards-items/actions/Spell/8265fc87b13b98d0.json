@@ -1,7 +1,7 @@
 {
   "name": "Swarm of Whispers",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/swarmofwhispers.jpg",
   "system": {
     "conservative": {
       "name": "Swarm of Whispers",

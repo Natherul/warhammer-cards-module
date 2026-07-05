@@ -1,7 +1,7 @@
 {
   "name": "Quality Work",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/qualitywork.jpg",
   "system": {
     "conservative": {
       "name": "Quality Work",

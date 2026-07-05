@@ -1,7 +1,7 @@
 {
   "name": "Skygazer",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/skygazer.jpg",
   "system": {
     "description": "<p>\n<span>Your <b>Intelligence</b> checks gain  K  so long as you are under the open sky.</span>\n</p>",
     "type": "Focus",

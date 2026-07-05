@@ -1,7 +1,7 @@
 {
   "name": "Dying Breath",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dyingbreath.jpg",
   "system": {
     "conservative": {
       "name": "Dying Breath",

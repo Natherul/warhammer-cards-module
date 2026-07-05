@@ -1,7 +1,7 @@
 {
   "name": "Eye Gouger",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/eyegouger.jpg",
   "system": {
     "conservative": {
       "name": "Eye Gouger",

@@ -1,7 +1,7 @@
 {
   "name": "Pit of Shades",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/pitofshades.jpg",
   "system": {
     "conservative": {
       "name": "Pit of Shades",

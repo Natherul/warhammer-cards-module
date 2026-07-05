@@ -1,7 +1,7 @@
 {
   "name": "Nimble Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/nimblestrike.jpg",
   "system": {
     "conservative": {
       "name": "Nimble Strike",

@@ -1,7 +1,7 @@
 {
   "name": "Close-Quarters Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/closequartersshot.jpg",
   "system": {
     "conservative": {
       "name": "Close-Quarters Shot",

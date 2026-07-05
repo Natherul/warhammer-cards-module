@@ -1,7 +1,7 @@
 {
   "name": "Quick Wits",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/quickwits.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to remove 2 recharge tokens from one of your currently recharging cards</span>\n</p>",
     "type": "Focus",

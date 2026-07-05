@@ -1,7 +1,7 @@
 {
   "name": "Thunderous Blow",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/thunderousblow.webp",
   "system": {
     "conservative": {
       "name": "Thunderous Blow",

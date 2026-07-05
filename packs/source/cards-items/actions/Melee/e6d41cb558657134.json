@@ -1,7 +1,7 @@
 {
   "name": "Whirling Death",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/whirlingdeath.jpg",
   "system": {
     "conservative": {
       "name": "Whirling Death",

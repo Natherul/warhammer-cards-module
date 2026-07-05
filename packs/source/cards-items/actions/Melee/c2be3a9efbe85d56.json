@@ -1,7 +1,7 @@
 {
   "name": "Half-Haft Grip",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/halfhaftgrip.jpg",
   "system": {
     "conservative": {
       "name": "Half-Haft Grip",

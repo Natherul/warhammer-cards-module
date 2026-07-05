@@ -1,7 +1,7 @@
 {
   "name": "Mine's Bigger",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/minesbigger.jpg",
   "system": {
     "conservative": {
       "name": "Mine's Bigger",

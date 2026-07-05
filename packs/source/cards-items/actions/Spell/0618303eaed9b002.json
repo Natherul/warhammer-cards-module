@@ -1,7 +1,7 @@
 {
   "name": "Law of Logic",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/lawoflogic.jpg",
   "system": {
     "conservative": {
       "name": "Law of Logic",

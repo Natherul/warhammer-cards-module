@@ -1,7 +1,7 @@
 {
   "name": "Voice of Reason",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/voiceofreason.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to use <b>Intelligence</b> rather than <b>Fellowship</b> for a skill check. \r\n<br></br>The check gains:\r\n<br></br> {Dbane}  Add  B  to the results pool</span>\n</p>",
     "type": "Reputation",

@@ -1,7 +1,7 @@
 {
   "name": "Twist The Knife",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/twisttheknife.jpg",
   "system": {
     "conservative": {
       "name": "Twist The Knife",

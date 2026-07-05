@@ -1,7 +1,7 @@
 {
   "name": "Plague Mass",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/plaguemass.jpg",
   "system": {
     "conservative": {
       "name": "Plague Mass",

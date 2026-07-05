@@ -1,7 +1,7 @@
 {
   "name": "Mask of Aramar",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/maskofaramar.jpg",
   "system": {
     "conservative": {
       "name": "Mask of Aramar",

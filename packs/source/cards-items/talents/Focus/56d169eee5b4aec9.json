@@ -1,7 +1,7 @@
 {
   "name": "Well-Read",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/wellread.jpg",
   "system": {
     "description": "<p>\n<span>Gain  K  on <b>Folklore</b> and <b>Education</b> tests</span>\n</p>",
     "type": "Focus",

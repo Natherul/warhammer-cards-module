@@ -1,7 +1,7 @@
 {
   "name": "Lightning",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/lightning.jpg",
   "system": {
     "conservative": {
       "name": "Lightning",

@@ -1,7 +1,7 @@
 {
   "name": "Mob Justice",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mobjustice.jpg",
   "system": {
     "conservative": {
       "name": "Mob Justice",

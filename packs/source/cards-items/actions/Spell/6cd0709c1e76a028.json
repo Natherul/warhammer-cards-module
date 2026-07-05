@@ -1,7 +1,7 @@
 {
   "name": "Eyes of Truth",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/eyesoftruth.jpg",
   "system": {
     "conservative": {
       "name": "Eyes of Truth",

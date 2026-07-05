@@ -1,7 +1,7 @@
 {
   "name": "Hand of Dust",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/handofdust.jpg",
   "system": {
     "conservative": {
       "name": "Hand of Dust",

@@ -1,7 +1,7 @@
 {
   "name": "Dodge",
   "type": "action",
-  "img": "modules/warhammer-cards-compendium/images/Dodge.jpg",
+  "img": "modules/warhammer-cards-compendium/images/cards/dodge.jpg",
   "system": {
     "conservative": {
       "name": "Dodge",

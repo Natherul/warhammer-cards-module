@@ -1,7 +1,7 @@
 {
   "name": "Feral Fire",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/feralfire.jpg",
   "system": {
     "conservative": {
       "name": "Feral Fire",

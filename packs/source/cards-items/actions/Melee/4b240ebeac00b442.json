@@ -1,7 +1,7 @@
 {
   "name": "Mighty Blow",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mightyblow.jpg",
   "system": {
     "conservative": {
       "name": "Mighty Blow",

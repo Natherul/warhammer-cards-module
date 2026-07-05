@@ -1,7 +1,7 @@
 {
   "name": "Favoured by Fortune",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/favouredbyfortune.jpg",
   "system": {
     "description": "<p>\n<span>After rolling an <b>Intelligence</b>, <b>Willpower</b>, or <b>Fellowship</b> check, exhaust this card to reroll all  K  and  K  dice in the current dice pool</span>\n</p>",
     "type": "Reputation",

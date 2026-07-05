@@ -1,7 +1,7 @@
 {
   "name": "Mauling Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/maulingstrike.jpg",
   "system": {
     "conservative": {
       "name": "Mauling Strike",

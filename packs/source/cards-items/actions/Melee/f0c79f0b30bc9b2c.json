@@ -1,7 +1,7 @@
 {
   "name": "Final Caress",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/finalcaress.jpg",
   "system": {
     "conservative": {
       "name": "Final Caress",

@@ -1,7 +1,7 @@
 {
   "name": "Pool of Shadows",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/poolofshadows.jpg",
   "system": {
     "conservative": {
       "name": "Pool of Shadows",

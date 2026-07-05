@@ -1,7 +1,7 @@
 {
   "name": "Predator or Prey",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/predatororprey.jpg",
   "system": {
     "conservative": {
       "name": "Predator or Prey",

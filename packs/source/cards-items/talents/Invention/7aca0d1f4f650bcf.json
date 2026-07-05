@@ -1,7 +1,7 @@
 {
   "name": "Piston Assist",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/pistonassist.jpg",
   "system": {
     "description": "<p>\n<span>Modifies your <b>Weapon Skill</b> (<b>St</b>) checks.</span>\n</p>",
     "type": "Invention",

@@ -1,7 +1,7 @@
 {
   "name": "Inhibiting Attack",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/inhibitingattack.jpg",
   "system": {
     "conservative": {
       "name": "Inhibiting Attack",

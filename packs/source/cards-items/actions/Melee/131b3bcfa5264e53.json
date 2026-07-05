@@ -1,7 +1,7 @@
 {
   "name": "Shield Slam",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shieldslam.jpg",
   "system": {
     "conservative": {
       "name": "Shield Slam",

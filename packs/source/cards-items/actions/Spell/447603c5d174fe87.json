@@ -1,7 +1,7 @@
 {
   "name": "Transposition",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/transposition.jpg",
   "system": {
     "conservative": {
       "name": "Transposition",

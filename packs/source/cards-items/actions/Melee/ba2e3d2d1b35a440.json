@@ -1,7 +1,7 @@
 {
   "name": "Profane Rites",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/profanerites.jpg",
   "system": {
     "conservative": {
       "name": "Profane Rites",

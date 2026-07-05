@@ -1,7 +1,7 @@
 {
   "name": "Soulfire",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/soulfire.jpg",
   "system": {
     "conservative": {
       "name": "Soulfire",

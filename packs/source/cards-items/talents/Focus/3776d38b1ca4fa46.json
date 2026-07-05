@@ -1,7 +1,7 @@
 {
   "name": "Contemplative",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/contemplative.jpg",
   "system": {
     "description": "<p>\n<span>If you are in a conservative stance, you may spend 1 fortune point to convert one more characteristic die into a conservative die than your stance would normally allow</span>\n</p>",
     "type": "Focus",

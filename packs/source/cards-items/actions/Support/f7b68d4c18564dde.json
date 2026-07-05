@@ -1,7 +1,7 @@
 {
   "name": "Sermon",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sermon.jpg",
   "system": {
     "conservative": {
       "name": "Sermon",

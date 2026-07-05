@@ -1,7 +1,7 @@
 {
   "name": "Sharp Wits",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/sharpwits.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to remove all recharge tokens from one of your currently recharging cards.\r\n<br></br><b>Sharp Wits</b> replaces <b>Quick Wits</b> in your talent card deck.</span>\n</p>",
     "type": "Focus",

@@ -1,7 +1,7 @@
 {
   "name": "Shooting Star",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shootingstar.jpg",
   "system": {
     "conservative": {
       "name": "Shooting Star",

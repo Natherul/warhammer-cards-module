@@ -1,7 +1,7 @@
 {
   "name": "Adaptable",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/adaptable.jpg",
   "system": {
     "description": "<p>\n<span>When using <i>Reckless Dice</i> to perform a check based on <b>Intelligence</b>, you do not suffer stress unless you roll more than one  {Exertion}  result</span>\n</p>",
     "type": "Focus",

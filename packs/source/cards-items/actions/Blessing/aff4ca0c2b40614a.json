@@ -1,7 +1,7 @@
 {
   "name": "Manann's Trident",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/manannstrident.jpg",
   "system": {
     "conservative": {
       "name": "Manann's Trident",

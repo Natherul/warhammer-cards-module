@@ -1,7 +1,7 @@
 {
   "name": "Upper Class",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/upperclass.jpg",
   "system": {
     "description": "<p>\n<span>Once per session you may re-roll a failed <i>Social</i> action check against a target whose <i>Noble Rank</i> is below yours.</span>\n</p>",
     "type": "Reputation",

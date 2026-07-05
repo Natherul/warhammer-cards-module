@@ -1,7 +1,7 @@
 {
   "name": "Fights With Flair",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fightswithflair.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to remove up to 2 recharge tokens from an <i>Enhance</i> card</span>\n</p>",
     "type": "Reputation",

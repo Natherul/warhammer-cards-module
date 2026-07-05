@@ -1,7 +1,7 @@
 {
   "name": "Fireball Barrage",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fireballbarrage.jpg",
   "system": {
     "conservative": {
       "name": "Fireball Barrage",

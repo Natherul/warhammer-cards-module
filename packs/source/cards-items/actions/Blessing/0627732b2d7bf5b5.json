@@ -1,7 +1,7 @@
 {
   "name": "Divine Assault",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/divineassault.jpg",
   "system": {
     "conservative": {
       "name": "Divine Assault",

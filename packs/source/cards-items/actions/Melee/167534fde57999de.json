@@ -1,7 +1,7 @@
 {
   "name": "Knee Biter",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/kneebiter.jpg",
   "system": {
     "conservative": {
       "name": "Knee Biter",

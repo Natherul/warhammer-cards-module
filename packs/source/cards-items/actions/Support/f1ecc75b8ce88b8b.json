@@ -1,7 +1,7 @@
 {
   "name": "Honeyed Words",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/honeyedwords.jpg",
   "system": {
     "conservative": {
       "name": "Honeyed Words",

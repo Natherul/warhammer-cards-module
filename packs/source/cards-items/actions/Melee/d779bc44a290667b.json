@@ -1,7 +1,7 @@
 {
   "name": "Spear of Destiny",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/spearofdestiny.jpg",
   "system": {
     "conservative": {
       "name": "Spear of Destiny",

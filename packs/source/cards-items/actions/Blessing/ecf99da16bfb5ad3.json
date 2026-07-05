@@ -1,7 +1,7 @@
 {
   "name": "Mother's Mercy",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mothersmercy.jpg",
   "system": {
     "conservative": {
       "name": "Mother's Mercy",

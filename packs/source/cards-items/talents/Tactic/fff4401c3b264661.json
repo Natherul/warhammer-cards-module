@@ -1,7 +1,7 @@
 {
   "name": "Shield Wall",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shieldwall.jpg",
   "system": {
     "description": "<p>\n<span>When in an engagement where at least 2 allies are equipped with shields, gain +1 <b>Defence</b></span>\n</p>",
     "type": "Tactic",

@@ -1,7 +1,7 @@
 {
   "name": "Do It Now!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/doitnow.jpg",
   "system": {
     "conservative": {
       "name": "Do It Now!",

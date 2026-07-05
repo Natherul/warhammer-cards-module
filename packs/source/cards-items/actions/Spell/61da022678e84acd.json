@@ -1,7 +1,7 @@
 {
   "name": "Death's Messenger",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/deathsmessenger.jpg",
   "system": {
     "conservative": {
       "name": "Death's Messenger",

@@ -1,7 +1,7 @@
 {
   "name": "Shrug it Off",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/shrugitoff.jpg",
   "system": {
     "conservative": {
       "name": "Shrug it Off",

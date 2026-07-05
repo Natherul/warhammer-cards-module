@@ -1,7 +1,7 @@
 {
   "name": "Lead from the Front",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/leadfromthefront.jpg",
   "system": {
     "description": "<p>\n<span>In combat, if no enemies have acted yet during the current round, gain  K  to one skill check you attempt on your turn</span>\n</p>",
     "type": "Tactic",

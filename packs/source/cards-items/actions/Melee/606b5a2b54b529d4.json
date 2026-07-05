@@ -1,7 +1,7 @@
 {
   "name": "Disarm",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/disarm.jpg",
   "system": {
     "conservative": {
       "name": "Disarm",

@@ -1,7 +1,7 @@
 {
   "name": "Fearsome Charge",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fearsomecharge.jpg",
   "system": {
     "conservative": {
       "name": "Fearsome Charge",

@@ -1,7 +1,7 @@
 {
   "name": "Giant Feller Strike",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/giantfellerstrike.jpg",
   "system": {
     "conservative": {
       "name": "Giant Feller Strike",

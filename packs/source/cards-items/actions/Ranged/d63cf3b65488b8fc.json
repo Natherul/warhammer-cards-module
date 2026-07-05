@@ -1,7 +1,7 @@
 {
   "name": "Thundering Shot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/thunderingshot.jpg",
   "system": {
     "conservative": {
       "name": "Thundering Shot",

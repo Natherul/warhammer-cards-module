@@ -1,7 +1,7 @@
 {
   "name": "The Cerulean Shield",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/theceruleanshield.jpg",
   "system": {
     "conservative": {
       "name": "The Cerulean Shield",

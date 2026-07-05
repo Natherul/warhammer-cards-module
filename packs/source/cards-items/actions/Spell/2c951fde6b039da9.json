@@ -1,7 +1,7 @@
 {
   "name": "Gaze of Mork",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/gazeofmork.jpg",
   "system": {
     "conservative": {
       "name": "Gaze of Mork",

@@ -1,7 +1,7 @@
 {
   "name": "Devouring Grasp",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/devouringgrasp.jpg",
   "system": {
     "conservative": {
       "name": "Devouring Grasp",

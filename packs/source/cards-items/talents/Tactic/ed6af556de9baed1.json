@@ -1,7 +1,7 @@
 {
   "name": "Roll With It",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/rollwithit.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card when you take damage to increase your <i>Soak Value</i> by 2 against that source of damage</span>\n</p>",
     "type": "Tactic",

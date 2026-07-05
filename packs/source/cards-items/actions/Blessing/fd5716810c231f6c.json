@@ -1,7 +1,7 @@
 {
   "name": "Mending Paw",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mendingpaw.jpg",
   "system": {
     "conservative": {
       "name": "Mending Paw",

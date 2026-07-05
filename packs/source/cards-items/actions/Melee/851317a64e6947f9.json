@@ -1,7 +1,7 @@
 {
   "name": "Drag Down",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/dragdown.jpg",
   "system": {
     "conservative": {
       "name": "Drag Down",

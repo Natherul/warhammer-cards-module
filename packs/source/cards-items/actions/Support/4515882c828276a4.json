@@ -1,7 +1,7 @@
 {
   "name": "Favoured Son",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/favouredson.jpg",
   "system": {
     "conservative": {
       "name": "Favoured Son",

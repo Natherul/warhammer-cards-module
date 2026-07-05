@@ -1,7 +1,7 @@
 {
   "name": "Mortification",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/mortification.jpg",
   "system": {
     "conservative": {
       "name": "Mortification",

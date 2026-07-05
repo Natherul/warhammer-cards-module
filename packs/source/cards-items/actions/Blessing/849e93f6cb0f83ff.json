@@ -1,7 +1,7 @@
 {
   "name": "Wave of Anger",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/waveofanger.jpg",
   "system": {
     "conservative": {
       "name": "Wave of Anger",

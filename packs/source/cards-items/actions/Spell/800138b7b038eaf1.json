@@ -1,7 +1,7 @@
 {
   "name": "Gehenna's Golden Golem",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/gehennasgoldengolem.jpg",
   "system": {
     "conservative": {
       "name": "Gehenna's Golden Golem",

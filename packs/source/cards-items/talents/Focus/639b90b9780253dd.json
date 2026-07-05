@@ -1,7 +1,7 @@
 {
   "name": "Jack of All Trades",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/jackofalltrades.jpg",
   "system": {
     "description": "<p>\n<span>You may suffer 1 stress to add  K  to any skill check</span>\n</p>",
     "type": "Focus",

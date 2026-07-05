@@ -1,7 +1,7 @@
 {
   "name": "Spirited",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/spirited.jpg",
   "system": {
     "description": "<p>\n<span>When a <i>Social</i> action targeting you generates at least 1  {Dchaos} , you recover 1 stress.</span>\n</p>",
     "type": "Focus",

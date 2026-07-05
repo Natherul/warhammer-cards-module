@@ -1,7 +1,7 @@
 {
   "name": "Warpstone Throwing Stars",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/warpstonethrowingstars.jpg",
   "system": {
     "conservative": {
       "name": "Warpstone Throwing Stars",

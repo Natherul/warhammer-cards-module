@@ -1,7 +1,7 @@
 {
   "name": "Peacemaker",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/peacemaker.jpg",
   "system": {
     "conservative": {
       "name": "Peacemaker",

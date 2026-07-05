@@ -1,7 +1,7 @@
 {
   "name": "X Marks the Spot",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/xmarksthespot.jpg",
   "system": {
     "conservative": {
       "name": "X Marks the Spot",

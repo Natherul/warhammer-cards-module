@@ -1,7 +1,7 @@
 {
   "name": "The Eagle's Stoop",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/theeaglesstoop.jpg",
   "system": {
     "conservative": {
       "name": "The Eagle's Stoop",

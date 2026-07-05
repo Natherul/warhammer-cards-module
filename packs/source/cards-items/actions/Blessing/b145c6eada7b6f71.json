@@ -1,7 +1,7 @@
 {
   "name": "Winter's Chill",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/winterschill.jpg",
   "system": {
     "conservative": {
       "name": "Winter's Chill",

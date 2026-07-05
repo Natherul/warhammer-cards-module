@@ -1,7 +1,7 @@
 {
   "name": "Dark Hand of Death",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/darkhandofdeath.jpg",
   "system": {
     "conservative": {
       "name": "Dark Hand of Death",

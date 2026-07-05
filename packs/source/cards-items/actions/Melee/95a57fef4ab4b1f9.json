@@ -1,7 +1,7 @@
 {
   "name": "Brutal Assault",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/brutalassault.jpg",
   "system": {
     "conservative": {
       "name": "Brutal Assault",

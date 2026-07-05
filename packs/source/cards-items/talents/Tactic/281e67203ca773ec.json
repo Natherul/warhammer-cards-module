@@ -1,7 +1,7 @@
 {
   "name": "Untouchable",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/untouchable.jpg",
   "system": {
     "description": "<p>\n<span>You may suffer 1 fatigue to use the <b>Parry</b> active defense against a <i>Ranged Attack</i></span>\n</p>",
     "type": "Tactic",

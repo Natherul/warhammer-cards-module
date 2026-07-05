@@ -1,7 +1,7 @@
 {
   "name": "Inspiring Words",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/inspiringwords.jpg",
   "system": {
     "conservative": {
       "name": "Inspiring Words",

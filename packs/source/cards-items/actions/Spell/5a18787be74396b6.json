@@ -1,7 +1,7 @@
 {
   "name": "The Whispering Wind",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/thewhisperingwind.jpg",
   "system": {
     "conservative": {
       "name": "The Whispering Wind",

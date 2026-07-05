@@ -1,7 +1,7 @@
 {
   "name": "Empathic Warp",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/empathicwarp.jpg",
   "system": {
     "conservative": {
       "name": "Empathic Warp",

@@ -1,7 +1,7 @@
 {
   "name": "Nurgle's Blessing",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/nurglesblessing.jpg",
   "system": {
     "conservative": {
       "name": "Nurgle's Blessing",

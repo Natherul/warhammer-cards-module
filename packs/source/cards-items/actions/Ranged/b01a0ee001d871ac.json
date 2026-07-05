@@ -1,7 +1,7 @@
 {
   "name": "Covering Fire",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/coveringfire.jpg",
   "system": {
     "conservative": {
       "name": "Covering Fire",

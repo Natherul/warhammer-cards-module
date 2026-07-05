@@ -1,7 +1,7 @@
 {
   "name": "Confident",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/confident.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to negate up to  {Dbane}  {Dbane}  generated during an <b>Intelligence</b>, <b>Willpower</b>, or <b>Fellowship</b> check</span>\n</p>",
     "type": "Reputation",

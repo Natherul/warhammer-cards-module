@@ -1,7 +1,7 @@
 {
   "name": "Measure Twice, Cut Once",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/measuretwicecutonce.jpg",
   "system": {
     "description": "<p>\n<span>Your <i>Tradecraft</i>, <i>Dwarf Engineering</i>, and <i>Education</i> checks in <i>Conservative</i> stance gain:\r\n<br></br> I  Add  {Dboon}  {Dboon}  to the results pool, in addition to the normal  I  effects</span>\n</p>",
     "type": "Focus",

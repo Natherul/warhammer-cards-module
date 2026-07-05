@@ -1,7 +1,7 @@
 {
   "name": "Light of Truth",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/lightoftruth.jpg",
   "system": {
     "conservative": {
       "name": "Light of Truth",

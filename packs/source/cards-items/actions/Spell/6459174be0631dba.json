@@ -1,7 +1,7 @@
 {
   "name": "Cerulean Armour",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/ceruleanarmour.jpg",
   "system": {
     "conservative": {
       "name": "Cerulean Armour",

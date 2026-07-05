@@ -1,7 +1,7 @@
 {
   "name": "Chop!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/chop.jpg",
   "system": {
     "conservative": {
       "name": "Chop!",

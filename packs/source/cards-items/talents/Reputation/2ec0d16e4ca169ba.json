@@ -1,7 +1,7 @@
 {
   "name": "Connected",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/connected.jpg",
   "system": {
     "description": "<p>\n<span>Exhaust this card to add  K  K  to you dice pool when using a <i>Social</i> action</span>\n</p>",
     "type": "Reputation",

@@ -1,7 +1,7 @@
 {
   "name": "Herding Instinct",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/herdinginstinct.jpg",
   "system": {
     "conservative": {
       "name": "Herding Instinct",

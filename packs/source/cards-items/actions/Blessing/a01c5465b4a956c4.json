@@ -1,7 +1,7 @@
 {
   "name": "Empty Pockets",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/emptypockets.jpg",
   "system": {
     "conservative": {
       "name": "Empty Pockets",

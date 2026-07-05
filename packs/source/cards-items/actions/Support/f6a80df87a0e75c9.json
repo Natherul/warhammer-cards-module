@@ -1,7 +1,7 @@
 {
   "name": "Fight-Fight!",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/fightfight.jpg",
   "system": {
     "conservative": {
       "name": "Fight-Fight!",

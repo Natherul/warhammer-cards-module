@@ -1,7 +1,7 @@
 {
   "name": "Find the Rhythm",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/findtherhythm.jpg",
   "system": {
     "description": "<p>\n<span>Your non-<i>Basic Melee Attacks</i> gain:\r\n<br></br> {Dcomet}  You may immediately perform a <b>Melee Strike</b> action.</span>\n</p>",
     "type": "Tactic",

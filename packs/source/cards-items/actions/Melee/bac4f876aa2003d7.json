@@ -1,7 +1,7 @@
 {
   "name": "Grapple",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/grapple.jpg",
   "system": {
     "conservative": {
       "name": "Grapple",

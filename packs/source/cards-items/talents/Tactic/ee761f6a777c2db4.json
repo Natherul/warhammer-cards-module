@@ -1,7 +1,7 @@
 {
   "name": "Girding Oneself",
   "type": "talent",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/girdingoneself.jpg",
   "system": {
     "description": "<p>\n<span>When spending fortune points on a <b>Toughness</b> check, the check gains:\r\n\r\n<br></br><br></br> {Dboon}  {Dboon}  Add  {Dsucc}  to the results</span>\n</p>",
     "type": "Tactic",

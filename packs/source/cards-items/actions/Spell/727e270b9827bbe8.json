@@ -1,7 +1,7 @@
 {
   "name": "Transformation of Kadon",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/transformationofkadon.jpg",
   "system": {
     "conservative": {
       "name": "Transformation of Kadon",

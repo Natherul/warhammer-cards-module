@@ -1,7 +1,7 @@
 {
   "name": "Prey's Scent",
   "type": "action",
-  "img": "",
+  "img": "modules/warhammer-cards-compendium/images/cards/preysscent.jpg",
   "system": {
     "conservative": {
       "name": "Prey's Scent",
