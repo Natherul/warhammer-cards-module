@@ -1,7 +1,7 @@
 {
   "id": "warhammer-cards-compendium",
   "title": "Warhammer 3e Cards Compendium",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
@@ -15,7 +15,7 @@
   "description": "Warhammer 3e Cards Compendium Module",
   "url": "https://github.com/natherul/warhammer-cards-module",
   "manifest": "https://github.com/natherul/warhammer-cards-module/releases/latest/download/module.json",
-  "download": "https://github.com/natherul/warhammer-cards-module/releases/download/v1.5.0/module.zip",
+  "download": "https://github.com/natherul/warhammer-cards-module/releases/download/v1.6.0/module.zip",
   "packs": [
     {
       "name": "cards-items",
