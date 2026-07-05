@@ -63,7 +63,8 @@ jobs:
         run: |
           # Create a temporary directory with the module name to ensure it extracts to the correct folder
           mkdir warhammer-cards-compendium
-          cp -r packs images module.json README.md warhammer-cards-compendium/
+          cp -r packs module.json README.md warhammer-cards-compendium/
+          if [ -d "images" ]; then cp -r images warhammer-cards-compendium/; fi
           zip -r module.zip warhammer-cards-compendium/
 
       - name: Create GitHub Release
