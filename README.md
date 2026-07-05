@@ -10,11 +10,11 @@ To install this module in your Foundry VTT instance:
 2. Click **Install Module**.
 3. In the Manifest URL field, paste the following link:
    ```
-   https://github.com/USERNAME/warhammer-cards-module/releases/latest/download/module.json
+   https://github.com/natherul/warhammer-cards-module/releases/latest/download/module.json
    ```
 4. Click **Install**.
 
-*(Note: Replace `USERNAME/warhammer-cards-module` with your actual GitHub repository path if you fork or host this yourself.)*
+*(Note: Replace `natherul/warhammer-cards-module` with your actual GitHub repository path if you fork or host this yourself.)*
 
 ## What's Included
 
