@@ -27,7 +27,7 @@ jobs:
 
       - name: Pack Compendiums
         run: |
-          npx fvtt package pack cards-items --in packs/source/cards-items --out packs
+          npx fvtt package pack cards-items --in packs/source/cards-items --out packs -r
           
       - name: Bump Minor Version
         id: bump_version
